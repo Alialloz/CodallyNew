@@ -19,12 +19,12 @@
         >
           <img
             src="@/assets/img/logo-white.png"
-            alt="logo"
+            alt="Logo"
             class="img-fluid logo-white"
           />
           <img
             src="@/assets/img/logo-color.png"
-            alt="logo"
+            alt="Logo de l'entreprise codally"
             class="img-fluid logo-color"
           />
         </router-link>
