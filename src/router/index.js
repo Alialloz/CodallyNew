@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router';
+import Home from '../views/pages/Home.vue';
 import HomeOne from '../views/pages/HomeOne.vue';
 import HomeTwo from '../views/pages/HomeTwo.vue';
 import HomeThree from '../views/pages/HomeThree.vue';
@@ -37,6 +38,22 @@ import NotFound from '../views/pages/NotFound.vue';
 const router = createRouter({
   history: createWebHistory(),
   routes: [
+    {
+      path: '/Home',
+      component: Home,
+      name: 'Home',
+      meta: {
+        title: 'Quiety',
+      },
+    },
+    {
+      path: '/',
+      component: Home,
+      name: 'Home',
+      meta: {
+        title: 'Quiety',
+      },
+    },
     {
       path: '/',
       component: HomeOne,

@@ -8,11 +8,9 @@
           <div class="hero-content-wrap">
             <h5 class="text-warning">#1 Software Company In World</h5>
             <h1 class="fw-bold display-5">
-              Advanced Feature to Grow Your Business
-            </h1>
+              Transformez vos rêves en réalités technologiques            </h1>
             <p class="lead">
-              Proactively coordinate quality quality vectors vis-a-vis supply
-              chains engage client-centric web services.
+              Nous sommes une firme de conseil technologique spécialisée dans le développement de solutions logicielles variées innovantes et personnalisées.
             </p>
             <div class="action-btns mt-5">
               <router-link to="/request-for-demo" class="btn btn-primary me-3"
