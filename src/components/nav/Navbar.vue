@@ -23,7 +23,7 @@
             class="img-fluid logo-white"
           />
           <img
-            src="@/assets/img/logo-color.png"
+            src="logoAssets\logoCodallyFondTransparent.png"
             alt="Logo de l'entreprise codally"
             class="img-fluid logo-color"
           />
@@ -234,10 +234,10 @@
               >
             </li>
             <li>
-              <router-link to="/about-us" class="nav-link">About</router-link>
+              <router-link to="/about-us" class="nav-link">Our projects</router-link>
             </li>
-            <li>
-              <router-link to="/pricing" class="nav-link">Pricing</router-link>
+            <li class="nav-item">
+              <router-link to="/contact" class="nav-link">Contact Us</router-link>
             </li>
             <li class="nav-item dropdown">
               <a
