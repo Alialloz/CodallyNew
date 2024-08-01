@@ -8,21 +8,22 @@
           <div class="hero-content-wrap">
             <h5 class="text-warning">#1 Software Company In World</h5>
             <h1 class="fw-bold display-5">
-              Transformez vos rêves en réalités technologiques            </h1>
+              {{ $t('slogan') }}
+            </h1>
             <p class="lead">
-              Nous sommes une firme de conseil technologique spécialisée dans le développement de solutions logicielles variées innovantes et personnalisées.
+              {{ $t('description') }}
             </p>
             <div class="action-btns mt-5">
-              <router-link to="/request-for-demo" class="btn btn-primary me-3"
-                >Request For Demo</router-link
-              >
-              <router-link to="/about-us" class="btn btn-outline-light"
-                >Learn More</router-link
-              >
+              <router-link to="/request-for-demo" class="btn btn-primary me-3">
+                {{ $t('requestDemo') }}
+              </router-link>
+              <router-link to="/about-us" class="btn btn-outline-light">
+                {{ $t('learnMore') }}
+              </router-link>
             </div>
           </div>
           <div class="row justify-content-lg-start mt-60">
-            <h6 class="text-white-70 mb-2">Our Top Clients:</h6>
+            <h6 class="text-white-70 mb-2">{{ $t('topClients') }}</h6>
             <div class="col-4 col-sm-3 my-2 ps-lg-0">
               <img
                 src="@/assets/img/clients/client-1.svg"
@@ -85,4 +86,6 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+/* Add your styles here */
+</style>

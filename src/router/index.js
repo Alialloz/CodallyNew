@@ -38,14 +38,7 @@ import NotFound from '../views/pages/NotFound.vue';
 const router = createRouter({
   history: createWebHistory(),
   routes: [
-    {
-      path: '/Home',
-      component: Home,
-      name: 'Home',
-      meta: {
-        title: 'Quiety',
-      },
-    },
+
     {
       path: '/',
       component: Home,

@@ -43,7 +43,7 @@
         </router-link>
 
         <div class="collapse navbar-collapse justify-content-center">
-           <ul class="nav col-12 col-md-auto justify-content-center main-menu">
+          <ul class="nav col-12 col-md-auto justify-content-center main-menu">
            <!-- <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -361,6 +361,12 @@
             >Get Started</router-link
           >
         </div>
+        <div class="language-switcher ms-3">
+          <select @change="changeLanguage($event)">
+            <option value="en">English</option>
+            <option value="fr">Français</option>
+          </select>
+        </div>
         <Offcanvas />
       </div>
     </nav>
@@ -391,5 +397,17 @@ export default {
       }
     });
   },
+  setup() {
+    const { locale } = useI18n();
+
+    function changeLanguage(event) {
+      locale.value = event.target.value;
+    }
+
+    return {
+      changeLanguage,
+    };
+  },
 };
+
 </script>
