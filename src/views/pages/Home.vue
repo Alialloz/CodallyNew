@@ -2,9 +2,11 @@
     <div>
         <Navbar />
         <HeroFive />
-        <AboutImage />
-        <TechTabs />
         <ServiceIt />
+        <TechTabs />
+        <AboutImage />
+
+        
         <Portfolio />
         <!-- <TestimonialSliderThree /> -->
         <Footer footerDark="footerDark" />
