@@ -199,7 +199,7 @@
               </div>
             </li> -->
             <li>
-              <router-link to="/" class="nav-link">Home</router-link>
+              <router-link to="/" class="nav-link">{{ $t('Home') }}</router-link>
             </li>
             <li>
               <router-link to="/services" class="nav-link">Services</router-link>
