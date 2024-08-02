@@ -6,45 +6,31 @@
       <div class="row justify-content-between align-items-center">
         <div class="col-lg-6">
           <div class="hero-content-wrap">
-            <h5 class="text-warning">{{ $t('test') }}</h5>
-            <h1 class="fw-bold display-5">
-              {{ $t('slogan') }}
+            <h5 class="text-warning">{{ $t('slogan_2') }}</h5>
+            <h1 class="fw-bold display-6">
+              {{ $t('slogan_1') }}
             </h1>
             <p class="lead">
               {{ $t('description') }}
             </p>
             <div class="action-btns mt-5">
-              <router-link to="/request-for-demo" class="btn btn-primary me-3">
-                {{ $t('requestDemo') }}
+              <router-link to="/contact" class="btn btn-primary me-3">
+                {{ $t('contact') }}
               </router-link>
               <router-link to="/about-us" class="btn btn-outline-light">
-                {{ $t('learnMore') }}
+                {{ $t('about') }}
               </router-link>
             </div>
           </div>
           <div class="row justify-content-lg-start mt-60">
-            <h6 class="text-white-70 mb-2">{{ $t('topClients') }}</h6>
-            <div class="col-4 col-sm-3 my-2 ps-lg-0">
-              <img
-                src="@/assets/img/clients/client-1.svg"
-                alt="client"
-                class="img-fluid"
-              />
-            </div>
-            <div class="col-4 col-sm-3 my-2">
-              <img
-                src="@/assets/img/clients/client-2.svg"
-                alt="client"
-                class="img-fluid"
-              />
-            </div>
-            <div class="col-4 col-sm-3 my-2">
-              <img
-                src="@/assets/img/clients/client-3.svg"
-                alt="client"
-                class="img-fluid"
-              />
-            </div>
+            <ul class="list-unstyled list-inline footer-social-list mb-0">
+                <li class="list-inline-item">
+                  <a href="https://www.facebook.com/people/CodAlly/61556088625053/?is_tour_dismissed=true"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://ca.linkedin.com/company/codally"><i class="fab fa-linkedin"></i></a>
+                </li>
+              </ul>
           </div>
         </div>
         <div class="col-lg-6 col-md-8 mt-5 mt-lg-0">
