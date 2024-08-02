@@ -3,16 +3,18 @@ import { createI18n } from 'vue-i18n';
 
 const messages = {
   en: {
-    about: "About Us",
-    service: "Service",
     Home :  "Home",
+    service : "Service",
+    Project : "our project",
+    about : "About Us",
     slogan : "Turn your dreams into technological realities",
     test : "#1 Software Company In World"
   },
   fr: {
-    about: "À propos de nous",
-    service: "Service",
-    Home :  "Acceuill",
+    Home :  "Accueil",
+    service : "Services",
+    Project : "Nos Projects",
+    about : "À propos de nous",
     slogan : "Transformez vos rêves en réalités technologiques",
     test : "#1 companie de logiciels au monde"
 

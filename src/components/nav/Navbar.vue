@@ -202,13 +202,13 @@
               <router-link to="/" class="nav-link">{{ $t('Home') }}</router-link>
             </li>
             <li>
-              <router-link to="/services" class="nav-link">Services</router-link>
+              <router-link to="/services" class="nav-link">{{ $t('service') }}</router-link>
             </li>
             <li>
-              <router-link to="/about-us" class="nav-link">Our projects</router-link>
+              <router-link to="/about-us" class="nav-link">{{ $t('Project') }}</router-link>
             </li>
             <li class="nav-item">
-              <router-link to="/contact" class="nav-link">About Us</router-link>
+              <router-link to="/contact" class="nav-link">{{ $t('about') }}</router-link>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
