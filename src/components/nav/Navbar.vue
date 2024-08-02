@@ -19,7 +19,7 @@
 
         <div class="collapse navbar-collapse justify-content-center">
           <ul class="nav col-12 col-md-auto justify-content-center main-menu">
-            <!-- <li class="nav-item dropdown">
+            <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
                 href="#"
@@ -197,7 +197,7 @@
                   </div>
                 </div>
               </div>
-            </li> -->
+            </li>
             <li>
               <router-link to="/" class="nav-link">Home</router-link>
             </li>
@@ -208,7 +208,7 @@
               <router-link to="/about-us" class="nav-link">Our projects</router-link>
             </li>
             <li class="nav-item">
-              <router-link to="/contact" class="nav-link">Contact Us</router-link>
+              <router-link to="/contact" class="nav-link">About Us</router-link>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"

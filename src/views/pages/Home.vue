@@ -6,7 +6,7 @@
         <TechTabs />
         <ServiceIt />
         <Portfolio />
-        <TestimonialSliderThree />
+        <!-- <TestimonialSliderThree /> -->
         <Footer footerDark="footerDark" />
     </div>
 </template>
