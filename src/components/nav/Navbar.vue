@@ -7,7 +7,7 @@
       <div class="container d-flex align-items-center justify-content-lg-between position-relative">
         <router-link to="/" class="navbar-brand d-flex align-items-center mb-md-0 text-decoration-none">
           <img src="@/assets/img/logo-white.png" alt="Logo" class="img-fluid logo-white" />
-          <img src="logoAssets\logoCodallyFondTransparent.png" alt="Logo de l'entreprise codally"
+          <img src="src\assets\img\logoCodallyFondTransparent.png" alt="Logo de l'entreprise codally"
             class="img-fluid logo-color" />
         </router-link>
 

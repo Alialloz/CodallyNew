@@ -4,7 +4,6 @@
     <AboutPageHeader />
     <OurStory />
     <FeatureTwo bgLight="bgLight" />
-    <OurTeam />
     <TestimonialSlider bgLight="bgLight" />
     <OurOffice />
     <CtaTwo />
@@ -19,7 +18,6 @@ import FeatureTwo from "../../components/features/FeatureTwo.vue";
 import Footer from "../../components/footer/Footer.vue";
 import Navbar from "../../components/nav/Navbar.vue";
 import OurStory from "../../components/promo/OurStory.vue";
-import OurTeam from "../../components/team/OurTeam.vue";
 import OurOffice from "../../components/team/OurOffice.vue";
 import TestimonialSlider from "../../components/testimonial/TestimonialSlider.vue";
 export default {
@@ -28,7 +26,6 @@ export default {
     AboutPageHeader,
     OurStory,
     FeatureTwo,
-    OurTeam,
     CtaTwo,
     TestimonialSlider,
     OurOffice,
