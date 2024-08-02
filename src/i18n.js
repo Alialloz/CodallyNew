@@ -11,7 +11,8 @@ const messages = {
     portfolio: "Portfolio",
     testimonial: "Testimonials",
     footer: "Footer",
-    slogan : "Turn your dreams into technological realities"
+    slogan : "Turn your dreams into technological realities",
+    test : "#1 Software Company In World"
   },
   fr: {
     navbar: "Barre de navigation",
@@ -22,7 +23,9 @@ const messages = {
     portfolio: "Portefeuille",
     testimonial: "Témoignages",
     footer: "Pied de page",
-    slogan : "Transformez vos rêves en réalités technologiques"
+    slogan : "Transformez vos rêves en réalités technologiques",
+    test : "#1 companie de logiciels au monde"
+
   },
 };
 

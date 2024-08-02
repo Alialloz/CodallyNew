@@ -6,7 +6,7 @@
       <div class="row justify-content-between align-items-center">
         <div class="col-lg-6">
           <div class="hero-content-wrap">
-            <h5 class="text-warning">#1 Software Company In World</h5>
+            <h5 class="text-warning">{{ $t('test') }}</h5>
             <h1 class="fw-bold display-5">
               {{ $t('slogan') }}
             </h1>

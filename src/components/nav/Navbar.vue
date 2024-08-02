@@ -294,12 +294,35 @@
           <router-link to="/login" class="btn btn-link text-decoration-none me-2">Sign In</router-link>
           <router-link to="/request-for-demo" class="btn btn-primary">Get Started</router-link>
         </div>
-        <div class="language-switcher ms-3">
-          <select @change="changeLanguage($event)">
-            <option value="en">English</option>
-            <option value="fr">Français</option>
-          </select>
-        </div>
+
+        <div class="language-switcher ms-3 dropdown" @mouseover="isDropdownOpen = true" @mouseleave="isDropdownOpen = false">
+    <button
+      class="btn dropdown-toggle"
+      type="button"
+      id="languageDropdown"
+      :class="dropdownButtonClass"
+    >
+      <img :src="currentFlag" class="language-icon" alt="Current language flag" />
+    </button>
+    <ul
+      class="dropdown-menu"
+      :class="{'show': isDropdownOpen}"
+      aria-labelledby="languageDropdown"
+    >
+      <li>
+        <a class="dropdown-item" href="#" @click="changeLanguage('en')">
+          <img src="@/assets/img/flags/US.jpg" alt="English (EN)" class="language-icon" /> English (EN)
+        </a>
+      </li>
+      <li>
+        <a class="dropdown-item" href="#" @click="changeLanguage('fr')">
+          <img src="@/assets/img/flags/FR.png" alt="Français (FR)" class="language-icon" /> Français (FR) 
+        </a>
+      </li>
+    </ul>
+  </div>
+
+
         <Offcanvas />
       </div>
     </nav>
@@ -308,7 +331,10 @@
 
 <script>
 import { useI18n } from 'vue-i18n';
+import { ref, computed } from 'vue';
 import Offcanvas from './Offcanvas.vue';
+import USFlag from '@/assets/img/flags/US.jpg';
+import FRFlag from '@/assets/img/flags/FR.png';
 
 export default {
   components: { Offcanvas },
@@ -316,6 +342,25 @@ export default {
   props: {
     darkNav: String,
     classOption: String,
+  },
+  setup() {
+    const { locale } = useI18n();
+    const isDropdownOpen = ref(false);
+
+    const currentFlag = computed(() => 
+      locale.value === 'en' ? USFlag : FRFlag
+    );
+
+    function changeLanguage(lang) {
+      locale.value = lang;
+      isDropdownOpen.value = false;
+    }
+
+    return {
+      isDropdownOpen,
+      currentFlag,
+      changeLanguage,
+    };
   },
   data() {
     return {
@@ -332,17 +377,8 @@ export default {
       }
     });
   },
-  setup() {
-    const { locale } = useI18n();
-
-    function changeLanguage(event) {
-      locale.value = event.target.value;
-    }
-
-    return {
-      changeLanguage,
-    };
-  },
 };
 </script>
+
+
 
