@@ -12,8 +12,8 @@
             <div class="footer-single-col">
               <div class="footer-single-col mb-4">
                 <img
-                  src="@/assets/img/logo-white.png"
-                  alt="logo"
+                  src="src\assets\img\logoCodallyFondTransparent.png"
+                  alt="Logo de l'entreprise Codally"
                   class="img-fluid logo-white"
                 />
                 <img

@@ -291,8 +291,8 @@
           </ul>
         </div>
         <div class="action-btns text-end me-5 me-lg-0 d-none d-md-block d-lg-block">
-          <router-link to="/login" class="btn btn-link text-decoration-none me-2">Sign In</router-link>
-          <router-link to="/request-for-demo" class="btn btn-primary">Get Started</router-link>
+          <!-- <router-link to="/login" class="btn btn-link text-decoration-none me-2">Sign In</router-link> -->
+          <router-link to="/request-for-demo" class="btn btn-primary">Contact Us!</router-link>
         </div>
 
         <div class="language-switcher ms-3 dropdown" @mouseover="isDropdownOpen = true" @mouseleave="isDropdownOpen = false">
@@ -302,21 +302,21 @@
       id="languageDropdown"
       :class="dropdownButtonClass"
     >
-      <img :src="currentFlag" class="language-icon" alt="Current language flag" />
+    <img :src="currentFlag" class="language-icon" alt="Drapeau de la langue actuelle" />
     </button>
     <ul
       class="dropdown-menu"
       :class="{'show': isDropdownOpen}"
       aria-labelledby="languageDropdown"
     >
-      <li>
-        <a class="dropdown-item" href="#" @click="changeLanguage('en')">
-          <img src="@/assets/img/flags/US.jpg" alt="English (EN)" class="language-icon" /> English (EN)
+          <li>
+        <a class="dropdown-item" href="#" @click="changeLanguage('fr')">
+          <img src="@/assets/img/flags/FR.png" alt="Français (FR)" class="language-icon" /> Français (FR)
         </a>
       </li>
       <li>
-        <a class="dropdown-item" href="#" @click="changeLanguage('fr')">
-          <img src="@/assets/img/flags/FR.png" alt="Français (FR)" class="language-icon" /> Français (FR) 
+        <a class="dropdown-item" href="#" @click="changeLanguage('en')">
+          <img src="@/assets/img/flags/US.jpg" alt="English (EN)" class="language-icon" /> English (EN) 
         </a>
       </li>
     </ul>
@@ -347,9 +347,11 @@ export default {
     const { locale } = useI18n();
     const isDropdownOpen = ref(false);
 
+    locale.value = 'fr';
+
     const currentFlag = computed(() => 
-      locale.value === 'en' ? USFlag : FRFlag
-    );
+  locale.value === 'fr' ? FRFlag : USFlag
+  );
 
     function changeLanguage(lang) {
       locale.value = lang;
