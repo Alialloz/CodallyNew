@@ -9,15 +9,12 @@
         </div>
         <div class="col-lg-6">
           <div class="about-right">
-            <h4 class="text-primary h5 mb-3">Why Choose Us</h4>
+            <h4 class="text-primary h5 mb-3">{{ $t('whyChooseUs') }}</h4>
             <h2 class="mb-4">
-              We are working with <br />
-              15 years exprience
+              {{ $t('experience') }}
             </h2>
             <p>
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form, by
-              injected humour
+              {{ $t('experienceDesc') }}
             </p>
             <ul class="list-unstyled d-flex flex-wrap list-two-col mt-4 mb-4">
               <li class="py-1">
@@ -26,7 +23,7 @@
                     <img src="@/assets/img/pie-chart.png" alt="" />
                   </div>
                   <div>
-                    <h5>Expert around the world</h5>
+                    <h5>{{ $t('expertAroundWorld') }}</h5>
                   </div>
                 </div>
               </li>
@@ -36,7 +33,7 @@
                     <img src="@/assets/img/team.png" alt="" />
                   </div>
                   <div>
-                    <h5>Best Practice For Business</h5>
+                    <h5>{{ $t('bestPractice') }}</h5>
                   </div>
                 </div>
               </li>
@@ -45,37 +42,48 @@
             <ul class="list-unstyled d-flex flex-wrap list-two-col mt-4 mb-4">
               <li class="py-1">
                 <i class="fad fa-check-circle me-2 text-primary"></i>
-                Digital Conference
+                {{ $t('digitalConference') }}
               </li>
               <li class="py-1">
                 <i class="fad fa-check-circle me-2 text-primary"></i>
-                Greate Speckers
-              </li>
-              <li class="py-1">
-                <i class="fad fa-check-circle me-2 text-primary"></i>Event
-                Management
+                {{ $t('greatSpeakers') }}
               </li>
               <li class="py-1">
                 <i class="fad fa-check-circle me-2 text-primary"></i>
-                Have Fun on Event
-              </li>
-              <li class="py-1">
-                <i class="fad fa-check-circle me-2 text-primary"></i>Sales
-                compliance
+                {{ $t('eventManagement') }}
               </li>
               <li class="py-1">
                 <i class="fad fa-check-circle me-2 text-primary"></i>
-                Showcasing success
+                {{ $t('funOnEvent') }}
+              </li>
+              <li class="py-1">
+                <i class="fad fa-check-circle me-2 text-primary"></i>
+                {{ $t('salesCompliance') }}
+              </li>
+              <li class="py-1">
+                <i class="fad fa-check-circle me-2 text-primary"></i>
+                {{ $t('showcasingSuccess') }}
               </li>
             </ul>
             <router-link
               to="/about-us"
               class="link-with-icon text-decoration-none mt-3 btn btn-primary"
             >
-              Learn More
+              {{ $t('learnMore') }}
               <i class="fas fa-arrow-right"></i>
             </router-link>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="ptb-120">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2>{{ $t('aboutUs') }}</h2>
+          <p>{{ $t('aboutUsDesc') }}</p>
         </div>
       </div>
     </div>

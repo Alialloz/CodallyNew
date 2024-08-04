@@ -56,7 +56,23 @@ const messages = {
      customSoftware: "We are redefining software solutions with customization taken to its peak, as we guarantee products that are perfectly tailored to your specific needs. We transform your unique ideas into functional realities by creating custom-made software.",
      aiSolutions: "The future of technology belongs to artificial intelligence and machine learning. We firmly believe in this concept and, as a result, we combine the skills in algorithms, data analysis, and expertise in AI to develop innovative solutions that transform data into tangible ideas.",
      techConsulting: "We offer consulting services to help businesses develop technology strategies, choose the right technology solutions, and digitally transform their operations.",
-   },
+         /* Service (TechTabs)*/
+
+         whyChooseUs: "Why Choose Us",
+         experience: "We are working with 15 years experience",
+         experienceDesc: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.",
+         expertAroundWorld: "Expert around the world",
+         bestPractice: "Best Practice For Business",
+         digitalConference: "Digital Conference",
+         greatSpeakers: "Great Speakers",
+         eventManagement: "Event Management",
+         funOnEvent: "Have Fun on Event",
+         salesCompliance: "Sales compliance",
+         showcasingSuccess: "Showcasing success",
+         learnMore: "Learn More",
+         aboutUs: "About Us",
+         aboutUsDesc: "CodAlly is a leading technology consulting firm, specialized in the development of innovative and customized software solutions. Our expertise includes artificial intelligence, machine learning, digital marketing, mobile application, web and full stack development. We also offer UX/UI design services and strategic technology consulting. Known for our technical excellence and client-focused approach, we are committed to deliver exceptional results, helping our clients to turn their ideas into concrete and effective technological solutions.",
+    },
   fr: {
 
     /* NavBarre*/
@@ -112,9 +128,23 @@ const messages = {
      aiSolutions: "L’avenir de la technologie appartient à l’intelligence artificielle et au machine learning. Nous croyons fermement en cette idée et par conséquent, nous combinons des algorithmes avancés, des analyses de données et l’expertise en IA pour développer des solutions innovantes qui transforment les données en idées tangibles.",
      techConsulting: "Nous offrons des services de conseil pour aider les entreprises à élaborer des stratégies technologiques, à choisir les bonnes solutions technologiques, et à se former numériquement leurs opérations.",
      
+     /* why choose us*/
 
-
-  },
+     whyChooseUs: "Pourquoi Nous Choisir",
+     experience: "Nous travaillons avec 15 ans d'expérience",
+     experienceDesc: "Il existe de nombreuses variantes de passages de Lorem Ipsum disponibles, mais la majorité ont été altérées d'une manière ou d'une autre, par l'humour injecté.",
+     expertAroundWorld: "Expert dans le monde entier",
+     bestPractice: "Meilleures Pratiques Pour Les Entreprises",
+     digitalConference: "Conférence Digitale",
+     greatSpeakers: "Grands Orateurs",
+     eventManagement: "Gestion d'Événements",
+     funOnEvent: "S'amuser lors de l'Événement",
+     salesCompliance: "Conformité des Ventes",
+     showcasingSuccess: "Présenter le succès",
+     learnMore: "En savoir plus",
+     aboutUs: "À Propos De Nous",
+     aboutUsDesc: "CodAlly est une entreprise de conseil technologique leader, spécialisée dans le développement de solutions logicielles innovantes et personnalisées. Notre expertise comprend l'intelligence artificielle, le machine learning, le marketing digital, les applications mobiles, le développement web et full stack. Nous offrons également des services de conception UX/UI et de conseil stratégique en technologie. Réputés pour notre excellence technique et notre approche centrée sur le client, nous nous engageons à offrir des résultats exceptionnels, aidant nos clients à transformer leurs idées en solutions technologiques concrètes et efficaces.",
+   }
 };
 
 const i18n = createI18n({
