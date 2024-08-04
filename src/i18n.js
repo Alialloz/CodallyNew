@@ -25,13 +25,13 @@ const messages = {
      Taskaii :  "Taskaii",
      TaskaiiDes :  "Taskaii is a desktop application that boosts productivity by combining an advanced task list with an integrated calendar.",
 
-     serviceClient:  "Chat WhatsApp pour Cliniques",
+     serviceClient: "WhatsApp Chat for Clinics",
      serviceClientDes:  "Trained from medical data, our WhatsApp customer service is specifically designed for clinics to facilitate appointment scheduling.",
 
-     assistance:  "Assistante Téléphonique IA ",
+     assistance: "AI Telephone Assistant",
      assistanceDes:  "Providing quality customer service for patients is essential to ensure a positive and efficient experience. This is what our software offers.",
 
-     facturation :  "Logiciel de facturation",
+     facturation: "Billing Software",
      facturationDes :  "Managing billing is a critical aspect that requires efficiency and compliance. Our service offers a tailored solution for medical clinics.",
 
      /* Service (TechTabs)*/
