@@ -71,14 +71,14 @@
             <div class="tab-content-wrapper pt-60">
               <div class="row align-items-center">
                 <div class="col-md-6">
-                  <div class="text-center mb-5 mb-lg-0">
-                    <img src="@/assets/img/tab_img1.png" alt="" class="img-fluid" />
+                  <div class="pe-5 mb-5 mb-lg-0">
+                    <img src="@/assets/img/Services/devweb.avif" alt="" class="img-fluid" />
                   </div>
-                </div>
+                </div>    
                 <div class="col-md-6">
                   <div class="tab-right-content">
                     <!-- <h2>{{ $t('experience') }}</h2> -->
-                    <p>{{ $t('designWebDesc') }}</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp{{ $t('designWebDesc') }}</p>
                     <ul class="list-unstyled">
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('digitalConference') }}</span></li>
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('greatSpeak') }}</span></li>
@@ -96,7 +96,7 @@
               <div class="row align-items-center">
                 <div class="col-md-6">
                   <div class="pe-5 mb-5 mb-lg-0">
-                    <img src="@/assets/img/tab_img2.png" alt="" class="img-fluid" />
+                    <img src="@/assets/img/Services/appdev.avif" alt="" class="img-fluid" />
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -120,7 +120,7 @@
               <div class="row align-items-center">
                 <div class="col-md-6">
                   <div class="mb-5 mb-lg-0">
-                    <img src="@/assets/img/tab_img3.png" alt="" class="img-fluid" />
+                    <img src="@/assets/img/Services/fullstack.avif" alt="" class="img-fluid" />
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -145,7 +145,7 @@
               <div class="row align-items-center">
                 <div class="col-md-6">
                   <div class="mb-5 mb-lg-0">
-                    <img src="@/assets/img/tab_img4.png" alt="" class="img-fluid" />
+                    <img src="@/assets/img/Services/customsoftware.avif" alt="" class="img-fluid" />
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -169,7 +169,7 @@
               <div class="row align-items-center">
                 <div class="col-md-6">
                   <div class="mb-5 mb-lg-0">
-                    <img src="@/assets/img/tab_img5.png" alt="" class="img-fluid" />
+                    <img src="@/assets/img/Services/solutions.avif" alt="" class="img-fluid" />
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -193,7 +193,7 @@
               <div class="row align-items-center">
                 <div class="col-md-6">
                   <div class="mb-5 mb-lg-0">
-                    <img src="@/assets/img/tab_img6.png" alt="" class="img-fluid" />
+                    <img src="@/assets/img/Services/strategy.avif" alt="" class="img-fluid" />
                   </div>
                 </div>
                 <div class="col-md-6">
