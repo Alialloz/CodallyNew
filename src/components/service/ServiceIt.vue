@@ -107,7 +107,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 p-0">
+        <!-- <div class="col-lg-4 col-md-6 p-0">
           <div class="single-service p-lg-5 p-4 text-center">
             <div class="service-icon icon-center">
               <img
@@ -118,14 +118,14 @@
               />
             </div>
             <div class="feature-info-wrap">
-              <h3 class="h5"><!-- Digital Marketing --></h3>
+              <h3 class="h5">ouioui</h3>
               <p>
-                <!-- Holisticly morph distinctive methodologies and vertical
-                e-tailers. Rapidiously grow customized data. -->
+                 Holisticly morph distinctive methodologies and vertical
+                e-tailers. Rapidiously grow customized data. 
               </p>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
