@@ -4,7 +4,7 @@
       <div class="row align-items-center">
         <div class="col-lg-6">
           <div class="about-left text-lg-center mb-32 mb-lg-0">
-            <img src="@/assets/img/about.jpg" alt="" class="img-fluid" />
+            <img src="src\assets\img\globeTerrestre.png" alt="" class="img-fluid" />
           </div>
         </div>
         <div class="col-lg-6">
@@ -66,7 +66,7 @@
               </li>
             </ul>
             <router-link
-              to="/about-us"
+              to="/contact"
               class="link-with-icon text-decoration-none mt-3 btn btn-primary"
             >
               {{ $t('learnMore') }}
@@ -77,15 +77,5 @@
       </div>
     </div>
   </section>
-  
-  <section class="ptb-120">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 text-center">
-          <h2>{{ $t('aboutUs') }}</h2>
-          <p>{{ $t('aboutUsDesc') }}</p>
-        </div>
-      </div>
-    </div>
-  </section>
+
 </template>

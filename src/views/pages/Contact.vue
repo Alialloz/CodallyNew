@@ -1,13 +1,13 @@
 <template>
   <div>
     <Navbar />
-    <BreadCrumb
+    <!-- <BreadCrumb
       title="Contact Us"
       desc="Seamlessly actualize client-based users after out-of-the-box value data through frictionless expertise. Proactively coordinate quality quality vectors vis-a-vis supply chains. Quickly engage client-centric web services."
-    />
-    <ContactPromo />
+    /> -->
+    <!-- <ContactPromo /> -->
     <OurTeam />
-    <ContactFormTwo />
+<!--     <ContactFormTwo /> -->
     <FooterWithBg />
   </div>
 </template>

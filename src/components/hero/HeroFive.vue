@@ -17,7 +17,7 @@
               <router-link to="/contact" class="btn btn-primary me-3">
                 {{ $t('contact') }}
               </router-link>
-              <router-link to="/about-us" class="btn btn-outline-light">
+              <router-link to="/contact" class="btn btn-outline-light">
                 {{ $t('about') }}
               </router-link>
             </div>

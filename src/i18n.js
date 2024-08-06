@@ -6,8 +6,8 @@ const messages = {
     /* NavBarre*/
     service: "Services",
     Home: "Home",
-    contact: "Contact Us",
-    about: "About Us",
+    contact: "Contact Us!",
+    about: "Our team",
 
     /* Home */
     slogan_1: "Turn your dreams into technological realities",
@@ -49,53 +49,68 @@ const messages = {
 
     designWeb: "Web Development",
     designWebDesc:
-      "Realize your projects by making them visible and, more importantly, accessible on the internet through a website. The difference with other companies is that we have an artistic team capable of creating original designs, with whom you can be in direct contact if you already have a concrete idea about the site's design. Coupled with our expertise in web development, we are thus able to provide adaptive and innovative solutions that perfectly meet the expectations of each user.",
+      "Bring your projects to life and make them accessible on the internet with a website. Our difference lies in our artistic team for original designs, directly in contact with you, and our web development team providing adaptive and innovative solutions.",
 
     developpementApplication: "Mobile Application Development",
     developpementApplicationDesc:
-      "Turn your ideas of mobile application into reality on all platforms, whether it's iOS or Android, with our expertise in application development. We combine creativity and cutting-edge technology to create exceptional mobile experiences that are, above all, tailor-made and adapted to each user.",
+      "Your app ideas can take shape on iOS or Android with our expertise in software solution development. We combine creativity and cutting-edge technology to create exceptional, customized mobile experiences.",
 
     DéveloppementFullStack: "Full Stack Development",
     DéveloppementFullStackDesc:
-      "Most companies offer to work either on the client side or on the server side, but we offer you the opportunity to master your entire project, with our expertise in Full Stack development, we are able to combine front-end and back-end skills to provide you with complete and integrated solutions.",
+      "Most companies offer either client-side or server-side work. However, we enable you to master your entire project with our Full Stack development expertise, combining front-end and back-end skills.",
 
     logicielsPerso: "Custom Software Development",
     logicielsPersoDesc:
-      "We are redefining software solutions with customization taken to its peak, as we guarantee products that are perfectly tailored to your specific needs. We transform your unique ideas into functional realities by creating custom-made software.",
+      "We redefine software solutions with customization taken to the extreme, ensuring products perfectly tailored to your specific needs.",
 
     solutionIA:
-      "Solutions in Artificial Intelligence, Machine Learning, and Deep Learning",
+      "Solutions in Artificial Intelligence and Deep Learning",
     solutionIADesc:
-      "The future of technology belongs to artificial intelligence and machine learning. We firmly believe in this concept and, as a result, we combine advanced algorithms, deep data analysis, and expertise in AI to develop innovative solutions that transform data into tangible ideas.",
+      "The future of technology belongs to artificial intelligence. We firmly believe in this idea and, consequently, combine advanced algorithms and extensive data analysis to develop solutions with significant AI support.",
 
     conseil: "Technology and Digital Strategy Consulting",
     conseilDesc:
-      "We offer consulting services to help businesses develop technology strategies, choose the right technology solutions, and digitally transform their operations.",
-    /* Service (TechTabs)*/
+      "We offer consulting services to help businesses or individuals develop technology strategies, choose the right technological solutions, or digitally transform their operations.",
 
-    whyChooseUs: "Why Choose Us",
-    experience: "We are working with 15 years experience",
+    knowMore: "Learn more about our services",
+
+    /* à propos de nous (home/About_image)*/
+
+    whyChooseUs: "Why Choose Us?",
+    experience: "Innovate and succeed together.",
     experienceDesc:
-      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.",
-    expertAroundWorld: "Expert around the world",
-    bestPractice: "Best Practice For Business",
-    digitalConference: "Digital Conference",
-    greatSpeakers: "Great Speakers",
-    eventManagement: "Event Management",
-    funOnEvent: "Have Fun on Event",
-    salesCompliance: "Sales compliance",
-    showcasingSuccess: "Showcasing success",
-    learnMore: "Learn More",
-    aboutUs: "About Us",
-    aboutUsDesc:
-      "CodAlly is a leading technology consulting firm, specialized in the development of innovative and customized software solutions. Our expertise includes artificial intelligence, machine learning, digital marketing, mobile application, web and full stack development. We also offer UX/UI design services and strategic technology consulting. Known for our technical excellence and client-focused approach, we are committed to deliver exceptional results, helping our clients to turn their ideas into concrete and effective technological solutions.",
-  },
+      "Thanks to our expertise in various fields, including development, artificial intelligence, and artistic creation, we offer solutions tailored to your needs.",
+
+    expertAroundWorld: "Multidisciplinary team",
+    bestPractice: "Innovative solutions",
+    greatSpeakers: "Innovative solutions",
+    eventManagement: "Customer satisfaction guaranteed",
+    funOnEvent: "Adaptation of our services",
+    salesCompliance: "Compliance of services",
+    showcasingSuccess: "Relevant advice",
+
+    learnMore: "Learn more about our team",
+
+   
+      /*   Notre équipe (OurTeam) */   
+
+      notreÉquipe : "Our team",
+      notreÉquipeSlo : "The people behind Codally",
+      notreÉquipeDef : "The driving force of our company is our ability to address each of your IT requests in a personalized and tailored manner. To achieve this, each of our team members possesses a specialization unique to their role.",
+    
+    /*   Brand Logo */   
+
+      brandLogoTitre : "Our Partners",
+      brandLogoDes : "We work closely with various companies to offer the best services.",
+
+    },
+  
   fr: {
     /* NavBarre*/
     service: "Services",
     Home: "Acceuil",
     contact: "Contactez-nous",
-    about: "À propos de nous",
+    about: "Notre équipe",
 
     /* Home */
     slogan_1: "Transformez vos rêves en réalités technologiques",
@@ -108,6 +123,7 @@ const messages = {
     Project: "Nos Projects",
     projectDescription:
       "Nous transformons les idées en réalité à vos côtés, parcourez nos projets qui définissent notre engagement envers l'innovation et les collaborations créatives",
+      
     webler: "Webler",
     weblerDes:
       "La création d'un site web peut être intimidant, surtout pour ceux n'ayant pas de compétences techniques approfondies. C'est ici que Webler entre en jeu!",
@@ -136,50 +152,62 @@ const messages = {
 
     designWeb: "Développement Web",
     designWebDesc:
-      "Concrétisez vos projets en le rendant visible mais surtout accessible sur internet via un site web, la différence avec les autres entreprises est que nous disposons d’une équipe artistique permettant de réaliser des designs originaux avec qui vous pouvez être en relation direct si jamais vous disposer déjà d’une idée concrète quand aux designs du site. Couplet à notre maîtrise en développement web nous sommes donc en mesure de fournir des solutions adaptatives et innovantes répondant parfaitement aux attentes de chaque utilisateur.",
+      "Réalisez vos projets en les rendant concrets et accessibles sur internet grâce à un site web. Notre différence, une équipe artistique pour des designs originaux, en contact direct avec vous et une équipe en développement web fournissant des solutions adaptatives et innovantes.",
 
     developpementApplication: "Développement d'Applications Mobiles",
     developpementApplicationDesc:
-      "Transformez vos idées en réalité mobiles sur toutes les plateformes que ce soit sur Ios ou android avec notre expertise en développement d'applications, nous combinons créativité et technologie de pointe pour créer des expériences mobiles exceptionnelles mais surtout sur mesure, adaptées à chaque utilisateur.",
+      "Vos idées d'application peuvent prendre forme sur Ios ou android avec notre expertise en développement de solution logicielle, nous combinons créativité et technologie de pointe pour créer des expériences mobiles exceptionnelles mais surtout sur mesure.",
 
     DéveloppementFullStack: "Développement Full Stack",
     DéveloppementFullStackDesc:
-      "La plupart des entreprises propose de soit travailler coté client soit coté servent, cependant nous vous proposons de Maîtrisez l'intégralité de votre projet avec notre expertise en développement Full Stack en combinons compétences front-end et back-end pour vous offrir des solutions complètes et intégrées.",
+      "La plupart des entreprises proposent de soi travailler côté client soit côté serveur, cependant nous vous proposons de maîtrisez l'intégralité de votre projet avec notre expertise en développement Full Stack en combinant compétences front-end et back-end.",
 
     logicielsPerso: "Développement de Logiciels Personnalisés",
     logicielsPersoDesc:
-      "Nous redéfinissons les solutions logicielles avec une personnalisation poussée à son paroxysme puisque nous garantissons des produits parfaitement adaptés à vos besoins spécifiques, nous transformons vos idées uniques en réalités fonctionnelles en créant des logiciels taillés sur mesure.",
+      "Nous redéfinissons les solutions logicielles avec une personnalisation poussée à son paroxysme puisque nous garantissons des produits parfaitement adaptés à vos besoins spécifiques.",
 
     solutionIA:
-      "Solutions en Intelligence Artificielle, Machine Learning et Deep Learning",
+      "Solutions en Intelligence Artificielle et deep Learning",
     solutionIADesc:
-      "L’avenir technologique appartient à l’intelligence artificielle et au machine learning, nous croyons fermement en cette idée et par conséquent nous combinons des algorithmes avancés, des analyses de données profondes et une expertise en IA pour développer des solutions innovantes qui transforment les données en idée tangible.",
+      "L’avenir technologique appartient à l’intelligence artificielle, nous croyons fermement en cette idée et par conséquent nous combinons des algorithmes avancés et des analyses de données conséquentes pour développer des solutions avec un support IA non négligeable.",
 
     conseil: "Conseil en Technologie et Stratégie Digitale",
     conseilDesc:
-      "Offrir des services de conseil pour aider les entreprises à élaborer des stratégies technologiques, à choisir les bonnes solutions technologiques, et à transformer numériquement leurs opérations.",
+      "Nous offrons un service de conseil pour aider les entreprises ou les particuliers à élaborer des stratégies technologiques, à choisir les bonnes solutions technologiques ou à transformer numériquement leurs opérations.",
 
-    knowMore: "En savoir plus sur nous",
+    knowMore: "En savoir plus nos services",
 
-    /* why choose us*/
+    /* à propos de nous (home/About_image)*/
 
-    whyChooseUs: "Pourquoi Nous Choisir",
-    experience: "Nous travaillons avec 15 ans d'expérience",
+    whyChooseUs: "Pourquoi Nous Choisir?",
+    experience: "Innovons et réussissons ensemble.",
     experienceDesc:
-      "Il existe de nombreuses variantes de passages de Lorem Ipsum disponibles, mais la majorité ont été altérées d'une manière ou d'une autre, par l'humour injecté.",
-    expertAroundWorld: "Expert dans le monde entier",
-    bestPractice: "Meilleures Pratiques Pour Les Entreprises",
-    digitalConference: "Conférence Digitale",
-    greatSpeakers: "Grands Orateurs",
-    eventManagement: "Gestion d'Événements",
-    funOnEvent: "S'amuser lors de l'Événement",
-    salesCompliance: "Conformité des Ventes",
-    showcasingSuccess: "Présenter le succès",
-    learnMore: "En savoir plus",
-    aboutUs: "À Propos De Nous",
-    aboutUsDesc:
-      "CodAlly est une entreprise de conseil technologique leader, spécialisée dans le développement de solutions logicielles innovantes et personnalisées. Notre expertise comprend l'intelligence artificielle, le machine learning, le marketing digital, les applications mobiles, le développement web et full stack. Nous offrons également des services de conception UX/UI et de conseil stratégique en technologie. Réputés pour notre excellence technique et notre approche centrée sur le client, nous nous engageons à offrir des résultats exceptionnels, aidant nos clients à transformer leurs idées en solutions technologiques concrètes et efficaces.",
-  },
+      "Grâce à notre expertise dans divers domaines, incluant le développement, l'intelligence artificielle et la création artistique, nous offrons des solutions adaptées à vos besoins.",
+
+    expertAroundWorld: "L'expertise mondiale à votre service.",
+    bestPractice: "Des solutions optimales pour chaque entreprise.",
+
+    digitalConference: "Équipe pluridisciplinaire",
+    greatSpeakers: "solutions innovantes",
+    eventManagement: "satisfaction client garantit",
+    funOnEvent: "Adaptation de nos services",
+    salesCompliance: "Conformité des prestations",
+    showcasingSuccess: "Conseil pertinent",
+    learnMore: "En savoir plus sur notre équipe",
+
+/*   Notre équipe (OurTeam) */   
+
+notreÉquipe : "Notre équipe",
+notreÉquipeSlo : "Les personnes derrière Codally",
+notreÉquipeDef : "Le fer de lance de notre entreprise est notre capacité à pouvoir répondre à chacune de vos demandes informatique de manière personnalisée et adaptée. Pour ce faire, chacun de nos membres possèdant une spécialisation lui entant propre",
+
+/*   Brand Logo */   
+
+brandLogoTitre : "Nos collaborateurs",
+brandLogoDes : "Nous travaillons conjointement avec divers société afin de proposer les meilleurs services.",
+
+
+},
 };
 
 const i18n = createI18n({

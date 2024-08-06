@@ -1,11 +1,11 @@
 <template>
-  <section class="brand-logo ptb-120">
+  <section class="brand-logo ptb-120" style="background-color: rgb(var(--bs-dark-rgb));">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-7 col-md-10">
           <div class="section-heading text-center">
-            <h2>Over 500+ Companies Trusted Us</h2>
-            <p>Over 500+ Companies Trusted Us</p>
+            <h2 style="color: white;">{{ $t('brandLogoTitre') }}</h2>
+            <p style="color: white;">{{ $t('brandLogoDes') }}</p>
           </div>
         </div>
       </div>

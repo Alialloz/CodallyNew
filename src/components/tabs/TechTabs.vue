@@ -120,7 +120,7 @@
               <div class="row align-items-center">
                 <div class="col-md-6">
                   <div class="mb-5 mb-lg-0">
-                    <img src="@/assets/img/Services/fullstack.avif" alt="" class="img-fluid" />
+                    <img src="@/assets/img/Services/customsoftware.avif" alt="" class="img-fluid" />
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -145,7 +145,7 @@
               <div class="row align-items-center">
                 <div class="col-md-6">
                   <div class="mb-5 mb-lg-0">
-                    <img src="@/assets/img/Services/customsoftware.avif" alt="" class="img-fluid" />
+                    <img src="@/assets/img/Services/fullstack.avif" alt="" class="img-fluid" />
                   </div>
                 </div>
                 <div class="col-md-6">

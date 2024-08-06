@@ -4,8 +4,8 @@
         <HeroFive />
         <ServiceIt />
         <TechTabs />
-<!--         <BrandLogo /> -->
         <AboutImage />
+        <BrandLogo />
         <Portfolio />
         <!-- <TestimonialSliderThree /> -->
         <Footer footerDark="footerDark" />
