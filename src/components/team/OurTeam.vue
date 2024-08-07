@@ -3,6 +3,7 @@
     id="our-team"
     class="team-section ptb-120"
     :class="[bgLight ? 'bg-light' : '']"
+    
   >
     <div class="container">
       <div class="row justify-content-center">
@@ -12,11 +13,10 @@
                       $t('notreÉquipe') }}</h5>
             <h2>{{
                       $t('notreÉquipeSlo') }}</h2>
-           <div style="display: flex; justify-content: center; width: 100%;">
-            <p style="text-align: center; max-width: 600px; margin: 0 auto; font-size: 16px; line-height: 1.4;">
-  {{ $t('notreÉquipeDef') }}
-</p>
-</div>
+            <p>
+              {{
+                      $t('notreÉquipeDef') }}
+            </p>
           </div>
         </div>
       </div>
@@ -172,8 +172,8 @@
               </ul>
             </div>
             <div class="team-info mt-4 text-center">
-              <h5 class="h6 mb-1">Kiara Marx</h5>
-              <p class="text-muted small mb-0">Back-End Developer</p>
+              <h5 class="h6 mb-1">Seibel Edouard</h5>
+              <p class="text-muted small mb-0">Full stack intern</p>
             </div>
           </div>
         </div>
@@ -359,7 +359,7 @@
             </div>
             <div class="team-info mt-4 text-center">
               <h5 class="h6 mb-1">Mehddy Neris</h5>
-              <p class="text-muted small mb-0">Full stack development intern</p>
+              <p class="text-muted small mb-0">Full stack Developer intern</p>
             </div>
           </div>
         </div>
@@ -389,8 +389,8 @@
               </ul>
             </div>
             <div class="team-info mt-4 text-center">
-              <h5 class="h6 mb-1">Seibel Edouard</h5>
-              <p class="text-muted small mb-0"> Full stack intern</p>
+              <h5 class="h6 mb-1">Ihab Goude</h5>
+              <p class="text-muted small mb-0">front-End Developer intern</p>
             </div>
           </div>
         </div>

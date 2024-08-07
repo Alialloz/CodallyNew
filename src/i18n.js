@@ -144,7 +144,7 @@ const messages = {
     facturationDes:
       "La gestion des facturations est un aspect critique qui nécessite efficacité et conformité. Notre service offre une solution sur mesure pour les cliniques médicales.",
 
-    /* Service (TechTabs)*/
+    /* Service de la homme(TechTabs)*/
 
     titre: "Votre expertise, notre mission",
     titreDes:
@@ -201,7 +201,13 @@ notreÉquipe : "Notre équipe",
 notreÉquipeSlo : "Les personnes derrière Codally",
 notreÉquipeDef : "Le fer de lance de notre entreprise est notre capacité à pouvoir répondre à chacune de vos demandes informatique de manière personnalisée et adaptée. Pour ce faire, chacun de nos membres possèdant une spécialisation lui entant propre",
 
-/*   Brand Logo */   
+/* Services (navbarre) */
+
+servicesN : "L'expertise à Votre Service",
+servicesNslogan : "Nous offrons un large éventail de services sur mesure dans le domaine informatique, allant du développement d'appplication ou de site aux conseils en passant par le machine learning.",
+
+
+/* Brand Logo */   
 
 brandLogoTitre : "Nos collaborateurs",
 brandLogoDes : "Nous travaillons conjointement avec divers société afin de proposer les meilleurs services.",

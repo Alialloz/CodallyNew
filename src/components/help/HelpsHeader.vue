@@ -8,8 +8,7 @@
           <div class="text-center">
             <h1 class="display-5 fw-bold">Support</h1>
             <p class="lead">
-              Seamlessly actualize client-based users after out-of-the-box
-              value. Globally embrace strategic high-quality platforms before
+              Seamlessly  client-based users after out-of-the high-quality platforms before
               frictionless expertise.
             </p>
 

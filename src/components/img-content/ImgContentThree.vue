@@ -6,7 +6,7 @@
           <div class="col-lg-5 col-12">
             <div class="feature-img-content">
               <div class="section-heading" data-aos="fade-up">
-                <h2>Browse our world class features</h2>
+                <h2>{{ $t('designWeb') }}</h2>
                 <p>
                   Energistically underwhelm progressive metrics via value-added
                   impact magnetic world-class paradigms portals. Pontificate
@@ -77,7 +77,7 @@
           <div class="col-lg-5 col-12 order-lg-1">
             <div class="feature-img-content">
               <div class="section-heading" data-aos="fade-up">
-                <h2>Measure your efficiency for business</h2>
+                <h2>{{ $t('developpementApplication') }}</h2>
                 <p>
                   Reliable metrics with enabled infomediaries. Holisticly
                   maintain clicks-and-mortar manufactured products empower viral
@@ -151,7 +151,7 @@
           <div class="col-lg-5 col-12">
             <div class="feature-img-content">
               <div class="section-heading" data-aos="fade-up">
-                <h2>We create software & digital product</h2>
+                <h2>{{ $t('DéveloppementFullStack') }}</h2>
                 <p>
                   Credibly deliver out-of-the-box benefits through just in time
                   best practices. Globally orchestrate holistic communities

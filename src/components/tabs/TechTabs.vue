@@ -84,7 +84,7 @@
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('greatSpeak') }}</span></li>
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('eventManagement') }}</span></li>
                     </ul>
-                    <router-link to="/about-us" class="text-white link-with-icon text-decoration-none mt-4">{{
+                    <router-link to="/services" class="text-white link-with-icon text-decoration-none mt-4">{{
                       $t('knowMore') }}<i class="fas fa-arrow-right"></i></router-link>
                   </div>
                 </div>
@@ -108,7 +108,7 @@
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('greatSpeak') }}</span></li>
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('eventManagement') }}</span></li>
                     </ul>
-                    <router-link to="/about-us" class="text-white link-with-icon text-decoration-none mt-4">{{
+                    <router-link to="/services" class="text-white link-with-icon text-decoration-none mt-4">{{
                       $t('knowMore') }}<i class="fas fa-arrow-right"></i></router-link>
                   </div>
                 </div>
@@ -132,7 +132,7 @@
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('greatSpeak') }}</span></li>
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('eventManagement') }}</span></li>
                     </ul>
-                    <router-link to="/about-us" class="text-white link-with-icon text-decoration-none mt-4">{{
+                    <router-link to="/services" class="text-white link-with-icon text-decoration-none mt-4">{{
                       $t('knowMore') }}<i class="fas fa-arrow-right"></i></router-link>
                   </div>
                 </div>
@@ -157,7 +157,7 @@
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('greatSpeak') }}</span></li>
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('eventManagement') }}</span></li>
                     </ul>
-                    <router-link to="/about-us" class="text-white link-with-icon text-decoration-none mt-4">{{
+                    <router-link to="/services" class="text-white link-with-icon text-decoration-none mt-4">{{
                       $t('knowMore') }}<i class="fas fa-arrow-right"></i></router-link>
                   </div>
                 </div>
@@ -180,7 +180,7 @@
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('greatSpeak') }}</span></li>
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('eventManagement') }}</span></li>
                     </ul>
-                    <router-link to="/about-us" class="text-white link-with-icon text-decoration-none mt-4">{{
+                    <router-link to="/services" class="text-white link-with-icon text-decoration-none mt-4">{{
                       $t('knowMore') }}<i class="fas fa-arrow-right"></i></router-link>
                   </div>
                 </div>
@@ -205,7 +205,7 @@
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('greatSpeak') }}</span></li>
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('eventManagement') }}</span></li>
                     </ul>
-                    <router-link to="/about-us" class="text-white link-with-icon text-decoration-none mt-4">{{
+                    <router-link to="/services" class="text-white link-with-icon text-decoration-none mt-4">{{
                       $t('knowMore') }}<i class="fas fa-arrow-right"></i></router-link>
                   </div>
                 </div>

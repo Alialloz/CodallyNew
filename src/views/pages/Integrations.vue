@@ -3,7 +3,7 @@
     <Navbar />
     <BreadCrumb
       title="Our Featured Integrations"
-      desc="Seamlessly actualize client-based users after out-of-the-box value. Globally embrace strategic data through frictionless expertise."
+      desc=" actualize client-based users after out-of-the-box value. Globally embrace strategic data through frictionless expertise."
     />
     <IntegrationBox />
     <PromoTwo />
