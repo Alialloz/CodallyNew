@@ -1,37 +1,12 @@
 <template>
-  <section
-    id="our-team"
-    class="team-section ptb-120"
-    :class="[bgLight ? 'bg-light' : '']"
-    
-  >
+  <section id="our-team" class="team-section ptb-120" :class="[bgLight ? 'bg-light' : '']">
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-6 col-md-12">
-          <div class="section-heading text-center">
-            <h5 class="h6 text-primary">{{
-                      $t('notreÉquipe') }}</h5>
-            <h2>{{
-                      $t('notreÉquipeSlo') }}</h2>
-            <p>
-              {{
-                      $t('notreÉquipeDef') }}
-            </p>
-          </div>
-        </div>
-      </div>
       <div class="row">
         <div class="col-lg-3 col-md-6">
           <div class="team-single-wrap mb-5">
             <div class="team-img rounded-custom">
-              <img
-                src="@/assets/img/team/team-1.jpg"
-                alt="team"
-                class="img-fluid position-relative"
-              />
-              <ul
-                class="list-unstyled team-social-list d-flex flex-column mb-0"
-              >
+              <img src="@/assets/img/team/team-1.jpg" alt="team" class="img-fluid position-relative" />
+              <ul class="list-unstyled team-social-list d-flex flex-column mb-0">
                 <li class="list-inline-item">
                   <a href="#"><i class="fab fa-linkedin-in"></i></a>
                 </li>
@@ -55,14 +30,8 @@
         <div class="col-lg-3 col-md-6">
           <div class="team-single-wrap mb-5">
             <div class="team-img rounded-custom">
-              <img
-                src="@/assets/img/team/team-2.jpg"
-                alt="team"
-                class="img-fluid position-relative"
-              />
-              <ul
-                class="list-unstyled team-social-list d-flex flex-column mb-0"
-              >
+              <img src="@/assets/img/team/team-2.jpg" alt="team" class="img-fluid position-relative" />
+              <ul class="list-unstyled team-social-list d-flex flex-column mb-0">
                 <li class="list-inline-item">
                   <a href="#"><i class="fab fa-linkedin-in"></i></a>
                 </li>
@@ -86,14 +55,8 @@
         <div class="col-lg-3 col-md-6">
           <div class="team-single-wrap mb-5">
             <div class="team-img rounded-custom">
-              <img
-                src="@/assets/img/team/team-3.jpg"
-                alt="team"
-                class="img-fluid position-relative"
-              />
-              <ul
-                class="list-unstyled team-social-list d-flex flex-column mb-0"
-              >
+              <img src="@/assets/img/team/team-3.jpg" alt="team" class="img-fluid position-relative" />
+              <ul class="list-unstyled team-social-list d-flex flex-column mb-0">
                 <li class="list-inline-item">
                   <a href="#"><i class="fab fa-linkedin-in"></i></a>
                 </li>
@@ -117,14 +80,8 @@
         <div class="col-lg-3 col-md-6">
           <div class="team-single-wrap mb-5">
             <div class="team-img rounded-custom">
-              <img
-                src="@/assets/img/team/team-4.jpg"
-                alt="team"
-                class="img-fluid position-relative"
-              />
-              <ul
-                class="list-unstyled team-social-list d-flex flex-column mb-0"
-              >
+              <img src="@/assets/img/team/team-4.jpg" alt="team" class="img-fluid position-relative" />
+              <ul class="list-unstyled team-social-list d-flex flex-column mb-0">
                 <li class="list-inline-item">
                   <a href="#"><i class="fab fa-linkedin-in"></i></a>
                 </li>
@@ -139,7 +96,7 @@
                 </li>
               </ul>
             </div>
-            
+
             <div class="team-info mt-4 text-center">
               <h5 class="h6 mb-1">Wacil Khelifi</h5>
               <p class="text-muted small mb-0">Data Scientist</p>
@@ -149,14 +106,8 @@
         <div class="col-lg-3 col-md-6">
           <div class="team-single-wrap mb-5">
             <div class="team-img rounded-custom">
-              <img
-                src="@/assets/img/team/team-5.jpg"
-                alt="team"
-                class="img-fluid position-relative"
-              />
-              <ul
-                class="list-unstyled team-social-list d-flex flex-column mb-0"
-              >
+              <img src="@/assets/img/team/team-5.jpg" alt="team" class="img-fluid position-relative" />
+              <ul class="list-unstyled team-social-list d-flex flex-column mb-0">
                 <li class="list-inline-item">
                   <a href="#"><i class="fab fa-linkedin-in"></i></a>
                 </li>
@@ -180,14 +131,8 @@
         <div class="col-lg-3 col-md-6">
           <div class="team-single-wrap mb-5">
             <div class="team-img rounded-custom">
-              <img
-                src="@/assets/img/team/team-6.jpg"
-                alt="team"
-                class="img-fluid position-relative"
-              />
-              <ul
-                class="list-unstyled team-social-list d-flex flex-column mb-0"
-              >
+              <img src="@/assets/img/team/team-6.jpg" alt="team" class="img-fluid position-relative" />
+              <ul class="list-unstyled team-social-list d-flex flex-column mb-0">
                 <li class="list-inline-item">
                   <a href="#"><i class="fab fa-linkedin-in"></i></a>
                 </li>
@@ -211,14 +156,8 @@
         <div class="col-lg-3 col-md-6">
           <div class="team-single-wrap mb-5">
             <div class="team-img rounded-custom">
-              <img
-                src="@/assets/img/team/team-7.jpg"
-                alt="team"
-                class="img-fluid position-relative"
-              />
-              <ul
-                class="list-unstyled team-social-list d-flex flex-column mb-0"
-              >
+              <img src="@/assets/img/team/team-7.jpg" alt="team" class="img-fluid position-relative" />
+              <ul class="list-unstyled team-social-list d-flex flex-column mb-0">
                 <li class="list-inline-item">
                   <a href="#"><i class="fab fa-linkedin-in"></i></a>
                 </li>
@@ -242,14 +181,8 @@
         <div class="col-lg-3 col-md-6">
           <div class="team-single-wrap mb-5">
             <div class="team-img rounded-custom">
-              <img
-                src="@/assets/img/team/team-8.jpg"
-                alt="team"
-                class="img-fluid position-relative"
-              />
-              <ul
-                class="list-unstyled team-social-list d-flex flex-column mb-0"
-              >
+              <img src="@/assets/img/team/team-8.jpg" alt="team" class="img-fluid position-relative" />
+              <ul class="list-unstyled team-social-list d-flex flex-column mb-0">
                 <li class="list-inline-item">
                   <a href="#"><i class="fab fa-linkedin-in"></i></a>
                 </li>
@@ -273,14 +206,8 @@
         <div class="col-lg-3 col-md-6">
           <div class="team-single-wrap mb-5">
             <div class="team-img rounded-custom">
-              <img
-                src="@/assets/img/team/team-1.jpg"
-                alt="team"
-                class="img-fluid position-relative"
-              />
-              <ul
-                class="list-unstyled team-social-list d-flex flex-column mb-0"
-              >
+              <img src="@/assets/img/team/team-1.jpg" alt="team" class="img-fluid position-relative" />
+              <ul class="list-unstyled team-social-list d-flex flex-column mb-0">
                 <li class="list-inline-item">
                   <a href="#"><i class="fab fa-linkedin-in"></i></a>
                 </li>
@@ -304,14 +231,8 @@
         <div class="col-lg-3 col-md-6">
           <div class="team-single-wrap mb-5">
             <div class="team-img rounded-custom">
-              <img
-                src="@/assets/img/team/team-1.jpg"
-                alt="team"
-                class="img-fluid position-relative"
-              />
-              <ul
-                class="list-unstyled team-social-list d-flex flex-column mb-0"
-              >
+              <img src="@/assets/img/team/team-1.jpg" alt="team" class="img-fluid position-relative" />
+              <ul class="list-unstyled team-social-list d-flex flex-column mb-0">
                 <li class="list-inline-item">
                   <a href="#"><i class="fab fa-linkedin-in"></i></a>
                 </li>
@@ -335,14 +256,8 @@
         <div class="col-lg-3 col-md-6">
           <div class="team-single-wrap mb-5">
             <div class="team-img rounded-custom">
-              <img
-                src="@/assets/img/team/team-1.jpg"
-                alt="team"
-                class="img-fluid position-relative"
-              />
-              <ul
-                class="list-unstyled team-social-list d-flex flex-column mb-0"
-              >
+              <img src="@/assets/img/team/team-1.jpg" alt="team" class="img-fluid position-relative" />
+              <ul class="list-unstyled team-social-list d-flex flex-column mb-0">
                 <li class="list-inline-item">
                   <a href="#"><i class="fab fa-linkedin-in"></i></a>
                 </li>
@@ -366,14 +281,8 @@
         <div class="col-lg-3 col-md-6">
           <div class="team-single-wrap mb-5">
             <div class="team-img rounded-custom">
-              <img
-                src="@/assets/img/team/team-1.jpg"
-                alt="team"
-                class="img-fluid position-relative"
-              />
-              <ul
-                class="list-unstyled team-social-list d-flex flex-column mb-0"
-              >
+              <img src="@/assets/img/team/team-1.jpg" alt="team" class="img-fluid position-relative" />
+              <ul class="list-unstyled team-social-list d-flex flex-column mb-0">
                 <li class="list-inline-item">
                   <a href="#"><i class="fab fa-linkedin-in"></i></a>
                 </li>
