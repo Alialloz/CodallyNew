@@ -50,29 +50,45 @@ const messages = {
     designWeb: "Web Development",
     designWebDesc:
       "Bring your projects to life and make them accessible on the internet with a website. Our difference lies in our artistic team for original designs, directly in contact with you, and our web development team providing adaptive and innovative solutions.",
+    desginWebLis1 : "Responsive websites",
+    desginWebLis2 : "CMS integration",
+    desginWebLis3 : "SEO optimization",
 
     developpementApplication: "Mobile Application Development",
     developpementApplicationDesc:
       "Your app ideas can take shape on iOS or Android with our expertise in software solution development. We combine creativity and cutting-edge technology to create exceptional, customized mobile experiences.",
+    developpementApplicationLis1 : "iOS/Android apps",
+    developpementApplicationLis2 : "Intuitive UI",
+    developpementApplicationLis3 : "Push notifications",
 
     DéveloppementFullStack: "Full Stack Development",
     DéveloppementFullStackDesc:
       "Most companies offer either client-side or server-side work. However, we enable you to master your entire project with our Full Stack development expertise, combining front-end and back-end skills.",
+    DéveloppementFullStackLis1 : "Front-end & Back-end",
+    DéveloppementFullStackLis2 : "Modern frameworks",
+    DéveloppementFullStackLis3 : "Database management",
 
     logicielsPerso: "Custom Software Development",
     logicielsPersoDesc:
       "We redefine software solutions with customization taken to the extreme, ensuring products perfectly tailored to your specific needs.",
+    logicielsPersoLis1 : "Tailored solutions",
+    logicielsPersoLis2 : "Technical support",
+    logicielsPersoLis3 : "Specific functionalities",
 
     solutionIA:
       "Solutions in Artificial Intelligence and Deep Learning",
     solutionIADesc:
       "The future of technology belongs to artificial intelligence. We firmly believe in this idea and, consequently, combine advanced algorithms and extensive data analysis to develop solutions with significant AI support.",
+    solutionsIALis1 : "AI algorithms",
+    solutionsIALis2 : "Automation",
+    solutionsIALis3 : "Predictive analysis",
 
     conseil: "Technology and Digital Strategy Consulting",
     conseilDesc:
       "We offer consulting services to help businesses or individuals develop technology strategies, choose the right technological solutions, or digitally transform their operations.",
-
-    knowMore: "Learn more about our services",
+    conseilLis1 : "Digital strategy",
+    conseilLis2 : "Technology audit",
+    conseilLis3 : "Digital transformation",
 
     /* à propos de nous (home/About_image)*/
 
@@ -153,27 +169,44 @@ const messages = {
     designWeb: "Développement Web",
     designWebDesc:
       "Réalisez vos projets en les rendant concrets et accessibles sur internet grâce à un site web. Notre différence, une équipe artistique pour des designs originaux, en contact direct avec vous et une équipe en développement web fournissant des solutions adaptatives et innovantes.",
+    desginWebLis1 : "Sites responsives.",
+    desginWebLis2 : "Intégration CMS",
+    desginWebLis3 : "Optimisation SEO",
 
     developpementApplication: "Développement d'Applications Mobiles",
     developpementApplicationDesc:
       "Vos idées d'application peuvent prendre forme sur Ios ou android avec notre expertise en développement de solution logicielle, nous combinons créativité et technologie de pointe pour créer des expériences mobiles exceptionnelles mais surtout sur mesure.",
+      developpementApplicationLis1 : "Apps iOS/Android",
+      developpementApplicationLis2 : "UI intuitive",
+      developpementApplicationLis3 : "Notifications push",
 
     DéveloppementFullStack: "Développement Full Stack",
     DéveloppementFullStackDesc:
       "La plupart des entreprises proposent de soi travailler côté client soit côté serveur, cependant nous vous proposons de maîtrisez l'intégralité de votre projet avec notre expertise en développement Full Stack en combinant compétences front-end et back-end.",
-
+    DéveloppementFullStackLis1 : "Front-end & Back-end",
+    DéveloppementFullStackLis2 : "Frameworks modernes",
+    DéveloppementFullStackLis3 : "Gestion de bases de données",
     logicielsPerso: "Développement de Logiciels Personnalisés",
     logicielsPersoDesc:
       "Nous redéfinissons les solutions logicielles avec une personnalisation poussée à son paroxysme puisque nous garantissons des produits parfaitement adaptés à vos besoins spécifiques.",
+      logicielsPersoLis1 : "Solutions sur mesure",
+      logicielsPersoLis2 : "Support technique",
+      logicielsPersoLis3 : "Fonctionnalités spécifiques",
 
     solutionIA:
       "Solutions en Intelligence Artificielle et deep Learning",
     solutionIADesc:
       "L’avenir technologique appartient à l’intelligence artificielle, nous croyons fermement en cette idée et par conséquent nous combinons des algorithmes avancés et des analyses de données conséquentes pour développer des solutions avec un support IA non négligeable.",
+    solutionsIALis1 : "Algorithmes IA ",
+    solutionsIALis2 : "Automatisation",
+    solutionsIALis3 : "Analyse prédictive",
 
     conseil: "Conseil en Technologie et Stratégie Digitale",
     conseilDesc:
       "Nous offrons un service de conseil pour aider les entreprises ou les particuliers à élaborer des stratégies technologiques, à choisir les bonnes solutions technologiques ou à transformer numériquement leurs opérations.",
+    conseilLis1 : "Stratégie digitale",
+    conseilLis2 : "Audit technologique",
+    conseilLis3 : "Transformation digitale",
 
     knowMore: "En savoir plus nos services",
 
