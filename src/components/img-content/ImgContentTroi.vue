@@ -18,22 +18,22 @@
             <div class="feature-img-content">
               <div class="section-heading" data-aos="fade-up">
                 <h2>{{ $t('logicielsPerso') }}</h2>
-                <p>Energistically underwhelm progressive metrics via value-added impact magnetic world-class paradigms portals. Pontificate reliable metrics with enabled maintain clicks-and-mortar manufactured.</p>
+                <p>{{ $t('DevelopementLogicielPersoTexte') }}</p>
               </div>
               <ul class="list-unstyled d-flex flex-wrap list-two-col mb-0" data-aos="fade-up" data-aos-delay="50">
                 <li>
                   <div class="icon-box">
                     <i class="fas fa-users text-white bg-primary rounded"></i>
                   </div>
-                  <h3 class="h5">Customer Analysis</h3>
-                  <p>Objectively productize exceptional via customized.</p>
+                  <h3 class="h5">{{ $t('DLPiconetitre1') }}</h3>
+                  <p>{{ $t('DLPiconetexte1') }}</p>
                 </li>
                 <li>
                   <div class="icon-box">
                     <i class="fas fa-fingerprint text-white bg-danger rounded"></i>
                   </div>
-                  <h3 class="h5">Real Time Metrics</h3>
-                  <p>Interactively integrate extensible users maximizing resource.</p>
+                  <h3 class="h5">{{ $t('DLPiconetitre2') }}</h3>
+                  <p>{{ $t('DLPconetexte2') }}</p>
                 </li>
               </ul>
             </div>
@@ -49,22 +49,22 @@
         <div class="feature-img-content">
           <div class="section-heading" data-aos="fade-up">
             <h2>{{ $t('solutionIA') }}</h2>
-            <p>Reliable metrics with enabled infomediaries. Holisticly maintain clicks-and-mortar manufactured products empower viral customer service through resource supply pandemic collaboration.</p>
+            <p>{{ $t('DevelopementIATexte') }}</p>
           </div>
           <ul class="list-unstyled d-flex flex-wrap list-two-col mb-0" data-aos="fade-up" data-aos-delay="50">
             <li>
               <div class="icon-box">
                 <i class="fas fa-dollar-sign text-white bg-success rounded"></i>
               </div>
-              <h3 class="h5">Finance Models</h3>
-              <p>Objectively error-free develop intuitive catalysts for change.</p>
+              <h3 class="h5">{{ $t('DIAiconetitre1') }}</h3>
+              <p>{{ $t('DIAiconetexte1') }}</p>
             </li>
             <li>
               <div class="icon-box">
                 <i class="fas fa-headset text-white bg-dark rounded"></i>
               </div>
-              <h3 class="h5">Daily Consultancy</h3>
-              <p>Compellingly initiate distinctive principle-centered sources.</p>
+              <h3 class="h5">{{ $t('DIAiconetitre2') }}</h3>
+              <p>{{ $t('DIAconetexte2') }}</p>
             </li>
           </ul>
         </div>
@@ -102,22 +102,22 @@
             <div class="feature-img-content">
               <div class="section-heading" data-aos="fade-up">
                 <h2>{{ $t('conseil') }}</h2>
-                <p>Credibly deliver out-of-the-box benefits through just in time best practices. Globally orchestrate holistic communities without visualize performance based premium alignments.</p>
+                <p>{{ $t('ConseilTexte') }}</p>
               </div>
               <ul class="list-unstyled d-flex flex-wrap list-two-col mt-5" data-aos="fade-up" data-aos-delay="100">
                 <li>
                   <div class="icon-box">
                     <i class="fas fa-briefcase text-white bg-warning rounded"></i>
                   </div>
-                  <h3 class="h5">Fast Services</h3>
-                  <p>Rapidiously exploit robust solutions without alignments.</p>
+                  <h3 class="h5">{{ $t('CIconetitre1') }}</h3>
+                  <p>{{ $t('CIconetexte1') }}</p>
                 </li>
                 <li>
                   <div class="icon-box">
                     <i class="fas fa-truck text-white bg-info rounded"></i>
                   </div>
-                  <h3 class="h5">Free Shipping</h3>
-                  <p>Interactively integrate whereas extensible users resource.</p>
+                  <h3 class="h5">{{ $t('CIconetitre2') }}</h3>
+                  <p>{{ $t('CIconetexte2') }}</p>
                 </li>
               </ul>
             </div>

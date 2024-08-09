@@ -74,6 +74,12 @@ const messages = {
 
     knowMore: "Learn more about our services",
 
+     /* Collaboration home (integrationOne)*/
+
+     tireCollab : "Our Partnerships",
+     sloganCollab : "Success is a collective effort, which is why we work hand in hand with other companies.",
+
+
     /* à propos de nous (home/About_image)*/
 
     whyChooseUs: "Why Choose Us?",
@@ -98,6 +104,48 @@ const messages = {
       notreÉquipeSlo : "The people behind Codally",
       notreÉquipeDef : "The driving force of our company is our ability to address each of your IT requests in a personalized and tailored manner. To achieve this, each of our team members possesses a specialization unique to their role.",
     
+      /* Services pages (img content troi et three), les titres genre "developpement web" sont importer depuis la home */
+
+      servicesN : "Expertise at Your Service",
+      servicesNslogan : "We offer a wide range of tailored IT services, from application or website development to consulting and machine learning.",
+
+      DevelopementWebTexte : "We provide customized web development solutions to meet the unique needs of your business. Whether you need a sleek showcase site, a dynamic e-commerce platform, or an innovative web application, our team of experts is here to turn your ideas into reality.",
+      DWiconetitre1 : "Optimization and SEO",
+      DWiconetexte1 : "Improving your site's visibility and optimizing performance.",
+      DWiconetitre2 : "Maintenance and Support",
+      DWiconetexte2 : "Ongoing assistance to ensure the smooth operation of your web solutions.",
+
+      DevelopementmobileTexte : "Whether it's an iOS, Android, or cross-platform application, our team designs innovative and high-performance solutions that drive your business to success.",
+      DMiconetitre1: "UX/UI Design",
+      DMiconetexte1: "Creating intuitive and aesthetic mobile interfaces for an optimal user experience.",
+      DMiconetitre2: "Maintenance and Support",
+      DMiconetexte2: "Regular monitoring and updates to ensure the smooth functioning of your application.",
+
+      DevelopementFullStackTexte: "Whether you need a complete platform or a specific solution, our team masters both front-end and back-end development, ensuring seamless integration and optimal performance.",
+      DFTiconetitre1: "API and Microservices Integration",
+      DFTiconetexte1: "Connecting your application to external services and microservices for maximum flexibility.",
+      DFTiconetitre2: "Security and Scalability",
+      DFTconetexte2: "Implementation of rigorous security practices and scalable architectures to support your growth.",
+
+      DevelopementLogicielPersoTexte: "If your projects do not fall under the services offered, we design custom software. Whether it's automating processes or creating tools specific to your industry.",
+      DLPiconetitre1: "Needs Analysis",
+      DLPiconetexte1: "In-depth understanding of your processes and industry to design perfectly adapted software.",
+      DLPiconetitre2: "Systems Integration",
+      DLPconetexte2: "Connect your software to your existing systems for a smooth transition and maximum efficiency.",
+
+      DevelopementIATexte: "With AI, you can make faster and more informed decisions while reducing your operational costs. Our solutions are designed to grow with your business, offering effortless scalability and continuous innovation.",
+      DIAiconetitre1: "Adaptation through Scalability",
+      DIAiconetexte1: "These solutions can easily adapt to your business growth without requiring major revisions.",
+      DIAiconetitre2: "Predictive Analysis",
+      DIAconetexte2: "Your business can position itself proactively, predicting market trends and anticipating customer needs.",
+      
+      ConseilTexte: "We support you in optimizing your business by offering strategic and technological advice to leverage the latest innovations and optimize your processes.",
+      CIconetitre1: "Digital Strategy",
+      CIconetexte1: "Developing a tailored digital roadmap to guide your digital transformation and maximize your ROI.",
+      CIconetitre2: "Technology Selection",
+      CIconetexte2: "Recommending and integrating the most suitable technological tools for your needs and industry.",
+
+
     /*   Brand Logo */   
 
       brandLogoTitre : "Our Partners",
@@ -177,6 +225,12 @@ const messages = {
 
     knowMore: "En savoir plus nos services",
 
+     /* Collaboration home (integrationOne)*/
+
+     tireCollab: "Nos Partenariats",
+     sloganCollab: "La réussite est un effort collectif, c'est pourquoi nous travaillons de paires avec d'autre entreprises ",
+
+
     /* à propos de nous (home/About_image)*/
 
     whyChooseUs: "Pourquoi Nous Choisir?",
@@ -201,11 +255,46 @@ notreÉquipe : "Notre équipe",
 notreÉquipeSlo : "Les personnes derrière Codally",
 notreÉquipeDef : "Le fer de lance de notre entreprise est notre capacité à pouvoir répondre à chacune de vos demandes informatique de manière personnalisée et adaptée. Pour ce faire, chacun de nos membres possèdant une spécialisation lui entant propre",
 
-/* Services (navbarre) */
+/* Services pages (img content troi et three), les titres genre "developpement web" sont importer depuis la home */
 
 servicesN : "L'expertise à Votre Service",
 servicesNslogan : "Nous offrons un large éventail de services sur mesure dans le domaine informatique, allant du développement d'appplication ou de site aux conseils en passant par le machine learning.",
 
+DevelopementWebTexte : "Nous offrons des solutions de développement web personnalisées pour répondre aux besoins uniques de votre entreprise. Que vous ayez besoin d'un site vitrine élégant, d'une plateforme e-commerce dynamique, ou d'une application web innovante, notre équipe d'experts est là pour transformer vos idées en réalité.",
+DWiconetitre1 : "Optimisation et SEO",
+DWiconetexte1 : "Amélioration de la visibilité de votre site et optimisation des performances",
+DWiconetitre2 : "Maintenance et support",
+DWiconetexte2 : "Assistance continue pour garantir le bon fonctionnement de vos solutions web.",
+
+DevelopementmobileTexte : "Qu'il s'agisse d'une application iOS, Android, ou multiplateforme, notre équipe conçoit des solutions innovantes et performantes qui propulsent votre activité vers le succès.",
+DMiconetitre1 : "Conception UX/UI",
+DMiconetexte1 : "Création d'interfaces mobiles intuitives et esthétiques pour une expérience utilisateur optimale",
+DMiconetitre2 : "Maintenance et support",
+DMiconetexte2 : "Suivi et mises à jour régulières pour garantir le bon fonctionnement de votre application.",
+
+DevelopementFullStackTexte : "Que vous ayez besoin d'une plateforme complète ou d'une solution spécifique, notre équipe maîtrise aussi bien le front-end que le back-end, garantissant une intégration fluide et des performances optimales",
+DFTiconetitre1 : "Intégration API et Microservices",
+DFTiconetexte1 : "Connexion de votre application à des services externes et à des microservices pour une flexibilité maximale",
+DFTiconetitre2 : "Sécurité et Scalabilité",
+DFTconetexte2 : " Implémentation de pratiques de sécurité rigoureuses et d'architectures évolutives pour soutenir votre croissance",
+
+DevelopementLogicielPersoTexte : "Dans le cas ou vos projets ne constitue pas un des services proposer,nous concevons des logiciels sur mesure. Qu'il s'agisse d'automatiser des processus ou de créer des outils spécifiques à votre secteur",
+DLPiconetitre1 : "Analyse des Besoins",
+DLPiconetexte1 : "Compréhension approfondie de vos processus de votre secteur pour concevoir un logiciel parfaitement adapté.",
+DLPiconetitre2 : "Intégration Systèmes",
+DLPconetexte2 : "Connectez votre logiciel à vos systèmes existants pour une transition fluide et une efficacité maximale",
+
+DevelopementIATexte : "Grâce à l'IA, vous prenez des décisions plus rapides et plus éclairées, tout en réduisant vos coûts opérationnels, nos solutions sont conçues pour évoluer avec votre entreprise, vous offrant une scalabilité sans effort et une innovation continue.",
+DIAiconetitre1 : "L'adaptation via la Scalabilité",
+DIAiconetexte1 : "Ces solutions peuvent facilement s'adapter à la croissance de votre entreprise sans nécessiter de révisions majeures.",
+DIAiconetitre2 : "Analyse prédictive",
+DIAconetexte2 : "Votre entreprise peut se positionner de manière proactive, vous pouvez prédire les évolutions du marché et anticiper les besoins de vos clients",
+
+ConseilTexte : "Nous vous accompagnons dans l'optimisation de votre entreprise en vous proposant des conseils stratégiques et technologiques afin de tirer parti des dernières innovations en la matière pour optimiser vos processus",
+CIconetitre1 : "Stratégie Digitale",
+CIconetexte1 : "Élaboration d'une feuille de route digitale sur mesure pour guider votre transformation numérique et maximiser votre ROI.",
+CIconetitre2 : "Sélection de Technologies",
+CIconetexte2 : " Recommandation et intégration des outils technologiques les mieux adaptés à vos besoins et à votre secteur",
 
 /* Brand Logo */   
 
