@@ -231,7 +231,7 @@ const messages = {
     notreÉquipe: "Notre équipe",
     notreÉquipeSlo: "Les personnes derrière Codally",
     notreÉquipeDef:
-      "Le fer de lance de notre entreprise est notre capacité à pouvoir répondre à chacune de vos demandes informatique de manière personnalisée et adaptée. Pour ce faire, chacun de nos membres possèdant une spécialisation lui entant propre",
+      "Le fer de lance de notre entreprise est notre capacité à pouvoir répondre à chacune de vos demandes informatique de manière personnalisée et adaptée. Pour ce faire, chacun de nos membres possèdant une spécialisation lui entant propre.",
 
     /* Services (navbarre) */
 
