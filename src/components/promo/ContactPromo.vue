@@ -31,12 +31,12 @@
               <h5>Email Us</h5>
               <p>
                 Simple drop us an email at
-                <strong>hellothemetags@gmail.com</strong> and you'll receive a
+                <strong>codally.agency@outlook.com</strong> and you'll receive a
                 reply within 24 hours
               </p>
             </div>
             <a
-              href="mailto:hellothemetags@gmail.com"
+              href="mailto:codally.agency@outlook.com"
               class="btn btn-primary mt-auto"
               >Email Us</a
             >

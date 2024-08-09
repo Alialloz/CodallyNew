@@ -1,14 +1,16 @@
 <template>
   <div>
     <Navbar />
-  <TeamStart/>
- -->    <!-- <BreadCrumb
+    <TeamStart />
+    <!-- <BreadCrumb
       title="Contact Us"
       desc="Seamlessly actualize client-based users after out-of-the-box value data through frictionless expertise. Proactively coordinate quality quality vectors vis-a-vis supply chains. Quickly engage client-centric web services."
     /> -->
-    <!-- <ContactPromo /> -->
+
     <OurTeam />
-<!--     <ContactFormTwo /> -->
+    <ContactPromoDarkbg/>
+    <ContactFormTwo />
+    <!-- <ContactPromo /> -->
     <FooterWithBg />
   </div>
 </template>
@@ -21,6 +23,8 @@ import TeamStart from "../../components/team/TeamStart.vue";
 import FooterWithBg from "../../components/footer/FooterWithBg.vue";
 import Navbar from "../../components/nav/Navbar.vue";
 import ContactPromo from "../../components/promo/ContactPromo.vue";
+import ContactPromoDarkbg from "../../components/promo/ContactPromoDarkbg.vue";
+
 export default {
   name: "Contact",
   components: {
@@ -31,6 +35,7 @@ export default {
     FooterWithBg,
     ContactFormTwo,
     TeamStart,
+    ContactPromoDarkbg,
   },
 };
 </script>
