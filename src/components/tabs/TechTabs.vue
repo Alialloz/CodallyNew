@@ -80,9 +80,9 @@
                     <!-- <h2>{{ $t('experience') }}</h2> -->
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp{{ $t('designWebDesc') }}</p>
                     <ul class="list-unstyled">
-                      <li><i class="fas fa-check text-primary"></i><span>{{ $t('digitalConference') }}</span></li>
-                      <li><i class="fas fa-check text-primary"></i><span>{{ $t('greatSpeak') }}</span></li>
-                      <li><i class="fas fa-check text-primary"></i><span>{{ $t('eventManagement') }}</span></li>
+                      <li><i class="fas fa-check text-primary"></i><span>{{ $t('desginWebLis1') }}</span></li>
+                      <li><i class="fas fa-check text-primary"></i><span>{{ $t('desginWebLis2') }}</span></li>
+                      <li><i class="fas fa-check text-primary"></i><span>{{ $t('desginWebLis3') }}</span></li>
                     </ul>
                     <router-link to="/services" class="text-white link-with-icon text-decoration-none mt-4">{{
                       $t('knowMore') }}<i class="fas fa-arrow-right"></i></router-link>
@@ -104,9 +104,9 @@
                     <!-- <h2>{{ $t('devAppMobile') }}</h2> -->
                     <p>{{ $t('developpementApplicationDesc') }}</p>
                     <ul class="list-unstyled">
-                      <li><i class="fas fa-check text-primary"></i><span>{{ $t('digitalConference') }}</span></li>
-                      <li><i class="fas fa-check text-primary"></i><span>{{ $t('greatSpeak') }}</span></li>
-                      <li><i class="fas fa-check text-primary"></i><span>{{ $t('eventManagement') }}</span></li>
+                      <li><i class="fas fa-check text-primary"></i><span>{{ $t('developpementApplicationLis1') }}</span></li>
+                      <li><i class="fas fa-check text-primary"></i><span>{{ $t('developpementApplicationLis2') }}</span></li>
+                      <li><i class="fas fa-check text-primary"></i><span>{{ $t('developpementApplicationLis3') }}</span></li>
                     </ul>
                     <router-link to="/services" class="text-white link-with-icon text-decoration-none mt-4">{{
                       $t('knowMore') }}<i class="fas fa-arrow-right"></i></router-link>
@@ -128,9 +128,9 @@
                     <!--<h2>{{ $t('devWeb') }}</h2>-->
                     <p>{{ $t('DéveloppementFullStackDesc') }}</p>
                     <ul class="list-unstyled">
-                      <li><i class="fas fa-check text-primary"></i><span>{{ $t('digitalConference') }}</span></li>
-                      <li><i class="fas fa-check text-primary"></i><span>{{ $t('greatSpeak') }}</span></li>
-                      <li><i class="fas fa-check text-primary"></i><span>{{ $t('eventManagement') }}</span></li>
+                      <li><i class="fas fa-check text-primary"></i><span>{{ $t('DéveloppementFullStackLis1') }}</span></li>
+                      <li><i class="fas fa-check text-primary"></i><span>{{ $t('DéveloppementFullStackLis2') }}</span></li>
+                      <li><i class="fas fa-check text-primary"></i><span>{{ $t('DéveloppementFullStackLis3') }}</span></li>
                     </ul>
                     <router-link to="/services" class="text-white link-with-icon text-decoration-none mt-4">{{
                       $t('knowMore') }}<i class="fas fa-arrow-right"></i></router-link>
@@ -153,9 +153,9 @@
                     <!-- <h2>{{ $t('customSoftware') }}</h2> -->
                     <p>{{ $t('logicielsPersoDesc') }}</p>
                     <ul class="list-unstyled">
-                      <li><i class="fas fa-check text-primary"></i><span>{{ $t('digitalConference') }}</span></li>
-                      <li><i class="fas fa-check text-primary"></i><span>{{ $t('greatSpeak') }}</span></li>
-                      <li><i class="fas fa-check text-primary"></i><span>{{ $t('eventManagement') }}</span></li>
+                      <li><i class="fas fa-check text-primary"></i><span>{{ $t('logicielsPersoLis1') }}</span></li>
+                      <li><i class="fas fa-check text-primary"></i><span>{{ $t('logicielsPersoLis2') }}</span></li>
+                      <li><i class="fas fa-check text-primary"></i><span>{{ $t('logicielsPersoLis3') }}</span></li>
                     </ul>
                     <router-link to="/services" class="text-white link-with-icon text-decoration-none mt-4">{{
                       $t('knowMore') }}<i class="fas fa-arrow-right"></i></router-link>
@@ -176,9 +176,9 @@
                   <div class="tab-right-content">
                     <p>{{ $t('solutionIADesc') }}</p>
                     <ul class="list-unstyled">
-                      <li><i class="fas fa-check text-primary"></i><span>{{ $t('digitalConference') }}</span></li>
-                      <li><i class="fas fa-check text-primary"></i><span>{{ $t('greatSpeak') }}</span></li>
-                      <li><i class="fas fa-check text-primary"></i><span>{{ $t('eventManagement') }}</span></li>
+                      <li><i class="fas fa-check text-primary"></i><span>{{ $t('solutionsIALis1') }}</span></li>
+                      <li><i class="fas fa-check text-primary"></i><span>{{ $t('solutionsIALis2') }}</span></li>
+                      <li><i class="fas fa-check text-primary"></i><span>{{ $t('solutionsIALis3') }}</span></li>
                     </ul>
                     <router-link to="/services" class="text-white link-with-icon text-decoration-none mt-4">{{
                       $t('knowMore') }}<i class="fas fa-arrow-right"></i></router-link>
@@ -201,9 +201,9 @@
                     <!-- <h2>{{ $t('techConsulting') }}</h2> -->
                     <p>{{ $t('conseilDesc') }}</p>
                     <ul class="list-unstyled">
-                      <li><i class="fas fa-check text-primary"></i><span>{{ $t('digitalConference') }}</span></li>
-                      <li><i class="fas fa-check text-primary"></i><span>{{ $t('greatSpeak') }}</span></li>
-                      <li><i class="fas fa-check text-primary"></i><span>{{ $t('eventManagement') }}</span></li>
+                      <li><i class="fas fa-check text-primary"></i><span>{{ $t('conseilLis1') }}</span></li>
+                      <li><i class="fas fa-check text-primary"></i><span>{{ $t('conseilLis2') }}</span></li>
+                      <li><i class="fas fa-check text-primary"></i><span>{{ $t('conseilLis3') }}</span></li>
                     </ul>
                     <router-link to="/services" class="text-white link-with-icon text-decoration-none mt-4">{{
                       $t('knowMore') }}<i class="fas fa-arrow-right"></i></router-link>
