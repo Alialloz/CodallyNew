@@ -8,10 +8,7 @@
               <div class="section-heading" data-aos="fade-up">
                 <h2>{{ $t('designWeb') }}</h2>
                 <p>
-                  Energistically underwhelm progressive metrics via value-added
-                  impact magnetic world-class paradigms portals. Pontificate
-                  reliable metrics with enabled maintain clicks-and-mortar
-                  manufactured.
+                  {{ $t('DevelopementWebTexte') }}
                 </p>
               </div>
               <ul
@@ -23,19 +20,16 @@
                   <div class="icon-box">
                     <i class="fas fa-users text-white bg-primary rounded"></i>
                   </div>
-                  <h3 class="h5">Customer Aanalysis</h3>
-                  <p>Objectively productize exceptional via customized.</p>
+                  <h3 class="h5">{{ $t('DWiconetitre1') }}</h3>
+                  <p>{{ $t('DWiconetexte1') }}</p>
                 </li>
                 <li>
                   <div class="icon-box">
-                    <i
-                      class="fas fa-fingerprint text-white bg-danger rounded"
-                    ></i>
+                    <i class="fas fa-headset text-white bg-dark rounded"></i>
                   </div>
-                  <h3 class="h5">Real Time Metrics</h3>
+                  <h3 class="h5">{{ $t('DWiconetitre2') }}</h3>
                   <p>
-                    Interactively integrate extensible users maximizing
-                    resource.
+                    {{ $t('DWiconetexte2') }}
                   </p>
                 </li>
               </ul>
@@ -79,10 +73,7 @@
               <div class="section-heading" data-aos="fade-up">
                 <h2>{{ $t('developpementApplication') }}</h2>
                 <p>
-                  Reliable metrics with enabled infomediaries. Holisticly
-                  maintain clicks-and-mortar manufactured products empower viral
-                  customer service through resource supply pandemic
-                  collaboration.
+                  {{ $t('DevelopementmobileTexte') }}
                 </p>
               </div>
               <ul
@@ -96,20 +87,18 @@
                       class="fas fa-dollar-sign text-white bg-success rounded"
                     ></i>
                   </div>
-                  <h3 class="h5">Finance Models</h3>
+                  <h3 class="h5">{{ $t('DMiconetitre1') }}</h3>
                   <p>
-                    Objectively error-free develop intuitive catalysts for
-                    change.
+                    {{ $t('DMiconetexte1') }}
                   </p>
                 </li>
                 <li>
                   <div class="icon-box">
                     <i class="fas fa-headset text-white bg-dark rounded"></i>
                   </div>
-                  <h3 class="h5">Daily Consultancy</h3>
+                  <h3 class="h5">{{ $t('DMiconetitre2') }}</h3>
                   <p>
-                    Compellingly initiate distinctive principle-centered
-                    sources.
+                    {{ $t('DMiconetexte2') }}
                   </p>
                 </li>
               </ul>
@@ -153,9 +142,7 @@
               <div class="section-heading" data-aos="fade-up">
                 <h2>{{ $t('DéveloppementFullStack') }}</h2>
                 <p>
-                  Credibly deliver out-of-the-box benefits through just in time
-                  best practices. Globally orchestrate holistic communities
-                  without visualize performance based premium alignments.
+                  {{ $t('DevelopementFullStackTexte') }}
                 </p>
               </div>
               <ul
@@ -169,18 +156,18 @@
                       class="fas fa-briefcase text-white bg-warning rounded"
                     ></i>
                   </div>
-                  <h3 class="h5">Fast Services</h3>
+                  <h3 class="h5">{{ $t('DFTiconetitre1') }}</h3>
                   <p>
-                    Rapidiously exploit robust solutions without alignments.
+                    {{ $t('DFTiconetexte1') }}
                   </p>
                 </li>
                 <li>
                   <div class="icon-box">
                     <i class="fas fa-truck text-white bg-info rounded"></i>
                   </div>
-                  <h3 class="h5">Free Shipping</h3>
+                  <h3 class="h5">{{ $t('DFTiconetitre2') }}</h3>
                   <p>
-                    Interactively integrate whereas extensible users resource.
+                    {{ $t('DFTconetexte2') }}
                   </p>
                 </li>
               </ul>
