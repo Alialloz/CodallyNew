@@ -169,15 +169,34 @@ const messages = {
     /*   Brand Logo */
 
     brandLogoTitre: "Our Partners",
-    brandLogoDes:
-      "We work closely with various companies to offer the best services.",
+    brandLogoDes:"We work closely with various companies to offer the best services.",
+
+    /*Contactez-nous (contactFromTwo et contactPromoDarkbg)*/
+
+  Email : "Email Us",
+  EmailDes : "Simple drop us an email at codally.agency@outlook.com and you'll receive a reply within 24 hours.",
+
+  Tel : "Give us a call",
+  TelDes : "Give us a ring, we are standing by monday to friday from 9am to 5pm EST.",
+
+  ContactTitre : "Discuss with our sales and marketing department team",
+  ContactDes : "Are you interested in one of our services or projects? Or do you simply want to apply to join us? Let us know by filling out this form.",
+
+  Prenom : "First name",
+  Nom : "Last name",
+  Tel : "Phone",
+  mail : "Email",
+  msg : "Message",
+
+  EnvoyerFor : "Submit your message",
+
   },
 
   fr: {
     /* NavBarre*/
     service: "Services",
     Home: "Acceuil",
-    contact: "Contactez-nous",
+    contact: "Contactez-nous!",
     about: "Notre équipe",
 
     /* Home */
@@ -339,6 +358,25 @@ const messages = {
     brandLogoTitre: "Nos collaborateurs",
     brandLogoDes:
       "Nous travaillons conjointement avec divers société afin de proposer les meilleurs services.",
+
+  /*Contactez-nous*/
+
+  Email : "Envoyez-nous un e-mail",
+  EmailDes : "Envoyez-nous simplement un e-mail à codally.agency@outlook.com et vous recevrez une réponse dans les plus brefs délais.",
+
+  Tel : "Appelez-nous",
+  TelDes : "Appelez-nous, nous sommes disponibles du lundi au vendredi de 10h à 18h (UTC+02:00).",
+  ContactTitre : "Discutez avec notre équipe du département des ventes et du marketing",
+  ContactDes : "Un de nos services ou de nos projets vous intéresse?  Voulez-vous simplement postuler chez nous, faites le nous savoir en remplissant ce formulaire",
+
+  Prenom : "Prénom",
+  Nom : "Nom",
+  Tel : "Téléphone",
+  mail : "Émail",
+  msg : "Message",
+
+  EnvoyerFor : "Envoyer votre message",
+
   },
 };
 

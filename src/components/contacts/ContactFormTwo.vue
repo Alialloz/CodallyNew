@@ -4,17 +4,16 @@
       <div class="row justify-content-lg-between align-items-center">
         <div class="col-lg-6 col-md-8">
           <div class="section-heading">
-            <h2>Talk to Our Sales & Marketing Department Team</h2>
+            <h2>{{ $t('ContactTitre') }}</h2>
             <p>
-              Collaboratively promote client-focused convergence vis-a-vis
-              customer directed alignments via standardized infrastructures.
+              {{ $t('ContactDes') }}
             </p>
           </div>
           <form action="#" class="register-form">
             <div class="row">
               <div class="col-sm-6">
                 <label for="firstName" class="mb-1"
-                  >First name <span class="text-danger">*</span></label
+                  >{{ $t('Prenom') }} <span class="text-danger">*</span></label
                 >
                 <div class="input-group mb-3">
                   <input
@@ -28,7 +27,7 @@
                 </div>
               </div>
               <div class="col-sm-6">
-                <label for="lastName" class="mb-1">Last name</label>
+                <label for="lastName" class="mb-1">{{ $t('Nom') }}</label>
                 <div class="input-group mb-3">
                   <input
                     type="text"
@@ -41,7 +40,7 @@
               </div>
               <div class="col-sm-6">
                 <label for="phone" class="mb-1"
-                  >Phone <span class="text-danger">*</span></label
+                  >{{ $t('Tel') }}<span class="text-danger">*</span></label
                 >
                 <div class="input-group mb-3">
                   <input
@@ -56,7 +55,7 @@
               </div>
               <div class="col-sm-6">
                 <label for="email" class="mb-1"
-                  >Email<span class="text-danger">*</span></label
+                  >{{ $t('mail') }}<span class="text-danger">*</span></label
                 >
                 <div class="input-group mb-3">
                   <input
@@ -71,7 +70,7 @@
               </div>
               <div class="col-12">
                 <label for="yourMessage" class="mb-1"
-                  >Message <span class="text-danger">*</span></label
+                  >{{ $t('msg') }} <span class="text-danger">*</span></label
                 >
                 <div class="input-group mb-3">
                   <textarea
@@ -85,7 +84,7 @@
               </div>
             </div>
             <button type="submit" class="btn btn-primary mt-4">
-              Get in Touch
+              {{ $t('EnvoyerFor') }}
             </button>
           </form>
         </div>

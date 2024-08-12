@@ -9,15 +9,13 @@
             >
               <span class="fad fa-envelope fa-3x text-primary"></span>
               <div class="contact-promo-info mb-4">
-                <h5>Email Us</h5>
+                <h5>{{ $t('Email') }}</h5>
                 <p>
-                  Simple drop us an email at
-                  <strong>codally.agency@outlook.com</strong> and you'll receive a
-                  reply within 24 hours
+                  {{ $t('EmailDes') }}
                 </p>
               </div>
               <a href="mailto:codally.agency@outlook.com" class="btn btn-primary mt-auto">
-                Email Us
+                {{ $t('Email') }}
               </a>
             </div>
           </div>
@@ -28,15 +26,13 @@
             >
               <span class="fad fa-phone fa-3x text-primary"></span>
               <div class="contact-promo-info mb-4">
-                <h5>Give us a call</h5>
+                <h5>{{ $t('Tel') }}</h5>
                 <p>
-                  Give us a ring.Our Experts are standing by
-                  <strong>monday to friday</strong> from
-                  <strong>9am to 5pm EST.</strong>
+                  {{ $t('TelDes') }}
                 </p>
               </div>
-              <a href="tel:00-976-561-008" class="btn btn-link mt-auto">
-                00-976-561-008
+              <a href="tel:(514) 600-8289" class="btn btn-link mt-auto">
+                (514) 600-8289
               </a>
             </div>
           </div>

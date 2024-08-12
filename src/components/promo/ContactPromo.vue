@@ -31,7 +31,7 @@
               <h5>Email Us</h5>
               <p>
                 Simple drop us an email at
-                <strong>codally.agency@outlook.com</strong> and you'll receive a
+                <strong></strong> and you'll receive a
                 reply within 24 hours
               </p>
             </div>
