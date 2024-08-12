@@ -7,7 +7,6 @@
       <div class="row align-items-center justify-content-between">
         <div class="col-lg-5 col-md-12">
           <div class="section-heading" data-aos="fade-up">
-            <h4 class="h5 text-primary">Features</h4>
             <h2>Powerful Solutions for Your Business Needs</h2>
             <p>
               Quickly incubate functional channels with multidisciplinary

@@ -20,7 +20,6 @@
             data-aos="fade-up"
             data-aos-delay="50"
           >
-            <h4 class="h5 text-primary">Advanced Features</h4>
             <h2>Actionable Sale Reports to Grow your Business</h2>
             <p>
               Intrinsicly network transparent services whereas B2C ROI. Globally

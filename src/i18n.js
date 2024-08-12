@@ -377,6 +377,23 @@ const messages = {
 
   EnvoyerFor : "Envoyer votre message",
 
+  /* Nos projects (FeatureTwo et FeatureThree et ceux avec B et C) */
+
+  WeblerTitre :"Webler",
+  WeblerTitreDes :"Révolutionnez la Création de Sites Web avec l'Intelligence Artificielle",
+
+  TaskaiiITitre :"Taskaii",
+  TaskaiiITitreDes :"Métamorphoser votre Gestion du Temps",
+
+  ServiceClientèleTitre :"Chat WhatsApp pour Cliniques",
+  ServiceClientèleTitreDes :"Transformez l'expérience patient avec notre service clientèle instantané spécialement conçu pour les cliniques modernes",
+
+  GestionclientèleTitre :"Assistance Téléphonique IA",
+  GestionclientèleTitreDes :"Facilité la gestion des patient via une assistance téléphonique IA dédiée pour cliniques",
+
+  ServiceFactureTitre :"Systeme de facturation",
+  ServiceFactureTitreDes :"Optimisez votre gestion médicale avec notre système de facturation conforme et intégré.",
+
   },
 };
 
