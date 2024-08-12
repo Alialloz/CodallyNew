@@ -6,7 +6,7 @@
       :desc="$t('servicesNslogan')" />
     <ImgContentThree />
     <ImgContentTroi />
-    <Footer />
+    <Footer footerDark="footerDark"/>
   </div>
 </template>
 
