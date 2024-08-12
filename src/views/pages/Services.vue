@@ -6,13 +6,13 @@
       :desc="$t('servicesNslogan')" />
     <ImgContentThree />
     <ImgContentTroi />
-    <Footerdark />
+    <Footer footerDark="footerDark"/>
   </div>
 </template>
 
 <script>
 import BreadCrumb from "../../components/common/BreadCrumb.vue";
-import Footerdark from "../../components/footer/FooterWithBg.vue";
+import Footer from "../../components/footer/Footer.vue";
 import ImgContentThree from '../../components/img-content/ImgContentThree.vue';
 import ImgContentTroi from '../../components/img-content/ImgContentTroi.vue';
 import Navbar from "../../components/nav/Navbar.vue";
@@ -23,7 +23,7 @@ export default {
     BreadCrumb,
     ImgContentThree,
     ImgContentTroi,
-    Footerdark,
+    Footer,
   },
 };
 </script>
