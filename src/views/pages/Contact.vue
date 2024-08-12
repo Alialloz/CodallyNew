@@ -8,8 +8,7 @@
     /> -->
 
     <OurTeam />
-    <ContactPromoDarkbg/>
-    <ContactFormTwo />
+
     <!-- <ContactPromo /> -->
     <Footer footerDark="footerDark" />
   </div>
