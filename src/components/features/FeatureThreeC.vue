@@ -20,10 +20,9 @@
               data-aos="fade-up"
               data-aos-delay="50"
             >
-              <h2>Actionable Sale Reports to Grow your Business</h2>
+              <h2>{{ $t('ServiceFactureTitre') }}</h2>
               <p>
-                Intrinsicly network transparent services whereas B2C ROI. Globally
-                create installed base quality vectors after innovative.
+                {{ $t('ServiceFactureTitreDes') }}
               </p>
               <ul class="list-unstyled mt-5">
                 <li class="d-flex align-items-start mb-4">
@@ -31,10 +30,9 @@
                     <i class="fas fa-bezier-curve text-white"></i>
                   </div>
                   <div class="icon-content">
-                    <h3 class="h5">Pixel Perfect Design</h3>
+                    <h3 class="h5">{{ $t('Icône9Titre') }}</h3>
                     <p>
-                      Progressively foster enterprise-wide systems whereas equity
-                      invested web-readiness harness installed.
+                      {{ $t('Icône9Des') }}
                     </p>
                   </div>
                 </li>
@@ -43,10 +41,9 @@
                     <i class="fas fa-fingerprint text-white"></i>
                   </div>
                   <div class="icon-content">
-                    <h3 class="h5">Unique &amp; Minimal Design</h3>
+                    <h3 class="h5">{{ $t('Icône10Titre') }}</h3>
                     <p>
-                      Dramatically administrate progressive metrics without
-                      error-free globally simplify standardized.
+                      {{ $t('Icône10Des') }}
                     </p>
                   </div>
                 </li>
