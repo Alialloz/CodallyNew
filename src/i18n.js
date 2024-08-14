@@ -190,7 +190,7 @@ const messages = {
 
   EnvoyerFor : "Submit your message",
 
-  /* Nos projects (FeatureTwo et FeatureThree et ceux avec B et C) */
+  /* Nos projects (FeatureThree ) */
 
   WeblerTitre :"Webler",
   WeblerTitreDes :"Revolutionize Website Creation by Automating it with Artificial Intelligence and Then Fine-Tuning it According to Your Intentions",
@@ -414,7 +414,7 @@ const messages = {
 
   EnvoyerFor : "Envoyer votre message",
 
-  /* Nos projects (FeatureTwo et FeatureThree et ceux avec B et C) */
+  /* Nos projects (FeatureThree) */
 
   WeblerTitre :"Webler",
   WeblerTitreDes :"Révolutionnez la Création de Sites Web en l'automatisant avec l'Intelligence Artificielle pour ensuite le peaufiné selon vos intentions",
