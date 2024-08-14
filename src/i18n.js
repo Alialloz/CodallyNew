@@ -169,15 +169,71 @@ const messages = {
     /*   Brand Logo */
 
     brandLogoTitre: "Our Partners",
-    brandLogoDes:
-      "We work closely with various companies to offer the best services.",
+    brandLogoDes:"We work closely with various companies to offer the best services.",
+
+    /*Contactez-nous (contactFromTwo et contactPromoDarkbg)*/
+
+  Email : "Email Us",
+  EmailDes : "Simple drop us an email at codally.agency@outlook.com and you'll receive a reply within 24 hours.",
+
+  Tel : "Give us a call",
+  TelDes : "Give us a ring, we are standing by monday to friday from 9am to 5pm EST.",
+
+  ContactTitre : "Discuss with our sales and marketing department team",
+  ContactDes : "Are you interested in one of our services or projects? Or do you simply want to apply to join us? Let us know by filling out this form.",
+
+  Prenom : "First name",
+  Nom : "Last name",
+  Tel : "Phone",
+  mail : "Email",
+  msg : "Message",
+
+  EnvoyerFor : "Submit your message",
+
+  /* Nos projects (FeatureTwo et FeatureThree et ceux avec B et C) */
+
+  WeblerTitre :"Webler",
+  WeblerTitreDes :"Revolutionize Website Creation by Automating it with Artificial Intelligence and Then Fine-Tuning it According to Your Intentions",
+  Icône1Titre :"Intuitive User Interface",
+  Icône1Des :"We designed Webler to be accessible to everyone, regardless of technical skill level.",
+  Icône2Titre :"Advanced Customization",
+  Icône2Des :"We understand that every website is unique, which is why Webler offers extensive customization options to meet your specific needs.",
+
+  TaskaiiITitre :"Taskaii",
+  TaskaiiITitreDes :"Transform Your Time Management through a Fusion of Features Ranging from a Dynamic Task List to a Desktop Widget",
+  Icône3Titre :"Dynamic Task List",
+  Icône3Des :"Manage your tasks intuitively, with options to set duration, importance, deadlines, and prerequisites.",
+  Icône4Titre :"Alerts and Notifications",
+  Icône4Des :"Keep track of your commitments and deadlines with an effective reminder system.",
+
+  ServiceClientèleTitre :"WhatsApp Chat for Clinics",
+  ServiceClientèleDes :"Transform the patient experience with our instant customer service specifically designed for modern clinics",
+  Icône5Titre :"Time and Resource Optimization",
+  Icône1Des :"Our service reduces the workload of staff, allowing for better allocation of human resources.",
+  Icône6Titre :"Data Security",
+  Icône6Des :"With support from IntelChain, clinics benefit from enhanced data security, essential in the medical sector.",
+
+  GestionclientèleTitre :"AI Telephone Assistance",
+  GestionclientèleTitreDes :"Ease Patient Management with Dedicated AI Telephone Assistance for Clinics",
+  Icône7Titre :"Improvement of Patient Experience",
+  Icône7Des :"By simplifying the appointment scheduling process and providing personalized responses, we help improve overall patient satisfaction.",
+  Icône8Titre :"Innovative Technology",
+  Icône8Des :"Our service ensures a smooth and secure interaction, adhering to patient data confidentiality and security standards.",
+
+  ServiceFactureTitre :"Billing System",
+  ServiceFactureTitreDes :"Optimize Your Medical Management with Our Compliant and Integrated Billing System.",
+  Icône9Titre :"Integration with Other Medical Systems",
+  Icône9Des :"Our solution can be integrated with other systems used in your clinic, such as electronic medical records, for increased efficiency.",
+  Icône10Titre :"Support and Training",
+  Icône10Des :"We offer ongoing support and training to ensure your team is fully capable of using the system effectively.",
+
   },
 
   fr: {
     /* NavBarre*/
     service: "Services",
     Home: "Acceuil",
-    contact: "Contactez-nous",
+    contact: "Contactez-nous!",
     about: "Notre équipe",
 
     /* Home */
@@ -339,6 +395,62 @@ const messages = {
     brandLogoTitre: "Nos collaborateurs",
     brandLogoDes:
       "Nous travaillons conjointement avec divers société afin de proposer les meilleurs services.",
+
+  /*Contactez-nous*/
+
+  Email : "Envoyez-nous un e-mail",
+  EmailDes : "Envoyez-nous simplement un e-mail à codally.agency@outlook.com et vous recevrez une réponse dans les plus brefs délais.",
+
+  Tel : "Appelez-nous",
+  TelDes : "Appelez-nous, nous sommes disponibles du lundi au vendredi de 10h à 18h (UTC+02:00).",
+  ContactTitre : "Discutez avec notre équipe du département des ventes et du marketing",
+  ContactDes : "Un de nos services ou de nos projets vous intéresse?  Voulez-vous simplement postuler chez nous, faites le nous savoir en remplissant ce formulaire",
+
+  Prenom : "Prénom",
+  Nom : "Nom",
+  Tel : "Téléphone",
+  mail : "Émail",
+  msg : "Message",
+
+  EnvoyerFor : "Envoyer votre message",
+
+  /* Nos projects (FeatureTwo et FeatureThree et ceux avec B et C) */
+
+  WeblerTitre :"Webler",
+  WeblerTitreDes :"Révolutionnez la Création de Sites Web en l'automatisant avec l'Intelligence Artificielle pour ensuite le peaufiné selon vos intentions",
+  Icône1Titre :"Interface utilisateur intuitive",
+  Icône1Des :"Nous avons conçu Webler pour être accessible à tous, quel que soit le niveau de compétence technique.",
+  Icône2Titre :"Personnalis ation avancée",
+  Icône2Des :"Nous comprenons que chaque site web est unique, c'est pourquoi Webler offre des options de personnalisation étendues pour répondre à vos besoins spécifiques.",
+
+  TaskaiiITitre :"Taskaii",
+  TaskaiiITitreDes :"Métamorphoser votre Gestion du Temps via une fusion de fonctionnalité allant d'une liste de tâche dynamique à un widget de bureau",
+  Icône3Titre :"Liste de Tâches Dynamique ",
+  Icône3Des :"Gérez vos tâches de manière intuitive, avec des options pour définir la durée, l'importance, l'échéance et les prérequis.",
+  Icône4Titre :"Alertes et Notifications",
+  Icône4Des :"Assurez le suivi de vos engagements et échéances avec un système de rappels efficace.",
+
+  ServiceClientèleTitre :"Chat WhatsApp pour Cliniques",
+  ServiceClientèleDes :"Transformez l'expérience patient avec notre service clientèle instantané spécialement conçu pour les cliniques modernes",
+  Icône5Titre :"Optimisation du Temps et des Ressources",
+  Icône1Des :"Notre service allège la charge de travail du personnel, permettant une meilleure allocation des ressources humaines.",
+  Icône6Titre :"Sécurité des Données",
+  Icône6Des :"Avec le soutien d'IntelChain, les cliniques bénéficient d'une sécurité de données renforcée essentielle dans le secteur médical.",
+
+  GestionclientèleTitre :"Assistance Téléphonique IA",
+  GestionclientèleTitreDes :"Facilité la gestion des patient via une assistance téléphonique IA dédiée pour cliniques",
+  Icône7Titre :"Amélioration de l'Expérience Patient",
+  Icône7Des :"En simplifiant le processus de prise de rendez-vous et en fournissant des réponses personnalisées, nous aidons à améliorer la satisfaction globale des patients.",
+  Icône8Titre :"Technologie Innovante ",
+  Icône8Des :"Notre service garantit une interaction fluide et sécurisée, respectant la confidentialité et les normes de sécurité des données des patients.",
+
+  ServiceFactureTitre :"Systeme de facturation",
+  ServiceFactureTitreDes :"Optimisez votre gestion médicale avec notre système de facturation conforme et intégré.",
+  Icône9Titre :"Intégration avec d'Autres Systèmes Médicaux",
+  Icône9Des :"Notre solution peut être intégrée avec d'autres systèmes utilisés dans votre clinique, tels que les dossiers médicaux électroniques, pour une efficacité accrue.",
+  Icône10Titre :"Support et Formation ",
+  Icône10Des :"Nous offrons un support continu et des formations pour vous assurer que votre équipe est pleinement capable d'utiliser le système efficacement.",
+
   },
 };
 
