@@ -1,4 +1,4 @@
-<template>
+tec<template>
   <section class="ptb-120 bg-dark">
     <div class="container">
       <div class="row justify-content-center">
