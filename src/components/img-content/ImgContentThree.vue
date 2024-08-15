@@ -1,6 +1,7 @@
 <template>
   <div>
-    <section class="image-feature ptb-120">
+    
+    <section id="web_design" class="image-feature ptb-120">
       <div class="container">
         <div class="row justify-content-between align-items-center">
           <div class="col-lg-5 col-12">
@@ -65,7 +66,7 @@
         </div>
       </div>
     </section>
-    <section class="image-feature ptb-60">
+    <section id="app_development" class="image-feature ptb-120">
       <div class="container">
         <div class="row justify-content-between align-items-center">
           <div class="col-lg-5 col-12 order-lg-1">
@@ -134,7 +135,7 @@
         </div>
       </div>
     </section>
-    <section class="image-feature ptb-120">
+    <section id="fullstack_development"  class="image-feature ptb-120">
       <div class="container">
         <div class="row justify-content-between align-items-center">
           <div class="col-lg-5 col-12">
@@ -205,7 +206,7 @@
     </section>
   </div>
   <div>
-    <section class="image-feature ptb-120">
+    <section  id="custom_software" class="image-feature ptb-120">
       <div class="container">
         <div class="row justify-content-between align-items-center">
           <div class="col-lg-6 col-12">
@@ -247,7 +248,7 @@
       </div>
     </section>
 
-    <section class="image-feature ptb-60">
+    <section  id="ai_solutions" class="image-feature ptb-120">
   <div class="container">
     <div class="row justify-content-between align-items-center">
       <div class="col-lg-5 col-12">
@@ -289,7 +290,7 @@
   </div>
 </section>
 
-    <section class="image-feature ptb-120">
+    <section id="consulting" class="image-feature ptb-120">
       <div class="container">
         <div class="row justify-content-between align-items-center">
           <div class="col-lg-6 col-12">

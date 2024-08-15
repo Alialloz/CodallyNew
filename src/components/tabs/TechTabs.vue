@@ -84,7 +84,7 @@ tec<template>
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('desginWebLis2') }}</span></li>
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('desginWebLis3') }}</span></li>
                     </ul>
-                    <router-link to="/services" class="text-white link-with-icon text-decoration-none mt-4">{{
+                    <router-link to="/services#web_design" class="text-white link-with-icon text-decoration-none mt-4">{{
                       $t('knowMore') }}<i class="fas fa-arrow-right"></i></router-link>
                   </div>
                 </div>
@@ -108,7 +108,7 @@ tec<template>
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('developpementApplicationLis2') }}</span></li>
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('developpementApplicationLis3') }}</span></li>
                     </ul>
-                    <router-link to="/services" class="text-white link-with-icon text-decoration-none mt-4">{{
+                    <router-link to="/services#app_development" class="text-white link-with-icon text-decoration-none mt-4">{{
                       $t('knowMore') }}<i class="fas fa-arrow-right"></i></router-link>
                   </div>
                 </div>
@@ -132,7 +132,7 @@ tec<template>
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('DéveloppementFullStackLis2') }}</span></li>
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('DéveloppementFullStackLis3') }}</span></li>
                     </ul>
-                    <router-link to="/services" class="text-white link-with-icon text-decoration-none mt-4">{{
+                    <router-link to="/services#fullstack_development" class="text-white link-with-icon text-decoration-none mt-4">{{
                       $t('knowMore') }}<i class="fas fa-arrow-right"></i></router-link>
                   </div>
                 </div>
@@ -157,7 +157,7 @@ tec<template>
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('logicielsPersoLis2') }}</span></li>
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('logicielsPersoLis3') }}</span></li>
                     </ul>
-                    <router-link to="/services" class="text-white link-with-icon text-decoration-none mt-4">{{
+                    <router-link to="/services#custom_software" class="text-white link-with-icon text-decoration-none mt-4">{{
                       $t('knowMore') }}<i class="fas fa-arrow-right"></i></router-link>
                   </div>
                 </div>
@@ -180,7 +180,7 @@ tec<template>
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('solutionsIALis2') }}</span></li>
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('solutionsIALis3') }}</span></li>
                     </ul>
-                    <router-link to="/services" class="text-white link-with-icon text-decoration-none mt-4">{{
+                    <router-link to="/services#ai_solutions" class="text-white link-with-icon text-decoration-none mt-4">{{
                       $t('knowMore') }}<i class="fas fa-arrow-right"></i></router-link>
                   </div>
                 </div>
@@ -205,7 +205,7 @@ tec<template>
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('conseilLis2') }}</span></li>
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('conseilLis3') }}</span></li>
                     </ul>
-                    <router-link to="/services" class="text-white link-with-icon text-decoration-none mt-4">{{
+                    <router-link to="/services#consulting" class="text-white link-with-icon text-decoration-none mt-4">{{
                       $t('knowMore') }}<i class="fas fa-arrow-right"></i></router-link>
                   </div>
                 </div>
@@ -217,3 +217,5 @@ tec<template>
     </div>
   </section>
 </template>
+
+

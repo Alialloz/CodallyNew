@@ -323,6 +323,17 @@ const router = createRouter({
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {
       return savedPosition;
+    } else if (to.hash) {
+      // Adjust offset to account for fixed navbar
+      const offset = 80; // Adjust this value to the height of your navbar
+      const element = document.querySelector(to.hash);
+      
+      if (element) {
+        return window.scrollTo({
+          top: element.offsetTop - offset,
+          behavior: 'smooth'
+        });
+      }
     } else {
       return { top: 0, behavior: 'smooth' };
     }
