@@ -28,3 +28,10 @@ npm run dev
 ```sh
 npm run build
 ```
+
+## Auteurs :
+
+- NAYERI POOR Ali
+- BLANCON Julien 
+- GOUDE Ihab
+
