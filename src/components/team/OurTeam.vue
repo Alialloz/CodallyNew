@@ -23,7 +23,7 @@
             </div>
             <div class="team-info mt-4 text-center">
               <h5 class="h6 mb-1">Ali Nayeri</h5>
-              <p class="text-muted small mb-0">CEO - Project Manager/Business Analyst</p>
+              <p class="text-muted small mb-0">CEO - Project Manager</p>
             </div>
           </div>
         </div>
@@ -48,7 +48,7 @@
             </div>
             <div class="team-info mt-4 text-center">
               <h5 class="h6 mb-1">Morgan Chappe </h5>
-              <p class="text-muted small mb-0">Vice CEO - Data Scientist - Project Manager/Business Analyst</p>
+              <p class="text-muted small mb-0">Vice CEO - Data Scientist - Project Manager</p>
             </div>
           </div>
         </div>
@@ -73,7 +73,7 @@
             </div>
             <div class="team-info mt-4 text-center">
               <h5 class="h6 mb-1">Oswald Essongue</h5>
-              <p class="text-muted small mb-0">Project Manager - Back-end Developer</p>
+              <p class="text-muted small mb-0">Project Manager - Full Stack Developer</p>
             </div>
           </div>
         </div>
@@ -124,7 +124,7 @@
             </div>
             <div class="team-info mt-4 text-center">
               <h5 class="h6 mb-1">Seibel Edouard</h5>
-              <p class="text-muted small mb-0">Full stack intern</p>
+              <p class="text-muted small mb-0">Full Stack Intern</p>
             </div>
           </div>
         </div>
@@ -149,7 +149,7 @@
             </div>
             <div class="team-info mt-4 text-center">
               <h5 class="h6 mb-1">Mehdi Goude</h5>
-              <p class="text-muted small mb-0">Artistic Director</p>
+              <p class="text-muted small mb-0">UI/UX Designerr</p>
             </div>
           </div>
         </div>
@@ -174,7 +174,7 @@
             </div>
             <div class="team-info mt-4 text-center">
               <h5 class="h6 mb-1">Dylan Palmier</h5>
-              <p class="text-muted small mb-0">Graphic Designer</p>
+              <p class="text-muted small mb-0">UI/UX Designer</p>
             </div>
           </div>
         </div>
@@ -249,7 +249,7 @@
             </div>
             <div class="team-info mt-4 text-center">
               <h5 class="h6 mb-1">Melvin Fall</h5>
-              <p class="text-muted small mb-0">front End Developer intern</p>
+              <p class="text-muted small mb-0">Front End Developer intern</p>
             </div>
           </div>
         </div>
@@ -274,7 +274,7 @@
             </div>
             <div class="team-info mt-4 text-center">
               <h5 class="h6 mb-1">Mehddy Neris</h5>
-              <p class="text-muted small mb-0">Full stack Developer intern</p>
+              <p class="text-muted small mb-0">Front End Developer</p>
             </div>
           </div>
         </div>
@@ -299,7 +299,7 @@
             </div>
             <div class="team-info mt-4 text-center">
               <h5 class="h6 mb-1">Ihab Goude</h5>
-              <p class="text-muted small mb-0">front-End Developer intern</p>
+              <p class="text-muted small mb-0">Front End Developer</p>
             </div>
           </div>
         </div>
