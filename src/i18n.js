@@ -421,7 +421,7 @@ const messages = {
   WeblerTitreDes :"Révolutionnez la Création de Sites Web en l'automatisant avec l'Intelligence Artificielle pour ensuite le peaufiné selon vos intentions",
   Icône1Titre :"Interface utilisateur intuitive",
   Icône1Des :"Nous avons conçu Webler pour être accessible à tous, quel que soit le niveau de compétence technique.",
-  Icône2Titre :"Personnalis ation avancée",
+  Icône2Titre :"Personnalisation avancée",
   Icône2Des :"Nous comprenons que chaque site web est unique, c'est pourquoi Webler offre des options de personnalisation étendues pour répondre à vos besoins spécifiques.",
 
   TaskaiiITitre :"Taskaii",
@@ -434,11 +434,11 @@ const messages = {
   ServiceClientèleTitre :"Chat WhatsApp pour Cliniques",
   ServiceClientèleDes :"Transformez l'expérience patient avec notre service clientèle instantané spécialement conçu pour les cliniques modernes",
   Icône5Titre :"Optimisation du Temps et des Ressources",
-  Icône1Des :"Notre service allège la charge de travail du personnel, permettant une meilleure allocation des ressources humaines.",
+  Icône5Des :"Notre service allège la charge de travail du personnel, permettant une meilleure allocation des ressources humaines.",
   Icône6Titre :"Sécurité des Données",
   Icône6Des :"Avec le soutien d'IntelChain, les cliniques bénéficient d'une sécurité de données renforcée essentielle dans le secteur médical.",
 
-  GestionclientèleTitre :"Assistance Téléphonique IA",
+  GestionclientèleTitre :"Assistance Téléphonique",
   GestionclientèleTitreDes :"Facilité la gestion des patient via une assistance téléphonique IA dédiée pour cliniques",
   Icône7Titre :"Amélioration de l'Expérience Patient",
   Icône7Des :"En simplifiant le processus de prise de rendez-vous et en fournissant des réponses personnalisées, nous aidons à améliorer la satisfaction globale des patients.",
