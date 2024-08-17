@@ -73,7 +73,7 @@
             </div>
             <div class="team-info mt-4 text-center">
               <h5 class="h6 mb-1">Oswald Essongue</h5>
-              <p class="text-muted small mb-0">Project Manager - Full Stack Developer</p>
+              <p class="text-muted small mb-0">Full Stack Developer</p>
             </div>
           </div>
         </div>
@@ -124,7 +124,7 @@
             </div>
             <div class="team-info mt-4 text-center">
               <h5 class="h6 mb-1">Seibel Edouard</h5>
-              <p class="text-muted small mb-0">Full Stack Intern</p>
+              <p class="text-muted small mb-0">Full Stack Developer</p>
             </div>
           </div>
         </div>
@@ -224,7 +224,7 @@
             </div>
             <div class="team-info mt-4 text-center">
               <h5 class="h6 mb-1">Thomas Tran</h5>
-              <p class="text-muted small mb-0">Back-end Developer</p>
+              <p class="text-muted small mb-0">Back-End Developer</p>
             </div>
           </div>
         </div>
@@ -249,7 +249,7 @@
             </div>
             <div class="team-info mt-4 text-center">
               <h5 class="h6 mb-1">Melvin Fall</h5>
-              <p class="text-muted small mb-0">Front End Developer intern</p>
+              <p class="text-muted small mb-0">Front-End Developer intern</p>
             </div>
           </div>
         </div>
@@ -274,7 +274,7 @@
             </div>
             <div class="team-info mt-4 text-center">
               <h5 class="h6 mb-1">Mehddy Neris</h5>
-              <p class="text-muted small mb-0">Front End Developer</p>
+              <p class="text-muted small mb-0">Front-End Developer</p>
             </div>
           </div>
         </div>
@@ -299,7 +299,7 @@
             </div>
             <div class="team-info mt-4 text-center">
               <h5 class="h6 mb-1">Ihab Goude</h5>
-              <p class="text-muted small mb-0">Front End Developer</p>
+              <p class="text-muted small mb-0">Front-End Developer</p>
             </div>
           </div>
         </div>
