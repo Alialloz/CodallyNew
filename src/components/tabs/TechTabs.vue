@@ -72,15 +72,15 @@ tec<template>
               <div class="row align-items-center">
                 <div class="col-md-6">
                   <div class="pe-5 mb-5 mb-lg-0">
-                    <img src="@/assets/img/Services/devweb.avif" alt="" class="img-fluid" />
+                    <img src="@/assets/img/Services/devweb.avif" alt="" class="img-fluid ml-9" />
                   </div>
                 </div>    
                 <div class="col-md-6">
                   <div class="tab-right-content">
                     <!-- <h2>{{ $t('experience') }}</h2> -->
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp{{ $t('designWebDesc') }}</p>
+                    <p>&nbsp;&nbsp;{{ $t('designWebDesc') }}</p>
                     <ul class="list-unstyled">
-                      <li><i class="fas fa-check text-primary"></i><span>{{ $t('desginWebLis1') }}</span></li>
+                      <li><i class="fas fa-chec k text-primary"></i><span>{{ $t('desginWebLis1') }}</span></li>
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('desginWebLis2') }}</span></li>
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('desginWebLis3') }}</span></li>
                     </ul>
@@ -96,13 +96,13 @@ tec<template>
               <div class="row align-items-center">
                 <div class="col-md-6">
                   <div class="pe-5 mb-5 mb-lg-0">
-                    <img src="@/assets/img/Services/appdev.avif" alt="" class="img-fluid" />
+                    <img src="@/assets/img/Services/appdev.avif" alt="" class="img-fluid ml-9" />
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="tab-right-content">
                     <!-- <h2>{{ $t('devAppMobile') }}</h2> -->
-                    <p>{{ $t('developpementApplicationDesc') }}</p>
+                    <p>&nbsp;&nbsp;{{ $t('developpementApplicationDesc') }}</p>
                     <ul class="list-unstyled">
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('developpementApplicationLis1') }}</span></li>
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('developpementApplicationLis2') }}</span></li>
@@ -120,13 +120,13 @@ tec<template>
               <div class="row align-items-center">
                 <div class="col-md-6">
                   <div class="mb-5 mb-lg-0">
-                    <img src="@/assets/img/Services/customsoftware.avif" alt="" class="img-fluid" />
+                    <img src="@/assets/img/Services/customsoftware.avif" alt="" class="img-fluid ml-9" />
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="tab-right-content">
                     <!--<h2>{{ $t('devWeb') }}</h2>-->
-                    <p>{{ $t('DéveloppementFullStackDesc') }}</p>
+                    <p>&nbsp;&nbsp;{{ $t('DéveloppementFullStackDesc') }}</p>
                     <ul class="list-unstyled">
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('DéveloppementFullStackLis1') }}</span></li>
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('DéveloppementFullStackLis2') }}</span></li>
@@ -145,13 +145,13 @@ tec<template>
               <div class="row align-items-center">
                 <div class="col-md-6">
                   <div class="mb-5 mb-lg-0">
-                    <img src="@/assets/img/Services/fullstack.avif" alt="" class="img-fluid" />
+                    <img src="@/assets/img/Services/fullstack.avif" alt="" class="img-fluid ml-9" />
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="tab-right-content">
                     <!-- <h2>{{ $t('customSoftware') }}</h2> -->
-                    <p>{{ $t('logicielsPersoDesc') }}</p>
+                    <p>&nbsp;&nbsp;{{ $t('logicielsPersoDesc') }}</p>
                     <ul class="list-unstyled">
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('logicielsPersoLis1') }}</span></li>
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('logicielsPersoLis2') }}</span></li>
@@ -169,12 +169,12 @@ tec<template>
               <div class="row align-items-center">
                 <div class="col-md-6">
                   <div class="mb-5 mb-lg-0">
-                    <img src="@/assets/img/Services/solutions.avif" alt="" class="img-fluid" />
+                    <img src="@/assets/img/Services/solutions.avif" alt="" class="img-fluid ml-9" />
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="tab-right-content">
-                    <p>{{ $t('solutionIADesc') }}</p>
+                    <p>&nbsp;&nbsp;{{ $t('solutionIADesc') }}</p>
                     <ul class="list-unstyled">
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('solutionsIALis1') }}</span></li>
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('solutionsIALis2') }}</span></li>
@@ -193,13 +193,13 @@ tec<template>
               <div class="row align-items-center">
                 <div class="col-md-6">
                   <div class="mb-5 mb-lg-0">
-                    <img src="@/assets/img/Services/strategy.avif" alt="" class="img-fluid" />
+                    <img src="@/assets/img/Services/strategy.avif" alt="" class="img-fluid ml-9" />
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="tab-right-content">
                     <!-- <h2>{{ $t('techConsulting') }}</h2> -->
-                    <p>{{ $t('conseilDesc') }}</p>
+                    <p>&nbsp;&nbsp;{{ $t('conseilDesc') }}</p>
                     <ul class="list-unstyled">
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('conseilLis1') }}</span></li>
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('conseilLis2') }}</span></li>

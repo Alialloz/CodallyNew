@@ -66,7 +66,7 @@
         </div>
       </div>
     </section>
-    <section id="app_development" class="image-feature ptb-120">
+    <section id="app_development" class="image-feature ptb-120 bg-custom">
       <div class="container">
         <div class="row justify-content-between align-items-center">
           <div class="col-lg-5 col-12 order-lg-1">
@@ -206,12 +206,12 @@
     </section>
   </div>
   <div>
-    <section  id="custom_software" class="image-feature ptb-120">
+    <section  id="custom_software" class="image-feature ptb-120 bg-custom">
       <div class="container">
         <div class="row justify-content-between align-items-center">
           <div class="col-lg-6 col-12">
             <div class="feature-img-holder p-5">
-              <div class="p-5 bg-danger-soft position-relative rounded-custom d-block feature-img-wrap">
+              <div class="p-5 bg-primary-soft position-relative rounded-custom d-block feature-img-wrap">
                 <div class="position-relative">
                   <img src="@/assets/img/screen/widget-5.png" class="img-fluid rounded-custom position-relative" alt="feature-image" data-aos="fade-up" data-aos-delay="50" />
                   <img src="@/assets/img/screen/widget-3.png" class="img-fluid rounded-custom shadow position-absolute bottom--100 right--100 hide-medium" alt="feature-image" data-aos="fade-up" data-aos-delay="100" />
@@ -277,7 +277,7 @@
       </div>
       <div class="col-lg-6 col-12">
         <div class="feature-img-holder p-5">
-          <div class="bg-primary-soft p-5 rounded-custom position-relative d-block feature-img-wrap">
+          <div class="bg-danger-soft p-5 rounded-custom position-relative d-block feature-img-wrap">
             <div class="position-relative">
               <img src="@/assets/img/screen/widget-8.png" class="img-fluid rounded-custom position-relative" alt="feature-image" data-aos="fade-up" data-aos-delay="50" />
               <img src="@/assets/img/screen/widget-6.png" class="img-fluid rounded-custom shadow position-absolute top--100 left--100 hide-medium" alt="feature-image" data-aos="fade-up" data-aos-delay="100" />
@@ -290,12 +290,12 @@
   </div>
 </section>
 
-    <section id="consulting" class="image-feature ptb-120">
+    <section id="consulting" class="image-feature ptb-120 bg-custom">
       <div class="container">
         <div class="row justify-content-between align-items-center">
           <div class="col-lg-6 col-12">
             <div class="feature-img-holder p-5">
-              <div class="bg-danger-soft p-5 rounded-custom position-relative d-block feature-img-wrap">
+              <div class="bg-primary-soft p-5 rounded-custom position-relative d-block feature-img-wrap">
                 <div class="position-relative">
                   <img src="@/assets/img/screen/widget-9.png" class="img-fluid rounded-custom position-relative" alt="feature-image" data-aos="fade-up" data-aos-delay="50" />
                   <img src="@/assets/img/screen/widget-10.png" class="img-fluid rounded-custom shadow position-absolute top--100 right--100 hide-medium" alt="feature-image" data-aos="fade-up" data-aos-delay="100" />

@@ -89,6 +89,8 @@ const messages = {
     conseilLis2: "Technology audit",
     conseilLis3: "Digital transformation",
 
+    knowMore: "Learn more about our services",
+
      /* Collaboration home (integrationOne)*/
 
      tireCollab : "Our Partnerships",
@@ -275,8 +277,7 @@ const messages = {
       "Nous offrons un large éventail de services dans le domaine informatique, nous garantissons une réponse sur mesure à tous vos besoins allant du développement aux conseils en passant par le machine learning.",
 
     designWeb: "Développement Web",
-    designWebDesc:
-      "Réalisez vos projets en les rendant concrets et accessibles sur internet grâce à un site web. Notre différence, une équipe artistique pour des designs originaux, en contact direct avec vous et une équipe en développement web fournissant des solutions adaptatives et innovantes.",
+    designWebDesc: "Réalisez vos projets en les rendant concrets et accessibles sur internet grâce à un site web. Notre différence, une équipe artistique pour des designs originaux, en contact direct avec vous et une équipe en développement web fournissant des solutions adaptatives et innovantes.",
     desginWebLis1: "Sites responsives.",
     desginWebLis2: "Intégration CMS",
     desginWebLis3: "Optimisation SEO",
@@ -315,7 +316,7 @@ const messages = {
     conseilLis2: "Audit technologique",
     conseilLis3: "Transformation digitale",
 
-    knowMore: "En savoir plus nos services",
+    knowMore: "En savoir plus sur nos services",
 
      /* Collaboration home (integrationOne)*/
 

@@ -19,7 +19,7 @@
 
         <div class="collapse navbar-collapse justify-content-center">
           <ul class="nav col-12 col-md-auto justify-content-center main-menu">
-            <li class="nav-item dropdown">
+           <!--  <li class="nav-item dropdown">
              <a
                 class="nav-link dropdown-toggle"
                 href="#"
@@ -197,7 +197,7 @@
                   </div>
                 </div>
               </div>
-            </li>
+            </li> -->
             <li>
               <router-link to="/" class="nav-link">{{ $t('Home') }}</router-link>
             </li>
@@ -210,7 +210,7 @@
             <li class="nav-item">
               <router-link to="/contact" class="nav-link">{{ $t('about') }}</router-link>
             </li>
-            <li class="nav-item dropdown">
+            <!-- <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">Pages</a>
               <div class="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
@@ -287,7 +287,7 @@
                   </div>
                 </div> 
                </div> 
-            </li> 
+            </li> --> 
           </ul>
         </div>
         <div class="action-btns text-end me-5 me-lg-0 d-none d-md-block d-lg-block">
