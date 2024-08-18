@@ -38,7 +38,7 @@
           >
             <div class="service-icon icon-center">
               <img
-                src="src\assets\img\taskaii.png"
+                src="src\assets\img\taskaii.svg"
                 alt="Icône du logiciel taskaii"
                 width="65"
                 height="65"
@@ -107,7 +107,7 @@
           </div>
         </div>
       </div>
-      
+
     </div>
   </section>
 </template>

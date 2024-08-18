@@ -6,7 +6,7 @@
           <ul class="customer-logos-grid text-center list-unstyled mb-0">
             <li>
               <img
-                src="@/assets/img/clients/client-logo-1.svg"
+                src="@/assets/img/clients/800px-UQAC_Logo.png"
                 width="150"
                 alt="clients logo"
                 class="img-fluid customer-logo-gray p-1 p-md-2 p-lg-3 m-auto"
