@@ -55,7 +55,7 @@
         <div class="col-lg-3 col-md-6">
           <div class="team-single-wrap mb-5">
             <div class="team-img rounded-custom">
-              <img src="@/assets/img/team/team-3.jpg" alt="team" class="img-fluid position-relative" />
+              <img src="@/assets/img/team/team-33.jpg" alt="team" class="img-fluid position-relative" />
               <ul class="list-unstyled team-social-list d-flex flex-column mb-0">
                 <li class="list-inline-item">
                   <a href="#"><i class="fab fa-linkedin-in"></i></a>
@@ -156,7 +156,7 @@
         <div class="col-lg-3 col-md-6">
           <div class="team-single-wrap mb-5">
             <div class="team-img rounded-custom">
-              <img src="@/assets/img/team/team-7.jpg" alt="team" class="img-fluid position-relative" />
+              <img src="@/assets/img/team/team-77.jpg" alt="team" class="img-fluid position-relative" />
               <ul class="list-unstyled team-social-list d-flex flex-column mb-0">
                 <li class="list-inline-item">
                   <a href="#"><i class="fab fa-linkedin-in"></i></a>
