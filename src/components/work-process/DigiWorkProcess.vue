@@ -39,11 +39,7 @@
                   class="d-md-flex justify-content-between align-items-center mb-3"
                 >
                   <div class="me-3">
-                    <img
-                      src="@/assets/img/icons/st-1.png"
-                      class="img-fluid mb-3 mb-md-0"
-                      alt="icons"
-                    />
+
                   </div>
                   <div>
                     <span class="text-orange fw-bold">Step 1</span>
@@ -58,11 +54,7 @@
                   class="d-md-flex justify-content-between align-items-center mb-3"
                 >
                   <div class="me-3">
-                    <img
-                      src="@/assets/img/icons/st-2.png"
-                      class="img-fluid mb-3 mb-md-0"
-                      alt="icons"
-                    />
+
                   </div>
                   <div>
                     <span class="text-orange fw-bold">Step 2</span>
@@ -77,11 +69,7 @@
                   class="d-md-flex justify-content-between align-items-center"
                 >
                   <div class="me-3">
-                    <img
-                      src="@/assets/img/icons/st-3.png"
-                      class="img-fluid mb-3 mb-md-0"
-                      alt="icons"
-                    />
+                    
                   </div>
                   <div>
                     <span class="text-orange fw-bold">Step 3</span>

@@ -4,7 +4,7 @@
       <div class="row align-items-center">
         <div class="col-lg-6">
           <div class="about-left text-lg-center mb-32 mb-lg-0">
-            <img src="src\assets\img\globeTerrestre.png" alt="Image d'un globe terrestre représentant divers connexion à travers le monde (codally équipe) " class="img-fluid" />
+            <img src="\src\assets\img\globeTerrestre.png" alt="Image d'un globe terrestre représentant divers connexion à travers le monde (codally équipe) " class="img-fluid" />
           </div>
         </div>
         <div class="col-lg-6">

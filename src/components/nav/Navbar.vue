@@ -7,7 +7,7 @@
       <div class="container d-flex align-items-center justify-content-lg-between position-relative">
         <router-link to="/" class="navbar-brand d-flex align-items-center mb-md-0 text-decoration-none">
           <img src="@/assets/img/logo-white.png" alt="Logo" class="img-fluid logo-white" />
-          <img src="src\assets\img\logoCodallyFondTransparent.png" alt="Logo de l'entreprise codally"
+          <img src="/src\assets\img\logoCodallyFondTransparent.png" alt="Logo de l'entreprise codally"
             class="img-fluid logo-color" />
         </router-link>
 
@@ -283,11 +283,11 @@
                     <router-link to="/coming-soon" class="dropdown-link">
                       <span class="me-2"><i class="far fa-clock"></i></span>
                       <div class="drop-title">Coming Soon</div>
-                    </router-link> 
+                    </router-link>
                   </div>
-                </div> 
-               </div> 
-            </li> --> 
+                </div>
+               </div>
+            </li> -->
           </ul>
         </div>
         <div class="action-btns text-end me-5 me-lg-0 d-none d-md-block d-lg-block">
@@ -316,7 +316,7 @@
       </li>
       <li>
         <a class="dropdown-item" href="#" @click="changeLanguage('en')">
-          <img src="@/assets/img/flags/US.jpg" alt="English (EN)" class="language-icon" /> English (EN) 
+          <img src="@/assets/img/flags/US.jpg" alt="English (EN)" class="language-icon" /> English (EN)
         </a>
       </li>
     </ul>
@@ -350,7 +350,7 @@ export default {
     const storedLanguage = localStorage.getItem('selectedLanguage') || 'fr';
     locale.value = storedLanguage;
 
-    const currentFlag = computed(() => 
+    const currentFlag = computed(() =>
       locale.value === 'fr' ? FRFlag : USFlag
     );
 
@@ -394,6 +394,3 @@ export default {
   },
 };
 </script>
-
-
-

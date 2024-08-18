@@ -23,12 +23,7 @@
                 </div>
                 <div class="swiper-slide">
                   <div class="single-logo">
-                    <img
-                      src="@/assets/img/brand-logo/facebook.svg"
-                      class="img-fluid"
-                      alt="logo"
-                      height="30"
-                    />
+
                   </div>
                 </div>
                 <div class="swiper-slide">
@@ -43,12 +38,7 @@
                 </div>
                 <div class="swiper-slide">
                   <div class="single-logo">
-                    <img
-                      src="@/assets/img/brand-logo/printerest.svg"
-                      class="img-fluid"
-                      alt="logo"
-                      height="30"
-                    />
+                  
                   </div>
                 </div>
                 <div class="swiper-slide">
@@ -63,12 +53,7 @@
                 </div>
                 <div class="swiper-slide">
                   <div class="single-logo">
-                    <img
-                      src="@/assets/img/brand-logo/company.svg"
-                      class="img-fluid"
-                      alt="logo"
-                      height="30"
-                    />
+
                   </div>
                 </div>
               </div>

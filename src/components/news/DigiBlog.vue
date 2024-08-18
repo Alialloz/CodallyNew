@@ -24,11 +24,7 @@
           <div class="digi-blog-single border p-3 rounded mb-4 mb-lg-4">
             <router-link to="/news-details">
               <div class="digi-blog-thumb">
-                <img
-                  src="@//assets/img/blog/d-blog-1.jpg"
-                  class="img-fluid w-100 rounded-top"
-                  alt="Person"
-                />
+
                 <span class="d-tag marketing">Marketing</span>
               </div>
             </router-link>
@@ -58,11 +54,7 @@
           <div class="digi-blog-single border p-3 rounded mb-4 mb-lg-0">
             <router-link to="/news-details">
               <div class="digi-blog-thumb">
-                <img
-                  src="@//assets/img/blog/d-blog-2.jpg"
-                  class="img-fluid w-100 rounded-top"
-                  alt="Person"
-                />
+                
                 <span class="d-tag design">Marketing</span>
               </div>
             </router-link>

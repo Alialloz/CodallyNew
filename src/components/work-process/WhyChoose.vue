@@ -49,7 +49,6 @@
               <ul class="list-unstyled mb-0 mt-5">
                 <li class="d-flex p-3 align-items-center">
                   <div class="me-3">
-                    <img src="@/assets/img/icons/dw-i-1.svg" alt="icon" />
                   </div>
                   <div>
                     <h4 class="mb-0">250+</h4>
@@ -58,11 +57,7 @@
                 </li>
                 <li class="pe-4 d-flex p-3 align-items-center">
                   <div class="me-3">
-                    <img
-                      src="@/assets/img/icons/dw-i-2.svg"
-                      class="img-fluid"
-                      alt="icon"
-                    />
+
                   </div>
                   <div>
                     <h4 class="mb-0">540+</h4>
@@ -71,11 +66,7 @@
                 </li>
                 <li class="pe-4 d-flex p-3 align-items-center">
                   <div class="me-3">
-                    <img
-                      src="@/assets/img/icons/dw-i-3.svg"
-                      class="img-fluid"
-                      alt="icon"
-                    />
+
                   </div>
                   <div>
                     <h4 class="mb-0">80+</h4>
@@ -84,11 +75,7 @@
                 </li>
                 <li class="pe-4 d-flex p-3 align-items-center">
                   <div class="me-3">
-                    <img
-                      src="@/assets/img/icons/dw-i-4.svg"
-                      class="img-fluid"
-                      alt="icon"
-                    />
+                    
                   </div>
                   <div>
                     <h4 class="mb-0">99%</h4>

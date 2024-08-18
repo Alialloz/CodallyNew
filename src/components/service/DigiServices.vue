@@ -18,7 +18,7 @@
       <div class="row justify-content-center">
         <div class="col-lg-6 col-md-6 col-xl-3">
           <div class="digi-service-single mb-4 mb-xl-0">
-            <img src="@/assets/img/icons/d-1.svg" alt="icon" />
+
             <h3 class="h5">Paid Advertising</h3>
             <p>
               Proactively recaptiualize multidisciplinary manufactured products
@@ -33,7 +33,7 @@
         </div>
         <div class="col-lg-6 col-md-6 col-xl-3">
           <div class="digi-service-single mb-4 mb-xl-0">
-            <img src="@/assets/img/icons/d-2.svg" alt="icon" />
+
             <h3 class="h5">Content Marketing</h3>
             <p>
               Assertively negotiate adaptive human capital and collaboration and
@@ -48,7 +48,6 @@
         </div>
         <div class="col-lg-6 col-md-6 col-xl-3">
           <div class="digi-service-single mb-4 mb-xl-0">
-            <img src="@/assets/img/icons/d-3.svg" alt="icon" />
             <h3 class="h5">Content Marketing</h3>
             <p>
               Globally promote long-term high-impact resources and goal-oriented
@@ -63,7 +62,7 @@
         </div>
         <div class="col-lg-6 col-md-6 col-xl-3">
           <div class="digi-service-single mb-4 mb-xl-0">
-            <img src="@/assets/img/icons/d-4.svg" alt="icon" />
+
             <h3 class="h5">Youtube Marketing</h3>
             <p>
               Globally utilize emerging networks through team driven models

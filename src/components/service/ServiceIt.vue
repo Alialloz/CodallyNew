@@ -18,7 +18,7 @@
           >
             <div class="service-icon icon-center">
               <img
-                src="src\assets\img\webler.png"
+                src="\src\assets\img\webler.png"
                 alt="Icône du logiciel webler"
                 width="65"
                 height="65"
@@ -38,7 +38,7 @@
           >
             <div class="service-icon icon-center">
               <img
-                src="src\assets\img\taskaii.svg"
+                src="\src\assets\img\taskaii.svg"
                 alt="Icône du logiciel taskaii"
                 width="65"
                 height="65"
@@ -56,7 +56,7 @@
           <div class="single-service p-lg-5 p-4 text-center mt-3 border-bottom">
             <div class="service-icon icon-center">
               <img
-                src="src\assets\img\whatsapp.png"
+                src="\src\assets\img\whatsapp.png"
                 alt="Icône du logiciel de messagerie"
                 width="65"
                 height="65"
@@ -74,7 +74,7 @@
           <div class="single-service p-lg-5 p-4 text-center border-end">
             <div class="service-icon icon-center">
               <img
-                src="src\assets\img\serviceClient.png"
+                src="\src\assets\img\serviceClient.png"
                 alt="Icône du service client"
                 width="65"
                 height="65"
@@ -92,7 +92,7 @@
           <div class="single-service p-lg-5 p-4 text-center border-end">
             <div class="service-icon icon-center">
               <img
-                src="src\assets\img\logicielDeFacturation.png"
+                src="\src\assets\img\logicielDeFacturation.png"
                 alt="Icône du logiciel de facturation"
                 width="65"
                 height="65"

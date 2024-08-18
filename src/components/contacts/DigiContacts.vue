@@ -20,14 +20,14 @@
             >
               <li class="pe-4">
                 <div class="bg-white contact-box mb-4 mb-md-0">
-                  <img src="@/assets/img/icons/c-i-1.svg" alt="icon" />
+
                   <h4 class="h5">Email Address</h4>
                   <p class="fw-bold">themetags@support.com</p>
                 </div>
               </li>
               <li>
                 <div class="bg-white contact-box">
-                  <img src="@/assets/img/icons/c-i-2.svg" alt="icon" />
+                
                   <h4 class="h5">Phone</h4>
                   <p class="fw-bold">+80 1789 1456 456</p>
                 </div>

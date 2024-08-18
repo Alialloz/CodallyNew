@@ -13,10 +13,10 @@ Section d'intégration (version mise à jour)
               data-bs-placement="top"
               title="Your Brand Name"
               target="_blank"
-              rel="noopener noreferrer"  
+              rel="noopener noreferrer"
             >
               <img
-                src="src/assets/img/LogoLavicennes.png"
+                src="/src/assets/img/LogoLavicennes.png"
                 alt="integration"
                 class="img-fluid rounded-circle"
               />
@@ -44,7 +44,7 @@ Section d'intégration (version mise à jour)
               rel="noopener noreferrer"
             >
               <img
-                src="src/assets/img/logoIntelChain.png"
+                src="/src/assets/img/logoIntelChain.png"
                 alt="integration"
                 class="img-fluid rounded-circle"
               />
