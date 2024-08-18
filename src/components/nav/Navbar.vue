@@ -199,16 +199,16 @@
               </div>
             </li> -->
             <li>
-              <router-link to="/" class="nav-link">{{ $t('Home') }}</router-link>
+              <router-link to="/" class="nav-link">&nbsp&nbsp{{ $t('Home') }}&nbsp&nbsp&nbsp</router-link>
             </li>
             <li>
-              <router-link to="/services" class="nav-link">{{ $t('service') }}</router-link>
+              <router-link to="/services" class="nav-link">&nbsp&nbsp{{ $t('service') }}&nbsp&nbsp</router-link>
             </li>
             <li>
-              <router-link to="/about-us" class="nav-link">{{ $t('Project') }}</router-link>
+              <router-link to="/about-us" class="nav-link">&nbsp&nbsp{{ $t('Project') }}&nbsp&nbsp</router-link>
             </li>
             <li class="nav-item">
-              <router-link to="/contact" class="nav-link">{{ $t('about') }}</router-link>
+              <router-link to="/contact" class="nav-link">&nbsp&nbsp{{ $t('about') }}&nbsp&nbsp</router-link>
             </li>
             <!-- <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -331,7 +331,7 @@
 
 <script>
 import { useI18n } from 'vue-i18n';
-import { ref, computed } from 'vue';
+import { ref, computed, onMounted, watch } from 'vue';
 import Offcanvas from './Offcanvas.vue';
 import USFlag from '@/assets/img/flags/US.jpg';
 import FRFlag from '@/assets/img/flags/FR.png';
@@ -347,16 +347,29 @@ export default {
     const { locale } = useI18n();
     const isDropdownOpen = ref(false);
 
-    locale.value = 'fr';
+    const storedLanguage = localStorage.getItem('selectedLanguage') || 'fr';
+    locale.value = storedLanguage;
 
     const currentFlag = computed(() => 
-  locale.value === 'fr' ? FRFlag : USFlag
-  );
+      locale.value === 'fr' ? FRFlag : USFlag
+    );
 
     function changeLanguage(lang) {
       locale.value = lang;
       isDropdownOpen.value = false;
+      localStorage.setItem('selectedLanguage', lang);
     }
+
+    watch(locale, (newLocale) => {
+      localStorage.setItem('selectedLanguage', newLocale);
+    });
+
+    onMounted(() => {
+      const savedLanguage = localStorage.getItem('selectedLanguage');
+      if (savedLanguage) {
+        locale.value = savedLanguage;
+      }
+    });
 
     return {
       isDropdownOpen,

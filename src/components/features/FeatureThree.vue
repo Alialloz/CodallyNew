@@ -1,4 +1,18 @@
 <template>
+    <section
+    class="position-relative overflow-hidden ptb-120 bg-dark" style="background-image: url('src/assets/img/shop_bg.png'); background-size: cover; background-position: center;"
+  >
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-12">
+          <h1 class="display-5 fw-bold">{{ $t('Slo') }}</h1>
+          <p class="lead">
+            &nbsp&nbsp{{ $t('SloDef') }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
   <section class="feature-section ptb-120">
     <div class="container">
       <div class="row align-items-center justify-content-between">

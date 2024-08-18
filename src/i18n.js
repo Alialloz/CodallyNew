@@ -194,6 +194,9 @@ const messages = {
 
   /* Nos projects (FeatureThree ) */
 
+  Slo : "The future of your business starts here",
+  SloDef : "In an increasingly connected world, our digital solutions push the boundaries of innovation, leveraging artificial intelligence, we create projects that turn your data into opportunities, optimize your processes, and anticipate the needs of tomorrow",
+
   WeblerTitre :"Webler",
   WeblerTitreDes :"Revolutionize Website Creation by Automating it with Artificial Intelligence and Then Fine-Tuning it According to Your Intentions",
   Icône1Titre :"Intuitive User Interface",
@@ -228,6 +231,13 @@ const messages = {
   Icône9Des :"Our solution can be integrated with other systems used in your clinic, such as electronic medical records, for increased efficiency.",
   Icône10Titre :"Support and Training",
   Icône10Des :"We offer ongoing support and training to ensure your team is fully capable of using the system effectively.",
+
+    /* Footer */
+
+    Souscription: "Our latest news, articles, and resources, we will sent to your inbox weekly",
+    important: "Essential Page",
+    apropo: "About Us",
+    autre: "Other",
 
   },
 
@@ -417,6 +427,9 @@ const messages = {
 
   /* Nos projects (FeatureThree) */
 
+  Slo : "Le futur de votre entreprise commence ici",
+  SloDef : "Dans un monde toujours plus connecté, nos solutions numériques repoussent les limites de l’innovation, grâce à l’intelligence artificielle, nous créons des projets qui transforment vos données en opportunités, optimisent vos processus et anticipent les besoins de demain",
+
   WeblerTitre :"Webler",
   WeblerTitreDes :"Révolutionnez la Création de Sites Web en l'automatisant avec l'Intelligence Artificielle pour ensuite le peaufiné selon vos intentions",
   Icône1Titre :"Interface utilisateur intuitive",
@@ -451,6 +464,14 @@ const messages = {
   Icône9Des :"Notre solution peut être intégrée avec d'autres systèmes utilisés dans votre clinique, tels que les dossiers médicaux électroniques, pour une efficacité accrue.",
   Icône10Titre :"Support et Formation ",
   Icône10Des :"Nous offrons un support continu et des formations pour vous assurer que votre équipe est pleinement capable d'utiliser le système efficacement.",
+
+  /* Footer */
+  
+  Souscription: "Nos dernières actualités, articles et ressources vous seront envoyés par e-mail chaque semaine",
+
+  important: "Page essentiel",
+  apropo: "À propos de nous",
+  autre: "Autre",
 
   },
 };

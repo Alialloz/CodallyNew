@@ -3,8 +3,8 @@
     <!--footer top start-->
     <!--for light footer add .footer-light class and for dark footer add .bg-dark .text-white class-->
     <div
-      class="footer-top ptb-120"
-      :class="footerDark ? 'bg-gradient text-white' : 'footer-light'"
+      class="footer-top ptb-120 bg"
+      :class="footerDark ? 'bg-gradient text-white' : 'dark-bg'"
     >
       <div class="container">
         <div class="row justify-content-between">
@@ -23,8 +23,7 @@
                 />
               </div>
               <p>
-                Our latest news, articles, and resources, we will sent to your
-                inbox weekly.
+                {{ $t('Souscription') }}
               </p>
 
               <form
@@ -55,16 +54,11 @@
             <div class="row">
               <div class="col-md-4 col-lg-4 mt-4 mt-md-0 mt-lg-0">
                 <div class="footer-single-col">
-                  <h3>Primary Pages</h3>
+                  <h3>{{ $t('important') }}</h3>
                   <ul class="list-unstyled footer-nav-list mb-lg-0">
                     <li>
                       <router-link to="/" class="text-decoration-none"
-                        >Home</router-link
-                      >
-                    </li>
-                    <li>
-                      <router-link to="/about-us" class="text-decoration-none"
-                        >About Us</router-link
+                        >{{ $t('Home') }}</router-link
                       >
                     </li>
                     <li>
@@ -72,107 +66,33 @@
                         >Services</router-link
                       >
                     </li>
-                    <li>
-                      <router-link to="/career" class="text-decoration-none"
-                        >Career</router-link
-                      >
-                    </li>
-                    <li>
-                      <router-link
-                        to="/integrations"
-                        class="text-decoration-none"
-                        >Integrations</router-link
-                      >
-                    </li>
-                    <li>
-                      <router-link
-                        to="/integration-single"
-                        class="text-decoration-none"
-                        >Integration Single</router-link
-                      >
-                    </li>
                   </ul>
                 </div>
               </div>
               <div class="col-md-4 col-lg-4 mt-4 mt-md-0 mt-lg-0">
                 <div class="footer-single-col">
-                  <h3>Pages</h3>
+                  <h3>{{ $t('apropo') }}</h3>
                   <ul class="list-unstyled footer-nav-list mb-lg-0">
-                    <li>
-                      <router-link to="/pricing" class="text-decoration-none"
-                        >Pricing</router-link
-                      >
-                    </li>
-                    <li>
-                      <router-link to="/news" class="text-decoration-none"
-                        >News</router-link
-                      >
-                    </li>
-                    <li>
-                      <router-link
-                        to="/news-details"
-                        class="text-decoration-none"
-                        >News Details</router-link
-                      >
-                    </li>
-                    <li>
-                      <router-link to="/contact" class="text-decoration-none"
-                        >Contact</router-link
-                      >
-                    </li>
-                    <li>
-                      <router-link
-                        to="/career-single"
-                        class="text-decoration-none"
-                        >Career Single</router-link
-                      >
-                    </li>
-                    <li>
-                      <router-link
-                        to="/service-single"
-                        class="text-decoration-none"
-                        >Services Single</router-link
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-md-4 col-lg-4 mt-4 mt-md-0 mt-lg-0">
-                <div class="footer-single-col">
-                  <h3>Template</h3>
-                  <ul class="list-unstyled footer-nav-list mb-lg-0">
-                    <li>
-                      <router-link to="/contact" class="text-decoration-none"
-                        >Contact</router-link
-                      >
-                    </li>
-                    <li>
-                      <router-link to="/support" class="text-decoration-none"
-                        >Support</router-link
-                      >
-                    </li>
-                    <li>
-                      <router-link
-                        to="/help-single"
-                        class="text-decoration-none"
-                        >Support Single</router-link
-                      >
-                    </li>
                     <li>
                       <router-link to="/about-us" class="text-decoration-none"
-                        >Our Team</router-link
+                        >{{ $t('Project') }}</router-link
+                      >
+                      <li>
+                      <router-link to="/contact" class="text-decoration-none"
+                        >{{ $t('notreÉquipe') }}</router-link
                       >
                     </li>
-                    <li>
-                      <router-link to="/login" class="text-decoration-none"
-                        >User Login</router-link
-                      >
                     </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4 col-lg-4 mt-4 mt-md-0 mt-lg-0">
+                <div class="footer-single-col">
+                  <h3>{{ $t('autre') }}</h3>
+                  <ul class="list-unstyled footer-nav-list mb-lg-0">
                     <li>
-                      <router-link
-                        to="/career-single"
-                        class="text-decoration-none"
-                        >Career Single</router-link
+                      <router-link to="/request-for-demo" class="text-decoration-none"
+                        >{{ $t('contact') }}</router-link
                       >
                     </li>
                   </ul>
@@ -206,16 +126,10 @@
             <div class="footer-single-col text-start text-lg-end text-md-end">
               <ul class="list-unstyled list-inline footer-social-list mb-0">
                 <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="https://www.facebook.com/people/CodAlly/61556088625053/?is_tour_dismissed=true"><i class="fab fa-facebook-f"></i></a>
                 </li>
                 <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-instagram"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-dribbble"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-github"></i></a>
+                  <a href="https://ca.linkedin.com/company/codally"><i class="fab fa-linkedin"></i></a>
                 </li>
               </ul>
             </div>
@@ -223,7 +137,6 @@
         </div>
       </div>
     </div>
-    <!--footer bottom end-->
   </footer>
 </template>
 

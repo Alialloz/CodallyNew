@@ -9,7 +9,7 @@
               <div class="section-heading" data-aos="fade-up">
                 <h2>{{ $t('designWeb') }}</h2>
                 <p>
-                  {{ $t('DevelopementWebTexte') }}
+                  &nbsp&nbsp{{ $t('DevelopementWebTexte') }}
                 </p>
               </div>
               <ul
@@ -22,7 +22,7 @@
                     <i class="fas fa-users text-white bg-primary rounded"></i>
                   </div>
                   <h3 class="h5">{{ $t('DWiconetitre1') }}</h3>
-                  <p>{{ $t('DWiconetexte1') }}</p>
+                  <p>&nbsp{{ $t('DWiconetexte1') }}</p>
                 </li>
                 <li>
                   <div class="icon-box">
@@ -30,7 +30,7 @@
                   </div>
                   <h3 class="h5">{{ $t('DWiconetitre2') }}</h3>
                   <p>
-                    {{ $t('DWiconetexte2') }}
+                    &nbsp{{ $t('DWiconetexte2') }}
                   </p>
                 </li>
               </ul>
@@ -74,7 +74,7 @@
               <div class="section-heading" data-aos="fade-up">
                 <h2>{{ $t('developpementApplication') }}</h2>
                 <p>
-                  {{ $t('DevelopementmobileTexte') }}
+                  &nbsp&nbsp{{ $t('DevelopementmobileTexte') }}
                 </p>
               </div>
               <ul
@@ -90,7 +90,7 @@
                   </div>
                   <h3 class="h5">{{ $t('DMiconetitre1') }}</h3>
                   <p>
-                    {{ $t('DMiconetexte1') }}
+                    &nbsp{{ $t('DMiconetexte1') }}
                   </p>
                 </li>
                 <li>
@@ -99,7 +99,7 @@
                   </div>
                   <h3 class="h5">{{ $t('DMiconetitre2') }}</h3>
                   <p>
-                    {{ $t('DMiconetexte2') }}
+                    &nbsp{{ $t('DMiconetexte2') }}
                   </p>
                 </li>
               </ul>
@@ -143,7 +143,7 @@
               <div class="section-heading" data-aos="fade-up">
                 <h2>{{ $t('DéveloppementFullStack') }}</h2>
                 <p>
-                  {{ $t('DevelopementFullStackTexte') }}
+                  &nbsp&nbsp{{ $t('DevelopementFullStackTexte') }}
                 </p>
               </div>
               <ul
@@ -159,7 +159,7 @@
                   </div>
                   <h3 class="h5">{{ $t('DFTiconetitre1') }}</h3>
                   <p>
-                    {{ $t('DFTiconetexte1') }}
+                    &nbsp{{ $t('DFTiconetexte1') }}
                   </p>
                 </li>
                 <li>
@@ -168,7 +168,7 @@
                   </div>
                   <h3 class="h5">{{ $t('DFTiconetitre2') }}</h3>
                   <p>
-                    {{ $t('DFTconetexte2') }}
+                    &nbsp{{ $t('DFTconetexte2') }}
                   </p>
                 </li>
               </ul>
@@ -224,7 +224,7 @@
             <div class="feature-img-content">
               <div class="section-heading" data-aos="fade-up">
                 <h2>{{ $t('logicielsPerso') }}</h2>
-                <p>{{ $t('DevelopementLogicielPersoTexte') }}</p>
+                <p>&nbsp&nbsp{{ $t('DevelopementLogicielPersoTexte') }}</p>
               </div>
               <ul class="list-unstyled d-flex flex-wrap list-two-col mb-0" data-aos="fade-up" data-aos-delay="50">
                 <li>
@@ -232,14 +232,14 @@
                     <i class="fas fa-users text-white bg-primary rounded"></i>
                   </div>
                   <h3 class="h5">{{ $t('DLPiconetitre1') }}</h3>
-                  <p>{{ $t('DLPiconetexte1') }}</p>
+                  <p>&nbsp{{ $t('DLPiconetexte1') }}</p>
                 </li>
                 <li>
                   <div class="icon-box">
                     <i class="fas fa-fingerprint text-white bg-danger rounded"></i>
                   </div>
                   <h3 class="h5">{{ $t('DLPiconetitre2') }}</h3>
-                  <p>{{ $t('DLPconetexte2') }}</p>
+                  <p>&nbsp{{ $t('DLPconetexte2') }}</p>
                 </li>
               </ul>
             </div>
@@ -255,7 +255,7 @@
         <div class="feature-img-content">
           <div class="section-heading" data-aos="fade-up">
             <h2>{{ $t('solutionIA') }}</h2>
-            <p>{{ $t('DevelopementIATexte') }}</p>
+            <p>&nbsp&nbsp{{ $t('DevelopementIATexte') }}</p>
           </div>
           <ul class="list-unstyled d-flex flex-wrap list-two-col mb-0" data-aos="fade-up" data-aos-delay="50">
             <li>
@@ -263,14 +263,14 @@
                 <i class="fas fa-dollar-sign text-white bg-success rounded"></i>
               </div>
               <h3 class="h5">{{ $t('DIAiconetitre1') }}</h3>
-              <p>{{ $t('DIAiconetexte1') }}</p>
+              <p>&nbsp{{ $t('DIAiconetexte1') }}</p>
             </li>
             <li>
               <div class="icon-box">
                 <i class="fas fa-headset text-white bg-dark rounded"></i>
               </div>
               <h3 class="h5">{{ $t('DIAiconetitre2') }}</h3>
-              <p>{{ $t('DIAconetexte2') }}</p>
+              <p>&nbsp{{ $t('DIAconetexte2') }}</p>
             </li>
           </ul>
         </div>
@@ -308,7 +308,7 @@
             <div class="feature-img-content">
               <div class="section-heading" data-aos="fade-up">
                 <h2>{{ $t('conseil') }}</h2>
-                <p>{{ $t('ConseilTexte') }}</p>
+                <p>&nbsp&nbsp{{ $t('ConseilTexte') }}</p>
               </div>
               <ul class="list-unstyled d-flex flex-wrap list-two-col mt-5" data-aos="fade-up" data-aos-delay="100">
                 <li>
@@ -316,14 +316,14 @@
                     <i class="fas fa-briefcase text-white bg-warning rounded"></i>
                   </div>
                   <h3 class="h5">{{ $t('CIconetitre1') }}</h3>
-                  <p>{{ $t('CIconetexte1') }}</p>
+                  <p>&nbsp{{ $t('CIconetexte1') }}</p>
                 </li>
                 <li>
                   <div class="icon-box">
                     <i class="fas fa-truck text-white bg-info rounded"></i>
                   </div>
                   <h3 class="h5">{{ $t('CIconetitre2') }}</h3>
-                  <p>{{ $t('CIconetexte2') }}</p>
+                  <p>&nbsp{{ $t('CIconetexte2') }}</p>
                 </li>
               </ul>
             </div>

@@ -1,13 +1,13 @@
 <template>
   <section
-    class="page-header position-relative overflow-hidden ptb-120 bg-dark"
+    class="page-header position-relative overflow-hidden ptb-120 bg-dark" 
   >
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-12">
           <h1 class="display-5 fw-bold">{{ title }}</h1>
           <p class="lead">
-            {{ desc }}
+            &nbsp&nbsp{{ desc }}
           </p>
         </div>
       </div>

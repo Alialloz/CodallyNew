@@ -11,7 +11,7 @@
               {{ $t('slogan_1') }}
             </h1>
             <p class="lead">
-              {{ $t('description') }}
+              &nbsp&nbsp{{ $t('description') }}
             </p>
             <div class="action-btns mt-5">
               <router-link to="/request-for-demo" class="btn btn-primary me-3">

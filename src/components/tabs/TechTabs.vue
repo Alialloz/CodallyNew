@@ -80,7 +80,7 @@ tec<template>
                     <!-- <h2>{{ $t('experience') }}</h2> -->
                     <p>&nbsp;&nbsp;{{ $t('designWebDesc') }}</p>
                     <ul class="list-unstyled">
-                      <li><i class="fas fa-chec k text-primary"></i><span>{{ $t('desginWebLis1') }}</span></li>
+                      <li><i class="fas fa-check text-primary"></i><span>{{ $t('desginWebLis1') }}</span></li>
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('desginWebLis2') }}</span></li>
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('desginWebLis3') }}</span></li>
                     </ul>

@@ -14,7 +14,7 @@
               {{ $t('experience') }}
             </h2>
             <p>
-              {{ $t('experienceDesc') }}
+              &nbsp&nbsp{{ $t('experienceDesc') }}
             </p>
             <ul class="list-unstyled d-flex flex-wrap list-two-col mt-4 mb-4">
               <li class="py-1">
