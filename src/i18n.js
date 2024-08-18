@@ -244,7 +244,7 @@ const messages = {
   fr: {
     /* NavBarre*/
     service: "Services",
-    Home: "Acceuil",
+    Home: "Accueil ",
     contact: "Contactez-nous!",
     about: "Notre équipe",
 
@@ -254,7 +254,7 @@ const messages = {
     description:
       "Nous sommes une firme de conseil technologique spécialisée dans le développement de solutions logicielles variées innovantes et personnalisées.",
 
-    /*Page D'acceuil Project*/
+    /*Page D'Accueil Project*/
 
     Project: "Nos Projects",
     projectDescription:
