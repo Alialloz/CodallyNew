@@ -22,7 +22,7 @@
             data-aos="fade-up"
           >
             <img
-              src="@/assets/img/dashboard-img.png"
+              src="@/assets/img/dashboard-img-2.png"
               alt="feature img"
               class="img-fluid shadow rounded-custom"
             />
@@ -36,7 +36,7 @@
           >
             <h2>{{ $t('WeblerTitre') }}</h2>
             <p>
-              &nbsp;&nbsp;{{ $t('WeblerTitreDes') }}
+              &nbsp;&nbsp;{{ $t(' ') }}
             </p>
             <ul class="list-unstyled mt-5">
               <li class="d-flex align-items-start mb-4">
@@ -128,7 +128,7 @@
             data-aos="fade-up"
           >
             <img
-              src="@/assets/img/dashboard-img.png"
+              src="@/assets/img/dashboard-img2.png"
               alt="feature img"
               class="img-fluid shadow rounded-custom"
             />
