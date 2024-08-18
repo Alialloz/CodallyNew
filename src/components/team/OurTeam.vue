@@ -228,7 +228,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6">
+        <!-- <div class="col-lg-3 col-md-6">
           <div class="team-single-wrap mb-5">
             <div class="team-img rounded-custom">
               <img src="@/assets/img/team/team-8.jpg" alt="team" class="img-fluid position-relative" />
@@ -252,8 +252,8 @@
               <p class="text-muted small mb-0">Front-End Developer intern</p>
             </div>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
+        </div> -->
+        <!-- <div class="col-lg-3 col-md-6">
           <div class="team-single-wrap mb-5">
             <div class="team-img rounded-custom">
               <img src="@/assets/img/team/team-8.jpg" alt="team" class="img-fluid position-relative" />
@@ -277,7 +277,7 @@
               <p class="text-muted small mb-0">Front-End Developer</p>
             </div>
           </div>
-        </div>
+        </div> -->
         <div class="col-lg-3 col-md-6">
           <div class="team-single-wrap mb-5">
             <div class="team-img rounded-custom">
