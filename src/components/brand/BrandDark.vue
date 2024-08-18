@@ -3,6 +3,13 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8 col-12">
+          <p
+            class="text-center mt-5 mb-5"
+            data-aos="fade-up"
+            data-aos-delay="50"
+          >
+            <!-- Paragraphe vide pour le margin-->
+          </p>
           <ul class="customer-logos-grid text-center list-unstyled mb-0">
             <li>
               <img
@@ -90,7 +97,7 @@
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            Trusted More than 25,00+ Companies Around the World
+          {{ $t('sloganCollab') }}
           </p>
         </div>
       </div>

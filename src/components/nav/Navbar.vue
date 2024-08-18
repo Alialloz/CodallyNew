@@ -20,7 +20,7 @@
         <div class="collapse navbar-collapse justify-content-center">
           <ul class="nav col-12 col-md-auto justify-content-center main-menu">
             <li class="nav-item dropdown">
-             <a
+             <!-- <a
                 class="nav-link dropdown-toggle"
                 href="#"
                 role="button"
@@ -196,7 +196,7 @@
                     </router-link>
                   </div>
                 </div>
-              </div>
+              </div> -->
             </li>
             <li>
               <router-link to="/" class="nav-link">&nbsp&nbsp{{ $t('Home') }}&nbsp&nbsp&nbsp</router-link>
