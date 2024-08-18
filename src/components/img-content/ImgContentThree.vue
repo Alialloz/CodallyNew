@@ -213,8 +213,7 @@
             <div class="feature-img-holder p-5">
               <div class="p-5 bg-primary-soft position-relative rounded-custom d-block feature-img-wrap">
                 <div class="position-relative">
-                  <img src="@/assets/img/screen/widget-5.png" class="img-fluid rounded-custom position-relative" alt="feature-image" data-aos="fade-up" data-aos-delay="50" />
-                  <img src="@/assets/img/screen/widget-3.png" class="img-fluid rounded-custom shadow position-absolute bottom--100 right--100 hide-medium" alt="feature-image" data-aos="fade-up" data-aos-delay="100" />
+                  <img src="@/assets/img/screen/widget-14.png" class="img-fluid rounded-custom position-relative" alt="feature-image" data-aos="fade-up" data-aos-delay="50" />
                 </div>
                 <div class="position-absolute bg-dark-soft z--1 dot-mask dm-size-12 dm-wh-250 top-left"></div>
               </div>
@@ -279,8 +278,7 @@
         <div class="feature-img-holder p-5">
           <div class="bg-danger-soft p-5 rounded-custom position-relative d-block feature-img-wrap">
             <div class="position-relative">
-              <img src="@/assets/img/screen/widget-8.png" class="img-fluid rounded-custom position-relative" alt="feature-image" data-aos="fade-up" data-aos-delay="50" />
-              <img src="@/assets/img/screen/widget-6.png" class="img-fluid rounded-custom shadow position-absolute top--100 left--100 hide-medium" alt="feature-image" data-aos="fade-up" data-aos-delay="100" />
+              <img src="@/assets/img/screen/widget-15.png" class="img-fluid rounded-custom position-relative" alt="feature-image" data-aos="fade-up" data-aos-delay="50" />
             </div>
             <div class="position-absolute bg-dark-soft z--1 dot-mask dm-size-12 dm-wh-250 bottom-right"></div>
           </div>
@@ -297,8 +295,7 @@
             <div class="feature-img-holder p-5">
               <div class="bg-primary-soft p-5 rounded-custom position-relative d-block feature-img-wrap">
                 <div class="position-relative">
-                  <img src="@/assets/img/screen/widget-9.png" class="img-fluid rounded-custom position-relative" alt="feature-image" data-aos="fade-up" data-aos-delay="50" />
-                  <img src="@/assets/img/screen/widget-10.png" class="img-fluid rounded-custom shadow position-absolute top--100 right--100 hide-medium" alt="feature-image" data-aos="fade-up" data-aos-delay="100" />
+                  <img src="@/assets/img/screen/widget-13.png" class="img-fluid rounded-custom position-relative" alt="feature-image" data-aos="fade-up" data-aos-delay="50" />
                 </div>
                 <div class="position-absolute bg-dark-soft z--1 dot-mask dm-size-12 dm-wh-250 bottom-left"></div>
               </div>
