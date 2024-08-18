@@ -41,6 +41,8 @@ const messages = {
     facturationDes:
       "Managing billing is a critical aspect that requires efficiency and compliance. Our service offers a tailored solution for medical clinics.",
 
+      knowMore2: "Learn more about our projects",
+
     /* Service (TechTabs)*/
 
     titre: "Your Expertise, Our Mission",
@@ -232,6 +234,11 @@ const messages = {
   Icône10Titre :"Support and Training",
   Icône10Des :"We offer ongoing support and training to ensure your team is fully capable of using the system effectively.",
 
+  /* Portfolio*/
+
+  TitrePort :"Our portfolio",
+  PortDes :"Credibly develop leading ideas rather than traditional strategic themes distributed for stand-alone web readiness",
+
     /* Footer */
 
     Souscription: "Our latest news, articles, and resources, we will sent to your inbox weekly",
@@ -279,6 +286,8 @@ const messages = {
     facturation: "Logiciel de facturation",
     facturationDes:
       "La gestion des facturations est un aspect critique qui nécessite efficacité et conformité. Notre service offre une solution sur mesure pour les cliniques médicales.",
+
+      knowMore2: "En savoir plus sur nos projects",
 
     /* Service de la homme(TechTabs)*/
 
@@ -464,6 +473,12 @@ const messages = {
   Icône9Des :"Notre solution peut être intégrée avec d'autres systèmes utilisés dans votre clinique, tels que les dossiers médicaux électroniques, pour une efficacité accrue.",
   Icône10Titre :"Support et Formation ",
   Icône10Des :"Nous offrons un support continu et des formations pour vous assurer que votre équipe est pleinement capable d'utiliser le système efficacement.",
+
+  /* Portfolio*/
+
+  TitrePort :"Notre portfolio",
+  PortDes :"Développez de manière crédible des idées de premier plan plutôt que des thèmes stratégiques traditionnels distribués pour une préparation au web autonome",
+
 
   /* Footer */
   

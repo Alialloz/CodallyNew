@@ -4,10 +4,9 @@
       <div class="row justify-content-center">
         <div class="col-lg-6 col-md-10">
           <div class="section-heading text-center">
-            <h2>Our Portfolio</h2>
+            <h2>{{ $t('TitrePort') }}</h2>
             <p>
-              Credibly grow premier ideas rather than bricks-and-clicks
-              strategic theme areas distributed for stand-alone web-readiness.
+              {{ $t('PortDes') }}
             </p>
           </div>
         </div>
@@ -32,20 +31,6 @@
                   aria-selected="true"
                 >
                   All
-                </button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button
-                  class="nav-link"
-                  id="pills-branding-tab"
-                  data-bs-toggle="pill"
-                  data-bs-target="#pills-branding"
-                  type="button"
-                  role="tab"
-                  aria-controls="pills-branding"
-                  aria-selected="false"
-                >
-                  Branding
                 </button>
               </li>
               <li class="nav-item" role="presentation">
