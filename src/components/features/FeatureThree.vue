@@ -128,7 +128,7 @@
             data-aos="fade-up"
           >
             <img
-              src="@/assets/img/dashboard-img2.png"
+              src="@/assets/img/dashboard-img-5.png"
               alt="feature img"
               class="img-fluid shadow rounded-custom"
             />
@@ -208,7 +208,7 @@
             </div>
             <div class="col-lg-6 col-md-7">
                 <div class="feature-img-wrap position-relative d-flex flex-column align-items-end">
-                    <img src="@/assets/img/feature-img3.jpg" alt="feature image"
+                    <img src="@/assets/img/dashboard-img-6.png" alt="feature image"
                         class="img-fluid rounded-custom" />
                 </div>
             </div>
