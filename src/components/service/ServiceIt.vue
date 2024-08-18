@@ -9,7 +9,6 @@
               {{ $t('projectDescription') }}
             </p>
           </div>
-          ,
         </div>
       </div>
       <div class="row justify-content-center">
@@ -107,25 +106,11 @@
             </div>
           </div>
         </div>
-       <!-- <div class="col-lg-4 col-md-6 p-0">
-          <div class="single-service p-lg-5 p-4 text-center">
-            <div class="service-icon icon-center">
-              <img
-                src="@/assets/img/service/promotion.png"
-                alt="service icon"
-                width="65"
-                height="65"
-              />
-            </div>
-            <div class="feature-info-wrap">
-              <h3 class="h5">ouioui</h3>
-              <p>
-                 Holisticly morph distinctive methodologies and vertical
-                e-tailers. Rapidiously grow customized data. 
-              </p>
-            </div>
-          </div>
-        </div> -->
+      </div>
+      <div class="row justify-content-center mt-4">
+        <div class="col-lg-6 col-md-10 text-center">
+          <router-link to="/about-us" class="text-black link-with-icon text-decoration-none mt-4">{{ $t('knowMore2') }} <i class="fas fa-arrow-right"></i></router-link>
+        </div>
       </div>
     </div>
   </section>
