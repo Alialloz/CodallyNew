@@ -5,7 +5,8 @@
         <ServiceIt />
         <TechTabs />
         <AboutImage />
-        <IntegrationOne />
+<!--    <IntegrationOne /> --> 
+        <BrandDark />
         <Portfolio />
         <Footer footerDark="footerDark" />
     </div>
@@ -13,6 +14,7 @@
 
 <script>
 import HeroFive from "../../components/hero/HeroFive.vue";
+import BrandDark from "../../components/brand/BrandDark.vue";
 import Navbar from "../../components/nav/Navbar.vue";
 import AboutImage from "../../components/about/AboutImage.vue";
 import TechTabs from "../../components/tabs/TechTabs.vue";
@@ -24,6 +26,7 @@ export default {
     components: {
         HeroFive,
         Navbar,
+        BrandDark,
         AboutImage,
         TechTabs,
         IntegrationOne,
