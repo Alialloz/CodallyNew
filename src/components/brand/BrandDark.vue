@@ -13,7 +13,7 @@
           <ul class="customer-logos-grid text-center list-unstyled mb-0">
             <li>
               <img
-                src="@/assets/img/clients/client-logo-1.svg"
+                src="@/assets/img/clients/800px-UQAC_Logo.png"
                 width="150"
                 alt="clients logo"
                 class="img-fluid customer-logo p-1 p-md-2 p-lg-3 m-auto"
@@ -23,7 +23,7 @@
             </li>
             <li>
               <img
-                src="@/assets/img/clients/client-logo-2.svg"
+                src="@/assets/img/clients/logoUqam.png"
                 width="150"
                 alt="clients logo"
                 class="img-fluid customer-logo p-1 p-md-2 p-lg-3 m-auto"
@@ -33,7 +33,7 @@
             </li>
             <li>
               <img
-                src="@/assets/img/clients/client-logo-3.svg"
+                src="@/assets/img/clients/logoMarc.png"
                 width="150"
                 alt="clients logo"
                 class="img-fluid customer-logo p-1 p-md-2 p-lg-3 m-auto"
@@ -43,7 +43,7 @@
             </li>
             <li>
               <img
-                src="@/assets/img/clients/client-logo-4.svg"
+                src="@/assets/img/clients/logo-lec-media.png"
                 width="150"
                 alt="clients logo"
                 class="img-fluid customer-logo p-1 p-md-2 p-lg-3 m-auto"
@@ -53,7 +53,7 @@
             </li>
             <li>
               <img
-                src="@/assets/img/clients/client-logo-5.svg"
+                src="@/assets/img/clients/logo-intelchain.png"
                 width="150"
                 alt="clients logo"
                 class="img-fluid customer-logo p-1 p-md-2 p-lg-3 m-auto"
@@ -63,7 +63,7 @@
             </li>
             <li>
               <img
-                src="@/assets/img/clients/client-logo-6.svg"
+                src="@/assets/img/clients/logo-esgi.png"
                 width="150"
                 alt="clients logo"
                 class="img-fluid customer-logo p-1 p-md-2 p-lg-3 m-auto"
@@ -73,7 +73,7 @@
             </li>
             <li>
               <img
-                src="@/assets/img/clients/client-logo-7.svg"
+                src="@/assets/img/clients/logo-wintechno.png"
                 width="150"
                 alt="clients logo"
                 class="img-fluid customer-logo p-1 p-md-2 p-lg-3 m-auto"
@@ -83,7 +83,7 @@
             </li>
             <li>
               <img
-                src="@/assets/img/clients/client-logo-8.svg"
+                src="@/assets/img/clients/logo-lavicennes.svg"
                 width="150"
                 alt="clients logo"
                 class="img-fluid customer-logo p-1 p-md-2 p-lg-3 m-auto"
