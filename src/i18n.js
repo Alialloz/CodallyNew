@@ -41,7 +41,7 @@ const messages = {
     facturationDes:
       "Managing billing is a critical aspect that requires efficiency and compliance. Our service offers a tailored solution for medical clinics.",
 
-      knowMore2: "Learn more about our projects",
+      knowMore2: "Click on the images to learn more about our projects",
 
     /* Service (TechTabs)*/
 
@@ -237,7 +237,7 @@ const messages = {
   /* Portfolio*/
 
   TitrePort :"Our portfolio",
-  PortDes :"Credibly develop leading ideas rather than traditional strategic themes distributed for stand-alone web readiness",
+  PortDes :"We approach each project with an adaptable methodology, focusing on understanding specific needs and applying tailored technical solutions to achieve optimal results",
 
     /* Footer */
 
@@ -287,7 +287,7 @@ const messages = {
     facturationDes:
       "La gestion des facturations est un aspect critique qui nécessite efficacité et conformité. Notre service offre une solution sur mesure pour les cliniques médicales.",
 
-      knowMore2: "En savoir plus sur nos projects",
+      knowMore2: "Cliquer sur les images pour en savoir plus sur nos projets",
 
     /* Service de la homme(TechTabs)*/
 
@@ -477,7 +477,7 @@ const messages = {
   /* Portfolio*/
 
   TitrePort :"Notre portfolio",
-  PortDes :"Développez de manière crédible des idées de premier plan plutôt que des thèmes stratégiques traditionnels distribués pour une préparation au web autonome",
+  PortDes :"Nous abordons chaque projet avec une méthodologie adaptable, en nous concentrant sur la compréhension des besoins spécifiques et en appliquant des solutions techniques adaptées pour atteindre des résultats optimaux",
 
 
   /* Footer */

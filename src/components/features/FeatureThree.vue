@@ -33,6 +33,7 @@
             class="feature-content-wrap"
             data-aos="fade-up"
             data-aos-delay="50"
+            id="webler"
           >
             <h2>{{ $t('WeblerTitre') }}</h2>
             <p>
@@ -73,7 +74,8 @@
     <div class="container">
       <div class="row align-items-center justify-content-between">
         <div class="col-lg-5 col-md-12">
-          <div class="section-heading" data-aos="fade-up">
+          <div class="section-heading" data-aos="fade-up" id="Taskaii"
+          >
             <h2>{{ $t('TaskaiiITitre') }}</h2>
             <p>
               &nbsp;&nbsp;{{ $t('TaskaiiITitreDes') }}
@@ -139,6 +141,7 @@
             class="feature-content-wrap text-dark"
             data-aos="fade-up"
             data-aos-delay="50"
+            id="ChatWhatsApp"
           >
             <h2>{{ $t('ServiceClientèleTitre') }}</h2>
             <p>
@@ -177,7 +180,7 @@
     <div class="container">
         <div class="row align-items-center justify-content-between">
             <div class="col-lg-5 col-md-12">
-                <div class="section-heading text-dark" data-aos="fade-up">
+                <div class="section-heading text-dark" data-aos="fade-up" id="GestionClient">
                     <h2>{{ $t('GestionclientèleTitre') }}</h2>
                     <p>&nbsp;&nbsp;{{ $t('GestionclientèleTitreDes') }}</p>
                     <ul class="list-unstyled mt-5">
@@ -235,6 +238,7 @@
             class="feature-content-wrap text-dark "
             data-aos="fade-up"
             data-aos-delay="50"
+            id="ServiceFacture"
           >
             <h2>{{ $t('ServiceFactureTitre') }}</h2>
             <p>

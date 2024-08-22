@@ -9,7 +9,6 @@ import NotFound from '../views/pages/NotFound.vue';
 const router = createRouter({
   history: createWebHistory(),
   routes: [
-
     {
       path: '/',
       component: Home,
@@ -63,14 +62,13 @@ const router = createRouter({
     if (savedPosition) {
       return savedPosition;
     } else if (to.hash) {
-      // Adjust offset to account for fixed navbar
-      const offset = 80; // Adjust this value to the height of your navbar
+      const offset = 230; 
       const element = document.querySelector(to.hash);
-      
+
       if (element) {
         return window.scrollTo({
           top: element.offsetTop - offset,
-          behavior: 'smooth'
+          behavior: 'smooth',
         });
       }
     } else {
