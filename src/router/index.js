@@ -14,7 +14,7 @@ const router = createRouter({
       component: Home,
       name: 'Home',
       meta: {
-        title: 'Quiety',
+        title: 'Codally',
       },
     },
     {
@@ -79,8 +79,8 @@ const router = createRouter({
 
 router.afterEach((to) => {
   if (to.meta && to.meta.title) {
-    document.title = to.meta.title + ' – Software & IT Solutions Vue Template';
-  }
+    document.title = to.meta.title /* + ' – Software & IT Solutions' */;
+  }/* add if neccesary for the boss */
 });
 
 export default router;
