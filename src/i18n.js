@@ -108,6 +108,7 @@ const messages = {
 
     expertAroundWorld: "Multidisciplinary team",
     bestPractice: "Innovative solutions",
+    digitalConference: "Multidisciplinary Team",
     greatSpeakers: "Innovative solutions",
     eventManagement: "Customer satisfaction guaranteed",
     funOnEvent: "Adaptation of our services",
@@ -178,19 +179,20 @@ const messages = {
     /*Contactez-nous (contactFromTwo et contactPromoDarkbg)*/
 
   Email : "Email Us",
-  EmailDes : "Simple drop us an email at codally.agency@outlook.com and you'll receive a reply within 24 hours.",
-
+  "EmailDesc": "Simply drop us an email at {email} and you'll receive a response in no time.",
   Tel : "Give us a call",
   TelDes : "Give us a ring, we are standing by monday to friday from 9am to 5pm EST.",
 
-  ContactTitre : "Discuss with our sales and marketing department team",
-  ContactDes : "Are you interested in one of our services or projects? Or do you simply want to apply to join us? Let us know by filling out this form.",
+  ContactTitre : "Connect with Our Sales and Marketing Team",
+  ContactDes : "Are you interested in one of our services or projects, or would you like to apply to join our team? Let us know by filling out this form.",
 
   Prenom : "First name",
   Nom : "Last name",
   Tel : "Phone",
-  mail : "Email",
+  mail : "E-mail",
+  mailPlaceholder: "E-mail",
   msg : "Message",
+  msgPlaceholder : "Enter your message here",
 
   EnvoyerFor : "Submit your message",
 
@@ -246,6 +248,10 @@ const messages = {
     apropo: "About Us",
     autre: "Other",
 
+    /* PopUp */
+    "successTitle": "Thank you!",
+    "successMessage": "Your message has been sent successfully. We will get back to you shortly.",
+    "okButton": "OK"
   },
 
   fr: {
@@ -419,18 +425,20 @@ const messages = {
   /*Contactez-nous*/
 
   Email : "Envoyez-nous un e-mail",
-  EmailDes : "Envoyez-nous simplement un e-mail à codally.agency@outlook.com et vous recevrez une réponse dans les plus brefs délais.",
+"EmailDesc": "Envoyez-nous simplement un e-mail à {email} et vous recevrez une réponse dans les plus brefs délais.",
 
   Tel : "Appelez-nous",
   TelDes : "Appelez-nous, nous sommes disponibles du lundi au vendredi de 10h à 18h (UTC+02:00).",
-  ContactTitre : "Discutez avec notre équipe du département des ventes et du marketing",
-  ContactDes : "Un de nos services ou de nos projets vous intéresse?  Voulez-vous simplement postuler chez nous, faites le nous savoir en remplissant ce formulaire",
+  ContactTitre : "Contactez Notre Équipe de Vente et Marketing",
+  ContactDes : "Êtes-vous intéressé par l'un de nos services ou projets, ou souhaitez-vous postuler pour rejoindre notre équipe ? Faites-le nous savoir en remplissant ce formulaire.",
 
   Prenom : "Prénom",
   Nom : "Nom",
   Tel : "Téléphone",
-  mail : "Émail",
+  mail : "E-mail",
+  mailPlaceholder: "E-mail",
   msg : "Message",
+  msgPlaceholder : "Entrez votre message ici",
 
   EnvoyerFor : "Envoyer votre message",
 
@@ -487,6 +495,11 @@ const messages = {
   important: "Page essentiel",
   apropo: "À propos de nous",
   autre: "Autre",
+
+      /* PopUp */
+      successTitle: "Merci!",
+      successMessage: "Votre message a été envoyé avec succès, nous vous répondrons sous peu.",
+      okbutton: "OK",
 
   },
 };

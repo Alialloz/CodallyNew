@@ -2,22 +2,22 @@
   <div>
     <Navbar />
     <TeamStart />
-    <OurTeam />
+    <TeamList />
     <Footer footerDark="footerDark" />
   </div>
 </template>
 
 <script>
-import OurTeam from "../../components/team/OurTeam.vue";
+import TeamList from "../../components/team/TeamList.vue";
 import TeamStart from "../../components/team/TeamStart.vue";
 import Footer from "../../components/footer/Footer.vue";
 import Navbar from "../../components/nav/Navbar.vue";
 
 export default {
-  name: "Contact",
+  name: "OurTeam",
   components: {
     Navbar,
-    OurTeam,
+    TeamList,
     Footer,
     TeamStart,
   },

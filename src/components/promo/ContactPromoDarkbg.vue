@@ -10,9 +10,9 @@
               <span class="fad fa-envelope fa-3x text-primary"></span>
               <div class="contact-promo-info mb-4">
                 <h5>{{ $t('Email') }}</h5>
-                <p>
-                  {{ $t('EmailDes') }}
-                </p>
+                <p v-html="$t('EmailDesc', { email: '<a href=\'mailto:codally.agency@outlook.com\'>codally.agency@outlook.com</a>' })"></p>
+
+
               </div>
               <a href="mailto:codally.agency@outlook.com" class="btn btn-primary mt-auto">
                 {{ $t('Email') }}

@@ -1,9 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../views/pages/Home.vue';
 import Services from '../views/pages/Services.vue';
-import Contact from '../views/pages/Contact.vue';
-import AboutUs from '../views/pages/AboutUs.vue';
-import RequestForDemo from '../views/pages/RequestForDemo.vue';
+import OurTeam from '../views/pages/OurTeam.vue';
+import OurProjects from '../views/pages/OurProjects.vue';
+import ContactUs from '../views/pages/ContactUs.vue';
 import NotFound from '../views/pages/NotFound.vue';
 
 const router = createRouter({
@@ -26,27 +26,27 @@ const router = createRouter({
       },
     },
     {
-      path: '/contact',
-      name: 'Contact',
-      component: Contact,
+      path: '/our-team',
+      name: 'OurTeam',
+      component: OurTeam,
       meta: {
-        title: 'Contact',
+        title: 'OurTeam',
       },
     },
     {
-      path: '/about-us',
-      name: 'AboutUs',
-      component: AboutUs,
+      path: '/our-projects',
+      name: 'OurProjects',
+      component: OurProjects,
       meta: {
-        title: 'About Us',
+        title: 'Our Projects',
       },
     },
     {
-      path: '/request-for-demo',
-      name: 'RequestForDemo',
-      component: RequestForDemo,
+      path: '/contact-us',
+      name: 'ContactUs',
+      component: ContactUs,
       meta: {
-        title: 'Request For Demo - Software & IT Solutions Vue Template',
+        title: 'ContactUs',
       },
     },
     {

@@ -1,5 +1,5 @@
 <template>
-  <section id="our-team" class="team-section ptb-120" :class="[bgLight ? 'bg-light' : '']">
+  <section id="team-list" class="team-section ptb-120" :class="[bgLight ? 'bg-light' : '']">
     <div class="container">
       <div class="row">
         <div class="col-lg-3 col-md-6">

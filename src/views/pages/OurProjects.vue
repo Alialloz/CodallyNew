@@ -11,7 +11,7 @@ import Footer from "../../components/footer/Footer.vue";
 import FeatureThree from "../../components/features/FeatureThree.vue";
 import Navbar from "../../components/nav/Navbar.vue";
 export default {
-  name: "AboutUs",
+  name: "OurProjects",
   components: {
     Navbar,
     FeatureThree,
