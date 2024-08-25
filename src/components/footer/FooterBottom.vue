@@ -17,8 +17,9 @@
           <div class="col-md-4 col-lg-4">
             <div class="footer-single-col text-start text-lg-end text-md-end">
               <ul class="list-unstyled list-inline footer-social-list mb-0">
+                
                 <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-github"></i></a>
+                  <a href="a mettre"><i class="fab fa-github"></i></a>
                 </li>
                 <li class="list-inline-item">
                   <a href="https://ca.linkedin.com/company/codally"><i class="fab fa-linkedin"></i></a>
