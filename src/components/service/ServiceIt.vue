@@ -18,7 +18,7 @@
             class="single-service p-lg-5 p-4 text-center mt-3 border-bottom border-end"
           >
             <div class="service-icon icon-center">
-              <router-link :to="{ path: '/about-us', hash: '#webler' }">
+              <router-link :to="{ path: '/our-projects', hash: '#webler' }">
                 <img
                   src="\src\assets\img\webler.png"
                   alt="Icône du logiciel webler"
@@ -42,7 +42,7 @@
             class="single-service p-lg-5 p-4 text-center mt-3 border-bottom border-end"
           >
             <div class="service-icon icon-center">
-              <router-link :to="{ path: '/about-us', hash: '#taskaii' }">
+              <router-link :to="{ path: '/our-projects', hash: '#taskaii' }">
                 <img
                   src="\src\assets\img\taskaii.svg"
                   alt="Icône du logiciel taskaii"
@@ -64,7 +64,7 @@
         <div class="col-lg-4 col-md-6 p-0">
           <div class="single-service p-lg-5 p-4 text-center mt-3 border-bottom">
             <div class="service-icon icon-center">
-              <router-link :to="{ path: '/about-us', hash: '#ChatWhatsApp' }">
+              <router-link :to="{ path: '/our-projects', hash: '#ChatWhatsApp' }">
                 <img
                   src="\src\assets\img\whatsapp.png"
                   alt="Icône du logiciel de messagerie"
@@ -86,7 +86,7 @@
         <div class="col-lg-4 col-md-6 p-0">
           <div class="single-service p-lg-5 p-4 text-center border-end">
             <div class="service-icon icon-center">
-              <router-link :to="{ path: '/about-us', hash: '#GestionClient' }">
+              <router-link :to="{ path: '/our-projects', hash: '#GestionClient' }">
                 <img
                   src="\src\assets\img\serviceClient.png"
                   alt="Icône du service client"
@@ -108,7 +108,7 @@
         <div class="col-lg-4 col-md-6 p-0">
           <div class="single-service p-lg-5 p-4 text-center border-end">
             <div class="service-icon icon-center">
-              <router-link :to="{ path: '/about-us', hash: '#ServiceFacture' }">
+              <router-link :to="{ path: '/our-projects', hash: '#ServiceFacture' }">
                 <img
                   src="\src\assets\img\logicielDeFacturation.png"
                   alt="Icône du logiciel de facturation"
@@ -128,7 +128,7 @@
         <div class="row justify-content-center mt-4">
         <div class="col-lg-8 col-md-10 text-center">
           <router-link
-            to="/about-us"
+            to="/our-projects"
             class="text-black link-with-icon text-decoration-none mt-4"
           >
             {{ $t('knowMore2') }}
