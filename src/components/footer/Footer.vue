@@ -12,20 +12,6 @@
                   class="img-fluid logo-white" />
                 <img src="@/assets/img/logo-color.png" alt="logo" class="img-fluid logo-color" />
               </div>
-              <p>
-                {{ $t('Souscription') }}
-              </p>
-
-              <form class="newsletter-form position-relative d-block d-lg-flex d-md-flex">
-                <input type="text" class="input-newsletter form-control me-2" placeholder="Enter your email"
-                  name="email" required="" autocomplete="off" />
-                <input type="submit" value="Subscribe" data-wait="Please wait..."
-                  class="btn btn-primary mt-3 mt-lg-0 mt-md-0" />
-              </form>
-              <div class="ratting-wrap mt-4">
-                <h6 class="mb-0">10/10 Overall rating</h6>
-                <rating />
-              </div>
             </div>
           </div>
           <div class="col-md-12 col-lg-7 mt-4 mt-md-0 mt-lg-0">
@@ -110,6 +96,9 @@
         </div>
       </div>
     </div>
+
+    <!-- Bouton pour remonter en haut de la page -->
+    <button @click="scrollToTop" class="scroll-to-top-btn">↑</button>
   </footer>
 </template>
 
@@ -119,7 +108,36 @@ export default {
   components: { Rating },
   name: "Footer",
   props: {
-    footerDark: String,
+    footerDark: {
+      type: String,
+    },
+  },
+  methods: {
+    scrollToTop() {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    },
   },
 };
 </script>
+
+<style scoped>
+.scroll-to-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #0d1d53;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+}
+
+.scroll-to-top-btn:hover {
+  background-color: #0056b3;
+}
+</style>

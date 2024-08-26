@@ -11,13 +11,7 @@
                   <a href="#"><i class="fab fa-linkedin-in"></i></a>
                 </li>
                 <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                </li>
-                <li class="list-inline-item">
                   <a href="#"><i class="fab fa-github"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
                 </li>
               </ul>
             </div>
@@ -36,13 +30,7 @@
                   <a href="#"><i class="fab fa-linkedin-in"></i></a>
                 </li>
                 <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                </li>
-                <li class="list-inline-item">
                   <a href="#"><i class="fab fa-github"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
                 </li>
               </ul>
             </div>
@@ -56,20 +44,6 @@
           <div class="team-single-wrap mb-5">
             <div class="team-img rounded-custom">
               <img src="@/assets/img/team/team-33.jpg" alt="team" class="img-fluid position-relative" />
-              <ul class="list-unstyled team-social-list d-flex flex-column mb-0">
-                <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-github"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
-                </li>
-              </ul>
             </div>
             <div class="team-info mt-4 text-center">
               <h5 class="h6 mb-1">Oswald Essongue</h5>
@@ -81,20 +55,6 @@
           <div class="team-single-wrap mb-5">
             <div class="team-img rounded-custom">
               <img src="@/assets/img/team/team-4.jpg" alt="team" class="img-fluid position-relative" />
-              <ul class="list-unstyled team-social-list d-flex flex-column mb-0">
-                <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-github"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
-                </li>
-              </ul>
             </div>
 
             <div class="team-info mt-4 text-center">
@@ -107,20 +67,6 @@
           <div class="team-single-wrap mb-5">
             <div class="team-img rounded-custom">
               <img src="@/assets/img/team/team-5.jpg" alt="team" class="img-fluid position-relative" />
-              <ul class="list-unstyled team-social-list d-flex flex-column mb-0">
-                <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-github"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
-                </li>
-              </ul>
             </div>
             <div class="team-info mt-4 text-center">
               <h5 class="h6 mb-1">Seibel Edouard</h5>
@@ -132,24 +78,10 @@
           <div class="team-single-wrap mb-5">
             <div class="team-img rounded-custom">
               <img src="@/assets/img/team/team-6.jpg" alt="team" class="img-fluid position-relative" />
-              <ul class="list-unstyled team-social-list d-flex flex-column mb-0">
-                <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-github"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
-                </li>
-              </ul>
             </div>
             <div class="team-info mt-4 text-center">
               <h5 class="h6 mb-1">Mehdi Goude</h5>
-              <p class="text-muted small mb-0">UI/UX Designerr</p>
+              <p class="text-muted small mb-0">UI/UX Designer</p>
             </div>
           </div>
         </div>
@@ -157,20 +89,6 @@
           <div class="team-single-wrap mb-5">
             <div class="team-img rounded-custom">
               <img src="@/assets/img/team/team-77.jpg" alt="team" class="img-fluid position-relative" />
-              <ul class="list-unstyled team-social-list d-flex flex-column mb-0">
-                <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-github"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
-                </li>
-              </ul>
             </div>
             <div class="team-info mt-4 text-center">
               <h5 class="h6 mb-1">Dylan Palmier</h5>
@@ -182,20 +100,6 @@
           <div class="team-single-wrap mb-5">
             <div class="team-img rounded-custom">
               <img src="@/assets/img/team/team-9.png" alt="team" class="img-fluid position-relative" />
-              <ul class="list-unstyled team-social-list d-flex flex-column mb-0">
-                <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-github"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
-                </li>
-              </ul>
             </div>
             <div class="team-info mt-4 text-center">
               <h5 class="h6 mb-1">Julien Blancon </h5>
@@ -209,16 +113,10 @@
               <img src="@/assets/img/team/team-8.jpg" alt="team" class="img-fluid position-relative" />
               <ul class="list-unstyled team-social-list d-flex flex-column mb-0">
                 <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  <a href="https://www.linkedin.com/in/thomas-tran-a45a3a206?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fab fa-linkedin-in"></i></a>
                 </li>
                 <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-github"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="https://github.com/Tomsk94"><i class="fab fa-github"></i></a>
                 </li>
               </ul>
             </div>

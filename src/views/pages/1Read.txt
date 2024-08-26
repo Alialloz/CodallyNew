@@ -1,8 +1,0 @@
-Home = accueil 
-services = services 
-
-About Us = Nos Projets !
-
-Contact = Notre équipe !
-
-Request For demo = Contactez - Nous !
