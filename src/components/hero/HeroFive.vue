@@ -25,7 +25,7 @@
           <div class="row justify-content-lg-start mt-60">
             <ul class="list-unstyled list-inline footer-social-list mb-0">
               <li class="list-inline-item">
-                  <a href="a mettre"><i class="fab fa-github"></i></a>
+                  <a href="https://github.com/CodAlly-Agency"><i class="fab fa-github"></i></a>
                 </li>
                 <li class="list-inline-item">
                   <a href="https://www.facebook.com/people/CodAlly/61556088625053/?is_tour_dismissed=true"><i class="fab fa-facebook-f"></i></a>
@@ -34,7 +34,7 @@
                   <a href="https://ca.linkedin.com/company/codally"><i class="fab fa-linkedin"></i></a>
                 </li>
                 <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href=""><i class="fab fa-instagram"></i></a>
                 </li>
                 <li class="list-inline-item">
                   <a href="https://x.com/CodAllyAgency"><i class="fab fa-twitter"></i></a>
