@@ -12,8 +12,11 @@
             data-aos-delay="50"
           >
           </p>
-          <ul class="customer-logos-grid text-center list-unstyled mb-0">
+          <ul class="customer-logos-grid text-center list-unstyled mb-0" style="position: relative; padding: 0 20px;" >
             <li>
+              <div style="position: absolute; top: 50%; left: -10px; width: 10px; height: 100%; background: linear-gradient(to bottom, transparent, #ffffff, transparent); transform: translateY(-50%); border-radius: 10px 0 0 10px; box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);"></div>
+              <div style="position: absolute; top: 50%; right: -10px; width: 10px; height: 100%; background: linear-gradient(to bottom, transparent, #ffffff, transparent); transform: translateY(-50%); border-radius: 0 10px 10px 0; box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);"></div>
+              
               <a href="https://www.uqac.ca/" target="_blank" rel="noopener noreferrer">
                 <img
                   src="@/assets/img/clients/800px-UQAC_Logo.png"

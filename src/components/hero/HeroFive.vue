@@ -34,9 +34,6 @@
                   <a href="https://ca.linkedin.com/company/codally"><i class="fab fa-linkedin"></i></a>
                 </li>
                 <li class="list-inline-item">
-                  <a href=""><i class="fab fa-instagram"></i></a>
-                </li>
-                <li class="list-inline-item">
                   <a href="https://x.com/CodAllyAgency"><i class="fab fa-twitter"></i></a>
                 </li>
               </ul>

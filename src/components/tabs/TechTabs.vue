@@ -88,7 +88,7 @@ tec<template>
                       $t('knowMore') }}<i class="fas fa-arrow-right"></i></router-link>
                   </div>
                 </div>
-              </div>
+              </div>  
             </div>
           </div>
           <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
