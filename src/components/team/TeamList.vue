@@ -8,10 +8,10 @@
               <img src="@/assets/img/team/team-1.jpg" alt="team" class="img-fluid position-relative" />
               <ul class="list-unstyled team-social-list d-flex flex-column mb-0">
                 <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  <a href="https://www.linkedin.com/in/alinyr/"><i class="fab fa-linkedin-in"></i></a>
                 </li>
                 <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-github"></i></a>
+                  <a href="https://github.com/Alialloz"><i class="fab fa-github"></i></a>
                 </li>
               </ul>
             </div>
@@ -29,13 +29,10 @@
                 <li class="list-inline-item">
                   <a href="https://www.linkedin.com/in/morgan-chappe-3b6911181"><i class="fab fa-linkedin-in"></i></a>
                 </li>
-                <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-github"></i></a>
-                </li>
               </ul>
             </div>
             <div class="team-info mt-4 text-center">
-              <h5 class="h6 mb-1">Morgan Chappe </h5>
+              <h5 clas-s="h6 mb-1">Morgan Chappe </h5>
               <p class="text-muted small mb-0">Vice CEO - Data Scientist - Project Manager</p>
             </div>
           </div>
@@ -114,9 +111,6 @@
               <ul class="list-unstyled team-social-list d-flex flex-column mb-0">
                 <li class="list-inline-item">
                   <a href="https://www.linkedin.com/in/thomas-tran-a45a3a206?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fab fa-linkedin-in"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="https://github.com/Tomsk94"><i class="fab fa-github"></i></a>
                 </li>
               </ul>
             </div>
