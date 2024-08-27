@@ -27,7 +27,7 @@
               <img src="@/assets/img/team/team-2.jpg" alt="team" class="img-fluid position-relative" />
               <ul class="list-unstyled team-social-list d-flex flex-column mb-0">
                 <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  <a href="https://www.linkedin.com/in/morgan-chappe-3b6911181"><i class="fab fa-linkedin-in"></i></a>
                 </li>
                 <li class="list-inline-item">
                   <a href="#"><i class="fab fa-github"></i></a>
@@ -172,31 +172,6 @@
             </div>
             <div class="team-info mt-4 text-center">
               <h5 class="h6 mb-1">Mehddy Neris</h5>
-              <p class="text-muted small mb-0">Front-End Developer</p>
-            </div>
-          </div>
-        </div> -->
-        <!-- <div class="col-lg-3 col-md-6">
-          <div class="team-single-wrap mb-5">
-            <div class="team-img rounded-custom">
-              <img src="@/assets/img/team/team-8.jpg" alt="team" class="img-fluid position-relative" />
-              <ul class="list-unstyled team-social-list d-flex flex-column mb-0">
-                <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-github"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
-                </li>
-              </ul>
-            </div>
-            <div class="team-info mt-4 text-center">
-              <h5 class="h6 mb-1">Ihab Goude</h5>
               <p class="text-muted small mb-0">Front-End Developer</p>
             </div>
           </div>
