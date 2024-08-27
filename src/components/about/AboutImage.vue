@@ -66,7 +66,7 @@
               </li>
             </ul>
             <router-link
-              to="/contact"
+              to="/our-team"
               class="link-with-icon text-decoration-none mt-3 btn btn-primary"
             >
               {{ $t('learnMore') }}

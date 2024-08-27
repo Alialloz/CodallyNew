@@ -34,9 +34,9 @@
                   <h3>{{ $t('apropo') }}</h3>
                   <ul class="list-unstyled footer-nav-list mb-lg-0">
                     <li>
-                      <router-link to="/about-us" class="text-decoration-none">{{ $t('Project') }}</router-link>
+                      <router-link to="/our-projects" class="text-decoration-none">{{ $t('Project') }}</router-link>
                     <li>
-                      <router-link to="/contact" class="text-decoration-none">{{ $t('notreÉquipe') }}</router-link>
+                      <router-link to="/our-team" class="text-decoration-none">{{ $t('notreÉquipe') }}</router-link>
                     </li>
                     </li>
                   </ul>
@@ -47,7 +47,7 @@
                   <h3>{{ $t('autre') }}</h3>
                   <ul class="list-unstyled footer-nav-list mb-lg-0">
                     <li>
-                      <router-link to="/request-for-demo" class="text-decoration-none">{{ $t('contact') }}</router-link>
+                      <router-link to="/contact-us" class="text-decoration-none">{{ $t('contact') }}</router-link>
                     </li>
                   </ul>
                 </div>

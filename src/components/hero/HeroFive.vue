@@ -14,10 +14,10 @@
               &nbsp&nbsp{{ $t('description') }}
             </p>
             <div class="action-btns mt-5">
-              <router-link to="/request-for-demo" class="btn btn-primary me-3">
+              <router-link to="/contact-us" class="btn btn-primary me-3">
                 {{ $t('contact') }}
               </router-link>
-              <router-link to="/contact" class="btn btn-outline-light">
+              <router-link to="/our-team" class="btn btn-outline-light">
                 {{ $t('about') }}
               </router-link>
             </div>
