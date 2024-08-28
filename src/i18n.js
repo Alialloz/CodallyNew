@@ -243,10 +243,10 @@ const messages = {
 
     /* Footer */
 
-    Souscription: "Our latest news, articles, and resources, we will sent to your inbox weekly",
+    Souscription: "Your trusted partner in computer solutions. Innovation, reliability and expertise to serve your technological needs.",
     important: "Essential Page",
     apropo: "About Us",
-    autre: "Other",
+    autre: "Contact",
 
     /* PopUp */
     "successTitle": "Thank you!",
@@ -490,11 +490,11 @@ const messages = {
 
   /* Footer */
   
-  Souscription: "Nos dernières actualités, articles et ressources vous seront envoyés par e-mail chaque semaine",
+  Souscription: "Votre partenaire de confiance en solutions informatiques. Innovation, fiabilité et expertise au service de vos besoins technologiques.",
 
   important: "Page essentiel",
   apropo: "À propos de nous",
-  autre: "Autre",
+  autre: "contact",
 
       /* PopUp */
       successTitle: "Merci!",

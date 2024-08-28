@@ -8,7 +8,7 @@
           <div class="col-md-8 col-lg-4 mb-md-4 mb-lg-0">
             <div class="footer-single-col">
               <div class="footer-single-col mb-4">
-                <img src="\src\assets\img\Codally-logo\logo_codally.png" alt="Logo de l'entreprise Codally"
+                <img src="\src\assets\img\logoCodallyFondTransparent.png" alt="Logo de l'entreprise Codally"
                   class="img-fluid logo-white" />
                 <img src="@/assets/img/logo-color.png" alt="logo" class="img-fluid logo-color" />
               </div>
@@ -53,50 +53,53 @@
                 </div>
               </div>
             </div>
+            <!-- Fin du nouvel onglet pour les informations de contact -->
           </div>
         </div>
       </div>
     </div>
-    <!--footer top end-->
+  </div>
+  <!--footer top end-->
 
-    <!--footer bottom start-->
-    <div class="footer-bottom text-white py-4" :class="footerDark ? 'bg-dark bg-gradient' : 'footer-light'">
-      <div class="container">
-        <div class="row justify-content-between align-items-center">
-          <div class="col-md-7 col-lg-7">
-            <div class="copyright-text">
-              <p class="mb-lg-0 mb-md-0">
-                &copy; 2022 Quiety Rights Reserved. Designed By
-                <a href="https://themetags.com/" class="text-decoration-none">ThemeTags</a>
-              </p>
-            </div>
+  <!--footer bottom start-->
+  <div class="footer-bottom text-white py-4" :class="footerDark ? 'bg-dark bg-gradient' : 'footer-light'">
+    <div class="container">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-md-7 col-lg-7">
+          <div class="copyright-text">
+            <p class="mb-lg-0 mb-md-0">
+              &copy; 2022 Quiety Rights Reserved. Designed By
+              <a href="https://themetags.com/" class="text-decoration-none">ThemeTags</a>
+            </p>
           </div>
-          <div class="col-md-4 col-lg-4">
-            <div class="footer-single-col text-start text-lg-end text-md-end">
-              <ul class="list-unstyled list-inline footer-social-list mb-0">
-                <li class="list-inline-item">
-                  <a href="https://github.com/CodAlly-Agency"><i class="fab fa-github"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="https://www.facebook.com/people/CodAlly/61556088625053/?is_tour_dismissed=true"><i
-                      class="fab fa-facebook-f"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="https://ca.linkedin.com/company/codally"><i class="fab fa-linkedin"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="https://x.com/CodAllyAgency"><i class="fab fa-twitter"></i></a>
-                </li>
-              </ul>
-            </div>
+        </div>
+        <div class="col-md-4 col-lg-4">
+          <div class="footer-single-col text-start text-lg-end text-md-end">
+            <ul class="list-unstyled list-inline footer-social-list mb-0">
+              <li class="list-inline-item">
+                <a href="https://github.com/CodAlly-Agency"><i class="fab fa-github"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/people/CodAlly/61556088625053/?is_tour_dismissed=true"><i
+                    class="fab fa-facebook-f"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://ca.linkedin.com/company/codally"><i class="fab fa-linkedin"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://x.com/CodAllyAgency"><i class="fab fa-twitter"></i></a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
+  </div>
+  <!--footer bottom end-->
+</footer>
 
     <!-- Bouton pour remonter en haut de la page -->
     <button @click="scrollToTop" class="scroll-to-top-btn">↑</button>
-  </footer>
 </template>
 
 <script>
@@ -137,4 +140,34 @@ export default {
 .scroll-to-top-btn:hover {
   background-color: #0056b3;
 }
+</style>
+
+
+<style>
+  .footer-single-col .text-muted {
+    color: #888; /* Couleur grise similaire aux autres textes sous les colonnes */
+  }
+
+  .link-highlight {
+    color: #888; /* Texte en blanc */
+    text-decoration: underline; /* Surlignement */
+  }
+
+  .contact-item {
+    display: flex;
+    align-items: center;
+    color: #888; /* Gris similaire aux autres textes */
+    margin-bottom: 10px;
+  }
+
+  .contact-item i {
+    margin-right: 8px; /* Espace entre l'icône et le texte */
+    font-size: 16px;
+    color: #fff; /* Icônes en blanc pour contraste */
+  }
+
+  .footer-nav-list li {
+    margin-bottom: 8px; /* Ajustement de l'espace entre les items */
+  }
+
 </style>
