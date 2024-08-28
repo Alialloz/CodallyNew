@@ -36,6 +36,9 @@
             id="webler"
           >
             <h2>{{ $t('WeblerTitre') }}</h2>
+            <p>
+              &nbsp;&nbsp;{{ $t('weblerDes') }}
+            </p>
             <ul class="list-unstyled mt-5">
               <li class="d-flex align-items-start mb-4">
                 <div class="icon-box bg-primary rounded me-4">

@@ -24,12 +24,20 @@
                 </div>
               </div>
               <div class="col-sm-6">
-                <label for="phone" class="mb-1">{{ $t('Tel') }}<span class="text-danger">*</span></label>
-                <div class="input-group mb-3">
-                  <input type="text" class="form-control" id="phone" v-model="form.phone" required
-                    :placeholder="$t('Tel')" aria-label="Phone" />
-                </div>
+              <label for="phone" class="mb-1">{{ $t('Tel') }}<span class="text-danger">*</span></label>
+              <div class="input-group mb-3">
+                <input 
+                  type="tel" 
+                  class="form-control" 
+                  id="phone" 
+                  v-model="form.phone" 
+                  required
+                  :placeholder="$t('Tel')" 
+                  aria-label="Phone"
+                  @input="sanitizePhoneInput"
+                />
               </div>
+            </div>
               <div class="col-sm-6">
                 <label for="email" class="mb-1">
                   {{ $t('mail') }}<span class="text-danger">*</span>
@@ -43,7 +51,7 @@
                 <label for="yourMessage" class="mb-1">{{ $t('msg') }} <span class="text-danger">*</span></label>
                 <div class="input-group mb-3">
                   <textarea class="form-control" id="yourMessage" v-model="form.message" required
-                    :placeholder="$t('msgPlaceholder')" style="height: 120px"></textarea>
+                    :placeholder="$t('msgPlaceholder')" style="height: 140px; resize: none; overflow: auto;"></textarea>
                 </div>
               </div>
             </div>
@@ -66,6 +74,7 @@
 <script>
 import emailjs from 'emailjs-com';
 import Popup from '../../components/popup/Popup.vue';
+
 
 export default {
   components: { Popup },
@@ -90,11 +99,19 @@ export default {
       emailjs.send(serviceID, templateID, this.form, userID)
         .then((response) => {
           console.log('SUCCESS!', response.status, response.text);
-          this.isPopupVisible = true; // Show popup on success
-        }, (error) => {
+          this.isPopupVisible = true;
+        })
+        .catch((error) => {
           console.log('FAILED...', error);
           alert('Failed to send your message. Please try again later.');
         });
+    },
+    sanitizePhoneInput(event) {
+      const input = event.target;
+      const cleanedValue = input.value.replace(/\D/g, '');
+      
+      this.form.phone = cleanedValue;
+      input.value = cleanedValue;
     }
   }
 }
@@ -107,3 +124,5 @@ export default {
   background-position: bottom left;
 }
 </style>
+
+
