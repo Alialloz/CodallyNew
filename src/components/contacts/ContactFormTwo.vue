@@ -34,8 +34,7 @@
                   required
                   :placeholder="$t('Tel')" 
                   aria-label="Phone"
-                  pattern="(\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4})|(\d{2}[\s.-]?\d{2}[\s.-]?\d{2}[\s.-]?\d{2}[\s.-]?\d{2})" 
-                  title="Please enter a valid phone number. Canadian numbers should be in the format (123) 456-7890 or 123-456-7890. French numbers should be in the format 01 23 45 67 89 or 01.23.45.67.89."
+                  @input="sanitizePhoneInput"
                 />
               </div>
             </div>
@@ -76,6 +75,7 @@
 import emailjs from 'emailjs-com';
 import Popup from '../../components/popup/Popup.vue';
 
+
 export default {
   components: { Popup },
   data() {
@@ -99,11 +99,19 @@ export default {
       emailjs.send(serviceID, templateID, this.form, userID)
         .then((response) => {
           console.log('SUCCESS!', response.status, response.text);
-          this.isPopupVisible = true; // Show popup on success
-        }, (error) => {
+          this.isPopupVisible = true;
+        })
+        .catch((error) => {
           console.log('FAILED...', error);
           alert('Failed to send your message. Please try again later.');
         });
+    },
+    sanitizePhoneInput(event) {
+      const input = event.target;
+      const cleanedValue = input.value.replace(/\D/g, '');
+      
+      this.form.phone = cleanedValue;
+      input.value = cleanedValue;
     }
   }
 }
@@ -116,3 +124,5 @@ export default {
   background-position: bottom left;
 }
 </style>
+
+
