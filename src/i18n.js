@@ -23,7 +23,7 @@ const messages = {
 
     webler: "Webler",
     weblerDes:
-      "Creating a website can be intimidating, especially for those without deep technical skills. This is where Webler comes into play!",
+      "Creating a website can be intimidating, especially for those without deep technical skills. This is where Webler comes into play by offering you a complete website creation software",
 
     Taskaii: "Taskaii",
     TaskaiiDes:
@@ -275,7 +275,7 @@ const messages = {
 
     webler: "Webler",
     weblerDes:
-      "La création d'un site web peut être intimidant, surtout pour ceux n'ayant pas de compétences techniques approfondies. C'est ici que Webler entre en jeu!",
+      "La création d'un site web peut être intimidant, surtout pour ceux n'ayant pas de compétences techniques approfondies. C'est ici que Webler entre en jeu en vous proposant un logiciel de création de site web complet",
 
     Taskaii: "Taskaii",
     TaskaiiDes:
@@ -372,7 +372,7 @@ const messages = {
     notreÉquipe: "Notre équipe",
     notreÉquipeSlo: "Les personnes derrière Codally",
     notreÉquipeDef:
-      "Le fer de lance de notre entreprise est notre capacité à pouvoir répondre à chacune de vos demandes informatique de manière personnalisée et adaptée. Pour ce faire, chacun de nos membres possèdant une spécialisation lui entant propre.",
+      "Le fer de lance de notre entreprise est notre capacité à pouvoir répondre à chacune de vos demandes informatique de manière personnalisée et adaptée. Pour ce faire, chacun de nos membres possède une spécialisation lui entant propre.",
 
     /* Services (navbarre) */
 
@@ -448,21 +448,21 @@ const messages = {
   SloDef : "Dans un monde toujours plus connecté, nos solutions numériques repoussent les limites de l’innovation, grâce à l’intelligence artificielle, nous créons des projets qui transforment vos données en opportunités, optimisent vos processus et anticipent les besoins de demain",
 
   WeblerTitre :"Webler",
-  WeblerTitreDes :"Révolutionnez la Création de Sites Web en l'automatisant avec l'Intelligence Artificielle pour ensuite le peaufiné selon vos intentions",
+  WeblerTitreDes :"Révolutionnez la Création de Sites Web en l'automatisant avec l'Intelligence Artificielle pour ensuite le peaufiné selon vos intentions.",
   Icône1Titre :"Interface utilisateur intuitive",
   Icône1Des :"Nous avons conçu Webler pour être accessible à tous, quel que soit le niveau de compétence technique.",
   Icône2Titre :"Personnalisation avancée",
-  Icône2Des :"Nous comprenons que chaque site web est unique, c'est pourquoi Webler offre des options de personnalisation étendues pour répondre à vos besoins spécifiques.",
+  Icône2Des :"Nous comprenons que chaque site web est unique, c'est pourquoi Webler offre des options de personnalisation étendues pour répondre à vos besoins.",
 
   TaskaiiITitre :"Taskaii",
-  TaskaiiITitreDes :"Métamorphoser votre Gestion du Temps via une fusion de fonctionnalité allant d'une liste de tâche dynamique à un widget de bureau",
+  TaskaiiITitreDes :"Métamorphoser votre gestion du temps via une fusion de fonctionnalité allant d'une liste de tâche dynamique à un widget de bureau.",
   Icône3Titre :"Liste de Tâches Dynamique ",
-  Icône3Des :"Gérez vos tâches de manière intuitive, avec des options pour définir la durée, l'importance, l'échéance et les prérequis.",
+  Icône3Des :"Gérez vos tâches de manière intuitive, avec des options pour définir la durée, l'importance, l'échéance et les prérequis de ces dernières.",
   Icône4Titre :"Alertes et Notifications",
   Icône4Des :"Assurez le suivi de vos engagements et échéances avec un système de rappels efficace.",
 
   ServiceClientèleTitre :"Chat WhatsApp pour Cliniques",
-  ServiceClientèleDes :"Transformez l'expérience patient avec notre service clientèle instantané spécialement conçu pour les cliniques modernes",
+  ServiceClientèleDes :"Transformez l'expérience patient avec notre service clientèle instantané spécialement conçu pour les cliniques.",
   Icône5Titre :"Optimisation du Temps et des Ressources",
   Icône5Des :"Notre service allège la charge de travail du personnel, permettant une meilleure allocation des ressources humaines.",
   Icône6Titre :"Sécurité des Données",

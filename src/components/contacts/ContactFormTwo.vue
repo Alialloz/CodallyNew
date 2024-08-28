@@ -24,12 +24,21 @@
                 </div>
               </div>
               <div class="col-sm-6">
-                <label for="phone" class="mb-1">{{ $t('Tel') }}<span class="text-danger">*</span></label>
-                <div class="input-group mb-3">
-                  <input type="text" class="form-control" id="phone" v-model="form.phone" required
-                    :placeholder="$t('Tel')" aria-label="Phone" />
-                </div>
+              <label for="phone" class="mb-1">{{ $t('Tel') }}<span class="text-danger">*</span></label>
+              <div class="input-group mb-3">
+                <input 
+                  type="tel" 
+                  class="form-control" 
+                  id="phone" 
+                  v-model="form.phone" 
+                  required
+                  :placeholder="$t('Tel')" 
+                  aria-label="Phone"
+                  pattern="(\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4})|(\d{2}[\s.-]?\d{2}[\s.-]?\d{2}[\s.-]?\d{2}[\s.-]?\d{2})" 
+                  title="Please enter a valid phone number. Canadian numbers should be in the format (123) 456-7890 or 123-456-7890. French numbers should be in the format 01 23 45 67 89 or 01.23.45.67.89."
+                />
               </div>
+            </div>
               <div class="col-sm-6">
                 <label for="email" class="mb-1">
                   {{ $t('mail') }}<span class="text-danger">*</span>
@@ -43,7 +52,7 @@
                 <label for="yourMessage" class="mb-1">{{ $t('msg') }} <span class="text-danger">*</span></label>
                 <div class="input-group mb-3">
                   <textarea class="form-control" id="yourMessage" v-model="form.message" required
-                    :placeholder="$t('msgPlaceholder')" style="height: 120px"></textarea>
+                    :placeholder="$t('msgPlaceholder')" style="height: 140px; resize: none; overflow: auto;"></textarea>
                 </div>
               </div>
             </div>
