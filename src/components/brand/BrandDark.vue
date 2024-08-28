@@ -14,8 +14,7 @@
           </p>
           <ul class="customer-logos-grid text-center list-unstyled mb-0" style="position: relative; padding: 0 20px;" >
             <li>
-              <div style="position: absolute; top: 50%; left: -10px; width: 10px; height: 100%; background: linear-gradient(to bottom, transparent, #ffffff, transparent); transform: translateY(-50%); border-radius: 10px 0 0 10px; box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);"></div>
-              <div style="position: absolute; top: 50%; right: -10px; width: 10px; height: 100%; background: linear-gradient(to bottom, transparent, #ffffff, transparent); transform: translateY(-50%); border-radius: 0 10px 10px 0; box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);"></div>
+              
               
               <a href="https://www.uqac.ca/" target="_blank" rel="noopener noreferrer">
                 <img
@@ -32,28 +31,6 @@
               <a href="https://uqam.ca/" target="_blank" rel="noopener noreferrer">
                 <img
                   src="@/assets/img/clients/logoUqam.png"
-                  width="150"
-                  alt="clients logo"
-                  class="img-fluid customer-logo p-1 p-md-2 p-lg-3 m-auto"
-                  data-aos="fade-up"
-                  data-aos-delay="50"
-                />
-              </a>
-            </li>
-            <li>
-                <img
-                  src="@/assets/img/clients/logoMarc.png"
-                  width="150"
-                  alt="clients logo"
-                  class="img-fluid customer-logo p-1 p-md-2 p-lg-3 m-auto"
-                  data-aos="fade-up"
-                  data-aos-delay="50"
-                />
-            </li>
-            <li>
-              <a href="https://lec-media.agency/" target="_blank" rel="noopener noreferrer">
-                <img
-                  src="@/assets/img/clients/logo-lec-media.png"
                   width="150"
                   alt="clients logo"
                   class="img-fluid customer-logo p-1 p-md-2 p-lg-3 m-auto"
@@ -87,6 +64,29 @@
               </a>
             </li>
             <li>
+                <img
+                  src="@/assets/img/clients/logoMarc.png"
+                  width="150"
+                  alt="clients logo"
+                  class="img-fluid customer-logo p-1 p-md-2 p-lg-3 m-auto"
+                  data-aos="fade-up"
+                  data-aos-delay="50"
+                />
+            </li>
+            <li>
+              <a href="https://lec-media.agency/" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="@/assets/img/clients/logo-lec-media.png"
+                  width="150"
+                  alt="clients logo"
+                  class="img-fluid customer-logo p-1 p-md-2 p-lg-3 m-auto"
+                  data-aos="fade-up"
+                  data-aos-delay="50"
+                />
+              </a>
+            </li>
+
+            <li>
               <a href="https://wintechnologie.app/" target="_blank" rel="noopener noreferrer">
                 <img
                   src="@/assets/img/clients/logo-wintechno.png"
@@ -101,7 +101,7 @@
             <li>
               <a href="https://lavicennes.ch/" target="_blank" rel="noopener noreferrer">
                 <img
-                  src="@/assets/img/clients/logo-lavicennes.svg"
+                  src="@/assets/img/clients/logo-lavicennes.png"
                   width="150"
                   alt="clients logo"
                   class="img-fluid customer-logo p-1 p-md-2 p-lg-3 m-auto"
@@ -129,3 +129,25 @@ export default {
   name: 'BrandDark',
 };
 </script>
+
+<style>
+li > div {
+  position: absolute;
+  top: 50%;
+  width: 10px;
+  height: 100%;
+  background: linear-gradient(to bottom, transparent, #999999, transparent); /* Changed color to be more subtle */
+  transform: translateY(-50%);
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(153, 153, 153, 0.5); /* Reduced the size of the shadow */
+}
+
+li > div:first-child {
+  left: -10px;
+  border-radius: 10px 0 0 10px;
+}
+
+li > div:last-child {
+  right: -10px;
+  border-radius: 0 10px 10px 0;
+}</style>
