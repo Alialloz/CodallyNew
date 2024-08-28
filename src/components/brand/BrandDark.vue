@@ -3,7 +3,8 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8 col-12">
-
+          <div class="line left-line"></div>
+          
         <!-- Paragraphe vide pour le margin-->
           
           <p
@@ -13,6 +14,7 @@
           >
           </p>
           <ul class="customer-logos-grid text-center list-unstyled mb-0" style="position: relative; padding: 0 20px;" >
+            <div class="left-trait"></div> <!-- Trait gauche -->
             <li>
               
               
@@ -25,7 +27,9 @@
                   data-aos="fade-up"
                   data-aos-delay="50"
                 />
+                
               </a>
+              
             </li>
             <li>
               <a href="https://uqam.ca/" target="_blank" rel="noopener noreferrer">
@@ -85,7 +89,7 @@
                 />
               </a>
             </li>
-
+            
             <li>
               <a href="https://wintechnologie.app/" target="_blank" rel="noopener noreferrer">
                 <img
@@ -110,6 +114,7 @@
                 />
               </a>
             </li>
+            <div class="right-trait"></div> <!-- Trait droit -->
           </ul>
           <p
             class="text-center mt-5 mb-0"
@@ -117,6 +122,7 @@
             data-aos-delay="200"
           >
             {{ $t('sloganCollab') }}
+            
           </p>
         </div>
       </div>
@@ -130,24 +136,78 @@ export default {
 };
 </script>
 
-<style>
-li > div {
+<style scoped>
+.logo-container {
+  position: relative;
+  padding: 0 20px;
+}
+
+.customer-logos-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.side-gradient {
   position: absolute;
-  top: 50%;
-  width: 10px;
-  height: 100%;
-  background: linear-gradient(to bottom, transparent, #999999, transparent); /* Changed color to be more subtle */
-  transform: translateY(-50%);
-  border-radius: 10px;
-  box-shadow: 0 0 5px rgba(153, 153, 153, 0.5); /* Reduced the size of the shadow */
+  top: 0;
+  bottom: 0;
+  width: 15px;
+  background: linear-gradient(to bottom, transparent, #ffffff, transparent);
 }
 
-li > div:first-child {
-  left: -10px;
-  border-radius: 10px 0 0 10px;
+.left-gradient {
+  left: 0;
 }
 
-li > div:last-child {
-  right: -10px;
-  border-radius: 0 10px 10px 0;
-}</style>
+.right-gradient {
+  right: 0;
+}
+
+.customer-logo {
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+
+.customer-logo:hover {
+  transform: scale(1.1);
+  transform: scale(1.1) rotate(3deg);
+  transition: transform 0.3s ease;
+  
+}
+
+.left-trait, .right-trait {
+    position: absolute;
+    top: 0;
+    width: 0.2%; /* Largeur du trait */
+    height: 100%;
+    background: linear-gradient(to bottom, transparent, #ffffff, transparent); /* Dégradé de blanc */
+}
+
+.left-trait {
+    left: -20px; /* Positionnement à gauche */
+    border-radius: 10px 0 0 10px; /* Arrondi à gauche */
+}
+
+.right-trait {
+    right: -20px; /* Positionnement à droite */
+    border-radius: 0 10px 10px 0; /* Arrondi à droite */
+}
+.bg-animation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('background.svg');
+    animation: backgroundMove 20s linear infinite;
+}
+
+@keyframes backgroundMove {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 100%; }
+}
+
+</style>
