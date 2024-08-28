@@ -8,7 +8,7 @@
           <div class="col-md-8 col-lg-4 mb-md-4 mb-lg-0">
             <div class="footer-single-col">
               <div class="footer-single-col mb-4">
-                <img src="\src\assets\img\logoCodallyFondTransparent.png" alt="Logo de l'entreprise Codally"
+                <img src="\src\assets\img\Codally-logo\logo_Codally.png" alt="Logo de l'entreprise Codally"
                   class="img-fluid logo-white" />
                 <img src="@/assets/img/logo-color.png" alt="logo" class="img-fluid logo-color" />
               </div>
@@ -58,7 +58,6 @@
         </div>
       </div>
     </div>
-  </div>
   <!--footer top end-->
 
   <!--footer bottom start-->
