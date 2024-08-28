@@ -2,7 +2,7 @@
   <footer class="footer-section">
     <!--footer top start-->
     <!--for light footer add .footer-light class and for dark footer add .bg-dark .text-white class-->
-    <div class="footer-top ptb-120 bg" :class="footerDark ? 'bg-gradient text-white' : 'dark-bg'">
+    <div class="footer-top ptb-60 bg" :class="footerDark ? 'bg-gradient text-white' : 'dark-bg'">
       <div class="container">
         <div class="row justify-content-between">
           <div class="col-md-8 col-lg-4 mb-md-4 mb-lg-0">
@@ -11,6 +11,11 @@
                 <img src="\src\assets\img\Codally-logo\logo_Codally.png" alt="Logo de l'entreprise Codally"
                   class="img-fluid logo-white" />
                 <img src="@/assets/img/logo-color.png" alt="logo" class="img-fluid logo-color" />
+                <!-- Texte sous le logo -->
+              <p class="mt-2 text-white">
+                &nbsp&nbsp{{ $t('Souscription') }}
+              </p>
+              <!-- Fin du texte sous le logo -->
               </div>
             </div>
           </div>
@@ -49,7 +54,21 @@
                     <li>
                       <router-link to="/contact-us" class="text-decoration-none">{{ $t('contact') }}</router-link>
                     </li>
+                    
                   </ul>
+                
+                <ul class="list-unstyled contact-list mb-lg-0 text-muted">
+                  <li class="contact-item">
+                    <i class="fas fa-phone-alt"></i> <!-- Icône téléphone -->
+                    <span>(514) 600-8289</span>
+                  </li>
+                  <li class="contact-item">
+                    <i class="fas fa-envelope"></i> <!-- Icône email -->
+                    <span>codally.agency@outlook.com</span>
+                  </li>
+                </ul>
+
+                  
                 </div>
               </div>
             </div>
