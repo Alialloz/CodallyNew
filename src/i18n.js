@@ -23,7 +23,7 @@ const messages = {
 
     webler: "Webler",
     weblerDes:
-      "Creating a website can be intimidating, especially for those without deep technical skills. This is where Webler comes into play by offering you a complete website creation software.",
+      "Creating a website can be intimidating. This is where Webler comes into play by offering you a complete website creation software.",
 
     Taskaii: "Taskaii",
     TaskaiiDes:
