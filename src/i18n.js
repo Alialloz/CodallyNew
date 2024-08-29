@@ -249,9 +249,9 @@ const messages = {
     autre: "Contact",
 
     /* PopUp */
-    "successTitle": "Thank you!",
-    "successMessage": "Your message has been sent successfully. We will get back to you shortly.",
-    "okButton": "OK"
+    successTitle: "Thank you!",
+    successMessage: "Your message has been sent successfully. We will get back to you shortly.",
+    okButton: "OK",
   },
 
   fr: {

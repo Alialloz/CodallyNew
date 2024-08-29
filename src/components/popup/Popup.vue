@@ -3,7 +3,7 @@
       <div class="popup-content">
         <h3>{{$t('successTitle')}}</h3>
         <p>{{$t('successMessage')}}</p>
-        <button @click="closePopup" class="btn btn-primary">{{$t('okbutton')}}</button>
+        <button @click="closePopup" class="btn btn-primary">OK</button>
       </div>
     </div>
   </template>
