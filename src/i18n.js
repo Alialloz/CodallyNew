@@ -271,15 +271,14 @@ const messages = {
 
     Project: "Nos Projects",
     projectDescription:
-      "Nous transformons les idées en réalité à vos côtés, parcourez nos projets qui définissent notre engagement envers l'innovation et les collaborations créatives",
+      "Nous transformons les idées en réalité à vos côtés, parcourez nos projets qui définissent notre engagement envers l'innovation et les collaborations créatives.",
 
     webler: "Webler",
     weblerDes:
-      "La création d'un site web peut être intimidant, surtout pour ceux n'ayant pas de compétences techniques approfondies. C'est ici que Webler entre en jeu en vous proposant un logiciel de création de site web complet",
+      "La création d'un site web peut être intimidant, surtout pour ceux n'ayant pas de compétences techniques approfondies. C'est ici que Webler entre en jeu en vous proposant un logiciel de création de site web complet.",
 
     Taskaii: "Taskaii",
-    TaskaiiDes:
-      "Imaginez une application de bureau conçue pour améliorer votre productivité. Via une liste de tâches avancée avec un agenda intégré, Taskai est le logiciel parfait.",
+    TaskaiiDes:"Imaginez une application de bureau conçue pour améliorer votre productivité. Via une liste de tâches avancée avec un agenda intégré, Taskai est le logiciel parfait.",
 
     serviceClient: "Chat WhatsApp pour Cliniques",
     serviceClientDes:
