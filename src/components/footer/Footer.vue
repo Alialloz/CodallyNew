@@ -80,8 +80,9 @@
           <div class="col-md-7 col-lg-7">
             <div class="copyright-text">
               <p class="mb-lg-0 mb-md-0">
-                &copy; 2022 Quiety Rights Reserved. Designed By
+                &copy; 2024 Codally Rights Reserved. Designed By
                 <a href="https://themetags.com/" class="text-decoration-none">ThemeTags</a>
+                and quiety
               </p>
             </div>
           </div>
@@ -189,4 +190,5 @@ export default {
   margin-bottom: 8px;
   /* Ajustement de l'espace entre les items */
 }
+
 </style>

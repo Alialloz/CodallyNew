@@ -13,7 +13,7 @@ const messages = {
     slogan_1: "Turn your dreams into technological realities",
     slogan_2: "#1 Software Solution for Your Business",
     description:
-      "We are a technology consulting firm specializing in the development of innovative and customized diverse software solutions",
+      "We are a technology consulting firm specializing in the development of innovative and customized diverse software solutions.",
 
     /* Page d'acceuil Project*/
 
@@ -23,7 +23,7 @@ const messages = {
 
     webler: "Webler",
     weblerDes:
-      "Creating a website can be intimidating, especially for those without deep technical skills. This is where Webler comes into play by offering you a complete website creation software",
+      "Creating a website can be intimidating, especially for those without deep technical skills. This is where Webler comes into play by offering you a complete website creation software.",
 
     Taskaii: "Taskaii",
     TaskaiiDes:
@@ -199,7 +199,7 @@ const messages = {
   /* Nos projects (FeatureThree ) */
 
   Slo : "The future of your business starts here",
-  SloDef : "In an increasingly connected world, our digital solutions push the boundaries of innovation, leveraging artificial intelligence, we create projects that turn your data into opportunities, optimize your processes, and anticipate the needs of tomorrow",
+  SloDef : "In an increasingly connected world, our digital solutions push the boundaries of innovation, leveraging artificial intelligence, we create projects that turn your data into opportunities, optimize your processes, and anticipate the needs of tomorrow.",
 
   WeblerTitre :"Webler",
   WeblerTitreDes :"Revolutionize Website Creation by Automating it with Artificial Intelligence and Then Fine-Tuning it According to Your Intentions",
@@ -209,21 +209,21 @@ const messages = {
   Icône2Des :"We understand that every website is unique, which is why Webler offers extensive customization options to meet your specific needs.",
 
   TaskaiiITitre :"Taskaii",
-  TaskaiiITitreDes :"Transform Your Time Management through a Fusion of Features Ranging from a Dynamic Task List to a Desktop Widget",
+  TaskaiiITitreDes :"Transform Your Time Management through a Fusion of Features Ranging from a Dynamic Task List to a Desktop Widget.",
   Icône3Titre :"Dynamic Task List",
   Icône3Des :"Manage your tasks intuitively, with options to set duration, importance, deadlines, and prerequisites.",
   Icône4Titre :"Alerts and Notifications",
   Icône4Des :"Keep track of your commitments and deadlines with an effective reminder system.",
 
   ServiceClientèleTitre :"WhatsApp Chat for Clinics",
-  ServiceClientèleDes :"Transform the patient experience with our instant customer service specifically designed for modern clinics",
+  ServiceClientèleDes :"Transform the patient experience with our instant customer service specifically designed for modern clinics.",
   Icône5Titre :"Time and Resource Optimization",
-  Icône1Des :"Our service reduces the workload of staff, allowing for better allocation of human resources.",
+  Icône5Des :"Our service reduces the workload of staff, allowing for better allocation of human resources.",
   Icône6Titre :"Data Security",
   Icône6Des :"With support from IntelChain, clinics benefit from enhanced data security, essential in the medical sector.",
 
   GestionclientèleTitre :"AI Telephone Assistance",
-  GestionclientèleTitreDes :"Ease Patient Management with Dedicated AI Telephone Assistance for Clinics",
+  GestionclientèleTitreDes :"Ease Patient Management with Dedicated AI Telephone Assistance for Clinics.",
   Icône7Titre :"Improvement of Patient Experience",
   Icône7Des :"By simplifying the appointment scheduling process and providing personalized responses, we help improve overall patient satisfaction.",
   Icône8Titre :"Innovative Technology",
@@ -239,7 +239,7 @@ const messages = {
   /* Portfolio*/
 
   TitrePort :"Our portfolio",
-  PortDes :"We approach each project with an adaptable methodology, focusing on understanding specific needs and applying tailored technical solutions to achieve optimal results",
+  PortDes :"We approach each project with an adaptable methodology, focusing on understanding specific needs and applying tailored technical solutions to achieve optimal results.",
 
     /* Footer */
 
@@ -271,15 +271,14 @@ const messages = {
 
     Project: "Nos Projects",
     projectDescription:
-      "Nous transformons les idées en réalité à vos côtés, parcourez nos projets qui définissent notre engagement envers l'innovation et les collaborations créatives",
+      "Nous transformons les idées en réalité à vos côtés, parcourez nos projets qui définissent notre engagement envers l'innovation et les collaborations créatives.",
 
     webler: "Webler",
     weblerDes:
-      "La création d'un site web peut être intimidant, surtout pour ceux n'ayant pas de compétences techniques approfondies. C'est ici que Webler entre en jeu en vous proposant un logiciel de création de site web complet",
+      "La création d'un site web peut être intimidant. C'est ici que Webler entre en jeu en vous proposant un logiciel de création de site web complet.",
 
     Taskaii: "Taskaii",
-    TaskaiiDes:
-      "Imaginez une application de bureau conçue pour améliorer votre productivité. Via une liste de tâches avancée avec un agenda intégré, Taskai est le logiciel parfait.",
+    TaskaiiDes:"Imaginez une application de bureau conçue pour améliorer votre productivité. Via une liste de tâches avancée avec un agenda intégré, Taskai est le logiciel parfait.",
 
     serviceClient: "Chat WhatsApp pour Cliniques",
     serviceClientDes:
@@ -346,7 +345,7 @@ const messages = {
      /* Collaboration home (integrationOne)*/
 
      tireCollab: "Nos Partenariats",
-     sloganCollab: "La réussite est un effort collectif, c'est pourquoi nous travaillons de paires avec d'autre entreprises ",
+     sloganCollab: "La réussite est un effort collectif, c'est pourquoi nous travaillons de paires avec d'autre entreprises.",
 
 
     /* à propos de nous (home/About_image)*/
@@ -382,27 +381,27 @@ const messages = {
 
     DevelopementWebTexte : "Nous offrons des solutions de développement web personnalisées pour répondre aux besoins uniques de votre entreprise. Que vous ayez besoin d'un site vitrine élégant, d'une plateforme e-commerce dynamique, ou d'une application web innovante, notre équipe d'experts est là pour transformer vos idées en réalité.",
     DWiconetitre1 : "Optimisation et SEO",
-    DWiconetexte1 : "Amélioration de la visibilité de votre site et optimisation des performances",
+    DWiconetexte1 : "Amélioration de la visibilité de votre site et optimisation des performances.",
     DWiconetitre2 : "Maintenance et support",
     DWiconetexte2 : "Assistance continue pour garantir le bon fonctionnement de vos solutions web.",
 
     DevelopementmobileTexte : "Qu'il s'agisse d'une application iOS, Android, ou multiplateforme, notre équipe conçoit des solutions innovantes et performantes qui propulsent votre activité vers le succès.",
     DMiconetitre1 : "Conception UX/UI",
-    DMiconetexte1 : "Création d'interfaces mobiles intuitives et esthétiques pour une expérience utilisateur optimale",
+    DMiconetexte1 : "Création d'interfaces mobiles intuitives et esthétiques pour une expérience utilisateur optimale.",
     DMiconetitre2 : "Maintenance et support",
     DMiconetexte2 : "Suivi et mises à jour régulières pour garantir le bon fonctionnement de votre application.",
 
-    DevelopementFullStackTexte : "Que vous ayez besoin d'une plateforme complète ou d'une solution spécifique, notre équipe maîtrise aussi bien le front-end que le back-end, garantissant une intégration fluide et des performances optimales",
+    DevelopementFullStackTexte : "Que vous ayez besoin d'une plateforme complète ou d'une solution spécifique, notre équipe maîtrise aussi bien le front-end que le back-end, garantissant une intégration fluide et des performances optimales.",
     DFTiconetitre1 : "Intégration API et Microservices",
-    DFTiconetexte1 : "Connexion de votre application à des services externes et à des microservices pour une flexibilité maximale",
+    DFTiconetexte1 : "Connexion de votre application à des services externes et à des microservices pour une flexibilité maximale.",
     DFTiconetitre2 : "Sécurité et Scalabilité",
-    DFTconetexte2 : " Implémentation de pratiques de sécurité rigoureuses et d'architectures évolutives pour soutenir votre croissance",
+    DFTconetexte2 : " Implémentation de pratiques de sécurité rigoureuses et d'architectures évolutives pour soutenir votre croissance.",
 
-    DevelopementLogicielPersoTexte : "Dans le cas ou vos projets ne constitue pas un des services proposer,nous concevons des logiciels sur mesure. Qu'il s'agisse d'automatiser des processus ou de créer des outils spécifiques à votre secteur",
+    DevelopementLogicielPersoTexte : "Dans le cas ou vos projets ne constitue pas un des services proposer,nous concevons des logiciels sur mesure. Qu'il s'agisse d'automatiser des processus ou de créer des outils spécifiques à votre secteur.",
     DLPiconetitre1 : "Analyse des Besoins",
     DLPiconetexte1 : "Compréhension approfondie de vos processus de votre secteur pour concevoir un logiciel parfaitement adapté.",
     DLPiconetitre2 : "Intégration Systèmes",
-    DLPconetexte2 : "Connectez votre logiciel à vos systèmes existants pour une transition fluide et une efficacité maximale",
+    DLPconetexte2 : "Connectez votre logiciel à vos systèmes existants pour une transition fluide et une efficacité maximale.",
 
     DevelopementIATexte : "Grâce à l'IA, vous prenez des décisions plus rapides et plus éclairées, tout en réduisant vos coûts opérationnels, nos solutions sont conçues pour évoluer avec votre entreprise, vous offrant une scalabilité sans effort et une innovation continue.",
     DIAiconetitre1 : "L'adaptation via la Scalabilité",
@@ -410,11 +409,11 @@ const messages = {
     DIAiconetitre2 : "Analyse prédictive",
     DIAconetexte2 : "Votre entreprise peut se positionner de manière proactive, vous pouvez prédire les évolutions du marché et anticiper les besoins de vos clients",
 
-    ConseilTexte : "Nous vous accompagnons dans l'optimisation de votre entreprise en vous proposant des conseils stratégiques et technologiques afin de tirer parti des dernières innovations en la matière pour optimiser vos processus",
+    ConseilTexte : "Nous vous accompagnons dans l'optimisation de votre entreprise en vous proposant des conseils stratégiques et technologiques afin de tirer parti des dernières innovations en la matière pour optimiser vos processus.",
     CIconetitre1 : "Stratégie Digitale",
     CIconetexte1 : "Élaboration d'une feuille de route digitale sur mesure pour guider votre transformation numérique et maximiser votre ROI.",
     CIconetitre2 : "Sélection de Technologies",
-    CIconetexte2 : " Recommandation et intégration des outils technologiques les mieux adaptés à vos besoins et à votre secteur",
+    CIconetexte2 : " Recommandation et intégration des outils technologiques les mieux adaptés à vos besoins et à votre secteur.",  
     
   /* Brand Logo */
 
@@ -469,7 +468,7 @@ const messages = {
   Icône6Des :"Avec le soutien d'IntelChain, les cliniques bénéficient d'une sécurité de données renforcée essentielle dans le secteur médical.",
 
   GestionclientèleTitre :"Assistance Téléphonique",
-  GestionclientèleTitreDes :"Facilité la gestion des patient via une assistance téléphonique IA dédiée pour cliniques",
+  GestionclientèleTitreDes :"Facilité la gestion des patient via une assistance téléphonique IA dédiée pour cliniques.",
   Icône7Titre :"Amélioration de l'Expérience Patient",
   Icône7Des :"En simplifiant le processus de prise de rendez-vous et en fournissant des réponses personnalisées, nous aidons à améliorer la satisfaction globale des patients.",
   Icône8Titre :"Technologie Innovante ",
@@ -485,7 +484,7 @@ const messages = {
   /* Portfolio*/
 
   TitrePort :"Notre portfolio",
-  PortDes :"Nous abordons chaque projet avec une méthodologie adaptable, en nous concentrant sur la compréhension des besoins spécifiques et en appliquant des solutions techniques adaptées pour atteindre des résultats optimaux",
+  PortDes :"Nous abordons chaque projet avec une méthodologie adaptable, en nous concentrant sur la compréhension des besoins spécifiques et en appliquant des solutions techniques adaptées pour atteindre des résultats optimaux.",
 
 
   /* Footer */
@@ -496,10 +495,10 @@ const messages = {
   apropo: "À propos de nous",
   autre: "contact",
 
-      /* PopUp */
-      successTitle: "Merci!",
-      successMessage: "Votre message a été envoyé avec succès, nous vous répondrons sous peu.",
-      okbutton: "OK",
+    /* PopUp */
+  successTitle: "Merci!",
+  successMessage: "Votre message a été envoyé avec succès, nous vous répondrons sous peu.",
+  kbutton: "OK",
 
   },
 };

@@ -13,46 +13,48 @@
                 <label for="firstName" class="mb-1">{{ $t('Prenom') }} <span class="text-danger">*</span></label>
                 <div class="input-group mb-3">
                   <input type="text" class="form-control" id="firstName" v-model="form.firstName" required
-                    :placeholder="$t('Prenom')" aria-label="First name" />
+                    :placeholder="$t('Prenom')" aria-label="First name" maxlength="20" />
                 </div>
               </div>
               <div class="col-sm-6">
                 <label for="lastName" class="mb-1">{{ $t('Nom') }}<span class="text-danger">*</span></label>
                 <div class="input-group mb-3">
                   <input type="text" class="form-control" id="lastName" v-model="form.lastName" required
-                    :placeholder="$t('Nom')" aria-label="Last name" />
+                    :placeholder="$t('Nom')" aria-label="Last name" maxlength="20" />
                 </div>
               </div>
               <div class="col-sm-6">
-              <label for="phone" class="mb-1">{{ $t('Tel') }}<span class="text-danger">*</span></label>
-              <div class="input-group mb-3">
-                <input 
-                  type="tel" 
-                  class="form-control" 
-                  id="phone" 
-                  v-model="form.phone" 
-                  required
-                  :placeholder="$t('Tel')" 
-                  aria-label="Phone"
-                  @input="sanitizePhoneInput"
-                />
+                <label for="phone" class="mb-1">{{ $t('Tel') }}<span class="text-danger">*</span></label>
+                <div class="input-group mb-3">
+                  <input 
+                    type="tel" 
+                    class="form-control" 
+                    id="phone" 
+                    v-model="form.phone" 
+                    required
+                    :placeholder="$t('Tel')" 
+                    aria-label="Phone"
+                    maxlength="13"
+                    @input="sanitizePhoneInput"
+                  />
+                </div>
               </div>
-            </div>
               <div class="col-sm-6">
                 <label for="email" class="mb-1">
                   {{ $t('mail') }}<span class="text-danger">*</span>
                 </label>
                 <div class="input-group mb-3">
                   <input type="email" class="form-control" id="email" v-model="form.email" required
-                  :placeholder="$t('mailPlaceholder')" aria-label="Email" />
+                  :placeholder="$t('mailPlaceholder')" aria-label="Email" maxlength="30" />
                 </div>
               </div>
               <div class="col-12">
                 <label for="yourMessage" class="mb-1">{{ $t('msg') }} <span class="text-danger">*</span></label>
                 <div class="input-group mb-3">
                   <textarea class="form-control" id="yourMessage" v-model="form.message" required
-                    :placeholder="$t('msgPlaceholder')" style="height: 140px; resize: none; overflow: auto;"></textarea>
+                    :placeholder="$t('msgPlaceholder')" style="height: 140px; resize: none; overflow: auto;" maxlength="400"></textarea>
                 </div>
+                <small class="text-muted">{{ form.message.length }}/400 caractères</small>
               </div>
             </div>
             <button type="submit" class="btn btn-primary mt-4">
@@ -74,7 +76,6 @@
 <script>
 import emailjs from 'emailjs-com';
 import Popup from '../../components/popup/Popup.vue';
-
 
 export default {
   components: { Popup },
@@ -124,5 +125,3 @@ export default {
   background-position: bottom left;
 }
 </style>
-
-
