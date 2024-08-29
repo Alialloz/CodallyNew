@@ -57,16 +57,16 @@
         <div class="collapse navbar-collapse justify-content-center flex-grow-1" :class="{ 'show': isMenuOpen }">
           <ul class="navbar-nav main-menu">
             <li>
-              <router-link to="/" class="nav-link" @click="closeMenu">&nbsp&nbsp{{ $t('Home') }}&nbsp&nbsp</router-link>
+              <router-link to="/" class="nav-link" @click="closeMenu">{{ $t('Home') }}</router-link>
             </li>
             <li>
-              <router-link to="/services" class="nav-link" @click="closeMenu">&nbsp&nbsp{{ $t('service') }}&nbsp&nbsp</router-link>
+              <router-link to="/services" class="nav-link" @click="closeMenu">{{ $t('service') }}</router-link>
             </li>
             <li>
-              <router-link to="/our-projects" class="nav-link" @click="closeMenu">&nbsp&nbsp{{ $t('Project') }}&nbsp&nbsp</router-link>
+              <router-link to="/our-projects" class="nav-link" @click="closeMenu">{{ $t('Project') }}</router-link>
             </li>
-            <li class="nav-item">
-              <router-link to="/our-team" class="nav-link" @click="closeMenu">&nbsp&nbsp{{ $t('about') }}&nbsp&nbsp</router-link>
+            <li>
+              <router-link to="/our-team" class="nav-link" @click="closeMenu">{{ $t('about') }}</router-link>
             </li>
             <li class="nav-item d-xl-none">
               <router-link to="/contact-us" class="nav-link" @click="closeMenu">{{ $t('contact') }}</router-link>
@@ -199,33 +199,44 @@ export default {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   }
 
-  /* Modify the text color inside the navbar-collapse */
   .navbar-collapse .nav-link {
-    color: #fff; /* White text */
-  }
+    color: #fff !important;
+    padding: 0.75rem 1rem !important;
+    text-align: left!important;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
 
-  /* Modify the text color for the dropdown items */
+  /* Adjust the dropdown items similarly */
   .navbar-collapse .dropdown-item {
-    color: #fff; /* White text */
+    color: #fff !important; /* White text */
+    padding: 0.75rem 1rem !important; /* Consistent padding */
+    text-align: left !important; /* Align text to the left */
+    display: block; /* Ensure each link behaves as a block element */
+    width: 100%; /* Ensure full width for alignment */
+    box-sizing: border-box; /* Include padding in width */
   }
 
-  /* Hover effect: lighter blue and white text */
+  /* Hover effect for dropdown items */
   .navbar-collapse .dropdown-item:hover,
   .navbar-collapse .dropdown-item:focus {
-    background-color: rgba(23, 92, 255, 0.8); /* Lighter blue */
-    color: #fff; /* Keep text white */
+    background-color: rgba(23, 92, 255, 0.8) !important; /* Lighter blue */
+    color: #fff !important; /* Keep text white */
+  }
+
+  /* Ensure the main menu items are aligned properly */
+  .main-menu {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .main-menu .nav-link {
+    margin: 0 !important; /* Remove any margins causing misalignment */
   }
 
   .navbar-collapse.show {
     display: block;
-  }
-
-  .main-menu {
-    flex-direction: column;
-  }
-
-  .main-menu .nav-link {
-    padding: 0.5rem 0;
   }
 
   .language-switcher {
@@ -300,6 +311,4 @@ export default {
 .language-switcher {
   margin-right: 8px;
 }
-
-
 </style>
