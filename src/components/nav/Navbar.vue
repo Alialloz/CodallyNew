@@ -57,16 +57,16 @@
         <div class="collapse navbar-collapse justify-content-center flex-grow-1" :class="{ 'show': isMenuOpen }">
           <ul class="navbar-nav main-menu">
             <li>
-              <router-link to="/" class="nav-link" @click="closeMenu">{{ $t('Home') }}</router-link>
+              <router-link to="/" class="nav-link" @click="closeMenu">&nbsp&nbsp{{ $t('Home') }}&nbsp&nbsp</router-link>
             </li>
             <li>
-              <router-link to="/services" class="nav-link" @click="closeMenu">{{ $t('service') }}</router-link>
+              <router-link to="/services" class="nav-link" @click="closeMenu">&nbsp&nbsp{{ $t('service') }}&nbsp&nbsp</router-link>
             </li>
             <li>
-              <router-link to="/our-projects" class="nav-link" @click="closeMenu">{{ $t('Project') }}</router-link>
+              <router-link to="/our-projects" class="nav-link" @click="closeMenu">&nbsp&nbsp{{ $t('Project') }}&nbsp&nbsp</router-link>
             </li>
             <li class="nav-item">
-              <router-link to="/our-team" class="nav-link" @click="closeMenu">{{ $t('about') }}</router-link>
+              <router-link to="/our-team" class="nav-link" @click="closeMenu">&nbsp&nbsp{{ $t('about') }}&nbsp&nbsp</router-link>
             </li>
             <!-- Add Contact button to dropdown for mobile -->
             <li class="nav-item d-xl-none">
