@@ -6,18 +6,18 @@
     ]">
       <div class="container-fluid d-flex align-items-center justify-content-between position-relative">
         
-        <!-- Brand Logo: Aligned to the left -->
+        <!-- Brand Logo -->
         <router-link to="/" class="navbar-brand d-flex align-items-center mb-md-0 text-decoration-none">
           <img src="@/assets/img/logo-white.png" alt="Logo" class="img-fluid logo-white" />
           <img src="@/assets/img/logoCodallyFondTransparent.png" alt="Logo de l'entreprise codally"
             class="img-fluid logo-color" />
         </router-link>
 
-        <!-- Hamburger menu for mobile with language switcher next to it -->
-        <div class="d-flex align-items-center d-xl-none ms-auto">
+        <!-- Mobile menu and language switcher -->
+        <div class="d-flex align-items-center d-xl-none ms-auto navbar-controls">
           <div class="language-switcher dropdown me-2">
             <button
-              class="btn dropdown-toggle"
+              class="btn dropdown-toggle p-0"
               type="button"
               id="languageDropdown"
               @click="toggleLanguageDropdown"
@@ -53,7 +53,7 @@
           </button>
         </div>
 
-        <!-- Center aligned menu items for desktop -->
+        <!-- Desktop menu -->
         <div class="collapse navbar-collapse justify-content-center flex-grow-1" :class="{ 'show': isMenuOpen }">
           <ul class="navbar-nav main-menu">
             <li>
@@ -68,14 +68,13 @@
             <li class="nav-item">
               <router-link to="/our-team" class="nav-link" @click="closeMenu">{{ $t('about') }}</router-link>
             </li>
-            <!-- Add Contact button to dropdown for mobile -->
             <li class="nav-item d-xl-none">
               <router-link to="/contact-us" class="nav-link" @click="closeMenu">{{ $t('contact') }}</router-link>
             </li>
           </ul>
         </div>
 
-        <!-- Right aligned Contact button and language switcher for desktop -->
+        <!-- Desktop contact button and language switcher -->
         <div class="d-none d-xl-flex align-items-center ms-auto">
           <router-link to="/contact-us" class="btn btn-primary me-3">{{ $t('contact') }}</router-link>
           <div class="language-switcher dropdown">
@@ -167,7 +166,6 @@ export default {
         isSticky.value = window.scrollY >= 80;
       });
 
-      // Close language dropdown when clicking outside
       document.addEventListener('click', (e) => {
         if (!e.target.closest('.language-switcher')) {
           isLanguageDropdownOpen.value = false;
@@ -196,9 +194,26 @@ export default {
     top: 100%;
     left: 0;
     right: 0;
-    background-color: #fff;
+    background-color: #175cff;
     padding: 1rem;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+
+  /* Modify the text color inside the navbar-collapse */
+  .navbar-collapse .nav-link {
+    color: #fff; /* White text */
+  }
+
+  /* Modify the text color for the dropdown items */
+  .navbar-collapse .dropdown-item {
+    color: #fff; /* White text */
+  }
+
+  /* Hover effect: lighter blue and white text */
+  .navbar-collapse .dropdown-item:hover,
+  .navbar-collapse .dropdown-item:focus {
+    background-color: rgba(23, 92, 255, 0.8); /* Lighter blue */
+    color: #fff; /* Keep text white */
   }
 
   .navbar-collapse.show {
@@ -227,10 +242,64 @@ export default {
   padding-right: 15px;
 }
 
-@media (min-width: 596px) {
+@media (min-width: 1200px) {
   .navbar .container-fluid {
     padding-left: 30px;
     padding-right: 30px;
   }
 }
+
+.navbar-controls {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+.language-switcher .btn,
+.navbar-toggler {
+  padding: 0;
+  border: none;
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+}
+
+.language-icon {
+  width: 24px;
+  height: 16px;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+.navbar-toggler {
+  margin-top: -1px;
+}
+
+.navbar-toggler .far {
+  font-size: 24px;
+  line-height: 1;
+}
+
+.dropdown-menu {
+  margin-top: 0.5rem;
+  min-width: 120px;
+}
+
+.language-switcher .btn,
+.navbar-toggler {
+  line-height: 40px;
+}
+
+.navbar-controls > * {
+  margin: 0;
+}
+
+.language-switcher {
+  margin-right: 8px;
+}
+
+
 </style>
