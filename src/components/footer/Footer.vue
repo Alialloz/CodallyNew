@@ -4,7 +4,7 @@
     <!--for light footer add .footer-light class and for dark footer add .bg-dark .text-white class-->
     <div class="footer-top ptb-60 bg" :class="footerDark ? 'bg-gradient text-white' : 'dark-bg'">
       <div class="container">
-        <div class="row justify-content-between">
+        <div class="row ">
           <div class="col-md-8 col-lg-4 mb-md-4 mb-lg-0">
             <div class="footer-single-col">
               <div class="footer-single-col mb-4">

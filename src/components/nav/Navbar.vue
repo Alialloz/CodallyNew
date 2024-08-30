@@ -1,6 +1,6 @@
 <template>
   <header class="main-header w-100" :class="[darkNav ? 'position-absolute' : '', classOption]">
-    <nav class="navbar navbar-expand-xl sticky-header z-10" :class="[
+    <nav class="navbar navbar-expand-md sticky-header z-10" :class="[
       darkNav ? 'navbar-dark' : 'navbar-light',
       isSticky ? 'affix' : '',
     ]">
@@ -14,7 +14,7 @@
         </router-link>
 
         <!-- Mobile menu and language switcher -->
-        <div class="d-flex align-items-center d-xl-none ms-auto navbar-controls">
+        <div class="d-flex align-items-center d-md-none ms-auto navbar-controls">
           <div class="language-switcher dropdown me-2">
             <button
               class="btn dropdown-toggle p-0"
@@ -68,15 +68,14 @@
             <li>
               <router-link to="/our-team" class="nav-link" @click="closeMenu">{{ $t('about') }}</router-link>
             </li>
-            <li class="nav-item d-xl-none">
+            <li class="nav-item d-md-none">
               <router-link to="/contact-us" class="nav-link" @click="closeMenu">{{ $t('contact') }}</router-link>
             </li>
           </ul>
         </div>
 
         <!-- Desktop contact button and language switcher -->
-        <div class="d-none d-xl-flex align-items-center ms-auto">
-          <router-link to="/contact-us" class="btn btn-primary me-3">{{ $t('contact') }}</router-link>
+        <div class="d-none d-md-flex align-items-center ms-auto">
           <div class="language-switcher dropdown">
             <button
               class="btn dropdown-toggle"
@@ -103,6 +102,8 @@
               </li>
             </ul>
           </div>
+          <router-link to="/contact-us" class="btn btn-primary me-3">{{ $t('contact') }}</router-link>
+
         </div>
       </div>
     </nav>
@@ -188,7 +189,7 @@ export default {
 </script>
 
 <style scoped>
-@media (max-width: 1199px) {
+@media (max-width: 767.98px) {
   .navbar-collapse {
     position: absolute;
     top: 100%;
@@ -253,12 +254,7 @@ export default {
   padding-right: 15px;
 }
 
-@media (min-width: 1200px) {
-  .navbar .container-fluid {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-}
+
 
 .navbar-controls {
   display: flex;
