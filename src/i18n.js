@@ -17,7 +17,7 @@ const messages = {
 
     /* Page d'acceuil Project*/
 
-    Project: "Our Projects",
+    Project: "Our projects",
     projectDescription:
       "We work alongside you to turn ideas into reality, take a look at some of the projects that define our commitment to innovation and creative collaboration.",
 
@@ -269,7 +269,7 @@ const messages = {
 
     /*Page D'Accueil Project*/
 
-    Project: "Nos Projects",
+    Project: "Nos projets",
     projectDescription:
       "Nous transformons les idées en réalité à vos côtés, parcourez nos projets qui définissent notre engagement envers l'innovation et les collaborations créatives.",
 
