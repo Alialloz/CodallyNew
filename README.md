@@ -37,4 +37,3 @@ npm run build
 - NAYERI POOR Ali
 - BLANCON Julien 
 - GOUDE Ihab
-
