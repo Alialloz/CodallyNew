@@ -1,4 +1,7 @@
 # Documentation necessaire pour comprendre la structure du projet
+
+Ask www.codally.app for french version 
+
 # quiety-vue-three
     
 This template should help get you started developing with Vue 3 in Vite.
