@@ -218,4 +218,13 @@ tec<template>
   </section>
 </template>
 
+<style scoped>
+.tab-content-wrapper img {
+  width: 100%;
+  height: auto;
+  max-width: 500px; /* ou la taille que tu souhaites */
+  object-fit: cover;
+}
+</style>
+
 
