@@ -71,7 +71,7 @@ tec<template>
             <div class="tab-content-wrapper pt-60">
               <div class="row align-items-center">
                 <div class="col-md-6">
-                  <div class="pe-5 mb-5 mb-lg-0">
+                  <div class="mb-5 mb-lg-0">
                     <img src="@/assets/img/TechTabs/website-development.png" alt="" class="img-fluid" style="border-radius: 16%; border: 5px solid #ccc; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);" />
                   </div>
                 </div>    
@@ -95,7 +95,7 @@ tec<template>
             <div class="tab-content-wrapper pt-60">
               <div class="row align-items-center">
                 <div class="col-md-6">
-                  <div class="pe-5 mb-5 mb-lg-0">
+                  <div class="mb-5 mb-lg-0">
                     <img src="@/assets/img/TechTabs/mobileDev.jpg" alt="" class="img-fluid" style="border-radius: 16%; border: 5px solid #ccc; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);" />
                   </div>
                 </div>
@@ -222,7 +222,7 @@ tec<template>
 .tab-content-wrapper img {
   width: 100%;
   height: auto;
-  max-width: 500px; /* ou la taille que tu souhaites */
+  max-width: 900px; /* ou la taille que tu souhaites */
   object-fit: cover;
 }
 </style>
