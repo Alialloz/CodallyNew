@@ -96,7 +96,7 @@ tec<template>
               <div class="row align-items-center">
                 <div class="col-md-6">
                   <div class="pe-5 mb-5 mb-lg-0">
-                    <img src="@/assets/img/Services/appdev.avif" alt="" class="img-fluid" style="border-radius: 25%; border: 5px solid #ccc; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);" />
+                    <img src="@/assets/img/TechTabs/mobileDev.jpg" alt="" class="img-fluid" style="border-radius: 25%; border: 5px solid #ccc; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);" />
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -120,7 +120,7 @@ tec<template>
               <div class="row align-items-center">
                 <div class="col-md-6">
                   <div class="mb-5 mb-lg-0">
-                    <img src="@/assets/img/TechTabs/" alt="" class="img-fluid " style="border-radius: 25%; border: 5px solid #ccc; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);" />
+                    <img src="@/assets/img/TechTabs/FullStack.webp" alt="" class="img-fluid " style="border-radius: 25%; border: 5px solid #ccc; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);" />
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -145,7 +145,7 @@ tec<template>
               <div class="row align-items-center">
                 <div class="col-md-6">
                   <div class="mb-5 mb-lg-0">
-                    <img src="@/assets/img/Services/fullstack.avif" alt="" class="img-fluid " style="border-radius: 25%; border: 5px solid #ccc; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);" />
+                    <img src="@/assets/img/TechTabs/SoftDevPersolanized.jpg" alt="" class="img-fluid " style="border-radius: 25%; border: 5px solid #ccc; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);" />
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -169,7 +169,7 @@ tec<template>
               <div class="row align-items-center">
                 <div class="col-md-6">
                   <div class="mb-5 mb-lg-0">
-                    <img src="@/assets/img/Services/solutions.avif" alt="" class="img-fluid " style="border-radius: 25%; border: 5px solid #ccc; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);"/>
+                    <img src="@/assets/img/TechTabs/DeepLearningAi.png" alt="" class="img-fluid " style="border-radius: 25%; border: 5px solid #ccc; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);"/>
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -193,7 +193,7 @@ tec<template>
               <div class="row align-items-center">
                 <div class="col-md-6">
                   <div class="mb-5 mb-lg-0">
-                    <img src="@/assets/img/Services/strategy.avif" alt="" class="img-fluid " style="border-radius: 25%; border: 5px solid #ccc; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);" />
+                    <img src="@/assets/img/TechTabs/ConseilStrategie.webp" alt="" class="img-fluid " style="border-radius: 25%; border: 5px solid #ccc; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);" />
                   </div>
                 </div>
                 <div class="col-md-6">
