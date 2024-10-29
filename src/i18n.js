@@ -260,6 +260,8 @@ const messages = {
     Home: "Accueil ",
     contact: "Contactez-nous!",
     about: "Notre équipe",
+    career: "Opportunités de carrière",
+    News: "Actualités",
 
     /* Home */
     slogan_1: "Transformez vos rêves en réalités technologiques",

@@ -68,8 +68,14 @@
             <li>
               <router-link to="/our-team" class="nav-link" @click="closeMenu">{{ $t('about') }}</router-link>
             </li>
+            <li>
+              <router-link to="/news" class="nav-link" @click="closeMenu">{{ $t('News') }}</router-link>
+            </li>
+            <li>
+              <router-link to="/career" class="nav-link" @click="closeMenu">{{ $t('career') }}</router-link>
+            </li>
             <li class="nav-item d-md-none">
-              <router-link to="/contact-us" class="nav-link" @click="closeMenu">{{ $t('contact') }}</router-link>
+              <router-link to="/contact-us" class="nav-link" @click="closeMenu">{{ $t('News') }}</router-link>
             </li>
           </ul>
         </div>

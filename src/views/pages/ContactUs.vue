@@ -1,6 +1,6 @@
 <template>
   <div class="main-wrapper">
-    <Navbar  /> <!-- darkNav="darkNav" -->
+    <Navbar  />
     <ContactPromoDarkbg/>
     <ContactFormTwo />
     <FooterBottom />
