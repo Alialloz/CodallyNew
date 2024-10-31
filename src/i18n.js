@@ -260,7 +260,7 @@ const messages = {
     Home: "Accueil ",
     contact: "Contactez-nous!",
     about: "Notre équipe",
-    career: "Opportunités de carrière",
+    career: "Offre d'emplois",
     News: "Actualités",
 
     /* Home */
