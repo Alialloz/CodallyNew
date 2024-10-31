@@ -2,8 +2,8 @@
   <div class="main-wrapper">
     <Navbar />
     <BreadCrumb
-      title="career"
-      desc="Seamlessly actualize client-based users after out-of-the-box value. Globally embrace strategic data through frictionless expertise."
+      :title="$t('offreEmploi')"
+      :desc="$t('descritptionOffreEmploi')" />
     />
     <Jobs />
     <WhyJoin />

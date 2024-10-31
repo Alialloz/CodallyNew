@@ -206,7 +206,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
+         <div class="col-lg-4 col-md-6">
           <div class="single-article rounded-custom my-3">
             <router-link to="/news-details" class="article-img">
               <img
@@ -256,7 +256,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
+        <!-- <div class="col-lg-4 col-md-6">
           <div class="single-article rounded-custom my-3">
             <router-link to="/news-details" class="article-img">
               <img
@@ -450,8 +450,8 @@
                 </div>
               </a>
             </div>
-          </div>
-        </div>
+          </div> 
+        </div> 
         <div class="col-lg-4 col-md-6">
           <div class="single-article rounded-custom my-3">
             <router-link to="/news-details" class="article-img">
@@ -551,11 +551,11 @@
               </a>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
 
       <!--pagination start-->
-      <div class="row justify-content-center align-items-center mt-5">
+      <!-- <div class="row justify-content-center align-items-center mt-5">
         <div class="col-auto my-1">
           <a href="#" class="btn btn-soft-primary btn-sm">Previous</a>
         </div>
@@ -573,7 +573,7 @@
         <div class="col-auto my-1">
           <a href="#" class="btn btn-soft-primary btn-sm">Next</a>
         </div>
-      </div>
+      </div> -->
       <!--pagination end-->
     </div>
   </section>

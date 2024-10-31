@@ -235,10 +235,41 @@ const messages = {
   Icône9Des :"Our solution can be integrated with other systems used in your clinic, such as electronic medical records, for increased efficiency.",
   Icône10Titre :"Support and Training",
   Icône10Des :"We offer ongoing support and training to ensure your team is fully capable of using the system effectively.",
+   
+  /* NewBlogs */
+
+   OurLatestNewsandBlogs: "Our Latest News and Blogs",
+   OurLatestNewsandBlogsDes: "Discover our latest news and articles to stay updated on trends, projects, and key initiatives from our team. Dive into inspiring and informative content!",
+
+  
+  /*Nos offres empplois */
+
+ offreEmploi : "Discover our job openings!",
+ descritptionOffreEmploi: "Whether you are looking for an opportunity in IT or wishing to join a stimulating and friendly work environment, we have something to offer for everyone.",
+
+ nosEmplois: "Our Job Openings",
+ emploidispo: "Currently Available Positions at Codally",
+ emploiDispoDes: "We offer flexibility, exciting projects, and a team of passionate professionals to support your growth. Develop your skills while contributing to cutting-edge initiatives!",
+
+
+  pourquoiNousRejoindre: "Why join us?",
+  descritpionPk: "Joining our team means becoming part of a diverse and innovative environment where every idea matters, and you’ll have the opportunity to develop your skills alongside passionate colleagues.",
+
+  titreRaison1: "Remote work",
+  descriptionRaison1: "Whether at home or on the go, you’ll have access to all the tools and resources needed to stay productive. This flexibility promotes a better work-life balance.",
+
+  titreRaison2: "Flexible working hours",
+  descriptionRaison2: "We believe in the importance of work-life balance. Whether you’re an early riser or a night owl, you can organize your schedule to maximize productivity while honoring personal commitments.",
+
+  titreRaison3: "Friendly and skilled team",
+  descriptionRaison3: "Joining our team means becoming part of a group of passionate, skilled professionals who support each other. Your professional growth is our priority!",
+
+  titreRaison4: "Diverse and innovative projects",
+  descriptionRaison4: "Our projects span across various fields, from cybersecurity to software for the medical sector. We encourage innovation and bold ideas.",
 
   /* Portfolio*/
 
-  TitrePort :"Our portfolio",
+  TitrePort: "Our portfolio",
   PortDes :"We approach each project with an adaptable methodology, focusing on understanding specific needs and applying tailored technical solutions to achieve optimal results.",
 
     /* Footer */
@@ -443,7 +474,33 @@ const messages = {
 
   EnvoyerFor : "Envoyer votre message",
 
-  /* Nos projects (FeatureThree) */
+   /* NewBlogs */
+
+    OurLatestNewsandBlogs: "Nos Dernières Actualités",
+    OurLatestNewsandBlogsDes: "Découvrez nos dernières actualités et articles pour rester informé des tendances, projets et initiatives marquantes de notre équipe. Plongez dans des contenus inspirants et instructifs!",
+
+  /*Nos offres empplois */
+
+ offreEmploi : "Découvrez nos offres d'emploi !",
+ descritptionOffreEmploi: "Que vous soyez à la recherche d'une opportunité dans l'informatique ou que vous souhaitiez rejoindre un environnement de travail stimulant et amicale, nous avons quelque chose à offrir pour chacun.",
+
+ pourquoiNousRejoindre :"Pourquoi nous rejoindre?",
+ descritpionPk:"Rejoindre notre équipe, c'est intégrer un environnement diversifié et innovant où chaque idée compte et où vous aurez l'opportunité de développer vos compétences avec des collègues passionnés.",
+
+ nosEmplois : "Nos Offres d'Emploi",
+ emploidispo :"Postes disponibles chez Codally",
+ emploiDispoDes : "Nous offrons flexibilité, projets stimulants, et une équipe de professionnels passionnés pour soutenir votre développement. Développez vos compétences tout en contribuant à des initiatives de pointe!",
+
+ titreRaison1:"travail en distanciel",
+ descriptionRaison1:"Que vous soyez chez vous ou en déplacement, vous aurez accès à tous les outils et ressources nécessaires pour être productif. Cette flexibilité favorise un meilleur équilibre entre vie professionnelle et vie personnelle.",
+ titreRaison2:"Horaires de travail flexibles",
+ descriptionRaison2:"Nous croyons en l'importance de l'équilibre travail-vie personnelle. Que vous soyez un lève-tôt ou un noctambule, vous pouvez organiser votre emploi du temps pour maximiser votre productivité tout en respectant vos engagements personnels.",
+ titreRaison3:"Équipe amicale et qualifiée",
+ descriptionRaison3:"Rejoindre notre équipe, c'est intégrer un groupe de professionnels passionnés et compétents qui se soutiennent mutuellement. Votre développement professionnel est notre priorité!",
+ titreRaison4:"Projet Diversifié et Innovant",
+ descriptionRaison4:"Les projets qui nous sont attribués rassemblent des domaines de divers horizons allant de la cybersécurité à des logiciels destinés au domaine médical. Nous encourageons l'innovation et l'émergence d'idées audacieuses.",
+
+  /* Nos projects*/
 
   Slo : "Le futur de votre entreprise commence ici",
   SloDef : "Dans un monde toujours plus connecté, nos solutions numériques repoussent les limites de l’innovation, grâce à l’intelligence artificielle, nous créons des projets qui transforment vos données en opportunités, optimisent vos processus et anticipent les besoins de demain",

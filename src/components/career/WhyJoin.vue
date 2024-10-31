@@ -4,12 +4,10 @@
       <div class="row justify-content-center">
         <div class="col-lg-6 col-md-12">
           <div class="section-heading text-center">
-            <h4 class="h5 text-primary">Why Join Us</h4>
-            <h2>Great Working Environment</h2>
+            <h4 class="h3">{{ $t('pourquoiNousRejoindre') }}</h4>
+            <h2></h2>
             <p>
-              Revolutionary paradigms before enabled interfaces dynamically
-              transition technically sound paradigms with cutting-edge
-              initiatives.
+              {{ $t('descritpionPk') }}
             </p>
           </div>
         </div>
@@ -19,11 +17,9 @@
           <div class="single-feature d-flex mt-0 p-5 bg-white rounded-custom">
             <span class="fas fa-house-user fa-2x text-primary"></span>
             <div class="ms-4 mt-2">
-              <h5>Remote Working Facilities</h5>
+              <h5>{{ $t('titreRaison1') }}</h5>
               <p class="mb-0">
-                Credibly syndicate enterprise total linkage whereas cost
-                effective innovate state of the art data without
-                multifunctional.
+                {{ $t('descriptionRaison1') }}
               </p>
             </div>
           </div>
@@ -34,11 +30,9 @@
           >
             <span class="fas fa-clock fa-2x text-primary"></span>
             <div class="ms-4 mt-2">
-              <h5>Flexible Working Hours</h5>
+              <h5>{{ $t('titreRaison2') }}</h5>
               <p class="mb-0">
-                Credibly syndicate enterprise total linkage whereas cost
-                effective innovate state of the art data without
-                multifunctional.
+                {{ $t('descriptionRaison2') }}
               </p>
             </div>
           </div>
@@ -47,11 +41,9 @@
           <div class="single-feature d-flex mt-4 p-5 bg-white rounded-custom">
             <span class="fas fa-user-friends fa-2x text-primary"></span>
             <div class="ms-4 mt-2">
-              <h5>Friendly Skilled Team</h5>
+              <h5>{{ $t('titreRaison3') }}</h5>
               <p class="mb-0">
-                Credibly syndicate enterprise total linkage whereas cost
-                effective innovate state of the art data without
-                multifunctional.
+                {{ $t('descriptionRaison3') }}
               </p>
             </div>
           </div>
@@ -60,11 +52,9 @@
           <div class="single-feature d-flex mt-4 p-5 bg-white rounded-custom">
             <span class="fas fa-briefcase-medical fa-2x text-primary"></span>
             <div class="ms-4 mt-2">
-              <h5>Medical Insurance Facilities</h5>
+              <h5>{{ $t('titreRaison4') }}</h5>
               <p class="mb-0">
-                Credibly syndicate enterprise total linkage whereas cost
-                effective innovate state of the art data without
-                multifunctional.
+                {{ $t('descriptionRaison4') }}
               </p>
             </div>
           </div>
