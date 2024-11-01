@@ -73,7 +73,7 @@ tec<template>
                 <div class="col-md-6">
                   <div class="mb-5 mb-lg-0">
                     <img src="@/assets/img/TechTabs/website-development.png" alt="" class="img-fluid" style="border-radius: 16%; border: 5px solid #ccc; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);" />
-                  </div>
+                  </div> 
                 </div>    
                 <div class="col-md-6">
                   <div class="tab-right-content">

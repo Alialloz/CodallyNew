@@ -59,7 +59,7 @@
           <div class="single-service p-lg-5 p-4 text-center mt-3 border-bottom border-end">
             <div class="service-icon icon-center">
               <router-link :to="{ path: '/our-projects', hash: '#ChatWhatsApp' }">
-                <img src="\src\assets\img\whatsapp.png" alt="Icône du logiciel de messagerie" width="65" height="65" style="
+                <img src="\src\assets\img\whatsapp.png" alt="Icône du logiciel de messagerie" width="65" height="65" style=" 
                   border-radius: 20%; 
                   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
                   transition: transform 0.3s ease, box-shadow 0.3s ease;
