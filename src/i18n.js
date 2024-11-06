@@ -183,7 +183,7 @@ const messages = {
   Tel : "Give us a call",
   TelDes : "Give us a ring, we are standing by monday to friday from 9am to 5pm EST.",
 
-  ContactTitre : "Connect with Our Sales and Marketing Team",
+  ContactTitre : "Contact our team or our Marketing division",
   ContactDes : "Are you interested in one of our services or projects, or would you like to apply to join our team? Let us know by filling out this form.",
 
   Prenom : "First name",
@@ -329,6 +329,10 @@ const messages = {
  nosEmplois: "Our Job Openings",
  emploidispo: "Currently Available Positions at Codally",
  emploiDispoDes: "We offer flexibility, exciting projects, and a team of passionate professionals to support your growth. Develop your skills while contributing to cutting-edge initiatives!",
+ 
+ horaireEmploie :"Remote - Full Time",
+ postuleEmploi : "Apply Now",
+ payeEmploie :"Depending on the contracts",
 
 
   pourquoiNousRejoindre: "Why join us?",
@@ -540,7 +544,7 @@ const messages = {
 
   Tel : "Appelez-nous",
   TelDes : "Appelez-nous, nous sommes disponibles du lundi au vendredi de 10h à 18h (UTC+02:00).",
-  ContactTitre : "Contactez Notre Équipe de Vente et Marketing",
+  ContactTitre : "Contactez notre équipe ou bien notre division Marketing",
   ContactDes : "Êtes-vous intéressé par l'un de nos services ou projets, ou souhaitez-vous postuler pour rejoindre notre équipe ? Faites-le nous savoir en remplissant ce formulaire.",
 
   Prenom : "Prénom",
@@ -645,6 +649,10 @@ const messages = {
 
  pourquoiNousRejoindre :"Pourquoi nous rejoindre?",
  descritpionPk:"Rejoindre notre équipe, c'est intégrer un environnement diversifié et innovant où chaque idée compte et où vous aurez l'opportunité de développer vos compétences avec des collègues passionnés.",
+ horaireEmploie :"À distance - Temps plein",
+ postuleEmploi : "Postulez maintenant",
+
+ payeEmploie :"En fonction des contrats ",
 
  nosEmplois : "Nos Offres d'Emploi",
  emploidispo :"Postes disponibles chez Codally",
