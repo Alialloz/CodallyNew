@@ -16,36 +16,26 @@
                 <a
                   href="javascript:;"
                   class="d-inline-block text-dark badge bg-primary-soft"
-                  >Marketing</a
+                  >{{ $t('OurLatestNewMotsClé1') }} - {{ $t('OurLatestNewMotsClé9') }}</a
                 >
               </div>
               <router-link to="/news-details">
                 <h2 class="h5 article-title limit-2-line-text">
-                  Why product managers must be strategic about chasing new
-                  trends
+                  {{ $t('newsTitre1') }}
                 </h2>
               </router-link>
               <p class="limit-2-line-text">
-                Society is fragmenting into two parallel realities. In one
-                reality, you have infinite upside and opportunity. In the other
-                reality, you’ll continue to see the gap between your standard of
-                living and those at the top grow more and more.
+                {{ $t('newsDes1') }}
               </p>
 
               <a href="javascript:;">
                 <div class="d-flex align-items-center pt-4">
                   <div class="avatar">
-                    <img
-                      src="@/assets/img/testimonial/1.jpg"
-                      alt="avatar"
-                      width="40"
-                      class="img-fluid rounded-circle me-3"
-                    />
                   </div>
                   <div class="avatar-info">
-                    <h6 class="mb-0 avatar-name">Donna Martin</h6>
+                    <h6 class="mb-0 avatar-name">{{ $t('newEquipe1') }}</h6>
                     <span class="small fw-medium text-muted"
-                      >April 24, 2022</span
+                      >{{ $t('newsDate1') }}</span
                     >
                   </div>
                 </div>
@@ -55,7 +45,7 @@
         </div>
         <div class="col-lg-6 col-md-12">
           <div class="single-article feature-article rounded-custom my-3">
-            <router-link to="/news-details" class="article-img">
+            <router-link to="/news-details2" class="article-img">
               <img
                 src="@/assets/img/blog/blog-11.jpg"
                 alt="article"
@@ -67,35 +57,32 @@
                 <a
                   href="javascript:;"
                   class="d-inline-block text-dark badge bg-danger-soft"
-                  >Development</a
+                  >{{ $t('OurLatestNewMotsClé3') }} - {{ $t('OurLatestNewMotsClé8') }}</a
                 >
               </div>
-              <router-link to="/news-details">
+              <router-link to="/news-details2">
                 <h2 class="h5 article-title limit-2-line-text">
-                  Two tried-and-true frameworks for achieving product/market fit
+                  {{ $t('newsTitre2') }}
                 </h2>
               </router-link>
               <p class="limit-2-line-text">
-                Society is fragmenting into two parallel realities. In one
-                reality, you have infinite upside and opportunity. In the other
-                reality, you’ll continue to see the gap between your standard of
-                living and those at the top grow more and more.
+                {{ $t('newsDes2') }}
               </p>
 
               <a href="javascript:;">
                 <div class="d-flex align-items-center pt-4">
                   <div class="avatar">
                     <img
-                      src="@/assets/img/testimonial/4.jpg"
+                      src="/img/team/team-1.jpg"
                       alt="avatar"
                       width="40"
                       class="img-fluid rounded-circle me-3"
                     />
                   </div>
                   <div class="avatar-info">
-                    <h6 class="mb-0 avatar-name">Donna Martin</h6>
+                    <h6 class="mb-0 avatar-name">Nayeri Ali</h6>
                     <span class="small fw-medium text-muted"
-                      >April 24, 2022</span
+                      >{{ $t('newsDate2') }}</span
                     >
                   </div>
                 </div>
@@ -107,7 +94,7 @@
       <div class="row">
         <div class="col-lg-4 col-md-6">
           <div class="single-article rounded-custom my-3">
-            <router-link to="/news-details" class="article-img">
+            <router-link to="/news-details3" class="article-img">
               <img
                 src="@/assets/img/blog/blog-1.jpg"
                 alt="article"
@@ -119,35 +106,32 @@
                 <a
                   href="javascript:;"
                   class="d-inline-block text-dark badge bg-warning-soft"
-                  >Design</a
+                  >{{ $t('OurLatestNewMotsClé2') }} - {{ $t('OurLatestNewMotsClé7') }}</a
                 >
               </div>
-              <router-link to="/news-details">
+              <router-link to="/news-details3">
                 <h2 class="h5 article-title limit-2-line-text">
-                  Do you really understand the concept of product value?
+                  {{ $t('newsTitre3') }}
                 </h2>
               </router-link>
               <p class="limit-2-line-text">
-                Society is fragmenting into two parallel realities. In one
-                reality, you have infinite upside and opportunity. In the other
-                reality, you’ll continue to see the gap between your standard of
-                living and those at the top grow more and more.
+                {{ $t('newsDes3') }}
               </p>
 
               <a href="javascript:;">
                 <div class="d-flex align-items-center pt-4">
                   <div class="avatar">
                     <img
-                      src="@/assets/img/testimonial/6.jpg"
+                      src="/img/team/team-3.jpg"
                       alt="avatar"
                       width="40"
                       class="img-fluid rounded-circle me-3"
                     />
                   </div>
                   <div class="avatar-info">
-                    <h6 class="mb-0 avatar-name">Jane Martin</h6>
+                    <h6 class="mb-0 avatar-name">Essongue Oswald </h6>
                     <span class="small fw-medium text-muted"
-                      >April 24, 2021</span
+                      >{{ $t('newsDate3') }}</span
                     >
                   </div>
                 </div>
@@ -157,7 +141,7 @@
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="single-article rounded-custom my-3">
-            <router-link to="/news-details" class="article-img">
+            <router-link to="/news-details4" class="article-img">
               <img
                 src="@/assets/img/blog/blog-2.jpg"
                 alt="article"
@@ -169,36 +153,32 @@
                 <a
                   href="javascript:;"
                   class="d-inline-block text-dark badge bg-primary-soft"
-                  >Customer</a
+                  >{{ $t('OurLatestNewMotsClé4') }}</a
                 >
               </div>
-              <router-link to="/news-details">
+              <router-link to="/news-details4">
                 <h2 class="h5 article-title limit-2-line-text">
-                  Why communities help you build better products for your
-                  business
+                  {{ $t('newsTitre4') }}
                 </h2>
               </router-link>
               <p class="limit-2-line-text">
-                Society is fragmenting into two parallel realities. In one
-                reality, you have infinite upside and opportunity. In the other
-                reality, you’ll continue to see the gap between your standard of
-                living and those at the top grow more and more.
+                {{ $t('newsDes4') }}
               </p>
 
               <a href="javascript:;">
                 <div class="d-flex align-items-center pt-4">
                   <div class="avatar">
                     <img
-                      src="@/assets/img/testimonial/1.jpg"
+                      src="/img/team/team-2.jpg"
                       alt="avatar"
                       width="40"
                       class="img-fluid rounded-circle me-3"
                     />
                   </div>
                   <div class="avatar-info">
-                    <h6 class="mb-0 avatar-name">Veronica P. Byrd</h6>
+                    <h6 class="mb-0 avatar-name">Chappe Morgan</h6>
                     <span class="small fw-medium text-muted"
-                      >April 24, 2021</span
+                      >{{ $t('newsDate4') }}</span
                     >
                   </div>
                 </div>
@@ -208,7 +188,7 @@
         </div>
          <div class="col-lg-4 col-md-6">
           <div class="single-article rounded-custom my-3">
-            <router-link to="/news-details" class="article-img">
+            <router-link to="/news-details5" class="article-img">
               <img
                 src="@/assets/img/blog/blog-3.jpg"
                 alt="article"
@@ -220,35 +200,32 @@
                 <a
                   href="javascript:;"
                   class="d-inline-block text-dark badge bg-danger-soft"
-                  >Development</a
+                  >{{ $t('OurLatestNewMotsClé5') }}</a
                 >
               </div>
-              <router-link to="/news-details">
+              <router-link to="/news-details5">
                 <h2 class="h5 article-title limit-2-line-text">
-                  Why communities help you build better products
+                  {{ $t('newsTitre5') }}
                 </h2>
               </router-link>
               <p class="limit-2-line-text">
-                Society is fragmenting into two parallel realities. In one
-                reality, you have infinite upside and opportunity. In the other
-                reality, you’ll continue to see the gap between your standard of
-                living and those at the top grow more and more.
+                {{ $t('newsDes5') }}
               </p>
 
               <a href="javascript:;">
                 <div class="d-flex align-items-center pt-4">
                   <div class="avatar">
                     <img
-                      src="@/assets/img/testimonial/3.jpg"
+                      src="/img/team/team-9.png"
                       alt="avatar"
                       width="40"
                       class="img-fluid rounded-circle me-3"
                     />
                   </div>
                   <div class="avatar-info">
-                    <h6 class="mb-0 avatar-name">Martin Gilbert</h6>
+                    <h6 class="mb-0 avatar-name">Blancon Julien</h6>
                     <span class="small fw-medium text-muted"
-                      >April 24, 2021</span
+                      >{{ $t('newsDate5') }}</span
                     >
                   </div>
                 </div>
@@ -256,325 +233,7 @@
             </div>
           </div>
         </div>
-        <!-- <div class="col-lg-4 col-md-6">
-          <div class="single-article rounded-custom my-3">
-            <router-link to="/news-details" class="article-img">
-              <img
-                src="@/assets/img/blog/blog-4.jpg"
-                alt="article"
-                class="img-fluid"
-              />
-            </router-link>
-            <div class="article-content p-4">
-              <div class="article-category mb-4 d-block">
-                <a
-                  href="javascript:;"
-                  class="d-inline-block text-dark badge bg-primary-soft"
-                  >Marketing</a
-                >
-              </div>
-              <router-link to="/news-details">
-                <h2 class="h5 article-title limit-2-line-text">
-                  The role of product ops in successful distributed teams
-                </h2>
-              </router-link>
-              <p class="limit-2-line-text">
-                Society is fragmenting into two parallel realities. In one
-                reality, you have infinite upside and opportunity. In the other
-                reality, you’ll continue to see the gap between your standard of
-                living and those at the top grow more and more.
-              </p>
-
-              <a href="javascript:;">
-                <div class="d-flex align-items-center pt-4">
-                  <div class="avatar">
-                    <img
-                      src="@/assets/img/testimonial/4.jpg"
-                      alt="avatar"
-                      width="40"
-                      class="img-fluid rounded-circle me-3"
-                    />
-                  </div>
-                  <div class="avatar-info">
-                    <h6 class="mb-0 avatar-name">Raymond H. Martin</h6>
-                    <span class="small fw-medium text-muted">May 4, 2021</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="single-article rounded-custom my-3">
-            <router-link to="/news-details" class="article-img">
-              <img
-                src="@/assets/img/blog/blog-5.jpg"
-                alt="article"
-                class="img-fluid"
-              />
-            </router-link>
-            <div class="article-content p-4">
-              <div class="article-category mb-4 d-block">
-                <a
-                  href="javascript:;"
-                  class="d-inline-block text-dark badge bg-warning-soft"
-                  >UI/UX</a
-                >
-              </div>
-              <router-link to="/news-details">
-                <h2 class="h5 article-title limit-2-line-text">
-                  The modern product manager’s tech stack
-                </h2>
-              </router-link>
-              <p class="limit-2-line-text">
-                Society is fragmenting into two parallel realities. In one
-                reality, you have infinite upside and opportunity. In the other
-                reality, you’ll continue to see the gap between your standard of
-                living and those at the top grow more and more.
-              </p>
-
-              <a href="javascript:;">
-                <div class="d-flex align-items-center pt-4">
-                  <div class="avatar">
-                    <img
-                      src="@/assets/img/testimonial/5.jpg"
-                      alt="avatar"
-                      width="40"
-                      class="img-fluid rounded-circle me-3"
-                    />
-                  </div>
-                  <div class="avatar-info">
-                    <h6 class="mb-0 avatar-name">Luthar Martin</h6>
-                    <span class="small fw-medium text-muted">Jan 24, 2021</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="single-article rounded-custom my-3">
-            <router-link to="/news-details" class="article-img">
-              <img
-                src="@/assets/img/blog/blog-6.jpg"
-                alt="article"
-                class="img-fluid"
-              />
-            </router-link>
-            <div class="article-content p-4">
-              <div class="article-category mb-4 d-block">
-                <a
-                  href="javascript:;"
-                  class="d-inline-block text-dark badge bg-danger-soft"
-                  >Management</a
-                >
-              </div>
-              <router-link to="/news-details">
-                <h2 class="h5 article-title limit-2-line-text">
-                  30 product management thought leaders to follow
-                </h2>
-              </router-link>
-              <p class="limit-2-line-text">
-                Society is fragmenting into two parallel realities. In one
-                reality, you have infinite upside and opportunity. In the other
-                reality, you’ll continue to see the gap between your standard of
-                living and those at the top grow more and more.
-              </p>
-
-              <a href="javascript:;">
-                <div class="d-flex align-items-center pt-4">
-                  <div class="avatar">
-                    <img
-                      src="@/assets/img/testimonial/6.jpg"
-                      alt="avatar"
-                      width="40"
-                      class="img-fluid rounded-circle me-3"
-                    />
-                  </div>
-                  <div class="avatar-info">
-                    <h6 class="mb-0 avatar-name">Donna Martin</h6>
-                    <span class="small fw-medium text-muted"
-                      >April 24, 2022</span
-                    >
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="single-article rounded-custom my-3">
-            <router-link to="/news-details" class="article-img">
-              <img
-                src="@/assets/img/blog/blog-7.jpg"
-                alt="article"
-                class="img-fluid"
-              />
-            </router-link>
-            <div class="article-content p-4">
-              <div class="article-category mb-4 d-block">
-                <a
-                  href="javascript:;"
-                  class="d-inline-block text-dark badge bg-danger-soft"
-                  >Design</a
-                >
-              </div>
-              <router-link to="/news-details">
-                <h2 class="h5 article-title limit-2-line-text">
-                  New analyst report: Digital product management tools and tech
-                </h2>
-              </router-link>
-              <p class="limit-2-line-text">
-                Society is fragmenting into two parallel realities. In one
-                reality, you have infinite upside and opportunity. In the other
-                reality, you’ll continue to see the gap between your standard of
-                living and those at the top grow more and more.
-              </p>
-
-              <a href="javascript:;">
-                <div class="d-flex align-items-center pt-4">
-                  <div class="avatar">
-                    <img
-                      src="@/assets/img/testimonial/1.jpg"
-                      alt="avatar"
-                      width="40"
-                      class="img-fluid rounded-circle me-3"
-                    />
-                  </div>
-                  <div class="avatar-info">
-                    <h6 class="mb-0 avatar-name">Donna R. Book</h6>
-                    <span class="small fw-medium text-muted"
-                      >April 24, 2021</span
-                    >
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div> 
-        </div> 
-        <div class="col-lg-4 col-md-6">
-          <div class="single-article rounded-custom my-3">
-            <router-link to="/news-details" class="article-img">
-              <img
-                src="@/assets/img/blog/blog-8.jpg"
-                alt="article"
-                class="img-fluid"
-              />
-            </router-link>
-            <div class="article-content p-4">
-              <div class="article-category mb-4 d-block">
-                <a
-                  href="javascript:;"
-                  class="d-inline-block text-dark badge bg-primary-soft"
-                  >Development</a
-                >
-              </div>
-              <router-link to="/news-details">
-                <h2 class="h5 article-title limit-2-line-text">
-                  A frank discussion about diversity, inclusion, and allyship
-                </h2>
-              </router-link>
-              <p class="limit-2-line-text">
-                Society is fragmenting into two parallel realities. In one
-                reality, you have infinite upside and opportunity. In the other
-                reality, you’ll continue to see the gap between your standard of
-                living and those at the top grow more and more.
-              </p>
-
-              <a href="javascript:;">
-                <div class="d-flex align-items-center pt-4">
-                  <div class="avatar">
-                    <img
-                      src="@/assets/img/testimonial/3.jpg"
-                      alt="avatar"
-                      width="40"
-                      class="img-fluid rounded-circle me-3"
-                    />
-                  </div>
-                  <div class="avatar-info">
-                    <h6 class="mb-0 avatar-name">Donna R. Martin</h6>
-                    <span class="small fw-medium text-muted"
-                      >April 24, 2021</span
-                    >
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="single-article rounded-custom my-3">
-            <router-link to="/news-details" class="article-img">
-              <img
-                src="@/assets/img/blog/blog-9.jpg"
-                alt="article"
-                class="img-fluid"
-              />
-            </router-link>
-            <div class="article-content p-4">
-              <div class="article-category mb-4 d-block">
-                <a
-                  href="javascript:;"
-                  class="d-inline-block text-dark badge bg-warning-soft"
-                  >Design</a
-                >
-              </div>
-              <router-link to="/news-details">
-                <h2 class="h5 article-title limit-2-line-text">
-                  4 steps for measuring the impact of product discovery
-                </h2>
-              </router-link>
-              <p class="limit-2-line-text">
-                Society is fragmenting into two parallel realities. In one
-                reality, you have infinite upside and opportunity. In the other
-                reality, you’ll continue to see the gap between your standard of
-                living and those at the top grow more and more.
-              </p>
-
-              <a href="javascript:;">
-                <div class="d-flex align-items-center pt-4">
-                  <div class="avatar">
-                    <img
-                      src="@/assets/img/testimonial/2.jpg"
-                      alt="avatar"
-                      width="40"
-                      class="img-fluid rounded-circle me-3"
-                    />
-                  </div>
-                  <div class="avatar-info">
-                    <h6 class="mb-0 avatar-name">Martin Luthar</h6>
-                    <span class="small fw-medium text-muted"
-                      >April 24, 2021</span
-                    >
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div> -->
-      </div>
-
-      <!--pagination start-->
-      <!-- <div class="row justify-content-center align-items-center mt-5">
-        <div class="col-auto my-1">
-          <a href="#" class="btn btn-soft-primary btn-sm">Previous</a>
-        </div>
-        <div class="col-auto my-1">
-          <nav>
-            <ul class="pagination rounded mb-0">
-              <li class="page-item"><a class="page-link" href="#">1</a></li>
-              <li class="page-item active">
-                <a class="page-link" href="#">2</a>
-              </li>
-              <li class="page-item"><a class="page-link" href="#">3</a></li>
-            </ul>
-          </nav>
-        </div>
-        <div class="col-auto my-1">
-          <a href="#" class="btn btn-soft-primary btn-sm">Next</a>
-        </div>
-      </div> -->
-      <!--pagination end-->
+       </div> 
     </div>
   </section>
 </template>

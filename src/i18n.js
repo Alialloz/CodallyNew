@@ -236,11 +236,90 @@ const messages = {
   Icône10Titre :"Support and Training",
   Icône10Des :"We offer ongoing support and training to ensure your team is fully capable of using the system effectively.",
    
-  /* NewBlogs */
+  /* NewBlogs page principale */
 
    OurLatestNewsandBlogs: "Our Latest News and Blogs",
    OurLatestNewsandBlogsDes: "Discover our latest news and articles to stay updated on trends, projects, and key initiatives from our team. Dive into inspiring and informative content!",
 
+   OurLatestNewMotsClé1:"Artificial Intelligence",
+   OurLatestNewMotsClé2:"Partnerships",
+   OurLatestNewMotsClé3:"Innovation",
+   OurLatestNewMotsClé4:"Productivity",
+   OurLatestNewMotsClé5:"Personalization",
+   OurLatestNewMotsClé6:"Responsibility",
+   OurLatestNewMotsClé7:"Growth",
+   OurLatestNewMotsClé8:"Home Automation",
+   OurLatestNewMotsClé9:"Education",
+   
+   newsTitre1 : "Codally: One Year of Innovation and Growth",
+   newsDes1 :"We are celebrating our first anniversary! We are proud to have launched our educational AI platform and formed strategic partnerships in home automation within such a short period.",
+   newsDate1 :"October 15, 2024",
+   newEquipe1 :"The entire Codally team!",
+   
+   newsTitre2 : "Codally: A Pioneer of AI in Business Software",
+   newsDes2 :"Our ambition is clear: to transform business efficiency with custom AI solutions, pushing the limits of automation while offering tools that address the challenges of tomorrow.",
+   newsDate2 :"November 4, 2024",
+   
+   newsTitre3 : "Revolutionizing Home Automation with AI: Codally Partners with DbAtt and Ida Engineering",
+   newsDes3 :"Together with our partners DbAtt and Ida Engineering, we are redefining the smart home, using AI to enhance security, energy efficiency, and make user interfaces more intuitive and easy to use.",
+   newsDate3 :"July 26, 2024",
+   
+   newsTitre4 : "AI at the Heart of Education: Codally at the Entretiens Jacques Cartier",
+   newsDes4 :"At the Entretiens Jacques Cartier, we shared our vision of AI in education, showing how our solutions personalize learning and modernize teaching methods to make them more effective.",
+   newsDate4 :"October 19, 2024",
+   
+   newsTitre5 : "Artificial Intelligence (AI) in Daily Life: A Major Asset with the Right Precautions",
+   newsDes5 :"We firmly believe that AI can improve our daily lives – whether it’s boosting productivity, personalizing customer experiences, or enhancing healthcare – as long as it is used ethically and responsibly.",
+   newsDate5 :"August 8, 2024",
+
+    /* NewBlogs artcicle 1 à 5 */
+
+    article1Intro: "As we celebrate our first anniversary, Codally would like to thank its partners and teams for their outstanding contribution to our success. This first year has been marked by significant achievements and sustained growth.",
+    article1objectfisIntro: "Our key achievements this year:",
+    article1objectfis1: "The launch of our educational AI platform",
+    article1objectfis2: "Strategic partnerships in the home automation sector",
+    article1objectfis3: "Expansion of our AI talent team",
+    article1conclusion: "We are proud of how far we’ve come and excited about the innovations ahead. Every project, collaboration, and interaction has helped build what we are today, a rapidly growing tech company driven by the desire to make a difference. We have learned, grown, and evolved, and this is just the beginning! Codally's future looks bright, with new, exciting challenges on the horizon.",
+    article1Citation: "Your work is going to fill a large part of your life, and the only way to be fully satisfied is to do what you believe is great work. And the only way to do great work is to love what you do.",
+    article1NomPrenom: "A big thank you for your support!",
+    article1desPoste: "A huge thank you to everyone who believed in us and has been with us from the start, you are at the heart of this success.",
+  
+    article2Intro: "At Codally, our ambition is clear: to become the undisputed leader in integrating AI into business software. Our innovative approach aims to radically transform business efficiency and competitiveness.",
+    article2objectfisIntro: "Our vision is summarized in three key areas:",
+    article2objectfis1: "Developing tailored AI solutions for each industry sector",
+    article2objectfis2: "Optimizing business processes through machine learning",
+    article2objectfis3: "Creating a new generation of intelligent and adaptive tools",
+    article2conclusion: "By pushing the boundaries of applied AI, Codally is committed to being the engine of digital transformation for businesses, providing solutions that anticipate and address tomorrow’s challenges.",
+    article2desPoste: "",
+  
+    article3Intro: "Codally is taking a new step in home automation innovation by partnering with DbAtt and Ida Engineering. This strategic collaboration aims to create more intuitive and efficient smart home systems, powered by AI.",
+    article3objectfisIntro: "Our shared goals are:",
+    article3objectfis1: "Optimizing home security and energy efficiency",
+    article3objectfis2: "Developing more natural user interfaces",
+    article3objectfis3: "Creating a responsive and intelligent home automation ecosystem",
+    article3conclusion: "Through these partnerships, Codally is positioned at the forefront of the smart home revolution, offering solutions that redefine comfort and home management.",
+    article3desPoste: "",
+  
+    article4Intro: "Codally recently participated in the prestigious -Entretiens Jacques Cartier- in Laval, a major event bringing together experts in artificial intelligence and education. Our team presented its innovative solutions, sparking keen interest among key industry players.",
+    article4objectfisIntro: "This conference provided opportunities for several initiatives:",
+    article4objectfis1: "Sharing our vision of AI in education",
+    article4objectfis2: "Discussing the latest technological advances",
+    article4objectfis3: "Strengthening our network of partners",
+    article4conclusion: "This event confirms our leadership position in integrating AI into modern educational methods, paving the way for more personalized and effective learning.",
+    article4desPoste: "",
+  
+    article5Intro: "AI has proven to be a powerful tool for optimizing processes and increasing productivity. By automating repetitive tasks, it allows teams to focus on more complex and stimulating challenges. Personalizing the customer experience.",
+    article5Intro2: "In the e-commerce sector, AI is transforming the customer experience, making it more personalized and intuitive. Through predictive analytics, AI-based systems can recommend products suited to individual customer preferences. AI plays a crucial role in healthcare, enabling faster and more accurate diagnoses. It facilitates the analysis of health data, thereby contributing to better patient care.",
+    article5Citation: "Artificial intelligence and automation, by optimizing processes, reducing errors, and increasing the speed and quality of operations, could boost global productivity by 0.8 to 1.4% per year by 2025.",
+    article5objectfisIntro: "To get the most out of AI while minimizing risks, here are some recommendations:",
+    article5objectfis1: "Stay updated on AI technologies and their applications in your field through continuous training.",
+    article5objectfis2: "Take the time to understand the operation, capabilities, and limitations of each AI application before using it.",
+    article5objectfis3: "Implement a clear policy for the use of AI tools, including verification procedures to guide their use.",
+    article5objectfis4: "Ensure that AI use complies with privacy and data protection standards.",
+    article5objectfis5: "Clearly explain to your clients or collaborators how and why you are using AI.",
+    article5conclusion: "In conclusion, AI offers considerable opportunities to improve our daily lives and professional efficiency. However, its use must be guided by responsible practices to reap its benefits while minimizing potential risks. At Codally Montreal, we are committed to promoting an ethical and effective use of AI for the benefit of all.",
+    article5desPoste: "",
+  
   
   /*Nos offres empplois */
 
@@ -474,10 +553,90 @@ const messages = {
 
   EnvoyerFor : "Envoyer votre message",
 
-   /* NewBlogs */
+   /* NewBlogs page principale */
 
     OurLatestNewsandBlogs: "Nos Dernières Actualités",
     OurLatestNewsandBlogsDes: "Découvrez nos dernières actualités et articles pour rester informé des tendances, projets et initiatives marquantes de notre équipe. Plongez dans des contenus inspirants et instructifs!",
+    OurLatestNewMotsClé1:"Intelligence Artificielle ",
+    OurLatestNewMotsClé2:"Partenariats",
+    OurLatestNewMotsClé3:"Innovation",
+    OurLatestNewMotsClé4:"Productivité",
+    OurLatestNewMotsClé5:"Personnalisation",
+    OurLatestNewMotsClé6:"Responsabilité",
+    OurLatestNewMotsClé7:"Croissance",
+    OurLatestNewMotsClé8:"Domotique",
+    OurLatestNewMotsClé9:"Éducation",
+
+    newsTitre1 : "Codally : Un an d'innovation et de croissance",
+    newsDes1 :"Nous célébrons notre premier anniversaire ! Nous sommes fièrs d'avoir pu lancer notre plateforme d'IA éducative et d'avoir pu créer des partenariats stratégiques dans la domotique en si court laps de temps.",
+    newsDate1 :"15 octobre 2024",
+    newEquipe1 :"Toute l'équipe codally!",
+
+    newsTitre2 : "Codally : Pionnier de l'IA dans les logiciels métiers",
+    newsDes2 :" Notre ambition est claire, transformer l’efficacité des entreprises avec des solutions IA sur mesure, en repoussant les limites de l’automatisation tout en offrant des outils qui répondent aux défis de demain.",
+    newsDate2 :"4 novembre 2024",
+
+    newsTitre3 : "Révolutionner la domotique avec l'IA : Codally s'associe à DbAtt et Ida Engineering",
+    newsDes3 :"Avec nos partenaires DbAtt et Ida Engineering, nous redéfinissons la maison intelligente, en utilisant l’IA pour améliorer la sécurité, l’efficacité énergétique et rendre les interfaces utilisateurs plus intuitives et faciles à utiliser",
+    newsDate3 :"26 juillet 2024",
+
+    newsTitre4 : "L'IA au cœur de l'éducation : Codally aux Entretiens Jacques Cartier",
+    newsDes4 :"Lors des Entretiens Jacques Cartier, nous avons partagé notre vision de l’IA dans l'éducation, montrant comment nos solutions personnalisent l’apprentissage et modernisent les méthodes pédagogiques pour les rendre plus efficaces",
+    newsDate4 :"19 octobre 2024",
+
+    newsTitre5 : "L’intelligence artificielle (IA) au quotidien : un atout majeur avec les bonnes précautions",
+    newsDes5 :" Nous croyons fermement que l’IA peut améliorer notre quotidien – que ce soit pour augmenter la productivité, personnaliser l'expérience client ou améliorer les soins de santé – à condition de l’utiliser de manière éthique et responsable.",
+    newsDate5 :"8 août 2024",
+
+    /* NewBlogs artcicle 1 à 5 */
+
+    article1Intro :"Alors que nous célébrons notre premier anniversaire, Codally tient à remercier ses partenaires et ses équipes pour leur contribution exceptionnelle à notre succès. Cette première année a été marquée par des réalisations significatives et une croissance soutenue.",
+    article1objectfisIntro :"Nos réussites clés de cette année:",
+    article1objectfis1:"Le lancement de notre plateforme d'IA éducative",
+    article1objectfis2:"Des partenariats stratégiques dans le secteur de la domotique",
+    article1objectfis3:"Une expansion de notre équipe de talents en IA",
+    article1conclusion :"Nous sommes fiers du chemin parcouru et enthousiastes à l'idée des innovations à venir. Chaque projet, chaque collaboration, chaque échange a contribué à construire ce que nous sommes aujourd'hui, une entreprise technologique en pleine croissance, animée par l’envie de changer les choses. Nous avons appris, grandi et évolué, et ce n'est que le début ! L'avenir de Codally s'annonce prometteur, avec de nouveaux défis passionnants à relever.",
+    article1Citation :"Votre travail va occuper une grande partie de votre vie, et la seule manière d'être pleinement satisfait est de faire ce que vous croyez être un excellent travail. Et la seule manière de faire un excellent travail est d’aimer ce que vous faites.",
+    article1NomPrenom :"Un grand merci pour votre soutien!",
+    article1desPoste :"Un immense merci à toutes les personnes qui ont cru en nous et nous ont accompagnés depuis le début, vous êtes au cœur de cette réussite.",
+
+    article2Intro :"Chez Codally, notre ambition est claire, devenir le leader incontesté de l'intégration de l'IA dans les logiciels métiers. Notre approche innovante vise à transformer radicalement l'efficacité et la compétitivité des entreprises.",
+    article2objectfisIntro :"Notre vision se résume en trois axes:",
+    article2objectfis1:"Développer des solutions IA sur mesure pour chaque secteur d'activité",
+    article2objectfis2:"Optimiser les processus métiers grâce à l'apprentissage automatique",
+    article2objectfis3:" Créer une nouvelle génération d'outils intelligents et adaptatifs",
+    article2conclusion :"En repoussant les limites de l'IA appliquée, Codally s'engage à être le moteur de latransformation numérique des entreprises, offrant des solutions qui anticipent et répondent aux défis de demain.",
+    article2desPoste :"",
+
+    article3Intro :"Codally franchit une nouvelle étape dans l'innovation domotique en s'associant à DbAtt et Ida Engineering. Cette collaboration stratégique vise à créer des systèmes de maison intelligente plus intuitifs et performants, propulsés par l'IA.",
+    article3objectfisIntro :"Nos objectifs communs sont:",
+    article3objectfis1:"Optimiser la sécurité et l'efficacité énergétique des foyers",
+    article3objectfis2:"Développer des interfaces utilisateur plus naturelles",
+    article3objectfis3:"Créer un écosystème domotique réactif et intelligent",
+    article3conclusion :"Grâce à ces partenariats, Codally se positionne à l'avant-garde de la révolutiondomotique, offrant des solutions qui redéfinissent le confort et la gestion du foyer.",
+    article3desPoste :"",
+
+   
+    article4Intro :"Codally a récemment participé aux prestigieux -Entretiens Jacques Cartier- à Laval,un événement phare réunissant les experts en intelligence artificielle et en éducation. Notre équipe a présenté ses solutions innovantes, suscitant un vif intérêt parmi les acteurs clés de l'industrie.",
+    article4objectfisIntro :"Cette conférence a été une opportunité pour plusieurs occasions:",
+    article4objectfis1:"Partager notre vision de l'IA dans l'éducation",
+    article4objectfis2:"Échanger sur les dernières avancées technologiques",
+    article4objectfis3:"Renforcer notre réseau de partenaires",
+    article4conclusion :"Cet événement confirme notre position de leader dans l'intégration de l'IA aux méthodes pédagogiques modernes, ouvrant la voie à une éducation pluspersonnalisée et efficace.",
+    article4desPoste :"",
+
+    article5Intro :"L’IA se révèle être un puissant outil pour optimiser les processus et augmenter la productivité  En automatisant les tâches répétitives, elle permet aux équipes de se concentrer sur des défis plus complexes et stimulants.Personnalisation de l’expérience client. En automatisant les tâches répétitives, elle permet aux équipes de se concentrer sur des défis plus complexes et stimulants. Personnalisation de l’expérience client",
+    article5Intro2 :"Dans le domaine de l’e-commerce, l’IA transforme l’expérience client en la rendant plus personnalisée et intuitive. Grâce à l’analyse prédictive, les systèmes basés sur l’IA peuvent recommander des produits adaptés aux préférences individuelles des clients. L’IA joue un rôle crucial dans le domaine médical en permettant des diagnostics plus précis et rapides. Elle facilite l’analyse des données de santé, contribuant ainsi à une meilleure prise en charge des patients.",
+    article5Citation :"L'intelligence artificielle et l'automatisation, en optimisant les processus, en réduisant les erreurs, et en augmentant la vitesse et la qualité des opérations pourraient accroître la productivité mondiale de 0,8 à 1,4 % par an d'ici 2025.",
+    article5objectfisIntro :"Pour tirer le meilleur parti de l’IA tout en minimisant les risques, voici quelques recommandations :",
+    article5objectfis1:"Restez à jour sur les technologies d’IA et leurs applications dans votre domaine grâce à la formation continue.",
+    article5objectfis2:"Prenez le temps de comprendre le fonctionnement, les capacités et les limites de chaque application d’IA avant de l’utiliser.",
+    article5objectfis3:"Mettez en place une politique claire pour l’utilisation des outils d’IA, incluant des procédures de vérification des informations afin d'encadrer leur utilisation",
+    article5objectfis4:"Assurez-vous que l’utilisation de l’IA respecte les normes de confidentialité et de protection des données.",
+    article5objectfis5:"Expliquez clairement à vos clients ou collaborateurs comment et pourquoi vous utilisez l’IA.",
+    article5conclusion :"En conclusion, l’IA offre des opportunités considérables pour améliorer notre quotidien et notre efficacité professionnelle. Cependant, son utilisation doit être encadrée par des pratiques responsables pour en tirer le meilleur parti tout en minimisant les risques potentiels. Chez Codally Montréal, nous sommes engagés à promouvoir une utilisation éthique et efficace de l’IA pour le bénéfice de tous.",
+    article5desPoste :"",
+
 
   /*Nos offres empplois */
 

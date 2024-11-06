@@ -5,6 +5,12 @@ import OurTeam from '../views/pages/OurTeam.vue';
 import OurProjects from '../views/pages/OurProjects.vue';
 import ContactUs from '../views/pages/ContactUs.vue';
 import News from '../views/pages/News.vue';
+import NewsDetails from '../views/pages/NewsDetails.vue';
+import NewsDetails2 from '../views/pages/NewsDetails2.vue';
+import NewsDetails3 from '../views/pages/NewsDetails3.vue';
+import NewsDetails4 from '../views/pages/NewsDetails4.vue';
+import NewsDetails5 from '../views/pages/NewsDetails5.vue';
+
 import Career from '../views/pages/Career.vue';
 import NotFound from '../views/pages/NotFound.vue';
 
@@ -50,6 +56,46 @@ const routes = [
     },
   },
   {
+    path: '/news-details',
+    name: 'NewsDetails',
+    component: NewsDetails,
+    meta: {
+      title: 'News Details',
+    },
+  },
+  {
+    path: '/news-details2',
+    name: 'NewsDetails2',
+    component: NewsDetails2,
+    meta: {
+      title: 'News Details2',
+    },
+  },
+  {
+    path: '/news-details3',
+    name: 'NewsDetails3',
+    component: NewsDetails3,
+    meta: {
+      title: 'News Details3',
+    },
+  },
+  {
+    path: '/news-details4',
+    name: 'NewsDetails4',
+    component: NewsDetails4,
+    meta: {
+      title: 'News Details4',
+    },
+  },
+  {
+    path: '/news-details5',
+    name: 'NewsDetails5',
+    component: NewsDetails5,
+    meta: {
+      title: 'News Details5',
+    },
+  },
+  {
     path: '/career',
     name: 'Career',
     component: Career,
@@ -71,7 +117,7 @@ const routes = [
     component: NotFound,
     meta: {
       title: 'Not Found',
-    },
+    },  
   },
 ];
 

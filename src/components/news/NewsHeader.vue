@@ -18,47 +18,47 @@
           <a
             href="javascript:;"
             class="btn btn-soft-primary btn-pill btn-sm m-2"
-            >Marketing</a
+            >{{ $t('OurLatestNewMotsClé1') }}</a
           >
           <a
             href="javascript:;"
             class="btn btn-soft-primary btn-pill btn-sm m-2"
-            >Sales</a
+            >{{ $t('OurLatestNewMotsClé2') }}</a
           >
           <a
             href="javascript:;"
             class="btn btn-soft-primary btn-pill btn-sm m-2"
-            >Design</a
+            >{{ $t('OurLatestNewMotsClé3') }}</a
           >
           <a
             href="javascript:;"
             class="btn btn-soft-primary btn-pill btn-sm m-2"
-            >Development</a
+            >{{ $t('OurLatestNewMotsClé4') }}</a
           >
           <a
             href="javascript:;"
             class="btn btn-soft-primary btn-pill btn-sm m-2"
-            >Product Design</a
+            >{{ $t('OurLatestNewMotsClé5') }}</a
           >
           <a
             href="javascript:;"
             class="btn btn-soft-primary btn-pill btn-sm m-2"
-            >Customers</a
+            >{{ $t('OurLatestNewMotsClé6') }}</a
           >
           <a
             href="javascript:;"
             class="btn btn-soft-primary btn-pill btn-sm m-2"
-            >Agency</a
+            >{{ $t('OurLatestNewMotsClé7') }}</a
           >
           <a
             href="javascript:;"
             class="btn btn-soft-primary btn-pill btn-sm m-2"
-            >Investors</a
+            >{{ $t('OurLatestNewMotsClé8') }}</a
           >
           <a
             href="javascript:;"
             class="btn btn-soft-primary btn-pill btn-sm m-2"
-            >Research</a
+            >{{ $t('OurLatestNewMotsClé9') }}</a
           >
         </div>
       </div>

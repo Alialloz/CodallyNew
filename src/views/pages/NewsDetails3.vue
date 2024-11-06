@@ -2,10 +2,10 @@
   <div class="main-wrapper">
     <Navbar />
     <BreadCrumb
-      :title="$t('newsTitre1')"
-      :desc="$t('newsDes1')"
+      :title="$t('newsTitre3')"
+      :desc="$t('newsDes3')"
     />
-    <NewsSingle />
+    <NewsSingle3 />
     <Footer footerDark="footerDark" />
   </div>
 </template>
@@ -14,9 +14,9 @@
 import BreadCrumb from "../../components/common/BreadCrumb.vue";
 import Footer from "../../components/footer/Footer.vue";
 import Navbar from "../../components/nav/Navbar.vue";
-import NewsSingle from "../../components/news/NewsSingle.vue";
+import NewsSingle3 from "../../components/news/NewsSingle3.vue";
 export default {
-  components: { Navbar, NewsSingle, BreadCrumb, Footer },
+  components: { Navbar, NewsSingle3, BreadCrumb, Footer },
   name: "NewsDetails",
 };
 </script>

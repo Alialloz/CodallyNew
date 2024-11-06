@@ -89,13 +89,13 @@ export default {
         {
           name: "Kathy Nguyen",
           position: "Designer UI/UX",
-          image: "/img/team/team-10.png",
+          image: "/img/team/team-11.png",
           clickable: false
         },
         {
           name: "Oussama El figha",
           position: "Director of Cybersecurity",
-          image: "/img/team/team-11.png",
+          image: "/img/team/team-10.png",
           clickable: false
         }
       ]
