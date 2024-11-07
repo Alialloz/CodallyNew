@@ -10,6 +10,9 @@ import NewsDetails2 from '../views/pages/NewsDetails2.vue';
 import NewsDetails3 from '../views/pages/NewsDetails3.vue';
 import NewsDetails4 from '../views/pages/NewsDetails4.vue';
 import NewsDetails5 from '../views/pages/NewsDetails5.vue';
+import CareerSingle from '../views/pages/CareerSingle.vue';
+import CareerSingle2 from '../views/pages/CareerSingle2.vue';
+
 
 import Career from '../views/pages/Career.vue';
 import NotFound from '../views/pages/NotFound.vue';
@@ -101,6 +104,22 @@ const routes = [
     component: Career,
     meta: {
       title: 'Career',
+    },
+  },
+  {
+    path: '/CareerSingle',
+    name: 'CareerSingle',
+    component: CareerSingle,
+    meta: {
+      title: 'CareerSingle',
+    },
+  },
+  {
+    path: '/CareerSingle2',
+    name: 'CareerSingle2',
+    component: CareerSingle2,
+    meta: {
+      title: 'CareerSingle2',
     },
   },
   {

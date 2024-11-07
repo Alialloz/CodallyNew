@@ -17,7 +17,7 @@
       <div class="row justify-content-center">
         <div class="col-lg-6 col-md-12">
           <router-link
-            to="/contact-us"
+            to="/CareerSingle"
             class="text-decoration-none mt-4 mt-xl-0 mt-lg-0 single-open-job p-5 bg-dark text-white d-block rounded-custom"
           >
             <div class="d-flex justify-content-between align-items-center">
@@ -48,7 +48,7 @@
         </div>
         <div class="col-lg-6 col-md-12">
           <router-link
-            to="/contact-us"
+            to="/CareerSingle2"
             class="text-decoration-none mt-4 mt-xl-0 mt-lg-0 single-open-job p-5 bg-dark text-white d-block rounded-custom"
           >
             <div class="d-flex justify-content-between align-items-center">
@@ -60,7 +60,7 @@
                 >IA Developer</span
               >
             </div>
-            <h3 class="h5">Intelligent Systems Engineer</h3>
+            <h3 class="h5">{{ $t('a') }}</h3>
             <ul class="job-info-list list-inline list-unstyled text-muted">
               <li class="list-inline-item">
                 <span class="far fa-house-building me-1"></span> Paris
@@ -69,7 +69,7 @@
                 <span class="far fa-map-marker-alt me-1"></span> France, FR
               </li>
               <li class="list-inline-item">
-                <span class="far fa-wallet me-1"></span> $25k - $35k
+                <span class="far fa-wallet me-1"></span> $60k - $70k
               </li>
             </ul>
             <div class="btn btn-outline-light btn-sm d-inline-block mt-4">

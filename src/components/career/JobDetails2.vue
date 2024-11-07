@@ -6,25 +6,25 @@
           <div class="job-details-wrap">
             <h2>{{ $t('detailJob') }}</h2>
             <p>
-            &nbsp;&nbsp;{{ $t('descriptionPoste') }}
+              &nbsp;&nbsp;{{ $t('descriptionPoste2') }}
             </p>
             <div class="job-details-info mt-5">
               <h3 class="h5">{{ $t('responsabilitéDuJob') }}</h3>
               <ul class="content-list list-unstyled">
                 <li>
-                  {{ $t('Responsabilit1poste') }}
+                  {{ $t('Responsabilit1poste2') }}
                 </li>
                 <li>
-                  {{ $t('Responsabilit2poste') }}
+                  {{ $t('Responsabilit2poste2') }}
                 </li>
                 <li>
-                  {{ $t('Responsabilit3poste') }}
+                  {{ $t('Responsabilit3poste2') }}
                 </li>
                 <li>
-                  {{ $t('Responsabilit4poste') }}.
+                  {{ $t('Responsabilit4poste2') }}
                 </li>
                 <li>
-                  {{ $t('Responsabilit5poste') }}
+                  {{ $t('Responsabilit5poste2') }}
                 </li>
               </ul>
             </div>
@@ -32,13 +32,13 @@
               <h3 class="h5">{{ $t('necésitéduJob') }}</h3>
               <ul class="content-list list-unstyled">
                 <li>
-                  {{ $t('Exigence1Poste') }}
+                  {{ $t('Exigence1Poste2') }}
                 </li>
                 <li>
-                  {{ $t('Exigence2Poste') }}
+                  {{ $t('Exigence2Poste2') }}
                 </li>
                 <li>
-                  {{ $t('Exigence3Poste') }}
+                  {{ $t('Exigence3Poste2') }}
                 </li>
               </ul>
             </div>
@@ -47,13 +47,13 @@
               <h3 class="h5">{{ $t('expérieunceEt') }}</h3>
               <ul class="content-list list-unstyled">
                 <li>
-                  {{ $t('Compétence1poste') }}
+                  {{ $t('Compétence1poste2') }}
                 </li>
                 <li>
-                  {{ $t('Compétence2poste') }}
+                  {{ $t('Compétence2poste2') }}
                 </li>
                 <li>
-                  {{ $t('Compétence3poste') }}
+                  {{ $t('Compétence3poste2') }}
                 </li>
               </ul>
             </div>
@@ -69,14 +69,14 @@
                 <i class="far fa-map-marker-alt text-primary"></i>
                 <div class="overview-item">
                   <h6 class="mb-0">{{ $t('localisation') }}</h6>
-                  <span>Québec, QC</span>
+                  <span>Paris, FR</span>
                 </div>
               </li>
               <li>
                 <i class="far fa-user text-primary"></i>
                 <div class="overview-item">
                   <h6 class="mb-0">{{ $t('nomJob') }}</h6>
-                  <span>Projet manager</span>
+                  <span>{{ $t('a') }}</span>
                 </div>
               </li>
               <li>
@@ -90,14 +90,14 @@
                 <i class="far fa-history text-primary"></i>
                 <div class="overview-item">
                   <h6 class="mb-0">{{ $t('tauxhoraire') }}</h6>
-                  <span>$30 - $50</span>
+                  <span>$45</span>
                 </div>
               </li>
               <li>
                 <i class="far fa-wallet text-primary"></i>
                 <div class="overview-item">
                   <h6 class="mb-0">{{ $t('salaire') }}</h6>
-                  <span>$50k - $70k {{ $t('payeEmploie') }}</span>
+                  <span>$60k - $70k</span>
                 </div>
               </li>
             </ul>

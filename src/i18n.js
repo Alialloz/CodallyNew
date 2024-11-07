@@ -350,6 +350,51 @@ const messages = {
   titreRaison4: "Diverse and innovative projects",
   descriptionRaison4: "Our projects span across various fields, from cybersecurity to software for the medical sector. We encourage innovation and bold ideas.",
 
+ /*Jobs en détaile (1 et 2)*/
+
+ salaireAnnuel :"Annual Salary",
+
+ a:"Ethical AI Engineer",
+  salaireAnnuel :"Annual Salary",
+  detailJob :"Job Details", 
+  responsabilitéDuJob :"Job Responsibilities",
+  necésitéduJob :"Job Requirements",
+  expérieunceEt :"Skills and Experience",
+  résuméPoste: "Job Overview",
+  localisation:"Location:",
+  nomJob:"Job Title:",
+  Volumehoraire:"Weekly Hours:",
+  tauxhoraire:"Hourly Rate:",
+  salaire:"Salary:",
+
+  descriptionPoste:"At Codally, the project manager is responsible for overseeing the entire lifecycle of technical projects, from planning to delivery. This role involves managing resources, ensuring the quality of deliverables, and guaranteeing client satisfaction. In collaboration with the development team, the project manager acts as a strategic link between client needs and technical solutions.",
+  descriptionPoste2:"The Ethical AI Engineer is responsible for developing and deploying artificial intelligence (AI) systems that adhere to rigorous ethical standards. This crucial role ensures that algorithms are transparent, fair, and free from bias, taking into account the social, legal, and ethical impacts of deployed technologies.",
+
+  Responsabilit1poste:"Define project goals and milestones, create schedules, and allocate necessary resources.",
+  Responsabilit2poste:"Facilitate communication between developers, designers, and other stakeholders.",
+  Responsabilit3poste:"Monitor project progress, resolve issues, and adjust plans as needed.",
+  Responsabilit4poste:"Communicate progress, gather feedback, and ensure client satisfaction.",
+  Responsabilit5poste:"Ensure products meet quality standards and client expectations.",
+  Responsabilit1poste2:"Develop models that follow best ethical practices and conduct compliance audits.",
+  Responsabilit2poste2:"Analyze data and algorithms to detect and correct potential biases.",
+  Responsabilit3poste2:"Organize internal training sessions on ethical AI best practices.",
+  Responsabilit4poste2:"Document and report on ethical issues observed in AI processes.",
+  Responsabilit5poste2:"Work with clients, regulators, and other entities to promote responsible AI.",
+
+  Exigence1Poste:"Degree in project management, computer science, or engineering.",
+  Exigence2Poste:"At least 2 years of experience in IT project management, ideally in the information technology sector.",
+  Exigence3Poste:"Project management certifications (PMP, PRINCE2) are appreciated.",
+  Exigence1Poste2:"Proficiency in AI tools (TensorFlow, PyTorch...) and languages such as Python.",
+  Exigence2Poste2:"Ability to document and clearly explain ethical issues.",
+  Exigence3Poste2:"Knowledge of industry standards and regulations related to AI ethics.",
+
+  Compétence1poste:"Proficiency in Agile/Scrum or Waterfall methodologies.",
+  Compétence2poste:"Ability to motivate teams and manage projects by coordinating the efforts of diverse profiles.",
+  Compétence3poste:"Ability to anticipate and manage risks to meet deadlines and budgets.",
+  Compétence1poste2:"Bachelor’s or Master’s in computer science, AI, data science, or equivalent.",
+  Compétence2poste2:"Strong ethical judgment and ability to collaborate with diverse teams to integrate ethical values.",
+  Compétence3poste2:"Ability to adapt and innovate while respecting ethical standards.",
+
   /* Portfolio*/
 
   TitrePort: "Our portfolio",
@@ -666,6 +711,51 @@ const messages = {
  descriptionRaison3:"Rejoindre notre équipe, c'est intégrer un groupe de professionnels passionnés et compétents qui se soutiennent mutuellement. Votre développement professionnel est notre priorité!",
  titreRaison4:"Projet Diversifié et Innovant",
  descriptionRaison4:"Les projets qui nous sont attribués rassemblent des domaines de divers horizons allant de la cybersécurité à des logiciels destinés au domaine médical. Nous encourageons l'innovation et l'émergence d'idées audacieuses.",
+  
+ /*Jobs en détaile (1 et 2)*/
+
+  a:"Ingénieur en IA éthique",
+  salaireAnnuel :"Salaire Annuel",
+  detailJob :"Détails du poste", 
+  responsabilitéDuJob :"Responsabilités du poste",
+  necésitéduJob :"Exigences du poste",
+  expérieunceEt :"Compétence et expérience",
+  résuméPoste: "Aperçu de l'emplois",
+  localisation:"Lieu de travail:",
+  nomJob:"Titre d'emploi:",
+  Volumehoraire:"Volume horaire par semaine:",
+  tauxhoraire:"Taux horaire par H:",
+  salaire:"Salaire:",
+
+  descriptionPoste:"Chez Codally, le project manager  est chargé de superviser l'ensemble du cycle de vie des projets techniques, de la planification à la livraison. Ce rôle implique de gérer les ressources, de garantir la qualité des livrables, et d'assurer la satisfaction des clients. En collaboration avec l'équipe de développement, le chef de projet est un lien stratégique entre les besoins des clients et les solutions techniques.",
+  descriptionPoste2:"L'Ingénieur en IA éthique est chargé de développer et de déployer des systèmes d'intelligence artificielle (IA) qui respectent des standards éthiques rigoureux. Ce rôle crucial veille à ce que les algorithmes soient transparents, équitables et exempts de biais, en tenant compte des impacts sociaux, légaux et éthiques des technologies déployées.",
+
+  Responsabilit1poste:"Établir les objectifs et les étapes des projets, créer des calendriers et allouer les ressources nécessaires.",
+  Responsabilit2poste:"Assurer la communication entre les développeurs, les designers et les autres parties prenantes.",
+  Responsabilit3poste:"Surveiller l'avancement des projets, résoudre les problèmes, et ajuster les plans selon les imprévus.",
+  Responsabilit4poste:"Communiquer les progrès, recueillir des retours, et garantir la satisfaction du client.",
+  Responsabilit5poste:"Vérifier la conformité des produits aux normes de qualité et aux attentes des clients.",
+  Responsabilit1poste2:"Développer des modèles conformes aux meilleures pratiques éthiques et effectuer des audits de conformité.",
+  Responsabilit2poste2:"Analyser les données et algorithmes pour détecter et corriger les biais potentiels.",
+  Responsabilit3poste2:"Organiser des sessions de formation internes sur les bonnes pratiques éthiques de l’IA.",
+  Responsabilit4poste2:"Documenter et rendre compte des questions éthiques observées dans les processus IA.",
+  Responsabilit5poste2:"Travailler avec des clients, des régulateurs et d’autres entités pour promouvoir une IA responsable.",
+
+  Exigence1Poste:"Diplôme en gestion de projet, informatique, ou ingénierie.",
+  Exigence2Poste:"Minimum de 2 ans dans la gestion de projets informatiques, idéalement dans le secteur des technologies de l'information.",
+  Exigence3Poste:"Des certifications en gestion de projet (PMP, PRINCE2) seront appréciées.",
+  Exigence1Poste2:"Maîtrise des outils d’IA (TensorFlow, PyTorch...) et de langages tels que Python.",
+  Exigence2Poste2:"Capacité à documenter et expliquer les questions éthiques de manière claire et concise.",
+  Exigence3Poste2:"Connaissance des normes de l’industrie et des régulations en matière d’éthique de l'IA.",
+
+  Compétence1poste:"Maitrise des méthodologies Agile/Scrum ou Waterfall.",
+  Compétence2poste:"Capacité à motiver des équipes et à gérer des projets en coordonnant les efforts de divers profils.",
+  Compétence3poste:"Aptitude à anticiper et gérer les risques pour respecter les délais et budgets.",
+  Compétence1poste2:"Licence ou Master en informatique, IA, science des données ou équivalent.",
+  Compétence2poste2:"Jugement éthique solide et capacité à collaborer avec des équipes diverses pour intégrer les valeurs éthiques.",
+  Compétence3poste2:"Aptitude à adapter et innover en respectant les normes éthiques.",
+
+
 
   /* Nos projects*/
 

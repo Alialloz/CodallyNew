@@ -21,18 +21,15 @@
               </div>
             </div>
             <div class="company-overview">
-              <h1 class="display-5 fw-bold">Projet manager</h1>
+              <h1 class="display-5 fw-bold">{{ $t('a') }}</h1>
 
               <h6>{{ $t('horaireEmploie') }}</h6>
               <ul class="list-unstyled list-inline mb-0 mt-3">
                 <li class="list-inline-item me-4">
-                  <i class="far fa-house-building me-2"></i> Montreal
-                
+                  <i class="far fa-house-building me-2"></i> Paris
                 </li>
-
                 <li class="list-inline-item me-4">
-                  <i class="far fa-map-marker-alt me-2"></i>Québec QC
-                
+                  <i class="far fa-map-marker-alt me-2"></i>France, FR
                 </li>
               </ul>
             </div>
@@ -42,9 +39,8 @@
           <div class="annual-salary-wrap rounded-custom">
             <h6>{{ $t('salaireAnnuel') }}</h6>
             <span class="display-6 fw-semi-bold text-dark mb-0"
-              >$50k - $60k</span
+              >$60k - $70k</span
             >
-            <h6>{{ $t('payeEmploie') }}</h6>
           </div>
         </div>
       </div>
