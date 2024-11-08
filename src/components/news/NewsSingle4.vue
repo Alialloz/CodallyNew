@@ -40,7 +40,7 @@
               <span class="small">Vice CEO - Data Scientist</span>
             </div>
             <p>
-              {{ $t('article5desPoste') }} 
+              {{ $t('article4desPoste') }} 
             </p>
           </div>
         </div>

@@ -290,7 +290,7 @@ const messages = {
     article2objectfis2: "Optimizing business processes through machine learning",
     article2objectfis3: "Creating a new generation of intelligent and adaptive tools",
     article2conclusion: "By pushing the boundaries of applied AI, Codally is committed to being the engine of digital transformation for businesses, providing solutions that anticipate and address tomorrow’s challenges.",
-    article2desPoste: "",
+    article2desPoste: "Ali Nayeri is the CEO of Codally, an expert in project management and leadership, with excellent communication and organizational skills, while being innovation-oriented and focused on the success of his teams",
   
     article3Intro: "Codally is taking a new step in home automation innovation by partnering with DbAtt and Ida Engineering. This strategic collaboration aims to create more intuitive and efficient smart home systems, powered by AI.",
     article3objectfisIntro: "Our shared goals are:",
@@ -298,15 +298,15 @@ const messages = {
     article3objectfis2: "Developing more natural user interfaces",
     article3objectfis3: "Creating a responsive and intelligent home automation ecosystem",
     article3conclusion: "Through these partnerships, Codally is positioned at the forefront of the smart home revolution, offering solutions that redefine comfort and home management.",
-    article3desPoste: "",
+    article3desPoste: "Oswald Essongue is a Full Stack Developer with solid expertise in web development, with a great problem-solving ability and a strong spirit of innovation, always ready to adapt to new technologies",
   
-    article4Intro: "Codally recently participated in the prestigious -Entretiens Jacques Cartier- in Laval, a major event bringing together experts in artificial intelligence and education. Our team presented its innovative solutions, sparking keen interest among key industry players.",
+    article4Intro: "During the Jacques Cartier Talks 2024, which took place from October 16 to 18 in Laval, Montreal and Longueuil, Codally participated in high-level Franco-Canadian exchanges. This event, bringing together international experts, focused on key interdisciplinary themes, including artificial intelligence and its application in various fields, notably health, education and biosurveillance",
     article4objectfisIntro: "This conference provided opportunities for several initiatives:",
     article4objectfis1: "Sharing our vision of AI in education",
     article4objectfis2: "Discussing the latest technological advances",
     article4objectfis3: "Strengthening our network of partners",
-    article4conclusion: "This event confirms our leadership position in integrating AI into modern educational methods, paving the way for more personalized and effective learning.",
-    article4desPoste: "",
+    article4conclusion: "By presenting its innovations in artificial intelligence applied to education, the team strengthened its position as a pioneer in this field, while expanding its network of partners and opening up to new collaboration opportunities. This event confirmed Codally's central role in the digital transformation of teaching methods, laying the foundations for a more personalized and effective education for the future",
+    article4desPoste: "Morgan is the co-founder and data scientist at Codally. Holder of a dual master's degree in artificial intelligence and big data, he has specialized in data science, with solid expertise in machine learning and deep learning. Within Codally, he oversees AI projects and leads the dedicated teams",
   
     article5Intro: "AI has proven to be a powerful tool for optimizing processes and increasing productivity. By automating repetitive tasks, it allows teams to focus on more complex and stimulating challenges. Personalizing the customer experience.",
     article5Intro2: "In the e-commerce sector, AI is transforming the customer experience, making it more personalized and intuitive. Through predictive analytics, AI-based systems can recommend products suited to individual customer preferences. AI plays a crucial role in healthcare, enabling faster and more accurate diagnoses. It facilitates the analysis of health data, thereby contributing to better patient care.",
@@ -318,8 +318,7 @@ const messages = {
     article5objectfis4: "Ensure that AI use complies with privacy and data protection standards.",
     article5objectfis5: "Clearly explain to your clients or collaborators how and why you are using AI.",
     article5conclusion: "In conclusion, AI offers considerable opportunities to improve our daily lives and professional efficiency. However, its use must be guided by responsible practices to reap its benefits while minimizing potential risks. At Codally Montreal, we are committed to promoting an ethical and effective use of AI for the benefit of all.",
-    article5desPoste: "",
-  
+    article5desPoste: "Julien Blancon is a passionate Full Stack Developer, eager to learn, with the ability to quickly develop new skills to take on new challenges",  
   
   /*Nos offres empplois */
 
@@ -655,7 +654,7 @@ const messages = {
     article2objectfis2:"Optimiser les processus métiers grâce à l'apprentissage automatique",
     article2objectfis3:" Créer une nouvelle génération d'outils intelligents et adaptatifs",
     article2conclusion :"En repoussant les limites de l'IA appliquée, Codally s'engage à être le moteur de latransformation numérique des entreprises, offrant des solutions qui anticipent et répondent aux défis de demain.",
-    article2desPoste :"",
+    article2desPoste :"Ali Nayeri est le CEO de codally, expert en gestion de projets et en leadership, avec une excellente capacité à communiquer et à organiser, tout en étant orienté vers l'innovation et la réussite des équipes.",
 
     article3Intro :"Codally franchit une nouvelle étape dans l'innovation domotique en s'associant à DbAtt et Ida Engineering. Cette collaboration stratégique vise à créer des systèmes de maison intelligente plus intuitifs et performants, propulsés par l'IA.",
     article3objectfisIntro :"Nos objectifs communs sont:",
@@ -663,16 +662,16 @@ const messages = {
     article3objectfis2:"Développer des interfaces utilisateur plus naturelles",
     article3objectfis3:"Créer un écosystème domotique réactif et intelligent",
     article3conclusion :"Grâce à ces partenariats, Codally se positionne à l'avant-garde de la révolutiondomotique, offrant des solutions qui redéfinissent le confort et la gestion du foyer.",
-    article3desPoste :"",
+    article3desPoste :"Oswald Essongue est un Full Stack Developer avec une solide expertise en développement web, doté d'une grande capacité de résolution de problèmes et d'un fort esprit d'innovation, toujours prêt à s'adapter aux nouvelles technologies.",
 
    
-    article4Intro :"Codally a récemment participé aux prestigieux -Entretiens Jacques Cartier- à Laval,un événement phare réunissant les experts en intelligence artificielle et en éducation. Notre équipe a présenté ses solutions innovantes, suscitant un vif intérêt parmi les acteurs clés de l'industrie.",
+    article4Intro :"Lors des Entretiens Jacques Cartier 2024, qui se sont déroulés du 16 au 18 octobre à Laval, Montréal et Longueuil, Codally a participé à des échanges franco-canadiens de haut niveau. Cet événement, réunissant des experts internationaux, portait sur des thématiques interdisciplinaires clés, incluant l'intelligence artificielle et son application dans divers domaines, notamment la santé, l'éducation et la biosurveillance.",
     article4objectfisIntro :"Cette conférence a été une opportunité pour plusieurs occasions:",
     article4objectfis1:"Partager notre vision de l'IA dans l'éducation",
     article4objectfis2:"Échanger sur les dernières avancées technologiques",
     article4objectfis3:"Renforcer notre réseau de partenaires",
-    article4conclusion :"Cet événement confirme notre position de leader dans l'intégration de l'IA aux méthodes pédagogiques modernes, ouvrant la voie à une éducation pluspersonnalisée et efficace.",
-    article4desPoste :"",
+    article4conclusion :"En présentant ses innovations en matière d'intelligence artificielle appliquées à l'éducation, l'équipe a renforcé sa position de pionnier dans ce domaine, tout en élargissant son réseau de partenaires et en s'ouvrant à de nouvelles opportunités de collaboration. Cet événement a confirmé le rôle central de Codally dans la transformation numérique des méthodes pédagogiques, posant les bases d'une éducation plus personnalisée et efficace pour l'avenir.",
+    article4desPoste :"Morgan est co-fondateur et data scientist chez Codally. Titulaire d'un double master en intelligence artificielle et big data, il s'est spécialisé en data science, avec une expertise solide en machine learning et deep learning. Au sein de Codally, il supervise les projets d'IA et dirige les équipes dédiées.",
 
     article5Intro :"L’IA se révèle être un puissant outil pour optimiser les processus et augmenter la productivité  En automatisant les tâches répétitives, elle permet aux équipes de se concentrer sur des défis plus complexes et stimulants.Personnalisation de l’expérience client. En automatisant les tâches répétitives, elle permet aux équipes de se concentrer sur des défis plus complexes et stimulants. Personnalisation de l’expérience client",
     article5Intro2 :"Dans le domaine de l’e-commerce, l’IA transforme l’expérience client en la rendant plus personnalisée et intuitive. Grâce à l’analyse prédictive, les systèmes basés sur l’IA peuvent recommander des produits adaptés aux préférences individuelles des clients. L’IA joue un rôle crucial dans le domaine médical en permettant des diagnostics plus précis et rapides. Elle facilite l’analyse des données de santé, contribuant ainsi à une meilleure prise en charge des patients.",
@@ -684,7 +683,7 @@ const messages = {
     article5objectfis4:"Assurez-vous que l’utilisation de l’IA respecte les normes de confidentialité et de protection des données.",
     article5objectfis5:"Expliquez clairement à vos clients ou collaborateurs comment et pourquoi vous utilisez l’IA.",
     article5conclusion :"En conclusion, l’IA offre des opportunités considérables pour améliorer notre quotidien et notre efficacité professionnelle. Cependant, son utilisation doit être encadrée par des pratiques responsables pour en tirer le meilleur parti tout en minimisant les risques potentiels. Chez Codally Montréal, nous sommes engagés à promouvoir une utilisation éthique et efficace de l’IA pour le bénéfice de tous.",
-    article5desPoste :"",
+    article5desPoste :"Julien Blancon est un Full Stack Developer passionné, avide d'apprentissage, avec une capacité à monter en compétences rapidement pour relever de nouveaux défis.",
 
 
   /*Nos offres empplois */

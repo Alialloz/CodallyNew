@@ -78,7 +78,7 @@
           <!-- Onglet "Design web" -->
           <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
             <div class="tab-content-wrapper pt-60">
-              <div class="row align-items-center">
+               <div class="row align-items-center custom-margin-left ms-lg-10 ms-md-4 ms-sm-3 ">
                 <div class="col-md-6 order-md-2 d-flex"> 
                   <div>
                     <img src="@/assets/img/imgSite/devWeb.png" alt="" />
@@ -105,7 +105,7 @@
           <!-- Onglet "Développement d'application Mobiles" -->
           <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
             <div class="tab-content-wrapper pt-60">
-              <div class="row align-items-center">
+              <div class="row align-items-center custom-margin-left ms-lg-10 ms-md-4 ms-sm-3 ">
                 <div class="col-md-6 order-md-1">
                   <div class="tab-right-content">
                     <p>&nbsp;&nbsp;{{ $t('developpementApplicationDesc') }}</p>
@@ -130,7 +130,7 @@
           <!-- Onglet "Développement full-stack" -->
           <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
             <div class="tab-content-wrapper pt-60">
-              <div class="row align-items-center">
+              <div class="row align-items-center custom-margin-left ms-lg-10 ms-md-4 ms-sm-3">
                 <div class="col-md-6 order-md-1 d-flex">
                   <div class="mb-5 mb-lg-0">
                     <img src="@/assets/img/imgSite/path21-12.png" alt=""/>
@@ -156,7 +156,7 @@
           <div class="tab-pane fade" id="pills-custom-software" role="tabpanel"
             aria-labelledby="pills-custom-software-tab">
             <div class="tab-content-wrapper pt-60">
-              <div class="row align-items-center">
+              <div class="row align-items-center custom-margin-left ms-lg-10 ms-md-4 ms-sm-3">
                 <div class="col-md-6 order-md-2 d-flex">
                   <div class="mb-5 mb-lg-0">
                     <img src="@/assets/img/imgSite/path21-10.png" alt="" class="img-fluid "/>
@@ -180,7 +180,7 @@
 
           <!-- Onglet "Solutions IA" -->
           <div class="tab-pane fade" id="pills-ai-solutions" role="tabpanel" aria-labelledby="pills-ai-solutions-tab">
-            <div class="tab-content-wrapper pt-60">
+            <div class="tab-content-wrapper pt-60 custom-margin-left ms-lg-10 ms-md-4 ms-sm-3">
               <div class="row align-items-center">
                 <div class="col-md-6 order-md-2 d-flex">
                   <div class="mb-5 mb-lg-0">
@@ -207,7 +207,7 @@
           <div class="tab-pane fade" id="pills-tech-consulting" role="tabpanel"
             aria-labelledby="pills-tech-consulting-tab">
             <div class="tab-content-wrapper pt-60">
-              <div class="row align-items-center">
+              <div class="row align-items-center custom-margin-left ms-lg-10 ms-md-4 ms-sm-3">
                 <div class="col-md-6 order-md-1 d-flex">
                   <div class="mb-5 mb-lg-0">
                     <img src="@/assets/img/imgSite/path21-9.png" alt="" class="img-fluid "/>

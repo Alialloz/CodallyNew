@@ -42,7 +42,7 @@
           <div class="annual-salary-wrap rounded-custom">
             <h6>{{ $t('salaireAnnuel') }}</h6>
             <span class="display-6 fw-semi-bold text-dark mb-0"
-              >$50k - $60k</span
+              >$50k - $70k</span
             >
             <h6>{{ $t('payeEmploie') }}</h6>
           </div>
