@@ -11,7 +11,7 @@
               {{ $t('slogan_1') }}
             </h1>
             <p class="lead">
-              &nbsp&nbsp{{ $t('description') }}
+              {{ $t('description') }}
             </p>
             <div class="action-btns mt-5">
               <router-link to="/contact-us" class="btn btn-primary me-3">
@@ -25,9 +25,6 @@
           <div class="row justify-content-lg-start mt-60">
             <ul class="list-unstyled list-inline footer-social-list mb-0">
               <li class="list-inline-item">
-                  <a href="https://github.com/CodAlly-Agency"><i class="fab fa-github"></i></a>
-                </li>
-                <li class="list-inline-item">
                   <a href="https://www.facebook.com/people/CodAlly/61556088625053/?is_tour_dismissed=true"><i class="fab fa-facebook-f"></i></a>
                 </li>
                 <li class="list-inline-item">

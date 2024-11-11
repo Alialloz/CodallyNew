@@ -78,13 +78,13 @@
           <!-- Onglet "Design web" -->
           <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
             <div class="tab-content-wrapper pt-60">
-               <div class="row align-items-center custom-margin-left ms-lg-10 ms-md-4 ms-sm-3 ">
-                <div class="col-md-6 order-md-2 d-flex"> 
-                  <div>
+              <div class="row align-items-center custom-margin-left ms-lg-10 ms-md-4 ms-sm-3">
+                <div class="col-md-6 order-md-2 d-flex">
+                  <div class="border-right-image">
                     <img src="@/assets/img/imgSite/devWeb.png" alt="" />
                   </div>
                 </div>
-                <div class="col-md-6 order-md-1">
+                <div class="col-md-6 order-md-1 border-left-content">
                   <div class="tab-right-content">
                     <p>&nbsp;&nbsp;{{ $t('designWebDesc') }}</p>
                     <ul class="list-unstyled">
@@ -100,13 +100,11 @@
               </div>
             </div>
           </div>
-
-
           <!-- Onglet "Développement d'application Mobiles" -->
           <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
             <div class="tab-content-wrapper pt-60">
-              <div class="row align-items-center custom-margin-left ms-lg-10 ms-md-4 ms-sm-3 ">
-                <div class="col-md-6 order-md-1">
+              <div class="row align-items-center custom-margin-left ms-lg-10 ms-md-4 ms-sm-3">
+                <div class="col-md-6 order-md-1 border-left-content">
                   <div class="tab-right-content">
                     <p>&nbsp;&nbsp;{{ $t('developpementApplicationDesc') }}</p>
                     <ul class="list-unstyled">
@@ -114,11 +112,10 @@
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('developpementApplicationLis2') }}</span></li>
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('developpementApplicationLis3') }}</span></li>
                     </ul>
-                    <router-link to="/services#app_development" class="text-white link-with-icon text-decoration-none mt-4">{{
-                      $t('knowMore') }}<i class="fas fa-arrow-right"></i></router-link>
+                    <router-link to="/services#app_development" class="text-white link-with-icon text-decoration-none mt-4">{{ $t('knowMore') }}<i class="fas fa-arrow-right"></i></router-link>
                   </div>
                 </div>
-                <div class="col-md-6 order-md-1 d-flex">
+                <div class="col-md-6 order-md-1 d-flex border-right-image">
                   <div class="mb-5 mb-lg-0 text-end">
                     <img src="@/assets/img/imgSite/path21-11.png" alt="" class="img-fluid" />
                   </div>
@@ -131,12 +128,12 @@
           <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
             <div class="tab-content-wrapper pt-60">
               <div class="row align-items-center custom-margin-left ms-lg-10 ms-md-4 ms-sm-3">
-                <div class="col-md-6 order-md-1 d-flex">
+                <div class="col-md-6 order-md-1 d-flex border-right-image">
                   <div class="mb-5 mb-lg-0">
-                    <img src="@/assets/img/imgSite/path21-12.png" alt=""/>
+                    <img src="@/assets/img/imgSite/path21-12.png" alt="" />
                   </div>
-                </div> 
-                <div class="col-md-6">
+                </div>
+                <div class="col-md-6 border-left-content">
                   <div class="tab-right-content">
                     <p>&nbsp;&nbsp;{{ $t('DéveloppementFullStackDesc') }}</p>
                     <ul class="list-unstyled">
@@ -144,8 +141,7 @@
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('DéveloppementFullStackLis2') }}</span></li>
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('DéveloppementFullStackLis3') }}</span></li>
                     </ul>
-                    <router-link to="/services#fullstack_development" class="text-white link-with-icon text-decoration-none mt-4">{{
-                      $t('knowMore') }}<i class="fas fa-arrow-right"></i></router-link>
+                    <router-link to="/services#fullstack_development" class="text-white link-with-icon text-decoration-none mt-4">{{ $t('knowMore') }}<i class="fas fa-arrow-right"></i></router-link>
                   </div>
                 </div>
               </div>
@@ -153,16 +149,15 @@
           </div>
 
           <!-- Onglet "Logiciels personnalisés" -->
-          <div class="tab-pane fade" id="pills-custom-software" role="tabpanel"
-            aria-labelledby="pills-custom-software-tab">
+          <div class="tab-pane fade" id="pills-custom-software" role="tabpanel" aria-labelledby="pills-custom-software-tab">
             <div class="tab-content-wrapper pt-60">
               <div class="row align-items-center custom-margin-left ms-lg-10 ms-md-4 ms-sm-3">
-                <div class="col-md-6 order-md-2 d-flex">
+                <div class="col-md-6 order-md-2 d-flex border-right-image">
                   <div class="mb-5 mb-lg-0">
-                    <img src="@/assets/img/imgSite/path21-10.png" alt="" class="img-fluid "/>
+                    <img src="@/assets/img/imgSite/path21-10.png" alt="" class="img-fluid" />
                   </div>
                 </div>
-                <div class="col-md-6 order-md-1">
+                <div class="col-md-6 order-md-1 border-left-content">
                   <div class="tab-right-content">
                     <p>&nbsp;&nbsp;{{ $t('logicielsPersoDesc') }}</p>
                     <ul class="list-unstyled">
@@ -170,8 +165,7 @@
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('logicielsPersoLis2') }}</span></li>
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('logicielsPersoLis3') }}</span></li>
                     </ul>
-                    <router-link to="/services#custom_software" class="text-white link-with-icon text-decoration-none mt-4">{{
-                      $t('knowMore') }}<i class="fas fa-arrow-right"></i></router-link>
+                    <router-link to="/services#custom_software" class="text-white link-with-icon text-decoration-none mt-4">{{ $t('knowMore') }}<i class="fas fa-arrow-right"></i></router-link>
                   </div>
                 </div>
               </div>
@@ -182,12 +176,12 @@
           <div class="tab-pane fade" id="pills-ai-solutions" role="tabpanel" aria-labelledby="pills-ai-solutions-tab">
             <div class="tab-content-wrapper pt-60 custom-margin-left ms-lg-10 ms-md-4 ms-sm-3">
               <div class="row align-items-center">
-                <div class="col-md-6 order-md-2 d-flex">
+                <div class="col-md-6 order-md-2 d-flex border-right-image">
                   <div class="mb-5 mb-lg-0">
-                    <img src="@/assets/img/imgSite/devIA.png" alt=""/>
+                    <img src="@/assets/img/imgSite/devIA.png" alt="" />
                   </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 border-left-content">
                   <div class="tab-right-content">
                     <p>&nbsp;&nbsp;{{ $t('solutionIADesc') }}</p>
                     <ul class="list-unstyled">
@@ -195,8 +189,7 @@
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('solutionsIALis2') }}</span></li>
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('solutionsIALis3') }}</span></li>
                     </ul>
-                    <router-link to="/services#ai_solutions" class="text-white link-with-icon text-decoration-none mt-4">{{
-                      $t('knowMore') }}<i class="fas fa-arrow-right"></i></router-link>
+                    <router-link to="/services#ai_solutions" class="text-white link-with-icon text-decoration-none mt-4">{{ $t('knowMore') }}<i class="fas fa-arrow-right"></i></router-link>
                   </div>
                 </div>
               </div>
@@ -204,16 +197,15 @@
           </div>
 
           <!-- Onglet "Conseil technologique" -->
-          <div class="tab-pane fade" id="pills-tech-consulting" role="tabpanel"
-            aria-labelledby="pills-tech-consulting-tab">
+          <div class="tab-pane fade" id="pills-tech-consulting" role="tabpanel" aria-labelledby="pills-tech-consulting-tab">
             <div class="tab-content-wrapper pt-60">
               <div class="row align-items-center custom-margin-left ms-lg-10 ms-md-4 ms-sm-3">
-                <div class="col-md-6 order-md-1 d-flex">
+                <div class="col-md-6 order-md-1 d-flex border-right-image">
                   <div class="mb-5 mb-lg-0">
-                    <img src="@/assets/img/imgSite/path21-9.png" alt="" class="img-fluid "/>
+                    <img src="@/assets/img/imgSite/path21-9.png" alt="" class="img-fluid" />
                   </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 border-left-content">
                   <div class="tab-right-content">
                     <p>&nbsp;&nbsp;{{ $t('conseilDesc') }}</p>
                     <ul class="list-unstyled">
@@ -221,8 +213,7 @@
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('conseilLis2') }}</span></li>
                       <li><i class="fas fa-check text-primary"></i><span>{{ $t('conseilLis3') }}</span></li>
                     </ul>
-                    <router-link to="/services#consulting" class="text-white link-with-icon text-decoration-none mt-4">{{
-                      $t('knowMore') }}<i class="fas fa-arrow-right"></i></router-link>
+                    <router-link to="/services#consulting" class="text-white link-with-icon text-decoration-none mt-4">{{ $t('knowMore') }}<i class="fas fa-arrow-right"></i></router-link>
                   </div>
                 </div>
               </div>
@@ -242,6 +233,19 @@
   object-fit: cover;
 }
 
+.border-left-content {
+  border-left: 2px solid #fff;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding-left: 20px;
+}
+
+.border-right-image {
+  border-right: 2px solid #fff;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-right: 20px;
+}
 </style>
 
 

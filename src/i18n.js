@@ -103,8 +103,7 @@ const messages = {
 
     whyChooseUs: "Why Choose Us?",
     experience: "Innovate and succeed together.",
-    experienceDesc:
-      "Thanks to our expertise in various fields, including development, artificial intelligence, and artistic creation, we offer solutions tailored to your needs.",
+    experienceDesc: "Choosing Codally means benefiting from customized solutions tailored to your needs, with expertise in web, mobile, and software development. We ensure performance and seamless software integration, while providing continuous support to guarantee your success.",
 
     expertAroundWorld: "Multidisciplinary team",
     bestPractice: "Innovative solutions",
@@ -396,8 +395,15 @@ const messages = {
 
   /* Portfolio*/
 
-  TitrePort: "Our portfolio",
-  PortDes :"We approach each project with an adaptable methodology, focusing on understanding specific needs and applying tailored technical solutions to achieve optimal results.",
+  TitrePort :"Our Services Within Your Company",
+  PortDes :"We offer tailored solutions to optimize your internal processes through artificial intelligence. Our unique approach is based on a thorough analysis of your needs and full customization of our services. What sets us apart is our ability to combine technical expertise with a deep understanding of your challenges.",
+
+  Titrepourquoi1 :"Codally Consultant",
+  pourquoi1 :"A Codally consultant is available to support the development of your business, whether it’s an IT project manager or a developer. You have the flexibility to choose the duration of the support and the actual working hours (part-time, full-time, or consulting).",
+  Titrepourquoi2 :"AI Solutions for Internal Processes",
+  pourquoi2:"We also offer AI solutions to improve your internal processes by automating repetitive tasks and reducing errors. We develop personalized, adapted processes to enhance efficiency and decision-making within your company.",
+  Titrepourquoi3 :"Analysis and Advice",
+  pourquoi3 :"Our goal is to optimize your operations by offering analysis and advice on your workflow to improve your efficiency!",
 
     /* Footer */
 
@@ -512,18 +518,17 @@ const messages = {
 
     whyChooseUs: "Pourquoi Nous Choisir?",
     experience: "Innovons et réussissons ensemble.",
-    experienceDesc:
-      "Grâce à notre expertise dans divers domaines, incluant le développement, l'intelligence artificielle et la création artistique, nous offrons des solutions adaptées à vos besoins.",
+    experienceDesc: "Choisir Codally, c'est profiter de solutions sur mesure adaptées à vos besoins, avec une expertise en développement web, mobile et logiciel. Nous assurons performance et une intégration fluide du logiciel tout en vous accompagnant avec un support continu pour garantir votre succès.",
 
     expertAroundWorld: "L'expertise mondiale à votre service.",
     bestPractice: "Des solutions optimales pour chaque entreprise.",
 
     digitalConference: "Équipe pluridisciplinaire",
-    greatSpeakers: "solutions innovantes",
-    eventManagement: "satisfaction client garantit",
+    greatSpeakers: "Solutions innovantes",
+    eventManagement: "Satisfaction client garantit",
     funOnEvent: "Adaptation de nos services",
     salesCompliance: "Conformité des prestations",
-    showcasingSuccess: "Conseil pertinent",
+    showcasingSuccess: "Conseils pertinents",
     learnMore: "En savoir plus sur notre équipe",
 
     /*   Notre équipe (OurTeam) */
@@ -798,9 +803,15 @@ const messages = {
 
   /* Portfolio*/
 
-  TitrePort :"Notre portfolio",
-  PortDes :"Nous abordons chaque projet avec une méthodologie adaptable, en nous concentrant sur la compréhension des besoins spécifiques et en appliquant des solutions techniques adaptées pour atteindre des résultats optimaux.",
+  TitrePort :"Nos services au sein de votre entreprise",
+  PortDes :"Nous vous offrons des solutions sur mesure pour optimiser vos processus internes grâce à l’intelligence artificielle. Notre approche unique repose sur une analyse approfondie de vos besoins et une personnalisation totale de nos services. Ce qui nous distingue, c’est notre capacité à allier expertise technique et compréhension de vos enjeux.",
 
+  Titrepourquoi1 :"Consultant codally",
+  pourquoi1 :"Un consultant Codally est disponible pour vous accompagner dans le développement de votre entreprise, il peut s'agir d'un projects manager IT ou encrore d'un d'un développeur. Vous avez la flexibilité de choisir la durée de l'accompagnement ainsi que la durée effectifs de travail (partiel/ temps plein ou par consulting). ",
+  Titrepourquoi2 :"Solutions IA pour des processus interne",
+  pourquoi2:"Nos proposons également des solutions d'IA pour améliorer vos processus internes en automatisant les tâches répétitives et en réduisant les erreurs. Nous développons des processus personnalisés et adaptés pour améliorer l'efficacité et la prise de décision au sein de votre entreprise.",
+  Titrepourquoi3 :"Analyse et conseils",
+  pourquoi3 :" Notre objectif : optimiser vos opérations en proposant analyse et conseil sur votre fonctionnement afin d'optimiser votre fonctionnement!",
 
   /* Footer */
   

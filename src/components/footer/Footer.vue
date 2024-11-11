@@ -43,6 +43,12 @@
                     <li>
                       <router-link to="/our-team" class="text-decoration-none">{{ $t('notreÉquipe') }}</router-link>
                     </li>
+                    <li>
+                      <router-link to="/career" class="text-decoration-none">{{ $t('career') }}</router-link>
+                    </li>
+                    <li>
+                      <router-link to="/news" class="text-decoration-none">{{ $t('News') }}</router-link>
+                    </li>
                     </li>
                   </ul>
                 </div>
@@ -60,7 +66,8 @@
                     </li>
                     <li class="contact-item">
                       <i class="fas fa-envelope"></i> <!-- Icône email -->
-                      <a href="mailto:codally.agency@outlook.com">codally.agency@outlook.com</a>
+                      <a href="mailto:codally.agency@outlook.com">secretariat@codally.info
+                      </a>
                     </li>
                   </ul>
                 </div>

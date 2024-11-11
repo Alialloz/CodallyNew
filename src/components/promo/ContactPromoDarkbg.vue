@@ -10,7 +10,7 @@
               <span class="fad fa-envelope fa-3x text-primary"></span>
               <div class="contact-promo-info mb-4">
                 <h5>{{ $t('Email') }}</h5>
-                <p v-html="$t('EmailDesc', { email: '<a href=\'mailto:codally.agency@outlook.com\'>codally.agency@outlook.com</a>' })"></p>
+                <p v-html="$t('EmailDesc', { email: '<a href=\'mailto: secretariat@codally.info\'> secretariat@codally.info</a>' })"></p>
 
 
               </div>
