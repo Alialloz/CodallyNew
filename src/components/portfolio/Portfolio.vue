@@ -83,7 +83,9 @@
   font-size: 2.5rem;
   font-weight: bold;
 }
-
+.card-content p {
+  text-align: justify;
+}
 .text-intro {
   font-size: 1.25rem;
   font-weight: 500;

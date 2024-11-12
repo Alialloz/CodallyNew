@@ -769,8 +769,6 @@ const messages = {
   Compétence2poste2:"Jugement éthique solide et capacité à collaborer avec des équipes diverses pour intégrer les valeurs éthiques.",
   Compétence3poste2:"Aptitude à adapter et innover en respectant les normes éthiques.",
 
-
-
   /* Nos projects*/
 
   Slo : "Le futur de votre entreprise commence ici",
@@ -834,6 +832,9 @@ const messages = {
   pourquoi3raison2:"Vision extérieure et expertise pointue",
   pourquoi3raison3:"Optimisation sur-mesure des opérations",
 
+  /* équipeindividus */
+
+  individu1:"oui",
 
   /* Footer */
   
