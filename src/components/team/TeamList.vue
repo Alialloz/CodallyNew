@@ -36,7 +36,8 @@
 
           <!-- Contenu du corps de la carte -->
           <div class="card-body text-center">
-            <p class="text-muted small">{{ member.description }}</p>
+            <p class="text-muted small">{{ t(member.descriptionKey) }}</p>
+
             <div class="d-flex flex-wrap justify-content-center mb-3">
               <span
                 v-for="skill in member.skills"
@@ -53,19 +54,19 @@
   </div>
 </template>
 
-
-
 <script setup>
-import { ref } from 'vue'
+import { ref } from 'vue';
+import { useI18n } from 'vue-i18n';
 
-const hoveredMember = ref(null)
+const { t } = useI18n();
+const hoveredMember = ref(null);
 
 const teamMembers = [
   {
     name: "Ali Nayeri",
     role: "CEO - Project Manager",
     image: "/img/team/team-1.jpg",
-    description: "Expert en gestion de projet avec plus de 10 ans d'expérience dans le développement de solutions innovantes.",
+    descriptionKey: "team.ali_description",
     skills: ["Gestion de projet", "Leadership", "Stratégie"],
     linkedin: "https://www.linkedin.com/in/alinyr/",
   },
@@ -73,7 +74,7 @@ const teamMembers = [
     name: "Morgan Chappe",
     role: "Vice CEO - Data Scientist - Project Manager",
     image: "/img/team/team-2.jpg",
-    description: "Spécialiste en science des données, dirigeant des projets d'analyse avancée et d'intelligence artificielle.",
+    descriptionKey: "team.morgan_description",
     skills: ["Data Science", "Machine Learning", "Gestion de projet"],
     linkedin: "https://www.linkedin.com/in/morgan-chappe-3b6911181",
   },
@@ -81,66 +82,67 @@ const teamMembers = [
     name: "Oswald Essongue",
     role: "Full Stack Developer",
     image: "/img/team/team-3.jpg",
-    description: "Développeur Full Stack passionné par la création d'applications web robustes et performantes, expert en intégration front-end et back-end.",
+    descriptionKey: "team.oswald_description",
     skills: ["JavaScript", "Node.js", "React"],
   },
   {
     name: "Wacil Khelifi",
     role: "Data Scientist",
     image: "/img/team/team-4.jpg",
-    description: "Data Scientist spécialisé dans l'analyse prédictive et l'exploration des données pour fournir des insights commerciaux impactants.",
+    descriptionKey: "team.wacil_description",
     skills: ["Python", "Machine Learning", "Data Analysis"],
   },
   {
     name: "Seibel Edouard",
     role: "Full Stack Developer",
     image: "/img/team/team-5.jpg",
-    description: "Ingénieur Full Stack expérimenté dans la conception et le développement d'applications scalables, avec une attention particulière à l'expérience utilisateur.",
+    descriptionKey: "team.seibel_description",
     skills: ["Vue.js", "Express", "MongoDB"],
   },
   {
     name: "Mehdi Goude",
     role: "UI/UX Designer",
     image: "/img/team/team-6.jpg",
-    description: "UI/UX Designer créatif, spécialisé dans la conception d'interfaces intuitives et esthétiques pour améliorer l'expérience utilisateur.",
+    descriptionKey: "team.mehdi_description",
     skills: ["Figma", "User Research", "Prototyping"],
   },
   {
     name: "Dylan Palmier",
     role: "UI/UX Designer",
     image: "/img/team/team-7.jpg",
-    description: "Designer UX/UI axé sur la conception de produits centrés sur l'utilisateur, avec une expertise dans le prototypage interactif.",
+    descriptionKey: "team.dylan_description",
     skills: ["Adobe XD", "Wireframing", "Usability Testing"],
   },
   {
     name: "Julien Blancon",
     role: "Full Stack Developer",
     image: "/img/team/team-9.png",
-    description: "Développeur Full Stack polyvalent, capable de travailler sur des projets complexes du back-end au front-end, avec une expertise en gestion de bases de données.",
-    skills: ["PHP", "Laravel", "MySQL"],
+    descriptionKey: "team.julien_description",
+    skills: ["React", "TypeScript", "Node.js"],
   },
   {
     name: "Thomas Tran",
     role: "Back-End Developer",
     image: "/img/team/team-8.jpg",
-    description: "Développeur Back-End expert dans la conception d'architectures serveur robustes et scalables, avec une maîtrise des API RESTful.",
+    descriptionKey: "team.thomas_description",
     skills: ["Node.js", "Docker", "PostgreSQL"],
   },
   {
     name: "Kathy Nguyen",
     role: "UI/UX Designer",
     image: "/img/team/team-11.png",
-    description: "Designer UI/UX passionnée, axée sur la création de designs attrayants et fonctionnels qui améliorent l'expérience utilisateur.",
+    descriptionKey: "team.kathy_description",
     skills: ["Sketch", "Visual Design", "User Flows"],
   },
   {
     name: "Oussama El Figha",
     role: "Director of Cybersecurity",
     image: "/img/team/team-10.png",
-    description: "Directeur de la cybersécurité, spécialisé dans la protection des systèmes et des données contre les menaces et les cyberattaques.",
+    descriptionKey: "team.oussama_description",
     skills: ["Cybersecurity", "Risk Assessment", "Penetration Testing"],
   },
-]
+];
+
 </script>
 
 <style scoped>

@@ -13,7 +13,7 @@
       <div class="row justify-content-center equal-height-cards">
         <!-- boite 1 -->
         <div class="col-md-4 mb-4 d-flex">
-          <div class="card shadow-lg border-0 text-center p-3 w-100">
+          <div class="card shadow-lg border-0 text-center w-100">
             <div class="card-body d-flex flex-column">
               <div class="card-content">
                 <i class="fas fa-desktop fa-2x mb-3 text-primary"></i>
@@ -31,7 +31,7 @@
 
         <!-- boite 2 -->
         <div class="col-md-4 mb-4 d-flex">
-          <div class="card shadow-lg border-0 text-center p-3 w-100">
+          <div class="card shadow-lg border-0 text-center w-100">
             <div class="card-body d-flex flex-column">
               <div class="card-content">
                 <i class="fas fa-laptop-code fa-2x mb-3 text-primary"></i>
@@ -49,7 +49,7 @@
 
         <!-- boite 3 -->
         <div class="col-md-4 mb-4 d-flex">
-          <div class="card shadow-lg border-0 text-center p-3 w-100">
+          <div class="card shadow-lg border-0 text-center w-100">
             <div class="card-body d-flex flex-column">
               <div class="card-content">
                 <i class="fas fa-comments fa-2x mb-3 text-primary"></i>
@@ -83,46 +83,82 @@
   font-size: 2.5rem;
   font-weight: bold;
 }
-.card-content p {
-  text-align: justify;
-}
-.text-intro {
-  font-size: 1.25rem;
-  font-weight: 500;
-  color: #343a40;
-  line-height: 1.5;
-}
-
-.equal-height-cards {
-  display: flex;
-  flex-wrap: wrap;
-}
 
 .card {
-  border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
 }
 
 .card-body {
-  padding: 2rem;
-  transition: transform 0.3s ease-in-out;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; 
   height: 100%;
 }
 
 .card-content {
-  flex-grow: 1;
+  flex-grow: 1; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
 
-.card:hover {
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+.card i {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  color: #007bff;
 }
 
-.card-body:hover {
-  transform: translateY(-5px);
+.card h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.card p {
+  text-align: justify;
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.card p.text-muted {
+  margin-top: auto; 
+  padding-top: 0.5rem;
+}
+
+.additional-info {
+  list-style-type: none;
+  padding-left: 0;
+  font-size: 0.95rem;
+  color: #6c757d;
+  text-align: left;
+  width: 100%;
+}
+
+.additional-info li {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.additional-info li i {
+  margin-right: 8px;
+  color: #007bff;
+  font-size: 1rem; 
+  vertical-align: middle;
+}
+
+.text-muted {
+  font-size: 1rem;
+  text-align: center;
+
 }
 
 .btn {
@@ -136,24 +172,12 @@
   transform: translateY(-2px);
 }
 
-.text-muted {
-  font-size: 1rem;
+.card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
-.additional-info {
-  list-style-type: none;
-  padding-left: 0;
-  font-size: 0.95rem;
-  margin-top: auto;
+.card-body:hover {
+  transform: translateY(-5px);
 }
 
-.additional-info li {
-  color: #6c757d;
-  margin-bottom: 5px;
-  text-align: left;
-}
-
-.additional-info li i {
-  margin-right: 8px;
-}
 </style>

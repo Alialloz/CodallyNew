@@ -121,6 +121,19 @@ const messages = {
       notreÉquipe : "Our team",
       notreÉquipeSlo : "The people behind Codally",
       notreÉquipeDef : "The driving force of our company is our ability to address each of your IT requests in a personalized and tailored manner. To achieve this, each of our team members possesses a specialization unique to their role.",
+      team: {
+        ali_description: "Project management expert with over 10 years of experience in developing innovative solutions.",
+        morgan_description: "Data science specialist leading advanced analytics and artificial intelligence projects.",
+        oswald_description: "Full Stack developer passionate about creating robust and high-performance web applications, expert in front-end and back-end integration.",
+        wacil_description: "Data Scientist specializing in predictive analytics and data mining to provide impactful business insights.",
+        seibel_description: "Experienced Full Stack Engineer focused on designing and developing scalable applications with a strong user experience.",
+        mehdi_description: "Creative UI/UX Designer, specializing in designing intuitive and aesthetic interfaces to enhance user experience.",
+        dylan_description: "UX/UI designer focused on creating user-centered products with expertise in interactive prototyping.",
+        julien_description: "Versatile Full Stack developer capable of working on complex projects from back-end to front-end, with expertise in database management.",
+        thomas_description: "Back-End developer expert in designing robust and scalable server architectures with mastery of RESTful APIs.",
+        kathy_description: "Passionate UI/UX designer focused on creating attractive and functional designs that enhance user experience.",
+        oussama_description: "Director of cybersecurity specializing in protecting systems and data from threats and cyber attacks."
+      },
     
       /* Services pages (img content troi et three), les titres genre "developpement web" sont importer depuis la home */
 
@@ -547,7 +560,19 @@ const messages = {
     notreÉquipeSlo: "Les personnes derrière Codally",
     notreÉquipeDef:
       "Le fer de lance de notre entreprise est notre capacité à pouvoir répondre à chacune de vos demandes informatique de manière personnalisée et adaptée. Pour ce faire, chacun de nos membres possède une spécialisation lui entant propre.",
-
+      team: {
+        ali_description: "Expert en gestion de projet avec plus de 10 ans d'expérience dans le développement de solutions innovantes.",
+        morgan_description: "Spécialiste en science des données, dirigeant des projets d'analyse avancée et d'intelligence artificielle.",
+        oswald_description: "Développeur Full Stack passionné par la création d'applications web robustes et performantes, expert en intégration front-end et back-end.",
+        wacil_description: "Data Scientist spécialisé dans l'analyse prédictive et l'exploration des données pour fournir des insights commerciaux impactants.",
+        seibel_description: "Ingénieur Full Stack expérimenté dans la conception et le développement d'applications scalables, avec une attention particulière à l'expérience utilisateur.",
+        mehdi_description: "UI/UX Designer créatif, spécialisé dans la conception d'interfaces intuitives et esthétiques pour améliorer l'expérience utilisateur.",
+        dylan_description: "Designer UX/UI axé sur la conception de produits centrés sur l'utilisateur, avec une expertise dans le prototypage interactif.",
+        julien_description: "Développeur Full Stack polyvalent, capable de travailler sur des projets complexes du back-end au front-end, avec une expertise en gestion de bases de données.",
+        thomas_description: "Développeur Back-End expert dans la conception d'architectures serveur robustes et scalables, avec une maîtrise des API RESTful.",
+        kathy_description: "Designer UI/UX passionnée, axée sur la création de designs attrayants et fonctionnels qui améliorent l'expérience utilisateur.",
+        oussama_description: "Directeur de la cybersécurité, spécialisé dans la protection des systèmes et des données contre les menaces et les cyberattaques."
+      },
     /* Services (navbarre) */
 
     servicesN: "L'expertise à Votre Service",
