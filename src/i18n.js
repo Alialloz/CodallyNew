@@ -395,16 +395,26 @@ const messages = {
 
   /* Portfolio*/
 
-  TitrePort :"Our Services Within Your Company",
-  PortDes :"We offer tailored solutions to optimize your internal processes through artificial intelligence. Our unique approach is based on a thorough analysis of your needs and full customization of our services. What sets us apart is our ability to combine technical expertise with a deep understanding of your challenges.",
-
-  Titrepourquoi1 :"Codally Consultant",
-  pourquoi1 :"A Codally consultant is available to support the development of your business, whether it’s an IT project manager or a developer. You have the flexibility to choose the duration of the support and the actual working hours (part-time, full-time, or consulting).",
-  Titrepourquoi2 :"AI Solutions for Internal Processes",
-  pourquoi2:"We also offer AI solutions to improve your internal processes by automating repetitive tasks and reducing errors. We develop personalized, adapted processes to enhance efficiency and decision-making within your company.",
-  Titrepourquoi3 :"Analysis and Advice",
-  pourquoi3 :"Our goal is to optimize your operations by offering analysis and advice on your workflow to improve your efficiency!",
-
+  TitrePort: "Our services directly within your company!",
+  PortDes: "We offer tailored solutions to optimize your internal processes through artificial intelligence. What sets us apart is our ability to combine technical expertise with understanding of your challenges.",
+  
+  Titrepourquoi1: "Codally consultant",
+  pourquoi1: "Our project manager consultants or developers are available for your company's development. You can also choose their effective working time whether it's part-time, full-time or consulting.",
+  pourquoi1raison1: "Personalized and flexible support",
+  pourquoi1raison2: "Diverse expertise for comprehensive support",
+  pourquoi1raison3: "Internal resource optimization",
+ 
+  Titrepourquoi2: "AI solutions for internal processes",
+  pourquoi2: "We also offer AI solutions to improve your internal processes by automating repetitive tasks and reducing errors. We develop customized and adapted processes to improve efficiency and decision-making.",
+  pourquoi2raison1: "Automation of repetitive tasks",
+  pourquoi2raison2: "Error reduction and quality improvement",
+  pourquoi2raison3: "Decision-making facilitated through real-time data analysis",
+ 
+  Titrepourquoi3: "Analysis and advice",
+  pourquoi3: "At Codally, we optimize your operations through in-depth analysis and personalized advice. By providing an external perspective and sharp expertise, we identify inefficiencies and propose innovative solutions.",
+  pourquoi3raison1: "Continuous improvement for sustainable performance",
+  pourquoi3raison2: "External perspective and sharp expertise",
+  pourquoi3raison3: "Customized operations optimization",
     /* Footer */
 
     Souscription: "Your trusted partner in computer solutions. Innovation, reliability and expertise to serve your technological needs.",
@@ -803,15 +813,27 @@ const messages = {
 
   /* Portfolio*/
 
-  TitrePort :"Nos services au sein de votre entreprise",
-  PortDes :"Nous vous offrons des solutions sur mesure pour optimiser vos processus internes grâce à l’intelligence artificielle. Notre approche unique repose sur une analyse approfondie de vos besoins et une personnalisation totale de nos services. Ce qui nous distingue, c’est notre capacité à allier expertise technique et compréhension de vos enjeux.",
+  TitrePort :"Nos services directement au sein de votre entreprise!",
+  PortDes :"Nous vous offrons des solutions sur mesure pour optimiser vos processus internes grâce à l’intelligence artificielle. Ce qui nous distingue, c’est notre capacité à allier expertise technique et compréhension de vos enjeux.",
 
   Titrepourquoi1 :"Consultant codally",
-  pourquoi1 :"Un consultant Codally est disponible pour vous accompagner dans le développement de votre entreprise, il peut s'agir d'un projects manager IT ou encrore d'un d'un développeur. Vous avez la flexibilité de choisir la durée de l'accompagnement ainsi que la durée effectifs de travail (partiel/ temps plein ou par consulting). ",
+  pourquoi1 :"Nos consultants en projects manager ou bien nos développeurs, sont disponibles dans le développement de votre entreprise. Vous pouvez également choisir leur durée effective de travail que ce soit à temps partiel, temps plein ou par consulting. ",
+  pourquoi1raison1 :"Accompagnement personnalisé et flexible",
+  pourquoi1raison2 :"Expertise diversifiée pour un soutien complet",
+  pourquoi1raison3 :"Optimisation des ressources internes",
+
   Titrepourquoi2 :"Solutions IA pour des processus interne",
-  pourquoi2:"Nos proposons également des solutions d'IA pour améliorer vos processus internes en automatisant les tâches répétitives et en réduisant les erreurs. Nous développons des processus personnalisés et adaptés pour améliorer l'efficacité et la prise de décision au sein de votre entreprise.",
+  pourquoi2:"Nous proposons également des solutions d'IA pour améliorer vos processus internes en automatisant les tâches répétitives et en réduisant les erreurs. Nous développons des processus personnalisés et adaptés pour améliorer l'efficacité et la prise de décision.",
+  pourquoi2raison1:"Automatisation des tâches répétitives",
+  pourquoi2raison2:"Réduction des erreurs et amélioration de la qualité",
+  pourquoi2raison3:"Prise de décision facilitée grâce à l'analyse de données en temps réel",
+
   Titrepourquoi3 :"Analyse et conseils",
-  pourquoi3 :" Notre objectif : optimiser vos opérations en proposant analyse et conseil sur votre fonctionnement afin d'optimiser votre fonctionnement!",
+  pourquoi3 :" Chez Codally, nous optimisons vos opérations grâce à une analyse approfondie et des conseils personnalisés. En offrant une vision extérieure et une expertise pointue, nous identifions les inefficacités et proposons des solutions innovantes.",
+  pourquoi3raison1:"Amélioration continue pour une performance durable",
+  pourquoi3raison2:"Vision extérieure et expertise pointue",
+  pourquoi3raison3:"Optimisation sur-mesure des opérations",
+
 
   /* Footer */
   

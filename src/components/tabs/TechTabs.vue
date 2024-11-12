@@ -100,6 +100,7 @@
               </div>
             </div>
           </div>
+
           <!-- Onglet "Développement d'application Mobiles" -->
           <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
             <div class="tab-content-wrapper pt-60">
@@ -123,30 +124,30 @@
               </div>
             </div>
           </div>
-
+          
           <!-- Onglet "Développement full-stack" -->
-          <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-            <div class="tab-content-wrapper pt-60">
-              <div class="row align-items-center custom-margin-left ms-lg-10 ms-md-4 ms-sm-3">
-                <div class="col-md-6 order-md-1 d-flex border-right-image">
-                  <div class="mb-5 mb-lg-0">
-                    <img src="@/assets/img/imgSite/path21-12.png" alt="" />
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+              <div class="tab-content-wrapper pt-60">
+                <div class="row align-items-center custom-margin-left ms-lg-10 ms-md-4 ms-sm-3">
+                  <div class="col-md-6 order-md-1 d-flex border-right-image">
+                    <div class="mb-5 mb-lg-0">
+                      <img src="@/assets/img/imgSite/path21-12.png" alt="" />
+                    </div>
                   </div>
-                </div>
-                <div class="col-md-6 border-left-content">
-                  <div class="tab-right-content">
-                    <p>&nbsp;&nbsp;{{ $t('DéveloppementFullStackDesc') }}</p>
-                    <ul class="list-unstyled">
-                      <li><i class="fas fa-check text-primary"></i><span>{{ $t('DéveloppementFullStackLis1') }}</span></li>
-                      <li><i class="fas fa-check text-primary"></i><span>{{ $t('DéveloppementFullStackLis2') }}</span></li>
-                      <li><i class="fas fa-check text-primary"></i><span>{{ $t('DéveloppementFullStackLis3') }}</span></li>
-                    </ul>
-                    <router-link to="/services#fullstack_development" class="text-white link-with-icon text-decoration-none mt-4">{{ $t('knowMore') }}<i class="fas fa-arrow-right"></i></router-link>
+                  <div class="col-md-6 border-left-content">
+                    <div class="tab-right-content">
+                      <p>&nbsp;&nbsp;{{ $t('DéveloppementFullStackDesc') }}</p>
+                      <ul class="list-unstyled">
+                        <li><i class="fas fa-check text-primary"></i><span>{{ $t('DéveloppementFullStackLis1') }}</span></li>
+                        <li><i class="fas fa-check text-primary"></i><span>{{ $t('DéveloppementFullStackLis2') }}</span></li>
+                        <li><i class="fas fa-check text-primary"></i><span>{{ $t('DéveloppementFullStackLis3') }}</span></li>
+                      </ul>
+                      <router-link to="/services#fullstack_development" class="text-white link-with-icon text-decoration-none mt-4">{{ $t('knowMore') }}<i class="fas fa-arrow-right"></i></router-link>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
 
           <!-- Onglet "Logiciels personnalisés" -->
           <div class="tab-pane fade" id="pills-custom-software" role="tabpanel" aria-labelledby="pills-custom-software-tab">
@@ -225,27 +226,5 @@
   </section>
 </template>
 
-<style scoped>
-.tab-content-wrapper img {
-  width: 100%;
-  height: auto;
-  max-width: 900px;
-  object-fit: cover;
-}
-
-.border-left-content {
-  border-left: 2px solid #fff;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-  padding-left: 20px;
-}
-
-.border-right-image {
-  border-right: 2px solid #fff;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  padding-right: 20px;
-}
-</style>
 
 
