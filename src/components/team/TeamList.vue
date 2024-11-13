@@ -79,6 +79,13 @@ const teamMembers = [
     linkedin: "https://www.linkedin.com/in/morgan-chappe-3b6911181",
   },
   {
+    name: "Oussama El Figha",
+    role: "Director of Cybersecurity",
+    image: "/img/team/team-10.png",
+    descriptionKey: "team.oussama_description",
+    skills: ["Cybersecurity", "Risk Assessment", "Penetration Testing"],
+  },
+  {
     name: "Oswald Essongue",
     role: "Full Stack Developer",
     image: "/img/team/team-3.jpg",
@@ -133,13 +140,6 @@ const teamMembers = [
     image: "/img/team/team-11.png",
     descriptionKey: "team.kathy_description",
     skills: ["Sketch", "Visual Design", "User Flows"],
-  },
-  {
-    name: "Oussama El Figha",
-    role: "Director of Cybersecurity",
-    image: "/img/team/team-10.png",
-    descriptionKey: "team.oussama_description",
-    skills: ["Cybersecurity", "Risk Assessment", "Penetration Testing"],
   },
 ];
 
