@@ -7,6 +7,14 @@
             <p class="text-indent">
               {{ $t('article2Intro') }}
             </p>
+            <img
+              src="@/assets/img/imgSite/ExpansionIa.png"
+              alt="image descriptive"
+              class="blog-image"
+            />
+            <p class="text-indent">
+              {{ $t('article2Intro2') }}
+            </p>
             <div class="blog-details-info mt-5">
               <h3 class="h5">{{ $t('article2objectfisIntro') }}</h3>
               <ul class="content-list list-unstyled">
@@ -48,6 +56,22 @@
   </section>
 </template>
 
+<style scoped>
+.blog-image {
+  width: 80%; 
+  height: auto; 
+  display: block; 
+  margin: 30px 0; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  border-radius: 8px; 
+  transition: all 0.3s ease; 
+}
+.blog-image:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+  transform: scale(1.05); 
+}
+
+</style>
 
 
 <script>

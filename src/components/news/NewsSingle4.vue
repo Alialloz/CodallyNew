@@ -7,6 +7,9 @@
             <p class="text-indent">
               {{ $t('article4Intro') }}
             </p>
+            <p class="text-indent">
+              {{ $t('article4intro2') }}
+            </p>
 
             <div class="blog-details-info mt-5">
               <h3 class="h5">{{ $t('article4objectfisIntro') }}</h3>
