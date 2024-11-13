@@ -273,10 +273,12 @@ const messages = {
    newsTitre2 : "Codally: A Pioneer of AI in Business Software",
    newsDes2 :"Our ambition is clear: to transform business efficiency with custom AI solutions, pushing the limits of automation while offering tools that address the challenges of tomorrow.",
    newsDate2 :"November 4, 2024",
+   Articleref2 : "This image represents the expansion of artificial intelligence through the lens of the business figures of applications in Europe. Source:",
    
    newsTitre3 : "Revolutionizing Home Automation with AI: Codally Partners with DbAtt and Ida Engineering",
    newsDes3 :"Together with our partners DbAtt and Ida Engineering, we are redefining the smart home, using AI to enhance security, energy efficiency, and make user interfaces more intuitive and easy to use.",
    newsDate3 :"July 26, 2024",
+   Articleref3 : "Percentage of households with connected devices",
    
    newsTitre4 : "AI at the Heart of Education: Codally at the Entretiens Jacques Cartier",
    newsDes4 :"At the Entretiens Jacques Cartier, we shared our vision of AI in education, showing how our solutions personalize learning and modernize teaching methods to make them more effective.",
@@ -668,10 +670,12 @@ const messages = {
     newsTitre2 : "Codally : Pionnier de l'IA dans les logiciels métiers",
     newsDes2 :" Notre ambition est claire, transformer l’efficacité des entreprises avec des solutions IA sur mesure, en repoussant les limites de l’automatisation tout en offrant des outils qui répondent aux défis de demain.",
     newsDate2 :"4 novembre 2024",
+    Articleref2 :"Cette image représente l'expansion de l'intelligence artificielle par le prisme du chiffre d'afafires des applications en Europe. source :",
 
     newsTitre3 : "Révolutionner la domotique avec l'IA : Codally s'associe à DbAtt et Ida Engineering",
     newsDes3 :"Avec nos partenaires DbAtt et Ida Engineering, nous redéfinissons la maison intelligente, en utilisant l’IA pour améliorer la sécurité, l’efficacité énergétique et rendre les interfaces utilisateurs plus intuitives et faciles à utiliser",
     newsDate3 :"26 juillet 2024",
+    Articleref3 :"Pourcentage des ménages possédant des équipements connectés",
 
     newsTitre4 : "L'IA au cœur de l'éducation : Codally aux Entretiens Jacques Cartier",
     newsDes4 :"Lors des Entretiens Jacques Cartier, nous avons partagé notre vision de l’IA dans l'éducation, montrant comment nos solutions personnalisent l’apprentissage et modernisent les méthodes pédagogiques pour les rendre plus efficaces",

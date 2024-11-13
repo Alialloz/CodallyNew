@@ -12,6 +12,16 @@
               alt="image descriptive"
               class="blog-image"
             />
+            <!-- Nouveau texte en dessous de l'image -->
+            <p class="image-description">
+              {{ $t('Articleref2') }} 
+              <a 
+                href="https://fr.statista.com/infographie/8618/lintelligence-artificielle-secteur-en-plein-essor-en-europe/"
+                target="_blank" 
+                rel="noopener noreferrer">
+                statista.fr
+              </a>
+            </p>
             <p class="text-indent">
               {{ $t('article2Intro2') }}
             </p>
@@ -71,8 +81,21 @@
   transform: scale(1.05); 
 }
 
-</style>
+.image-description {
+  color: #808080; /* Gris */
+  font-size: 14px; /* Taille de police plus petite */
+  margin-top: 10px; /* Espacement au-dessus */
+}
 
+.image-description a {
+  color: #0000EE; /* Couleur bleue pour le lien */
+  text-decoration: none; /* Enlever le soulignement */
+}
+
+.image-description a:hover {
+  text-decoration: underline; /* Soulignement au survol */
+}
+</style>
 
 <script>
 export default {};

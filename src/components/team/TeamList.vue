@@ -67,7 +67,7 @@ const teamMembers = [
     role: "CEO - Project Manager",
     image: "/img/team/team-1.jpg",
     descriptionKey: "team.ali_description",
-    skills: ["Gestion de projet", "Leadership", "Stratégie"],
+    skills: ["Project Manager", "Leadership", "Spirng Boot"],
     linkedin: "https://www.linkedin.com/in/alinyr/",
   },
   {
@@ -75,7 +75,7 @@ const teamMembers = [
     role: "Vice CEO - Data Scientist - Project Manager",
     image: "/img/team/team-2.jpg",
     descriptionKey: "team.morgan_description",
-    skills: ["Data Science", "Machine Learning", "Gestion de projet"],
+    skills: ["Data Science", "Machine Learning", "Project Manager"],
     linkedin: "https://www.linkedin.com/in/morgan-chappe-3b6911181",
   },
   {
@@ -83,7 +83,7 @@ const teamMembers = [
     role: "Director of Cybersecurity",
     image: "/img/team/team-10.png",
     descriptionKey: "team.oussama_description",
-    skills: ["Cybersecurity", "Risk Assessment", "Penetration Testing"],
+    skills: ["Incident response", "Risk Assessment", "Network security control"],
   },
   {
     name: "Oswald Essongue",
@@ -111,7 +111,7 @@ const teamMembers = [
     role: "UI/UX Designer",
     image: "/img/team/team-6.jpg",
     descriptionKey: "team.mehdi_description",
-    skills: ["Figma", "User Research", "Prototyping"],
+    skills: ["Agile", "User Research", "Information architecture"],
   },
   {
     name: "Dylan Palmier",
