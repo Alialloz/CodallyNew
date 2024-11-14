@@ -124,8 +124,8 @@ const messages = {
       notreÉquipeSlo : "The people behind Codally",
       notreÉquipeDef : "The driving force of our company is our ability to address each of your IT requests in a personalized and tailored manner. To achieve this, each of our team members possesses a specialization unique to their role.",
       team: {
-        ali_description: "Project management expert with over 10 years of experience in developing innovative solutions.",
-        morgan_description: "Data science specialist leading advanced analytics and artificial intelligence projects.",
+        ali_description: "As CEO, his leadership and technical vision make him a key asset in every project, as he leads teams but is also an exceptional programmer, mastering multiple programming languages.",
+        morgan_description: "Morgan is a cutting-edge Data Scientist. He leads projects by leveraging data to generate strategic insights, and his analytical approach and mastery of algorithms allow him to solve complex problems with ease.",
         oswald_description: "Full Stack developer passionate about creating robust and high-performance web applications, expert in front-end and back-end integration.",
         wacil_description: "Data Scientist specializing in predictive analytics and data mining to provide impactful business insights.",
         seibel_description: "Experienced Full Stack Engineer focused on designing and developing scalable applications with a strong user experience.",
@@ -134,7 +134,7 @@ const messages = {
         julien_description: "Versatile Full Stack developer capable of working on complex projects from back-end to front-end, with expertise in database management.",
         thomas_description: "Back-End developer expert in designing robust and scalable server architectures with mastery of RESTful APIs.",
         kathy_description: "Passionate UI/UX designer focused on creating attractive and functional designs that enhance user experience.",
-        oussama_description: "Director of cybersecurity specializing in protecting systems and data from threats and cyber attacks."
+        oussama_description: "An expert in cybersecurity, Oussama Elfigha develops automated security solutions for DevSecOps and DevOps. With his experience in various industries, he applies best practices and tailors solutions to meet the needs of organizations."
       },
     
       /* Services pages (img content troi et three), les titres genre "developpement web" sont importer depuis la home */
@@ -276,7 +276,7 @@ const messages = {
    Articleref2 : "This image represents the expansion of artificial intelligence through the lens of the business figures of applications in Europe. Source:",
    
    newsTitre3 : "Revolutionizing Home Automation with AI: Codally Partners with DbAtt and Ida Engineering",
-   newsDes3 :"Together with our partners DbAtt and Ida Engineering, we are redefining the smart home, using AI to enhance security, energy efficiency, and make user interfaces more intuitive and easy to use.",
+   newsDes3 : "We are proud to announce our partners, Db Bat, a construction company specialized in renovation and finishing works, offering a wide range of services for both individuals and professionals, and Ida Engineering, an engineering firm specialized in technical solutions and structural design services for various industrial and construction projects. Together, we are redefining the smart home by using AI to enhance security, improve energy efficiency, and make user interfaces more intuitive and easy to use.",
    newsDate3 :"July 26, 2024",
    Articleref3 : "Percentage of households with connected devices",
    
@@ -568,8 +568,8 @@ const messages = {
     notreÉquipeDef:
       "Le fer de lance de notre entreprise est notre capacité à pouvoir répondre à chacune de vos demandes informatique de manière personnalisée et adaptée. Pour ce faire, chacun de nos membres possède une spécialisation lui entant propre.",
       team: {
-        ali_description: "Expert en gestion de projet avec plus de 10 ans d'expérience dans le développement de solutions innovantes.",
-        morgan_description: "Spécialiste en science des données, dirigeant des projets d'analyse avancée et d'intelligence artificielle.",
+        ali_description: "En tant que CEO, son leadership et sa vision technique font de lui un atout clé dans chaque projet puisqu'il dirige les équipes  mais il est également un programmeur hors pair maitrisant plusieurs langages de programmation.",
+        morgan_description: "Morgan constitue un Data Scientist de pointe. Il dirige des projets en exploitant les données pour générer des insights stratégiques, son approche analytique et sa maîtrise des algorithmes permettent de résoudre des problématiques complexes avec aise.",
         oswald_description: "Développeur Full Stack passionné par la création d'applications web robustes et performantes, expert en intégration front-end et back-end.",
         wacil_description: "Data Scientist spécialisé dans l'analyse prédictive et l'exploration des données pour fournir des insights commerciaux impactants.",
         seibel_description: "Ingénieur Full Stack expérimenté dans la conception et le développement d'applications scalables, avec une attention particulière à l'expérience utilisateur.",
@@ -578,7 +578,7 @@ const messages = {
         julien_description: "Développeur Full Stack polyvalent, capable de travailler sur des projets complexes du back-end au front-end, avec une expertise en gestion de bases de données.",
         thomas_description: "Développeur Back-End expert dans la conception d'architectures serveur robustes et scalables, avec une maîtrise des API RESTful.",
         kathy_description: "Designer UI/UX passionnée, axée sur la création de designs attrayants et fonctionnels qui améliorent l'expérience utilisateur.",
-        oussama_description: "Directeur de la cybersécurité, spécialisé dans la protection des systèmes et des données contre les menaces et les cyberattaques."
+        oussama_description: "Expert en cybersécurité,Oussama Elfigha développe des solutions de sécurité automatisées pour DevSecOps et DevOps. Fort de son expérience dans diverses industries, il applique les meilleures pratiques et adapte les solutions aux besoins des organisations.",
       },
     /* Services (navbarre) */
 
@@ -672,8 +672,8 @@ const messages = {
     newsDate2 :"4 novembre 2024",
     Articleref2 :"Cette image représente l'expansion de l'intelligence artificielle par le prisme du chiffre d'afafires des applications en Europe. source :",
 
-    newsTitre3 : "Révolutionner la domotique avec l'IA : Codally s'associe à DbAtt et Ida Engineering",
-    newsDes3 :"Avec nos partenaires DbAtt et Ida Engineering, nous redéfinissons la maison intelligente, en utilisant l’IA pour améliorer la sécurité, l’efficacité énergétique et rendre les interfaces utilisateurs plus intuitives et faciles à utiliser",
+    newsTitre3 : "Révolutionner la domotique avec l'IA : Codally s'associe à Db bat et Ida Engineering",
+    newsDes3 :"Nous sommes fières d'annoncer nos partenaires Db bat, une entreprise de construction spécialisée dans les travaux de rénovation et de second œuvre, offrant des services variés pour particuliers/professionnels​ et Ida Engineering, une société d'ingénierie, spécialisée en solutions techniques et en services de conception structurale pour divers projets industriels et de construction​. Ensembles, nous redéfinissons la maison intelligente, en utilisant l’IA pour améliorer la sécurité, l’efficacité énergétique et rendre les interfaces utilisateurs plus intuitives et faciles à utiliser",
     newsDate3 :"26 juillet 2024",
     Articleref3 :"Pourcentage des ménages possédant des équipements connectés",
 
