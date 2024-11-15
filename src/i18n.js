@@ -419,22 +419,24 @@ const messages = {
   PortDes: "We offer tailored solutions to optimize your internal processes through artificial intelligence. What sets us apart is our ability to combine technical expertise with understanding of your challenges.",
   
   Titrepourquoi1: "Codally consultant",
-  pourquoi1: "Our project manager consultants or developers are available for your company's development. You can also choose their effective working time whether it's part-time, full-time or consulting.",
+  pourquoi1: "Our consultants and developers are available to support your business development, with flexible options.",
   pourquoi1raison1: "Personalized and flexible support",
   pourquoi1raison2: "Diverse expertise for comprehensive support",
   pourquoi1raison3: "Internal resource optimization",
  
   Titrepourquoi2: "AI solutions for internal processes",
-  pourquoi2: "We also offer AI solutions to improve your internal processes by automating repetitive tasks and reducing errors. We develop customized and adapted processes to improve efficiency and decision-making.",
+  pourquoi2: "We offer AI solutions to automate repetitive tasks and enhance decision-making with customized processes.",
   pourquoi2raison1: "Automation of repetitive tasks",
   pourquoi2raison2: "Error reduction and quality improvement",
   pourquoi2raison3: "Decision-making facilitated through real-time data analysis",
  
   Titrepourquoi3: "Analysis and advice",
-  pourquoi3: "At Codally, we optimize your operations through in-depth analysis and personalized advice. By providing an external perspective and sharp expertise, we identify inefficiencies and propose innovative solutions.",
+  pourquoi3: "At Codally, we optimize your operations with personalized advice and innovative solutions based on in-depth analysis.",
   pourquoi3raison1: "Continuous improvement for sustainable performance",
   pourquoi3raison2: "External perspective and sharp expertise",
   pourquoi3raison3: "Customized operations optimization",
+
+  partenaireConfiance:"Our trusted partners",
     /* Footer */
 
     Souscription: "Your trusted partner in computer solutions. Innovation, reliability and expertise to serve your technological needs.",
@@ -763,6 +765,7 @@ const messages = {
  titreRaison4:"Projet Diversifié et Innovant",
  descriptionRaison4:"Les projets qui nous sont attribués rassemblent des domaines de divers horizons allant de la cybersécurité à des logiciels destinés au domaine médical. Nous encourageons l'innovation et l'émergence d'idées audacieuses.",
   
+ partenaireConfiance:"Nos partenaires de confiances",
  /*Jobs en détaile (1 et 2)*/
 
   a:"Ingénieur en IA éthique",
@@ -852,19 +855,19 @@ const messages = {
   PortDes :"Nous vous offrons des solutions sur mesure pour optimiser vos processus internes grâce à l’intelligence artificielle. Ce qui nous distingue, c’est notre capacité à allier expertise technique et compréhension de vos enjeux.",
 
   Titrepourquoi1 :"Consultant codally",
-  pourquoi1 :"Nos consultants en projects manager ou bien nos développeurs, sont disponibles dans le développement de votre entreprise. Vous pouvez également choisir leur durée effective de travail que ce soit à temps partiel, temps plein ou par consulting. ",
+  pourquoi1 :"Nos consultants sont à votre disposition pour accompagner le développement de votre entreprise, avec des options flexibles de temps et de fonction.",
   pourquoi1raison1 :"Accompagnement personnalisé et flexible",
   pourquoi1raison2 :"Expertise diversifiée pour un soutien complet",
   pourquoi1raison3 :"Optimisation des ressources internes",
 
   Titrepourquoi2 :"Solutions IA pour des processus interne",
-  pourquoi2:"Nous proposons également des solutions d'IA pour améliorer vos processus internes en automatisant les tâches répétitives et en réduisant les erreurs. Nous développons des processus personnalisés et adaptés pour améliorer l'efficacité et la prise de décision.",
+  pourquoi2:"Nous proposons des solutions utilisant l'IA pour automatiser les tâches répétitives et améliorer la prise de décision de votre entreprise.",
   pourquoi2raison1:"Automatisation des tâches répétitives",
   pourquoi2raison2:"Réduction des erreurs et amélioration de la qualité",
   pourquoi2raison3:"Prise de décision facilitée grâce à l'analyse de données en temps réel",
 
   Titrepourquoi3 :"Analyse et conseils",
-  pourquoi3 :" Chez Codally, nous optimisons vos opérations grâce à une analyse approfondie et des conseils personnalisés. En offrant une vision extérieure et une expertise pointue, nous identifions les inefficacités et proposons des solutions innovantes.",
+  pourquoi3 :"Chez Codally, nous fournissons des conseils et des solutions innovantes basées sur une analyse approfondie pour aider au mieux votre entreprise à croître.",
   pourquoi3raison1:"Amélioration continue pour une performance durable",
   pourquoi3raison2:"Vision extérieure et expertise pointue",
   pourquoi3raison3:"Optimisation sur-mesure des opérations",
