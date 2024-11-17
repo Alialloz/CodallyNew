@@ -43,6 +43,9 @@
                   <img src="@/assets/img/clients/logo-intelchain.png" alt="Intelchain Logo" />
                 </a>
               </div>
+              <div class="sponsor-logo">
+                  <img src="@/assets/img/imgSite/DBbat.png" alt="ESGI Logo" />
+              </div>
             </div>
           </div>
         <p class="text-center mt-5 mb-0" data-aos="fade-up" data-aos-delay="200">
