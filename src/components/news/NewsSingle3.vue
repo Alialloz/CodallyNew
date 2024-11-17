@@ -7,6 +7,21 @@
             <p class="text-indent">
               {{ $t('article3Intro') }}
             </p>
+            <div class="image-paragraph-wrap">
+              <p class="text-indent second-paragraph">
+                {{ $t('article3Intro2') }}
+              </p>
+              <img
+                src="@/assets/img/imgSite/Domotique.png"
+                alt="image descriptive"
+                class="blog-image"
+              />
+            </div>
+            <!-- Ajout de la description sous l'image, centrée à droite -->
+            <div class="image-description text-indent text-right">
+              <p>{{ $t('Articleref3') }}</p>
+              <a href="https://fr.statista.com/infographie/11832/part-logements-equipes-appareils-intelligents-smart-home/" target="_blank">statista.fr</a>
+            </div>
             <div class="blog-details-info mt-5">
               <h3 class="h5">{{ $t('article3objectfisIntro') }}</h3>
               <ul class="content-list list-unstyled">
@@ -52,6 +67,45 @@
 .text-indent {
     text-indent: 1em; 
 }
+
+.image-paragraph-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+.image-description p {
+  margin-bottom: 0px;  /* Réduit l'espace sous le texte principal */
+}
+
+
+
+.second-paragraph {
+  flex: 1;
+  margin-top: 10px;
+}
+
+.blog-image {
+  width: 40%; 
+  height: auto; 
+  display: inline-block; 
+  margin-left: 20px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  border-radius: 8px; 
+  transition: all 0.3s ease; 
+}
+
+.blog-image:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+  transform: scale(1.05); 
+}
+
+.image-description {
+  margin-top: 10px;
+  text-align: right; /* Centrer le texte à droite */
+  font-size: 0.8rem;  /* Réduit la taille de la police */
+  color: #808080;     /* Change la couleur du texte en gris */
+}
+
 </style>
 
 <script>

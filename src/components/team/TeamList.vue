@@ -1,49 +1,87 @@
 <template>
   <div class="container py-5">
     <div class="row">
+      <!-- Section pour les directeurs -->
       <div
-        v-for="member in teamMembers"
+        v-for="member in directors"
         :key="member.name"
-        class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4"
+        class="col-12 col-md-6 col-lg-4 mb-4"
         @mouseenter="hoveredMember = member.name"
         @mouseleave="hoveredMember = null"
       >
-        <div class="card border-0 shadow-sm h-100 position-relative overflow-hidden">
-          <!-- Image et contenu de la carte -->
+        <div
+          class="card border-0 shadow-sm h-100 position-relative overflow-hidden highlight-director"
+        >
           <div class="text-center p-3">
-            <div class="rounded-circle overflow-hidden mx-auto mb-3 border border-white shadow" style="width: 100px; height: 100px;">
+            <div
+              class="rounded-circle overflow-hidden mx-auto mb-3 border border-white shadow"
+              style="width: 100px; height: 100px;"
+            >
               <img :src="member.image" :alt="member.name" class="img-fluid" />
             </div>
             <h2 class="h5">{{ member.name }}</h2>
-            <p class="text-primary small">{{ member.role }}</p>
-          </div>
 
-          <!-- Overlay couvrant toute la carte avec dégradé et texte en bas -->
+            <!-- Mise en avant du rôle -->
+            <p class="director-role">{{ member.role }}</p>
+          </div>
           <div
             class="position-absolute top-0 start-0 w-100 h-100 overlay-gradient d-flex flex-column justify-content-end text-white p-3 transition-opacity"
             :class="{ 'opacity-100': hoveredMember === member.name, 'opacity-0': hoveredMember !== member.name }"
           >
             <div class="text-overlay d-flex align-items-center justify-content-between">
               <p class="fw-bold mb-1">{{ member.name }}</p>
-              
-              <!-- Ajout de l'icône LinkedIn uniquement pour Ali et Morgan -->
               <a v-if="member.linkedin" :href="member.linkedin" target="_blank" class="text-white ms-3">
                 <i class="fab fa-linkedin"></i>
               </a>
             </div>
             <p class="small">{{ member.role }}</p>
           </div>
-
-          <!-- Contenu du corps de la carte -->
           <div class="card-body text-center">
             <p class="text-muted small">{{ t(member.descriptionKey) }}</p>
-
             <div class="d-flex flex-wrap justify-content-center mb-3">
-              <span
-                v-for="skill in member.skills"
-                :key="skill"
-                class="badge bg-light text-secondary m-1"
-              >
+              <span v-for="skill in member.skills" :key="skill" class="badge bg-light text-secondary m-1">
+                {{ skill }}
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section pour le reste de l'équipe -->
+      <div
+        v-for="member in otherMembers"
+        :key="member.name"
+        class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4"
+        @mouseenter="hoveredMember = member.name"
+        @mouseleave="hoveredMember = null"
+      >
+        <div class="card border-0 shadow-sm h-100 position-relative overflow-hidden">
+          <div class="text-center p-3">
+            <div
+              class="rounded-circle overflow-hidden mx-auto mb-3 border border-white shadow"
+              style="width: 100px; height: 100px;"
+            >
+              <img :src="member.image" :alt="member.name" class="img-fluid" />
+            </div>
+            <h2 class="h5">{{ member.name }}</h2>
+            <p class="text-primary small">{{ member.role }}</p>
+          </div>
+          <div
+            class="position-absolute top-0 start-0 w-100 h-100 overlay-gradient d-flex flex-column justify-content-end text-white p-3 transition-opacity"
+            :class="{ 'opacity-100': hoveredMember === member.name, 'opacity-0': hoveredMember !== member.name }"
+          >
+            <div class="text-overlay d-flex align-items-center justify-content-between">
+              <p class="fw-bold mb-1">{{ member.name }}</p>
+              <a v-if="member.linkedin" :href="member.linkedin" target="_blank" class="text-white ms-3">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </div>
+            <p class="small">{{ member.role }}</p>
+          </div>
+          <div class="card-body text-center">
+            <p class="text-muted small">{{ t(member.descriptionKey) }}</p>
+            <div class="d-flex flex-wrap justify-content-center mb-3">
+              <span v-for="skill in member.skills" :key="skill" class="badge bg-light text-secondary m-1">
                 {{ skill }}
               </span>
             </div>
@@ -54,6 +92,8 @@
   </div>
 </template>
 
+
+
 <script setup>
 import { ref } from 'vue';
 import { useI18n } from 'vue-i18n';
@@ -63,20 +103,27 @@ const hoveredMember = ref(null);
 
 const teamMembers = [
   {
-    name: "Ali Nayeri",
-    role: "CEO - Project Manager",
-    image: "/img/team/team-1.jpg",
-    descriptionKey: "team.ali_description",
-    skills: ["Gestion de projet", "Leadership", "Stratégie"],
-    linkedin: "https://www.linkedin.com/in/alinyr/",
-  },
-  {
     name: "Morgan Chappe",
     role: "Vice CEO - Data Scientist - Project Manager",
     image: "/img/team/team-2.jpg",
     descriptionKey: "team.morgan_description",
-    skills: ["Data Science", "Machine Learning", "Gestion de projet"],
+    skills: ["Data Science", "Machine Learning", "Project Manager"],
     linkedin: "https://www.linkedin.com/in/morgan-chappe-3b6911181",
+  },
+  {
+    name: "Ali Nayeri",
+    role: "CEO - Project Manager",
+    image: "/img/team/team-1.jpg",
+    descriptionKey: "team.ali_description",
+    skills: ["Project Manager", "Leadership", "Spring Boot"],
+    linkedin: "https://www.linkedin.com/in/alinyr/",
+  },
+  {
+    name: "Oussama El Figha",
+    role: "Director of Cybersecurity",
+    image: "/img/team/team-10.png",
+    descriptionKey: "team.oussama_description",
+    skills: ["Cloud engineering", "Cybersecurity", "DevSecOps"],
   },
   {
     name: "Oswald Essongue",
@@ -104,7 +151,7 @@ const teamMembers = [
     role: "UI/UX Designer",
     image: "/img/team/team-6.jpg",
     descriptionKey: "team.mehdi_description",
-    skills: ["Figma", "User Research", "Prototyping"],
+    skills: ["Agile", "User Research", "Information architecture"],
   },
   {
     name: "Dylan Palmier",
@@ -134,19 +181,23 @@ const teamMembers = [
     descriptionKey: "team.kathy_description",
     skills: ["Sketch", "Visual Design", "User Flows"],
   },
-  {
-    name: "Oussama El Figha",
-    role: "Director of Cybersecurity",
-    image: "/img/team/team-10.png",
-    descriptionKey: "team.oussama_description",
-    skills: ["Cybersecurity", "Risk Assessment", "Penetration Testing"],
-  },
 ];
+
+// Filtrage des directeurs
+const directors = teamMembers.filter((member) =>
+  ["Morgan Chappe", "Ali Nayeri", "Oussama El Figha"].includes(member.name)
+);
+
+// Filtrage des autres membres
+const otherMembers = teamMembers.filter(
+  (member) => !directors.includes(member)
+);
 
 </script>
 
+
 <style scoped>
-/* Style de la carte pour ajouter une ombre à l'ensemble de la carte */
+/* Style général des cartes */
 .card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -156,6 +207,17 @@ const teamMembers = [
   box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
 }
 
+/* Style spécifique pour mettre en avant les directeurs */
+.highlight-director {
+  border: 2px solid #007bff; /* Bordure bleu pour les directeurs */
+}
+
+.director-role {
+  font-size: 1.1rem; /* Augmenter la taille de la police */
+  font-weight: bold; /* Mettre le texte en gras */
+  color: #007bff; /* Couleur distincte pour le rôle (orange) */
+}
+
 /* Overlay couvrant toute la carte avec un dégradé gris-noir */
 .overlay-gradient {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8));
@@ -163,7 +225,6 @@ const teamMembers = [
   transition: opacity 0.3s ease;
 }
 
-/* Gestion de l'opacité lors du survol */
 .opacity-100 {
   opacity: 1;
 }
@@ -178,21 +239,14 @@ const teamMembers = [
   color: #fff;
 }
 
-/* Pour assurer que le texte est bien visible */
-.overlay-gradient p {
-  margin: 0;
-}
-
-/* Style pour l'ombre circulaire sur les images */
+/* Ombre circulaire sur les images */
 .card .rounded-circle {
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3); /* Ombre circulaire */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
 }
 
-/* Optionnel : Ajoute un léger zoom sur hover pour l'image (si souhaité) */
+/* Zoom sur l'image au survol */
 .card:hover .rounded-circle {
   transform: scale(1.05);
   transition: transform 0.3s ease;
 }
-
-
 </style>

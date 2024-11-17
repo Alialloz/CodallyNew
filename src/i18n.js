@@ -8,6 +8,8 @@ const messages = {
     Home: "Home",
     contact: "Contact Us!",
     about: "Our team",
+    News :"News",
+    career: "Career",
 
     /* Home */
     slogan_1: "Turn your dreams into technological realities",
@@ -122,8 +124,8 @@ const messages = {
       notreÉquipeSlo : "The people behind Codally",
       notreÉquipeDef : "The driving force of our company is our ability to address each of your IT requests in a personalized and tailored manner. To achieve this, each of our team members possesses a specialization unique to their role.",
       team: {
-        ali_description: "Project management expert with over 10 years of experience in developing innovative solutions.",
-        morgan_description: "Data science specialist leading advanced analytics and artificial intelligence projects.",
+        ali_description: "As CEO, his leadership and technical vision make him a key asset in every project, as he leads teams but is also an exceptional programmer, mastering multiple programming languages.",
+        morgan_description: "Morgan is a cutting-edge Data Scientist. He leads projects by leveraging data to generate strategic insights, and his analytical approach and mastery of algorithms allow him to solve complex problems with ease.",
         oswald_description: "Full Stack developer passionate about creating robust and high-performance web applications, expert in front-end and back-end integration.",
         wacil_description: "Data Scientist specializing in predictive analytics and data mining to provide impactful business insights.",
         seibel_description: "Experienced Full Stack Engineer focused on designing and developing scalable applications with a strong user experience.",
@@ -132,7 +134,7 @@ const messages = {
         julien_description: "Versatile Full Stack developer capable of working on complex projects from back-end to front-end, with expertise in database management.",
         thomas_description: "Back-End developer expert in designing robust and scalable server architectures with mastery of RESTful APIs.",
         kathy_description: "Passionate UI/UX designer focused on creating attractive and functional designs that enhance user experience.",
-        oussama_description: "Director of cybersecurity specializing in protecting systems and data from threats and cyber attacks."
+        oussama_description: "An expert in cybersecurity, Oussama Elfigha develops automated security solutions for DevSecOps and DevOps. With his experience in various industries, he applies best practices and tailors solutions to meet the needs of organizations."
       },
     
       /* Services pages (img content troi et three), les titres genre "developpement web" sont importer depuis la home */
@@ -271,10 +273,12 @@ const messages = {
    newsTitre2 : "Codally: A Pioneer of AI in Business Software",
    newsDes2 :"Our ambition is clear: to transform business efficiency with custom AI solutions, pushing the limits of automation while offering tools that address the challenges of tomorrow.",
    newsDate2 :"November 4, 2024",
+   Articleref2 : "This image represents the expansion of artificial intelligence through the lens of the business figures of applications in Europe. Source:",
    
    newsTitre3 : "Revolutionizing Home Automation with AI: Codally Partners with DbAtt and Ida Engineering",
-   newsDes3 :"Together with our partners DbAtt and Ida Engineering, we are redefining the smart home, using AI to enhance security, energy efficiency, and make user interfaces more intuitive and easy to use.",
+   newsDes3 : "We are proud to announce our partners, Db Bat, a construction company specialized in renovation and finishing works, offering a wide range of services for both individuals and professionals, and Ida Engineering, an engineering firm specialized in technical solutions and structural design services for various industrial and construction projects. Together, we are redefining the smart home by using AI to enhance security, improve energy efficiency, and make user interfaces more intuitive and easy to use.",
    newsDate3 :"July 26, 2024",
+   Articleref3 : "Percentage of households with connected devices",
    
    newsTitre4 : "AI at the Heart of Education: Codally at the Entretiens Jacques Cartier",
    newsDes4 :"At the Entretiens Jacques Cartier, we shared our vision of AI in education, showing how our solutions personalize learning and modernize teaching methods to make them more effective.",
@@ -296,28 +300,31 @@ const messages = {
     article1NomPrenom: "A big thank you for your support!",
     article1desPoste: "A huge thank you to everyone who believed in us and has been with us from the start, you are at the heart of this success.",
   
-    article2Intro: "At Codally, our ambition is clear: to become the undisputed leader in integrating AI into business software. Our innovative approach aims to radically transform business efficiency and competitiveness.",
-    article2objectfisIntro: "Our vision is summarized in three key areas:",
+    article2Intro : "At Codally, we aim to become the leader in integrating Artificial Intelligence into business software. AI has been experiencing exponential growth in recent years, transforming the way companies operate and interact with their data. We are putting this technology at the service of our clients to enhance their competitiveness and meet tomorrow's challenges with tailored solutions.",
+    article2Intro2 : "Codally focuses on three main areas to maximize the impact of AI: developing customized solutions for each industry, optimizing business processes through machine learning, and creating intelligent, adaptive tools. With applications ranging from predictive analytics to task automation, our software helps businesses improve efficiency, enhance decision-making, and reduce costs. Our collaborative and innovation-driven approach allows us to tailor our solutions to each client's specific needs.",
+    article2objectfisIntro: "Our vision can thus be summarized in three key areas:",
     article2objectfis1: "Developing tailored AI solutions for each industry sector",
     article2objectfis2: "Optimizing business processes through machine learning",
     article2objectfis3: "Creating a new generation of intelligent and adaptive tools",
-    article2conclusion: "By pushing the boundaries of applied AI, Codally is committed to being the engine of digital transformation for businesses, providing solutions that anticipate and address tomorrow’s challenges.",
+    article2conclusion : "The rise of AI is deeply transforming the digital landscape of businesses. Codally positions itself as a key player in this transformation, providing solutions capable of adapting to the rapid market changes. By integrating AI into business processes, we help our clients anticipate future challenges and remain competitive, thus paving the way for a new era of productivity and innovation.",
     article2desPoste: "Ali Nayeri is the CEO of Codally, an expert in project management and leadership, with excellent communication and organizational skills, while being innovation-oriented and focused on the success of his teams",
   
-    article3Intro: "Codally is taking a new step in home automation innovation by partnering with DbAtt and Ida Engineering. This strategic collaboration aims to create more intuitive and efficient smart home systems, powered by AI.",
+    article3Intro : "Codally, in partnership with DbAtt and Ida Engineering, enters a new phase of innovation in the field of home automation. At a time when Artificial Intelligence is rapidly transforming our daily lives, these collaborations aim to revolutionize the smart home by integrating AI solutions to improve security, energy efficiency, and provide more intuitive user interfaces.",
+    article3Intro2 : "The objectives of these collaborations are clear: to optimize the security and energy efficiency of homes, develop more natural user interfaces, and create a responsive and intelligent home automation ecosystem. AI allows these systems to learn from the behavior of the inhabitants and adapt in real time to make the home safer, more energy-efficient, and easy to control. Through these solutions, Codally and its partners place AI at the heart of home automation innovation, making domestic technologies more accessible, efficient, and responsive.",
     article3objectfisIntro: "Our shared goals are:",
     article3objectfis1: "Optimizing home security and energy efficiency",
     article3objectfis2: "Developing more natural user interfaces",
     article3objectfis3: "Creating a responsive and intelligent home automation ecosystem",
-    article3conclusion: "Through these partnerships, Codally is positioned at the forefront of the smart home revolution, offering solutions that redefine comfort and home management.",
+    article3conclusion : "By partnering with DbAtt and Ida Engineering, Codally positions itself at the forefront of the home automation revolution, offering smart solutions that redefine comfort and home management. The rise of AI enables the creation of safer, more energy-efficient homes tailored to the needs of each user, providing a glimpse into the future of connected and intelligent housing.",
     article3desPoste: "Oswald Essongue is a Full Stack Developer with solid expertise in web development, with a great problem-solving ability and a strong spirit of innovation, always ready to adapt to new technologies",
   
-    article4Intro: "During the Jacques Cartier Talks 2024, which took place from October 16 to 18 in Laval, Montreal and Longueuil, Codally participated in high-level Franco-Canadian exchanges. This event, bringing together international experts, focused on key interdisciplinary themes, including artificial intelligence and its application in various fields, notably health, education and biosurveillance",
+    article4Intro : "At the 2024 Entretiens Jacques Cartier, which took place in Laval, Montreal, and Longueuil, Codally highlighted its vision of AI in education. This high-level Franco-Canadian event brought together international experts on key topics, including AI, and allowed Codally to demonstrate how its solutions are transforming teaching methods to make them more effective and tailored to the needs of each learner.",
+    article4intro2 : "During this event, Codally shared its vision of AI applied to education, showcasing solutions that enable personalized learning and optimize teaching methods. These innovations aim to make education more interactive, adaptable, and accessible, using AI to address the specific needs of both students and teachers. Codally's team also discussed the latest technological advancements in this field, further solidifying its position as a leader in the digital transformation of education.",
     article4objectfisIntro: "This conference provided opportunities for several initiatives:",
     article4objectfis1: "Sharing our vision of AI in education",
     article4objectfis2: "Discussing the latest technological advances",
     article4objectfis3: "Strengthening our network of partners",
-    article4conclusion: "By presenting its innovations in artificial intelligence applied to education, the team strengthened its position as a pioneer in this field, while expanding its network of partners and opening up to new collaboration opportunities. This event confirmed Codally's central role in the digital transformation of teaching methods, laying the foundations for a more personalized and effective education for the future",
+    article4conclusion : "The Entretiens Jacques Cartier was a unique opportunity for Codally to strengthen its network of partners and explore new collaboration opportunities, while confirming the central role of AI in the evolution of teaching methods. Codally thus positions itself as a key player in creating a more personalized and effective education system, heralding a new era of educational innovations for the future.",
     article4desPoste: "Morgan is the co-founder and data scientist at Codally. Holder of a dual master's degree in artificial intelligence and big data, he has specialized in data science, with solid expertise in machine learning and deep learning. Within Codally, he oversees AI projects and leads the dedicated teams",
   
     article5Intro: "AI has proven to be a powerful tool for optimizing processes and increasing productivity. By automating repetitive tasks, it allows teams to focus on more complex and stimulating challenges. Personalizing the customer experience.",
@@ -412,22 +419,24 @@ const messages = {
   PortDes: "We offer tailored solutions to optimize your internal processes through artificial intelligence. What sets us apart is our ability to combine technical expertise with understanding of your challenges.",
   
   Titrepourquoi1: "Codally consultant",
-  pourquoi1: "Our project manager consultants or developers are available for your company's development. You can also choose their effective working time whether it's part-time, full-time or consulting.",
+  pourquoi1: "Our consultants and developers are available to support your business development, with flexible options.",
   pourquoi1raison1: "Personalized and flexible support",
   pourquoi1raison2: "Diverse expertise for comprehensive support",
   pourquoi1raison3: "Internal resource optimization",
  
   Titrepourquoi2: "AI solutions for internal processes",
-  pourquoi2: "We also offer AI solutions to improve your internal processes by automating repetitive tasks and reducing errors. We develop customized and adapted processes to improve efficiency and decision-making.",
+  pourquoi2: "We offer AI solutions to automate repetitive tasks and enhance decision-making with customized processes.",
   pourquoi2raison1: "Automation of repetitive tasks",
   pourquoi2raison2: "Error reduction and quality improvement",
   pourquoi2raison3: "Decision-making facilitated through real-time data analysis",
  
   Titrepourquoi3: "Analysis and advice",
-  pourquoi3: "At Codally, we optimize your operations through in-depth analysis and personalized advice. By providing an external perspective and sharp expertise, we identify inefficiencies and propose innovative solutions.",
+  pourquoi3: "At Codally, we optimize your operations with personalized advice and innovative solutions based on in-depth analysis.",
   pourquoi3raison1: "Continuous improvement for sustainable performance",
   pourquoi3raison2: "External perspective and sharp expertise",
   pourquoi3raison3: "Customized operations optimization",
+
+  partenaireConfiance:"Our trusted partners",
     /* Footer */
 
     Souscription: "Your trusted partner in computer solutions. Innovation, reliability and expertise to serve your technological needs.",
@@ -561,8 +570,8 @@ const messages = {
     notreÉquipeDef:
       "Le fer de lance de notre entreprise est notre capacité à pouvoir répondre à chacune de vos demandes informatique de manière personnalisée et adaptée. Pour ce faire, chacun de nos membres possède une spécialisation lui entant propre.",
       team: {
-        ali_description: "Expert en gestion de projet avec plus de 10 ans d'expérience dans le développement de solutions innovantes.",
-        morgan_description: "Spécialiste en science des données, dirigeant des projets d'analyse avancée et d'intelligence artificielle.",
+        ali_description: "En tant que CEO, son leadership et sa vision technique font de lui un atout clé dans chaque projet puisqu'il dirige les équipes  mais il est également un programmeur hors pair maitrisant plusieurs langages de programmation.",
+        morgan_description: "Morgan constitue un Data Scientist de pointe. Il dirige des projets en exploitant les données pour générer des insights stratégiques, son approche analytique et sa maîtrise des algorithmes permettent de résoudre des problématiques complexes avec aise.",
         oswald_description: "Développeur Full Stack passionné par la création d'applications web robustes et performantes, expert en intégration front-end et back-end.",
         wacil_description: "Data Scientist spécialisé dans l'analyse prédictive et l'exploration des données pour fournir des insights commerciaux impactants.",
         seibel_description: "Ingénieur Full Stack expérimenté dans la conception et le développement d'applications scalables, avec une attention particulière à l'expérience utilisateur.",
@@ -571,7 +580,7 @@ const messages = {
         julien_description: "Développeur Full Stack polyvalent, capable de travailler sur des projets complexes du back-end au front-end, avec une expertise en gestion de bases de données.",
         thomas_description: "Développeur Back-End expert dans la conception d'architectures serveur robustes et scalables, avec une maîtrise des API RESTful.",
         kathy_description: "Designer UI/UX passionnée, axée sur la création de designs attrayants et fonctionnels qui améliorent l'expérience utilisateur.",
-        oussama_description: "Directeur de la cybersécurité, spécialisé dans la protection des systèmes et des données contre les menaces et les cyberattaques."
+        oussama_description: "Expert en cybersécurité,Oussama Elfigha développe des solutions de sécurité automatisées pour DevSecOps et DevOps. Fort de son expérience dans diverses industries, il applique les meilleures pratiques et adapte les solutions aux besoins des organisations.",
       },
     /* Services (navbarre) */
 
@@ -663,10 +672,12 @@ const messages = {
     newsTitre2 : "Codally : Pionnier de l'IA dans les logiciels métiers",
     newsDes2 :" Notre ambition est claire, transformer l’efficacité des entreprises avec des solutions IA sur mesure, en repoussant les limites de l’automatisation tout en offrant des outils qui répondent aux défis de demain.",
     newsDate2 :"4 novembre 2024",
+    Articleref2 :"Cette image représente l'expansion de l'intelligence artificielle par le prisme du chiffre d'afafires des applications en Europe. source :",
 
-    newsTitre3 : "Révolutionner la domotique avec l'IA : Codally s'associe à DbAtt et Ida Engineering",
-    newsDes3 :"Avec nos partenaires DbAtt et Ida Engineering, nous redéfinissons la maison intelligente, en utilisant l’IA pour améliorer la sécurité, l’efficacité énergétique et rendre les interfaces utilisateurs plus intuitives et faciles à utiliser",
+    newsTitre3 : "Révolutionner la domotique avec l'IA : Codally s'associe à Db bat et Ida Engineering",
+    newsDes3 :"Nous sommes fières d'annoncer nos partenaires Db bat, une entreprise de construction spécialisée dans les travaux de rénovation et de second œuvre, offrant des services variés pour particuliers/professionnels​ et Ida Engineering, une société d'ingénierie, spécialisée en solutions techniques et en services de conception structurale pour divers projets industriels et de construction​. Ensembles, nous redéfinissons la maison intelligente, en utilisant l’IA pour améliorer la sécurité, l’efficacité énergétique et rendre les interfaces utilisateurs plus intuitives et faciles à utiliser",
     newsDate3 :"26 juillet 2024",
+    Articleref3 :"Pourcentage des ménages possédant des équipements connectés",
 
     newsTitre4 : "L'IA au cœur de l'éducation : Codally aux Entretiens Jacques Cartier",
     newsDes4 :"Lors des Entretiens Jacques Cartier, nous avons partagé notre vision de l’IA dans l'éducation, montrant comment nos solutions personnalisent l’apprentissage et modernisent les méthodes pédagogiques pour les rendre plus efficaces",
@@ -688,29 +699,32 @@ const messages = {
     article1NomPrenom :"Un grand merci pour votre soutien!",
     article1desPoste :"Un immense merci à toutes les personnes qui ont cru en nous et nous ont accompagnés depuis le début, vous êtes au cœur de cette réussite.",
 
-    article2Intro :"Chez Codally, notre ambition est claire, devenir le leader incontesté de l'intégration de l'IA dans les logiciels métiers. Notre approche innovante vise à transformer radicalement l'efficacité et la compétitivité des entreprises.",
-    article2objectfisIntro :"Notre vision se résume en trois axes:",
+    article2Intro :"Chez Codally, nous visons à devenir le leader de l'intégration de l'Intelligence Artificielle dans les logiciels métiers. L'IA connaît une croissance exponentielle ces dernières années, transformant la manière dont les entreprises opèrent et interagissent avec leurs données. Nous mettons cette technologie au service de nos clients pour améliorer leur compétitivité et répondre aux défis de demain avec des solutions sur mesure.",
+    article2Intro2:"Codally se concentre sur trois axes principaux pour maximiser l'impact de l'IA : développer des solutions personnalisées pour chaque secteur d'activité, optimiser les processus métiers grâce à l'apprentissage automatique, et créer des outils intelligents et adaptatifs. Avec des applications allant de l'analyse prédictive à l'automatisation des tâches, nos logiciels permettent aux entreprises de gagner en efficacité, d'améliorer la prise de décision et de réduire les coûts. Notre approche collaborative et axée sur l'innovation continue nous permet d'adapter nos solutions aux besoins spécifiques de chaque client.",
+    article2objectfisIntro :"Notre vision se résume donc en trois axes:",
     article2objectfis1:"Développer des solutions IA sur mesure pour chaque secteur d'activité",
     article2objectfis2:"Optimiser les processus métiers grâce à l'apprentissage automatique",
     article2objectfis3:" Créer une nouvelle génération d'outils intelligents et adaptatifs",
-    article2conclusion :"En repoussant les limites de l'IA appliquée, Codally s'engage à être le moteur de latransformation numérique des entreprises, offrant des solutions qui anticipent et répondent aux défis de demain.",
+    article2conclusion :"L'essor de l'IA modifie profondément le paysage numérique des entreprises. Codally se positionne comme un acteur clé de cette transformation, fournissant des solutions capables de s'adapter aux évolutions rapides du marché. En intégrant l'IA dans les processus métiers, nous aidons nos clients à anticiper les défis futurs et à rester compétitifs, préparant ainsi le terrain pour une nouvelle ère de productivité et d'innovation.",
     article2desPoste :"Ali Nayeri est le CEO de codally, expert en gestion de projets et en leadership, avec une excellente capacité à communiquer et à organiser, tout en étant orienté vers l'innovation et la réussite des équipes.",
 
-    article3Intro :"Codally franchit une nouvelle étape dans l'innovation domotique en s'associant à DbAtt et Ida Engineering. Cette collaboration stratégique vise à créer des systèmes de maison intelligente plus intuitifs et performants, propulsés par l'IA.",
+    article3Intro :"Codally, en partenariat avec DbAtt et Ida Engineering, entre dans une nouvelle phase de l'innovation dans le domaine de la domotique. À une époque où l'Intelligence Artificielle transforme rapidement notre quotidien, ces collaborations visent à révolutionner la maison intelligente en intégrant des solutions IA pour améliorer la sécurité, l'efficacité énergétique et offrir des interfaces utilisateurs plus intuitives.",
+    article3Intro2:"Les objectifs de ces collaborations sont clairs, optimiser la sécurité et l'efficacité énergétique des foyers, développer des interfaces utilisateur plus naturelles et créer un écosystème domotique réactif et intelligent. L'IA permet à ces systèmes d'apprendre des comportements des habitants et de s'adapter en temps réel pour rendre la maison plus sécurisée, économe en énergie et facile à contrôler. Grâce à ces solutions, Codally et ses partenaires placent l'IA au cœur de l'innovation domotique, rendant les technologies domestiques plus accessibles, performantes et réactives.",
     article3objectfisIntro :"Nos objectifs communs sont:",
     article3objectfis1:"Optimiser la sécurité et l'efficacité énergétique des foyers",
     article3objectfis2:"Développer des interfaces utilisateur plus naturelles",
     article3objectfis3:"Créer un écosystème domotique réactif et intelligent",
-    article3conclusion :"Grâce à ces partenariats, Codally se positionne à l'avant-garde de la révolutiondomotique, offrant des solutions qui redéfinissent le confort et la gestion du foyer.",
+    article3conclusion :"En s’associant à DbAtt et Ida Engineering, Codally se positionne à l’avant-garde de la révolution domotique, proposant des solutions intelligentes qui redéfinissent le confort et la gestion du foyer. L'essor de l'IA permet de créer des maisons plus sûres, plus économes en énergie et plus adaptées aux besoins de chaque utilisateur, offrant ainsi un aperçu de l'avenir du logement connecté et intelligent.",
     article3desPoste :"Oswald Essongue est un Full Stack Developer avec une solide expertise en développement web, doté d'une grande capacité de résolution de problèmes et d'un fort esprit d'innovation, toujours prêt à s'adapter aux nouvelles technologies.",
 
    
-    article4Intro :"Lors des Entretiens Jacques Cartier 2024, qui se sont déroulés du 16 au 18 octobre à Laval, Montréal et Longueuil, Codally a participé à des échanges franco-canadiens de haut niveau. Cet événement, réunissant des experts internationaux, portait sur des thématiques interdisciplinaires clés, incluant l'intelligence artificielle et son application dans divers domaines, notamment la santé, l'éducation et la biosurveillance.",
+    article4Intro :"Lors des Entretiens Jacques Cartier 2024, qui se sont déroulés à Laval, Montréal et Longueuil, Codally a mis en lumière sa vision de l'IA dans l'éducation. Cet événement franco-canadien de haut niveau a réuni des experts internationaux autour de thématiques clés, dont l'IA, et a permis à Codally de démontrer comment ses solutions transforment les méthodes pédagogiques pour les rendre plus efficaces et adaptées aux besoins de chaque apprenant.",
+    article4intro2 :"Au cours de cet événement, Codally a partagé sa vision de l'IA appliquée à l'éducation, mettant en avant des solutions qui permettent de personnaliser l'apprentissage et d'optimiser les méthodes pédagogiques. Ces innovations ont pour but de rendre l'éducation plus interactive, adaptée et accessible, en utilisant l'IA pour répondre aux besoins spécifiques des élèves et des enseignants. L’équipe de Codally a également échangé sur les dernières avancées technologiques dans ce domaine, renforçant ainsi sa position de leader dans la transformation numérique de l'éducation.",
     article4objectfisIntro :"Cette conférence a été une opportunité pour plusieurs occasions:",
     article4objectfis1:"Partager notre vision de l'IA dans l'éducation",
     article4objectfis2:"Échanger sur les dernières avancées technologiques",
     article4objectfis3:"Renforcer notre réseau de partenaires",
-    article4conclusion :"En présentant ses innovations en matière d'intelligence artificielle appliquées à l'éducation, l'équipe a renforcé sa position de pionnier dans ce domaine, tout en élargissant son réseau de partenaires et en s'ouvrant à de nouvelles opportunités de collaboration. Cet événement a confirmé le rôle central de Codally dans la transformation numérique des méthodes pédagogiques, posant les bases d'une éducation plus personnalisée et efficace pour l'avenir.",
+    article4conclusion :"Les Entretiens Jacques Cartier ont été une occasion unique pour Codally de renforcer son réseau de partenaires et d'explorer de nouvelles opportunités de collaboration, tout en confirmant le rôle central de l'IA dans l'évolution des méthodes pédagogiques. Codally se positionne ainsi comme un acteur clé dans la création d’une éducation plus personnalisée et efficace, annonçant une nouvelle ère d'innovations éducatives pour l'avenir.",
     article4desPoste :"Morgan est co-fondateur et data scientist chez Codally. Titulaire d'un double master en intelligence artificielle et big data, il s'est spécialisé en data science, avec une expertise solide en machine learning et deep learning. Au sein de Codally, il supervise les projets d'IA et dirige les équipes dédiées.",
 
     article5Intro :"L’IA se révèle être un puissant outil pour optimiser les processus et augmenter la productivité  En automatisant les tâches répétitives, elle permet aux équipes de se concentrer sur des défis plus complexes et stimulants.Personnalisation de l’expérience client. En automatisant les tâches répétitives, elle permet aux équipes de se concentrer sur des défis plus complexes et stimulants. Personnalisation de l’expérience client",
@@ -751,6 +765,7 @@ const messages = {
  titreRaison4:"Projet Diversifié et Innovant",
  descriptionRaison4:"Les projets qui nous sont attribués rassemblent des domaines de divers horizons allant de la cybersécurité à des logiciels destinés au domaine médical. Nous encourageons l'innovation et l'émergence d'idées audacieuses.",
   
+ partenaireConfiance:"Nos partenaires de confiances",
  /*Jobs en détaile (1 et 2)*/
 
   a:"Ingénieur en IA éthique",
@@ -840,19 +855,19 @@ const messages = {
   PortDes :"Nous vous offrons des solutions sur mesure pour optimiser vos processus internes grâce à l’intelligence artificielle. Ce qui nous distingue, c’est notre capacité à allier expertise technique et compréhension de vos enjeux.",
 
   Titrepourquoi1 :"Consultant codally",
-  pourquoi1 :"Nos consultants en projects manager ou bien nos développeurs, sont disponibles dans le développement de votre entreprise. Vous pouvez également choisir leur durée effective de travail que ce soit à temps partiel, temps plein ou par consulting. ",
+  pourquoi1 :"Nos consultants sont à votre disposition pour accompagner le développement de votre entreprise, avec des options flexibles de temps et de fonction.",
   pourquoi1raison1 :"Accompagnement personnalisé et flexible",
   pourquoi1raison2 :"Expertise diversifiée pour un soutien complet",
   pourquoi1raison3 :"Optimisation des ressources internes",
 
   Titrepourquoi2 :"Solutions IA pour des processus interne",
-  pourquoi2:"Nous proposons également des solutions d'IA pour améliorer vos processus internes en automatisant les tâches répétitives et en réduisant les erreurs. Nous développons des processus personnalisés et adaptés pour améliorer l'efficacité et la prise de décision.",
+  pourquoi2:"Nous proposons des solutions utilisant l'IA pour automatiser les tâches répétitives et améliorer la prise de décision de votre entreprise.",
   pourquoi2raison1:"Automatisation des tâches répétitives",
   pourquoi2raison2:"Réduction des erreurs et amélioration de la qualité",
   pourquoi2raison3:"Prise de décision facilitée grâce à l'analyse de données en temps réel",
 
   Titrepourquoi3 :"Analyse et conseils",
-  pourquoi3 :" Chez Codally, nous optimisons vos opérations grâce à une analyse approfondie et des conseils personnalisés. En offrant une vision extérieure et une expertise pointue, nous identifions les inefficacités et proposons des solutions innovantes.",
+  pourquoi3 :"Chez Codally, nous fournissons des conseils et des solutions innovantes basées sur une analyse approfondie pour aider au mieux votre entreprise à croître.",
   pourquoi3raison1:"Amélioration continue pour une performance durable",
   pourquoi3raison2:"Vision extérieure et expertise pointue",
   pourquoi3raison3:"Optimisation sur-mesure des opérations",
