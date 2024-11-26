@@ -9,11 +9,6 @@
         to="/"
         class="d-flex align-items-center mb-md-0 text-decoration-none"
       >
-        <img
-          src="@/assets/img/logo-color.png"
-          alt="logo"
-          class="img-fluid ps-2"
-        />
       </router-link>
       <button
         type="button"

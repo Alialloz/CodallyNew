@@ -5,17 +5,17 @@ import OurTeam from '../views/pages/OurTeam.vue';
 import OurProjects from '../views/pages/OurProjects.vue';
 import ContactUs from '../views/pages/ContactUs.vue';
 import News from '../views/pages/News.vue';
+import Career from '../views/pages/Career.vue';
+import NotFound from '../views/pages/NotFound.vue';
+
 import NewsDetails from '../views/pages/NewsDetails.vue';
 import NewsDetails2 from '../views/pages/NewsDetails2.vue';
 import NewsDetails3 from '../views/pages/NewsDetails3.vue';
 import NewsDetails4 from '../views/pages/NewsDetails4.vue';
 import NewsDetails5 from '../views/pages/NewsDetails5.vue';
+
 import CareerSingle from '../views/pages/CareerSingle.vue';
 import CareerSingle2 from '../views/pages/CareerSingle2.vue';
-
-
-import Career from '../views/pages/Career.vue';
-import NotFound from '../views/pages/NotFound.vue';
 
 const routes = [
   {
