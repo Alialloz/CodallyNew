@@ -113,7 +113,7 @@ const teamMembers = [
     role: "CEO - Project Manager",
     image: "/img/team/team-1.jpg",
     descriptionKey: "team.ali_description",
-    skills: ["Project Manager", "Leadership", "Spring Boot"],
+    skills: ["Project Manager", "Leadership", "Java Spring"],
     linkedin: "https://www.linkedin.com/in/alinyr/",
   },
   {
@@ -128,7 +128,7 @@ const teamMembers = [
     role: "Full Stack Developer",
     image: "/img/team/team-3.jpg",
     descriptionKey: "team.oswald_description",
-    skills: ["JavaScript", "Node.js", "React"],
+    skills: ["C++", "Java", "React"],
   },
   {
     name: "Wacil Khelifi",

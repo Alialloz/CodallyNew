@@ -275,7 +275,7 @@ const messages = {
    newsDate2 :"November 4, 2024",
    Articleref2 : "This image represents the expansion of artificial intelligence through the lens of the business figures of applications in Europe. Source:",
    
-   newsTitre3 : "Revolutionizing Home Automation with AI: Codally Partners with DbAtt and Ida Engineering",
+   newsTitre3 : "Revolutionizing Home Automation with AI: Codally Partners with DB bat and Ida Engineering",
    newsDes3 : "We are proud to announce our partners, Db Bat, a construction company specialized in renovation and finishing works, offering a wide range of services for both individuals and professionals, and Ida Engineering, an engineering firm specialized in technical solutions and structural design services for various industrial and construction projects. Together, we are redefining the smart home by using AI to enhance security, improve energy efficiency, and make user interfaces more intuitive and easy to use.",
    newsDate3 :"July 26, 2024",
    Articleref3 : "Percentage of households with connected devices",
@@ -309,13 +309,13 @@ const messages = {
     article2conclusion : "The rise of AI is deeply transforming the digital landscape of businesses. Codally positions itself as a key player in this transformation, providing solutions capable of adapting to the rapid market changes. By integrating AI into business processes, we help our clients anticipate future challenges and remain competitive, thus paving the way for a new era of productivity and innovation.",
     article2desPoste: "Ali Nayeri is the CEO of Codally, an expert in project management and leadership, with excellent communication and organizational skills, while being innovation-oriented and focused on the success of his teams",
   
-    article3Intro : "Codally, in partnership with DbAtt and Ida Engineering, enters a new phase of innovation in the field of home automation. At a time when Artificial Intelligence is rapidly transforming our daily lives, these collaborations aim to revolutionize the smart home by integrating AI solutions to improve security, energy efficiency, and provide more intuitive user interfaces.",
+    article3Intro : "Codally, in partnership with DB bat and Ida Engineering, enters a new phase of innovation in the field of home automation. At a time when Artificial Intelligence is rapidly transforming our daily lives, these collaborations aim to revolutionize the smart home by integrating AI solutions to improve security, energy efficiency, and provide more intuitive user interfaces.",
     article3Intro2 : "The objectives of these collaborations are clear: to optimize the security and energy efficiency of homes, develop more natural user interfaces, and create a responsive and intelligent home automation ecosystem. AI allows these systems to learn from the behavior of the inhabitants and adapt in real time to make the home safer, more energy-efficient, and easy to control. Through these solutions, Codally and its partners place AI at the heart of home automation innovation, making domestic technologies more accessible, efficient, and responsive.",
     article3objectfisIntro: "Our shared goals are:",
     article3objectfis1: "Optimizing home security and energy efficiency",
     article3objectfis2: "Developing more natural user interfaces",
     article3objectfis3: "Creating a responsive and intelligent home automation ecosystem",
-    article3conclusion : "By partnering with DbAtt and Ida Engineering, Codally positions itself at the forefront of the home automation revolution, offering smart solutions that redefine comfort and home management. The rise of AI enables the creation of safer, more energy-efficient homes tailored to the needs of each user, providing a glimpse into the future of connected and intelligent housing.",
+    article3conclusion : "By partnering with DB bat and Ida Engineering, Codally positions itself at the forefront of the home automation revolution, offering smart solutions that redefine comfort and home management. The rise of AI enables the creation of safer, more energy-efficient homes tailored to the needs of each user, providing a glimpse into the future of connected and intelligent housing.",
     article3desPoste: "Oswald Essongue is a Full Stack Developer with solid expertise in web development, with a great problem-solving ability and a strong spirit of innovation, always ready to adapt to new technologies",
   
     article4Intro : "At the 2024 Entretiens Jacques Cartier, which took place in Laval, Montreal, and Longueuil, Codally highlighted its vision of AI in education. This high-level Franco-Canadian event brought together international experts on key topics, including AI, and allowed Codally to demonstrate how its solutions are transforming teaching methods to make them more effective and tailored to the needs of each learner.",
@@ -442,7 +442,7 @@ const messages = {
     Souscription: "Your trusted partner in computer solutions. Innovation, reliability and expertise to serve your technological needs.",
     important: "Essential Page",
     apropo: "About Us",
-    autre: "Contact",
+    autre: "Useful information",
 
     /* PopUp */
     successTitle: "Thank you!",
@@ -674,8 +674,8 @@ const messages = {
     newsDate2 :"4 novembre 2024",
     Articleref2 :"Cette image représente l'expansion de l'intelligence artificielle par le prisme du chiffre d'afafires des applications en Europe. source :",
 
-    newsTitre3 : "Révolutionner la domotique avec l'IA : Codally s'associe à Db bat et Ida Engineering",
-    newsDes3 :"Nous sommes fières d'annoncer nos partenaires Db bat, une entreprise de construction spécialisée dans les travaux de rénovation et de second œuvre, offrant des services variés pour particuliers/professionnels​ et Ida Engineering, une société d'ingénierie, spécialisée en solutions techniques et en services de conception structurale pour divers projets industriels et de construction​. Ensembles, nous redéfinissons la maison intelligente, en utilisant l’IA pour améliorer la sécurité, l’efficacité énergétique et rendre les interfaces utilisateurs plus intuitives et faciles à utiliser",
+    newsTitre3 : "Révolutionner la domotique avec l'IA : Codally s'associe à DB bat et Ida Engineering",
+    newsDes3 :"Nous sommes fières d'annoncer nos partenaires DB bat, une entreprise de construction spécialisée dans les travaux de rénovation et de second œuvre, offrant des services variés pour particuliers/professionnels​ et Ida Engineering, une société d'ingénierie, spécialisée en solutions techniques et en services de conception structurale pour divers projets industriels et de construction​. Ensembles, nous redéfinissons la maison intelligente, en utilisant l’IA pour améliorer la sécurité, l’efficacité énergétique et rendre les interfaces utilisateurs plus intuitives et faciles à utiliser",
     newsDate3 :"26 juillet 2024",
     Articleref3 :"Pourcentage des ménages possédant des équipements connectés",
 
@@ -708,13 +708,13 @@ const messages = {
     article2conclusion :"L'essor de l'IA modifie profondément le paysage numérique des entreprises. Codally se positionne comme un acteur clé de cette transformation, fournissant des solutions capables de s'adapter aux évolutions rapides du marché. En intégrant l'IA dans les processus métiers, nous aidons nos clients à anticiper les défis futurs et à rester compétitifs, préparant ainsi le terrain pour une nouvelle ère de productivité et d'innovation.",
     article2desPoste :"Ali Nayeri est le CEO de codally, expert en gestion de projets et en leadership, avec une excellente capacité à communiquer et à organiser, tout en étant orienté vers l'innovation et la réussite des équipes.",
 
-    article3Intro :"Codally, en partenariat avec DbAtt et Ida Engineering, entre dans une nouvelle phase de l'innovation dans le domaine de la domotique. À une époque où l'Intelligence Artificielle transforme rapidement notre quotidien, ces collaborations visent à révolutionner la maison intelligente en intégrant des solutions IA pour améliorer la sécurité, l'efficacité énergétique et offrir des interfaces utilisateurs plus intuitives.",
+    article3Intro :"Codally, en partenariat avec DB bat et Ida Engineering, entre dans une nouvelle phase de l'innovation dans le domaine de la domotique. À une époque où l'Intelligence Artificielle transforme rapidement notre quotidien, ces collaborations visent à révolutionner la maison intelligente en intégrant des solutions IA pour améliorer la sécurité, l'efficacité énergétique et offrir des interfaces utilisateurs plus intuitives.",
     article3Intro2:"Les objectifs de ces collaborations sont clairs, optimiser la sécurité et l'efficacité énergétique des foyers, développer des interfaces utilisateur plus naturelles et créer un écosystème domotique réactif et intelligent. L'IA permet à ces systèmes d'apprendre des comportements des habitants et de s'adapter en temps réel pour rendre la maison plus sécurisée, économe en énergie et facile à contrôler. Grâce à ces solutions, Codally et ses partenaires placent l'IA au cœur de l'innovation domotique, rendant les technologies domestiques plus accessibles, performantes et réactives.",
     article3objectfisIntro :"Nos objectifs communs sont:",
     article3objectfis1:"Optimiser la sécurité et l'efficacité énergétique des foyers",
     article3objectfis2:"Développer des interfaces utilisateur plus naturelles",
     article3objectfis3:"Créer un écosystème domotique réactif et intelligent",
-    article3conclusion :"En s’associant à DbAtt et Ida Engineering, Codally se positionne à l’avant-garde de la révolution domotique, proposant des solutions intelligentes qui redéfinissent le confort et la gestion du foyer. L'essor de l'IA permet de créer des maisons plus sûres, plus économes en énergie et plus adaptées aux besoins de chaque utilisateur, offrant ainsi un aperçu de l'avenir du logement connecté et intelligent.",
+    article3conclusion :"En s’associant à DB bat et Ida Engineering, Codally se positionne à l’avant-garde de la révolution domotique, proposant des solutions intelligentes qui redéfinissent le confort et la gestion du foyer. L'essor de l'IA permet de créer des maisons plus sûres, plus économes en énergie et plus adaptées aux besoins de chaque utilisateur, offrant ainsi un aperçu de l'avenir du logement connecté et intelligent.",
     article3desPoste :"Oswald Essongue est un Full Stack Developer avec une solide expertise en développement web, doté d'une grande capacité de résolution de problèmes et d'un fort esprit d'innovation, toujours prêt à s'adapter aux nouvelles technologies.",
 
    
@@ -882,7 +882,7 @@ const messages = {
 
   important: "Page essentiel",
   apropo: "À propos de nous",
-  autre: "contact",
+  autre: "Informations utiles",
 
     /* PopUp */
   successTitle: "Merci!",

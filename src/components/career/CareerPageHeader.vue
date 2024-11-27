@@ -56,6 +56,35 @@
   </section>
 </template>
 
+<style>
+.company-info-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem; /* Conserve l'espacement */
+  justify-content: flex-start; /* Aligne à gauche */
+}
+
+.company-logo {
+  margin: 0; /* Supprime le centrage horizontal */
+}
+
+
+@media (max-width: 768px) {
+  .company-logo {
+    max-width: 120px;
+    padding: 0.8em;
+  }
+}
+
+@media (max-width: 480px) {
+  .company-logo {
+    max-width: 100px;
+    padding: 0.6em;
+  }
+}
+</style>
+
 <script>
 export default {};
 </script>

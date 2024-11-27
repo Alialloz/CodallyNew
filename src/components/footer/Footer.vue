@@ -163,13 +163,16 @@ export default {
 <style>
 .contact-item {
   font-size: 15px;
-  margin: 10px 0;
+  margin: 5px 0;
   display: flex;
   opacity: 0.7;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
   transition: all 0.3s ease-in-out;
   align-items: center;
+}
+.contact-item:last-child {
+  margin-top: -10px; /* Réduction spécifique au lien d'email */
 }
 
 .contact-item:hover {
