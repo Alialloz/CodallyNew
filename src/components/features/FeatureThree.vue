@@ -1,5 +1,5 @@
 <template>
-    <section
+  <section
     class="position-relative overflow-hidden ptb-120 bg-dark" style="background-image: url('src/assets/img/shop_bg.png'); background-size: cover; background-position: center;"
   >
     <div class="container">
@@ -13,6 +13,7 @@
       </div>
     </div>
   </section>
+  
   <section class="feature-section ptb-120">
     <div class="container">
       <div class="row align-items-center justify-content-between">
@@ -25,6 +26,7 @@
               src="@/assets/img/dashboard-img-2.png"
               alt="feature img"
               class="img-fluid shadow rounded-custom"
+              data-aos="fade-up"
             />
           </div>
         </div>
@@ -68,14 +70,14 @@
       </div>
     </div>
   </section>
+  
   <section
     class="feature-section ptb-120"
   >
     <div class="container">
       <div class="row align-items-center justify-content-between">
         <div class="col-lg-5 col-md-12">
-          <div class="section-heading" data-aos="fade-up" id="Taskaii"
-          >
+          <div class="section-heading" data-aos="fade-up" id="Taskaii">
             <h2>{{ $t('TaskaiiITitre') }}</h2>
             <p>
               &nbsp;&nbsp;{{ $t('TaskaiiITitreDes') }}
@@ -110,17 +112,18 @@
           <div
             class="feature-img-wrap position-relative d-flex flex-column align-items-end"
           >
-
             <img
               src="@/assets/img/feature-img3.jpg" 
               alt="feature image"
               class="img-fluid rounded-custom"
+              data-aos="fade-up"
             />
           </div>
         </div>
       </div>
     </div>
   </section>
+
   <section class="feature-section ptb-120">
     <div class="container">
       <div class="row align-items-center justify-content-between">
@@ -133,6 +136,7 @@
               src="@/assets/img/imgSite/ChatWhatsApppourCliniques.png" 
               alt="feature img"
               class="img-fluid shadow rounded-custom"
+              data-aos="fade-up" 
             />
           </div>
         </div>
@@ -176,6 +180,7 @@
       </div>
     </div>
   </section>
+  
   <section class="feature-section ptb-120">
     <div class="container">
         <div class="row align-items-center justify-content-between">
@@ -212,12 +217,15 @@
             <div class="col-lg-6 col-md-7">
                 <div class="feature-img-wrap position-relative d-flex flex-column align-items-end">
                     <img src="@/assets/img/imgSite/virtualreceptionisttest.png" alt="feature image" 
-                        class="img-fluid rounded-custom" />
+                        class="img-fluid rounded-custom"
+                        data-aos="fade-up"
+                    />
                 </div>
             </div>
         </div>
     </div>
-</section>
+  </section>
+
   <section class="feature-section ptb-120">
     <div class="container">
       <div class="row align-items-center justify-content-between">
@@ -230,6 +238,7 @@
               src="@/assets/img/dashboard-img.png"
               alt="feature img"
               class="img-fluid shadow rounded-custom"
+              data-aos="fade-up" 
             />
           </div>
         </div>
@@ -274,9 +283,3 @@
     </div>
   </section>
 </template>
-
-<script>
-export default {
-  name: "FetureThree",
-};
-</script>

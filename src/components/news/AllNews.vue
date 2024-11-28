@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <!-- Premier article -->
-        <div class="col-lg-6 col-md-12">
+        <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-duration="1000">
           <div class="single-article feature-article rounded-custom my-3">
             <router-link to="/news-details" class="article-img">
               <img src="@/assets/img/imgSite/Merci.png" alt="article" class="img-fluid" />
@@ -30,7 +30,7 @@
         </div>
 
         <!-- Deuxième article -->
-        <div class="col-lg-6 col-md-12">
+        <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
           <div class="single-article feature-article rounded-custom my-3">
             <router-link to="/news-details2" class="article-img">
               <img src="@/assets/img/imgSite/pionierIa.jpg" alt="article" class="img-fluid" />
@@ -59,7 +59,7 @@
         </div>
 
         <!-- Troisième article -->
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
           <div class="single-article rounded-custom my-3">
             <router-link to="/news-details3" class="article-img">
               <img src="@/assets/img/imgSite/domotique.jpg" alt="article" class="img-fluid" />
@@ -88,7 +88,7 @@
         </div>
 
         <!-- Quatrième article -->
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
           <div class="single-article rounded-custom my-3">
             <router-link to="/news-details4" class="article-img">
               <img src="@/assets/img/imgSite/th.png" alt="article" class="img-fluid" />
@@ -117,7 +117,7 @@
         </div>
 
         <!-- Cinquième article -->
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
           <div class="single-article rounded-custom my-3">
             <router-link to="/news-details5" class="article-img">
               <img src="@/assets/img/imgSite/IAquotidien.png" alt="article" class="img-fluid" />
@@ -150,5 +150,9 @@
 </template>
 
 <script>
-export default {};
+export default {
+  mounted() {
+    AOS.init(); 
+  }
+};
 </script>

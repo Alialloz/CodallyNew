@@ -1,7 +1,7 @@
 <template>
   <section class="services-icon ptb-120">
     <div class="container">
-      <div class="row justify-content-center">
+      <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="400">
         <div class="col-lg-6 col-md-10">
           <div class="section-heading text-center">
             <h2>{{ $t('Project') }}</h2>
@@ -11,11 +11,11 @@
       </div>
       <div class="row justify-content-center">
         <!-- Webler -->
-        <div class="col-lg-4 col-md-6 p-0">
+        <div class="col-lg-4 col-md-6 p-0" data-aos="zoom-in" data-aos-duration="400" data-aos-delay="250">
           <div class="single-service p-lg-5 p-4 text-center mt-3 border-bottom border-end">
             <div class="service-icon icon-center">
               <router-link :to="{ path: '/our-projects', hash: '#webler' }">
-                <img src="\src\assets\img\webler.png" alt="Icône du logiciel webler" width="65" height="65" style="
+                <img src="\src\assets\img\webler.png" alt="Icône du logiciel webler" width="65" height="65" style=" 
                   border-radius: 20%; 
                   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
                   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -33,11 +33,11 @@
         </div>
 
         <!-- Taskaii -->
-        <div class="col-lg-4 col-md-6 p-0">
+        <div class="col-lg-4 col-md-6 p-0" data-aos="zoom-in" data-aos-duration="400" data-aos-delay="300">
           <div class="single-service p-lg-5 p-4 text-center mt-3 border-bottom border-end">
             <div class="service-icon icon-center">
               <router-link :to="{ path: '/our-projects', hash: '#taskaii' }">
-                <img src="\src\assets\img\taskaii.svg" alt="Icône du logiciel taskaii" width="65" height="65" style="
+                <img src="\src\assets\img\taskaii.svg" alt="Icône du logiciel taskaii" width="65" height="65" style=" 
                   border-radius: 20%; 
                   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
                   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -55,7 +55,7 @@
         </div>
 
         <!-- Chat Whats App -->
-        <div class="col-lg-4 col-md-6 p-0">
+        <div class="col-lg-4 col-md-6 p-0" data-aos="zoom-in" data-aos-duration="400" data-aos-delay="350">
           <div class="single-service p-lg-5 p-4 text-center mt-3 border-bottom border-end">
             <div class="service-icon icon-center">
               <router-link :to="{ path: '/our-projects', hash: '#ChatWhatsApp' }">
@@ -77,11 +77,11 @@
         </div>
 
         <!-- Assistante Téléphonique Ia -->
-        <div class="col-lg-4 col-md-6 p-0">
+        <div class="col-lg-4 col-md-6 p-0" data-aos="zoom-in" data-aos-duration="400" data-aos-delay="400">
           <div class="single-service p-lg-5 p-4 text-center mt-3 border-bottom border-end">
             <div class="service-icon icon-center">
               <router-link :to="{ path: '/our-projects', hash: '#GestionClient' }">
-                <img src="\src\assets\img\serviceClient.png" alt="Icône du service client" width="65" height="65" style="
+                <img src="\src\assets\img\serviceClient.png" alt="Icône du service client" width="65" height="65" style=" 
                   border-radius: 20%; 
                   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
                   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -99,11 +99,11 @@
         </div>
 
         <!-- Logiciel de Facturation -->
-        <div class="col-lg-4 col-md-6 p-0">
+        <div class="col-lg-4 col-md-6 p-0" data-aos="zoom-in" data-aos-duration="400" data-aos-delay="450">
           <div class="single-service p-lg-5 p-4 text-center mt-3 border-bottom border-end">
             <div class="service-icon icon-center">
               <router-link :to="{ path: '/our-projects', hash: '#ServiceFacture' }">
-                <img src="\src\assets\img\logicielDeFacturation.png" alt="Icône du logiciel de facturation" width="65" height="65" style="
+                <img src="\src\assets\img\logicielDeFacturation.png" alt="Icône du logiciel de facturation" width="65" height="65" style=" 
                   border-radius: 20%; 
                   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
                   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -132,3 +132,16 @@
     </div>
   </section>
 </template>
+
+<script>
+// Import AOS library
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+export default {
+  mounted() {
+    // Initialize AOS when the component is mounted
+    AOS.init();
+  },
+}
+</script>

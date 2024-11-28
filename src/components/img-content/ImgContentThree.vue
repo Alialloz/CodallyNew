@@ -1,6 +1,7 @@
 <template>
   <div>
     
+    <!-- Service 1 : Design Web -->
     <section id="web_design" class="image-feature ptb-120">
       <div class="container">
         <div class="row justify-content-between align-items-center">
@@ -66,6 +67,9 @@
         </div>
       </div>
     </section>
+
+    <!-- Service 2 : Développement d'Applications Mobiles -->
+
     <section id="app_development" class="image-feature ptb-120 bg-custom">
       <div class="container">
         <div class="row justify-content-between align-items-center">
@@ -135,6 +139,9 @@
         </div>
       </div>
     </section>
+
+    <!-- Service 3 : Développement Full Stack -->
+
     <section id="fullstack_development"  class="image-feature ptb-120">
       <div class="container">
         <div class="row justify-content-between align-items-center">
@@ -206,6 +213,9 @@
     </section>
   </div>
   <div>
+
+     <!-- Service 4 : Développement de Logiciels Personnalisés -->
+
     <section  id="custom_software" class="image-feature ptb-120 bg-custom">
       <div class="container">
         <div class="row justify-content-between align-items-center">
@@ -247,6 +257,8 @@
       </div>
     </section>
 
+    <!-- Service 5 : Solutions d'Intelligence Artificielle -->
+
     <section  id="ai_solutions" class="image-feature ptb-120">
   <div class="container">
     <div class="row justify-content-between align-items-center">
@@ -287,6 +299,8 @@
     </div>
   </div>
 </section>
+
+    <!-- Service 6 : Conseil et Stratégie -->
 
     <section id="consulting" class="image-feature ptb-120 bg-custom">
       <div class="container">

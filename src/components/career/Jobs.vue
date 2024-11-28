@@ -3,19 +3,20 @@
     <div class="container">
       <div class="row align-items-center justify-content-between">
         <div class="col-lg-4 col-md-12">
-          <div class="section-heading">
+          <div class="section-heading" data-aos="fade-up" data-aos-duration="1000">
             <h4 class="h5 text-primary">{{ $t('nosEmplois') }}</h4>
             <h2>{{ $t('emploidispo') }}</h2>
           </div>
         </div>
-        <div class="col-lg-7 col-md-12">
+        <div class="col-lg-7 col-md-12" data-aos="fade-up" data-aos-duration="1200">
           <p>
             {{ $t('emploiDispoDes') }}
           </p>
         </div>
       </div>
       <div class="row justify-content-center">
-        <div class="col-lg-6 col-md-12">
+        <!-- Première offre d'emploi avec animation de montée -->
+        <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="100">
           <router-link
             to="/CareerSingle"
             class="text-decoration-none mt-4 mt-xl-0 mt-lg-0 single-open-job p-5 bg-dark text-white d-block rounded-custom"
@@ -46,7 +47,9 @@
             </div>
           </router-link>
         </div>
-        <div class="col-lg-6 col-md-12">
+
+        <!-- Deuxième offre d'emploi avec animation de montée -->
+        <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="200">
           <router-link
             to="/CareerSingle2"
             class="text-decoration-none mt-4 mt-xl-0 mt-lg-0 single-open-job p-5 bg-dark text-white d-block rounded-custom"
@@ -83,5 +86,13 @@
 </template>
 
 <script>
-export default {};
+// Import AOS library
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+export default {
+  mounted() {
+    AOS.init();  // Initialisation de l'animation AOS
+  }
+};
 </script>

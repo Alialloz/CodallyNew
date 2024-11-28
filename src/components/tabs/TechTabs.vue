@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-6 col-md-6">
-          <div class="text-center">
+          <div class="text-center" data-aos="fade-up" data-aos-duration="500">
             <h2>{{ $t('titre') }}</h2>
             <p>{{ $t('titreDes') }}</p>
           </div>

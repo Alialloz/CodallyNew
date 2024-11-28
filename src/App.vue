@@ -11,7 +11,9 @@ import 'glightbox/dist/js/glightbox.js';
 import { onMounted } from 'vue';
 import AOS from 'aos';
 onMounted(() => {
-  AOS.init();
+  AOS.init({
+    duration: 1000,  
+  });
 });
 </script>
 

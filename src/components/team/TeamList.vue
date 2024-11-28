@@ -1,6 +1,7 @@
 <template>
   <div class="container py-5">
     <div class="row">
+
       <!-- Section pour les directeurs -->
       <div
         v-for="member in directors"
@@ -8,11 +9,10 @@
         class="col-12 col-md-6 col-lg-4 mb-4"
         @mouseenter="hoveredMember = member.name"
         @mouseleave="hoveredMember = null"
+        data-aos="fade-up"
       >
-        <div
-          class="card border-0 shadow-sm h-100 position-relative overflow-hidden highlight-director"
-        >
-          <div class="text-center p-3">
+        <div class="card border-0 shadow-sm h-100 position-relative overflow-hidden highlight-director">
+          <div class="text-center p-3" data-aos="zoom-in">
             <div
               class="rounded-circle overflow-hidden mx-auto mb-3 border border-white shadow"
               style="width: 100px; height: 100px;"
@@ -20,13 +20,12 @@
               <img :src="member.image" :alt="member.name" class="img-fluid" />
             </div>
             <h2 class="h5">{{ member.name }}</h2>
-
-            <!-- Mise en avant du rôle -->
             <p class="director-role">{{ member.role }}</p>
           </div>
+          <!-- Overlay -->
           <div
-            class="position-absolute top-0 start-0 w-100 h-100 overlay-gradient d-flex flex-column justify-content-end text-white p-3 transition-opacity"
-            :class="{ 'opacity-100': hoveredMember === member.name, 'opacity-0': hoveredMember !== member.name }"
+            class="position-absolute top-0 start-0 w-100 h-100 overlay-gradient d-flex flex-column justify-content-end text-white p-3"
+            :class="{ 'overlay-visible': hoveredMember === member.name }"
           >
             <div class="text-overlay d-flex align-items-center justify-content-between">
               <p class="fw-bold mb-1">{{ member.name }}</p>
@@ -36,10 +35,15 @@
             </div>
             <p class="small">{{ member.role }}</p>
           </div>
-          <div class="card-body text-center">
+          <div class="card-body text-center" data-aos="fade-in">
             <p class="text-muted small">{{ t(member.descriptionKey) }}</p>
             <div class="d-flex flex-wrap justify-content-center mb-3">
-              <span v-for="skill in member.skills" :key="skill" class="badge bg-light text-secondary m-1">
+              <span
+                v-for="skill in member.skills"
+                :key="skill"
+                class="badge bg-light text-secondary m-1"
+                data-aos="flip-up"
+              >
                 {{ skill }}
               </span>
             </div>
@@ -54,9 +58,10 @@
         class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4"
         @mouseenter="hoveredMember = member.name"
         @mouseleave="hoveredMember = null"
+        data-aos="fade-down"
       >
         <div class="card border-0 shadow-sm h-100 position-relative overflow-hidden">
-          <div class="text-center p-3">
+          <div class="text-center p-3" data-aos="flip-right">
             <div
               class="rounded-circle overflow-hidden mx-auto mb-3 border border-white shadow"
               style="width: 100px; height: 100px;"
@@ -66,9 +71,10 @@
             <h2 class="h5">{{ member.name }}</h2>
             <p class="text-primary small">{{ member.role }}</p>
           </div>
+          <!-- Overlay -->
           <div
-            class="position-absolute top-0 start-0 w-100 h-100 overlay-gradient d-flex flex-column justify-content-end text-white p-3 transition-opacity"
-            :class="{ 'opacity-100': hoveredMember === member.name, 'opacity-0': hoveredMember !== member.name }"
+            class="position-absolute top-0 start-0 w-100 h-100 overlay-gradient d-flex flex-column justify-content-end text-white p-3"
+            :class="{ 'overlay-visible': hoveredMember === member.name }"
           >
             <div class="text-overlay d-flex align-items-center justify-content-between">
               <p class="fw-bold mb-1">{{ member.name }}</p>
@@ -78,10 +84,15 @@
             </div>
             <p class="small">{{ member.role }}</p>
           </div>
-          <div class="card-body text-center">
+          <div class="card-body text-center" data-aos="zoom-in">
             <p class="text-muted small">{{ t(member.descriptionKey) }}</p>
             <div class="d-flex flex-wrap justify-content-center mb-3">
-              <span v-for="skill in member.skills" :key="skill" class="badge bg-light text-secondary m-1">
+              <span
+                v-for="skill in member.skills"
+                :key="skill"
+                class="badge bg-light text-secondary m-1"
+                data-aos="zoom-in-up"
+              >
                 {{ skill }}
               </span>
             </div>
@@ -91,6 +102,8 @@
     </div>
   </div>
 </template>
+
+
 
 <script setup>
 import { ref } from 'vue';
@@ -195,7 +208,6 @@ const otherMembers = teamMembers.filter(
 
 
 <style scoped>
-/* Style général des cartes */
 .card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -204,19 +216,29 @@ const otherMembers = teamMembers.filter(
   transform: translateY(-10px);
   box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
 }
-
-/* Style spécifique pour mettre en avant les directeurs */
-.highlight-director {
-  border: 2px solid #007bff; /* Bordure bleu pour les directeurs */
+.card .badge {
+  transition: opacity 0.3s ease, transform 0.3s ease;
 }
+
+.overlay-visible ~ .card-body .badge {
+  opacity: 0.1; 
+  transform: scale(0.8); 
+}
+
+.card-body .badge {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.highlight-director {
+  border: 2px solid #007bff; }
 
 .director-role {
-  font-size: 1.1rem; /* Augmenter la taille de la police */
-  font-weight: bold; /* Mettre le texte en gras */
-  color: #007bff; /* Couleur distincte pour le rôle (orange) */
+  font-size: 1.1rem; 
+  font-weight: bold; 
+  color: #007bff;
 }
 
-/* Overlay couvrant toute la carte avec un dégradé gris-noir */
 .overlay-gradient {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8));
   opacity: 0;
@@ -231,20 +253,36 @@ const otherMembers = teamMembers.filter(
   opacity: 0;
 }
 
-/* Texte en bas de l'overlay */
+.overlay-gradient {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8));
+  opacity: 0;
+  pointer-events: none; 
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.overlay-visible {
+  opacity: 1 !important;
+  pointer-events: auto;
+  transform: translateY(0); 
+}
+
+.overlay-gradient:not(.overlay-visible) {
+  transform: translateY(-10px);
+}
+
 .text-overlay {
   text-align: center;
   color: #fff;
 }
 
-/* Ombre circulaire sur les images */
-.card .rounded-circle {
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+.card:hover .rounded-circle {
+  transform: scale(1.1); 
+  transition: transform 0.3s ease;
 }
 
-/* Zoom sur l'image au survol */
-.card:hover .rounded-circle {
-  transform: scale(1.05);
-  transition: transform 0.3s ease;
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
 }
 </style>
