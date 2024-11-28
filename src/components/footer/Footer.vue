@@ -61,7 +61,7 @@
                     </li>
                     <li class="contact-item">
                       <i class="fas fa-phone-alt"></i> <!-- Icône téléphone -->
-                      <a href="tel:(514) 600-8289">(514) 600-8289</a>
+                      <a href="tel:(514) 700-4159">(514) 700-4159</a>
                     </li>
                     <li class="contact-item">
                       <i class="fas fa-envelope"></i> <!-- Icône email -->

@@ -31,8 +31,8 @@
                   {{ $t('TelDes') }}
                 </p>
               </div>
-              <a href="tel:(514) 600-8289" class="btn btn-link mt-auto">
-                (514) 600-8289
+              <a href="tel:(514) 700-4159" class="btn btn-link mt-auto">
+                (514) 700-4159
               </a>
             </div>
           </div>
