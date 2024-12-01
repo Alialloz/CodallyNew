@@ -1,7 +1,6 @@
 <template>
   <div class="container py-5">
     <div class="row">
-
       <!-- Section pour les directeurs -->
       <div
         v-for="member in directors"
@@ -29,7 +28,12 @@
           >
             <div class="text-overlay d-flex align-items-center justify-content-between">
               <p class="fw-bold mb-1">{{ member.name }}</p>
-              <a v-if="member.linkedin" :href="member.linkedin" target="_blank" class="text-white ms-3">
+              <a
+                v-if="member.linkedin"
+                :href="member.linkedin"
+                target="_blank"
+                class="text-white ms-3 linkedin-icon"
+              >
                 <i class="fab fa-linkedin"></i>
               </a>
             </div>
@@ -78,7 +82,12 @@
           >
             <div class="text-overlay d-flex align-items-center justify-content-between">
               <p class="fw-bold mb-1">{{ member.name }}</p>
-              <a v-if="member.linkedin" :href="member.linkedin" target="_blank" class="text-white ms-3">
+              <a
+                v-if="member.linkedin"
+                :href="member.linkedin"
+                target="_blank"
+                class="text-white ms-3 linkedin-icon"
+              >
                 <i class="fab fa-linkedin"></i>
               </a>
             </div>
@@ -102,6 +111,7 @@
     </div>
   </div>
 </template>
+
 
 
 
@@ -135,6 +145,7 @@ const teamMembers = [
     image: "/img/team/team-10.png",
     descriptionKey: "team.oussama_description",
     skills: ["Cloud engineering", "Cybersecurity", "DevSecOps"],
+    linkedin: "https://www.linkedin.com/in/oussama-el-figha?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
   },
   {
     name: "Oswald Essongue",
@@ -240,9 +251,11 @@ const otherMembers = teamMembers.filter(
 }
 
 .overlay-gradient {
+  pointer-events: none;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8));
   opacity: 0;
-  transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 1; /* S'assurer que l'overlay est au-dessus de la carte */
 }
 
 .opacity-100 {
@@ -253,17 +266,10 @@ const otherMembers = teamMembers.filter(
   opacity: 0;
 }
 
-.overlay-gradient {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8));
-  opacity: 0;
-  pointer-events: none; 
-  transition: opacity 0.3s ease, transform 0.3s ease;
-}
-
 .overlay-visible {
   opacity: 1 !important;
-  pointer-events: auto;
-  transform: translateY(0); 
+  pointer-events: auto; /* Permet les clics */
+  transform: translateY(0);
 }
 
 .overlay-gradient:not(.overlay-visible) {
@@ -284,5 +290,21 @@ const otherMembers = teamMembers.filter(
   transform: translateY(-10px);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.text-overlay {
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 </style>
