@@ -11,7 +11,7 @@
       </div>
       <div class="row justify-content-center">
         <div class="col-lg-8">
-          <div class="service-tabs">
+           <div class="service-tabs" data-aos="fade-up" data-aos-duration="500">
             <!-- Onglets supérieur de navigation -->
             <ul class="nav nav-pills d-flex justify-content-center flex-wrap" id="pills-tab" role="tablist"
               style="gap: 10px;">
@@ -76,7 +76,7 @@
         <div class="tab-content" id="pills-tabContent">
          
           <!-- Onglet "Design web" -->
-          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+          <div class="tab-pane fade show active" data-aos="fade-up" data-aos-duration="500" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
             <div class="tab-content-wrapper pt-60">
               <div class="row align-items-center custom-margin-left ms-lg-10 ms-md-4 ms-sm-3">
                 <div class="col-md-6 order-md-2 d-flex">

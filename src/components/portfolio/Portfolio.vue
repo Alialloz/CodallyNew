@@ -1,9 +1,9 @@
 <template>
-  <section class="portfolio bg-light ptb-120">
+  <section class="portfolio bg-light ptb-120" data-aos="fade-up">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8 col-md-10">
-          <div class="section-heading text-center mb-5">
+          <div class="section-heading text-center mb-5" data-aos="zoom-in" data-aos-duration="800">
             <h2 class="text-primary display-4 font-weight-bold">{{ $t('TitrePort') }}</h2>
             <p class="text-intro font-weight-semibold"> {{ $t('PortDes') }}</p>
           </div>
@@ -12,7 +12,7 @@
 
       <div class="row justify-content-center equal-height-cards">
         <!-- boite 1 -->
-        <div class="col-md-4 mb-4 d-flex">
+        <div class="col-md-4 mb-4 d-flex" data-aos="fade-right" data-aos-delay="200">
           <div class="card shadow-lg border-0 text-center w-100">
             <div class="card-body d-flex flex-column">
               <div class="card-content">
@@ -30,7 +30,7 @@
         </div>
 
         <!-- boite 2 -->
-        <div class="col-md-4 mb-4 d-flex">
+        <div class="col-md-4 mb-4 d-flex" data-aos="fade-up" data-aos-delay="400">
           <div class="card shadow-lg border-0 text-center w-100">
             <div class="card-body d-flex flex-column">
               <div class="card-content">
@@ -48,7 +48,7 @@
         </div>
 
         <!-- boite 3 -->
-        <div class="col-md-4 mb-4 d-flex">
+        <div class="col-md-4 mb-4 d-flex" data-aos="fade-left" data-aos-delay="600">
           <div class="card shadow-lg border-0 text-center w-100">
             <div class="card-body d-flex flex-column">
               <div class="card-content">
@@ -66,8 +66,8 @@
         </div>
       </div>
 
-      <!-- Bouton --> 
-      <div class="row justify-content-center mt-5">
+      <!-- Bouton -->
+      <div class="row justify-content-center mt-5" data-aos="zoom-in" data-aos-duration="800">
         <div class="col-md-12 text-center">
           <router-link to="/contact-us" class="btn btn-primary btn-lg px-5 py-3">
             {{ $t('contact') }}
