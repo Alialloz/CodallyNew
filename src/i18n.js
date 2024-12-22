@@ -48,8 +48,7 @@ const messages = {
     /* Service (TechTabs)*/
 
     titre: "Your Expertise, Our Mission",
-    titreDes:
-      "We offer a wide range of services in the digital field, guaranteeing a tailored response to all your needs, from development to consulting, including machine learning.",
+    titreDes:"We offer a wide range of services in the digital field, guaranteeing a tailored response to all your needs, from development to consulting, including machine learning.",
 
     designWeb: "Web Development",
     designWebDesc:
@@ -513,7 +512,7 @@ const messages = {
 
     DéveloppementFullStack: "Développement Full Stack",
     DéveloppementFullStackDesc:
-      "La plupart des entreprises proposent de soi travailler côté client soit côté serveur, cependant nous vous proposons de maîtrisez l'intégralité de votre projet avec notre expertise en développement Full Stack en combinant compétences front-end et back-end.",
+      "La plupart des entreprises proposent de soit travailler côté client soit côté serveur, cependant nous vous proposons de maîtrisez l'intégralité de votre projet avec notre expertise en développement Full Stack en combinant compétences front-end et back-end.",
     DéveloppementFullStackLis1: "Front-end & Back-end",
     DéveloppementFullStackLis2: "Frameworks modernes",
     DéveloppementFullStackLis3: "Gestion de bases de données",
@@ -756,13 +755,13 @@ const messages = {
  emploidispo :"Postes disponibles chez Codally",
  emploiDispoDes : "Nous offrons flexibilité, projets stimulants, et une équipe de professionnels passionnés pour soutenir votre développement. Développez vos compétences tout en contribuant à des initiatives de pointe!",
 
- titreRaison1:"travail en distanciel",
+ titreRaison1:"Travail en distanciel",
  descriptionRaison1:"Que vous soyez chez vous ou en déplacement, vous aurez accès à tous les outils et ressources nécessaires pour être productif. Cette flexibilité favorise un meilleur équilibre entre vie professionnelle et vie personnelle.",
  titreRaison2:"Horaires de travail flexibles",
  descriptionRaison2:"Nous croyons en l'importance de l'équilibre travail-vie personnelle. Que vous soyez un lève-tôt ou un noctambule, vous pouvez organiser votre emploi du temps pour maximiser votre productivité tout en respectant vos engagements personnels.",
  titreRaison3:"Équipe amicale et qualifiée",
  descriptionRaison3:"Rejoindre notre équipe, c'est intégrer un groupe de professionnels passionnés et compétents qui se soutiennent mutuellement. Votre développement professionnel est notre priorité!",
- titreRaison4:"Projet Diversifié et Innovant",
+ titreRaison4:"Projets Diversifiés et Innovant",
  descriptionRaison4:"Les projets qui nous sont attribués rassemblent des domaines de divers horizons allant de la cybersécurité à des logiciels destinés au domaine médical. Nous encourageons l'innovation et l'émergence d'idées audacieuses.",
   
  partenaireConfiance:"Nos partenaires de confiances",
