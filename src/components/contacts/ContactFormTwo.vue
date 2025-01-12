@@ -93,9 +93,9 @@ export default {
   },
   methods: {
     sendEmail() {
-      const serviceID = 'service_7nd7bnr';
-      const templateID = 'template_7539y5f';
-      const userID = 'IhUWxeGkSKWTZAumH';
+      const serviceID = process.env.VUE_APP_EMAILJS_SERVICE_ID;
+      const templateID = process.env.VUE_APP_EMAILJS_TEMPLATE_ID;
+      const userID = process.env.VUE_APP_EMAILJS_USER_ID;
 
       emailjs.send(serviceID, templateID, this.form, userID)
         .then((response) => {

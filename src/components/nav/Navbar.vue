@@ -8,7 +8,7 @@
         
         <!-- Brand Logo -->
         <router-link to="/" class="navbar-brand d-flex align-items-center mb-md-0 text-decoration-none">
-          <img src="@/assets/img/logoCodallyFondTransparent.png" alt="Logo de l'entreprise codally"
+          <img src="@/assets/img/Codally-logo/logo.png" alt="Logo de l'entreprise codally"
             class="img-fluid logo-color" />
         </router-link>
 

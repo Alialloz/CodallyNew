@@ -8,7 +8,7 @@
           <div class="col-md-8 col-lg-4 mb-md-4 mb-lg-0">
             <div class="footer-single-col">
               <div class="footer-single-col mb-4">
-                <img src="\src\assets\img\Codally-logo\logo_Codally.png" alt="Logo de l'entreprise Codally"
+                <img src="\src\assets\img\Codally-logo\logo.png" alt="Logo de l'entreprise Codally"
                   class="img-fluid logo-white" />
                 <!-- Texte sous le logo -->
                 <p class="mt-2 text-white">
